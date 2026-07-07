@@ -1,0 +1,175 @@
+/* === Sharon Li style: clean, centered, minimal === */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: #b22222; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Header */
+.site-header {
+  margin-bottom: 20px;
+}
+.site-header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+  font-family: Arial, sans-serif;
+}
+.site-header .role {
+  font-style: italic;
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 2px;
+}
+.site-header .affiliation {
+  font-style: italic;
+  color: #555;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+.site-header .contacts a {
+  font-size: 0.9rem;
+  margin-right: 12px;
+}
+
+/* Navigation */
+.site-nav {
+  margin: 20px 0 30px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+}
+.site-nav a {
+  font-size: 0.95rem;
+  color: #b22222;
+  margin-right: 18px;
+  font-weight: 500;
+}
+.site-nav a.active {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+.site-nav a:hover { text-decoration: underline; }
+
+/* Content */
+.page-content {
+  max-width: 700px;
+}
+.page-content h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 28px 0 12px 0;
+  font-family: Arial, sans-serif;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 6px;
+}
+.page-content h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #333;
+  margin: 20px 0 8px 0;
+  font-family: Arial, sans-serif;
+}
+.page-content p {
+  margin-bottom: 14px;
+  text-align: justify;
+}
+.page-content ul {
+  list-style: disc;
+  margin-left: 24px;
+  margin-bottom: 14px;
+}
+.page-content ul li {
+  margin-bottom: 6px;
+}
+.page-content em, .page-content i {
+  font-style: italic;
+  color: #444;
+}
+.page-content strong, .page-content b {
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+/* Publications */
+.pub-list {
+  list-style: none !important;
+  margin-left: 0 !important;
+}
+.pub-item {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed #ddd;
+}
+.pub-item:last-child { border-bottom: none; }
+.pub-title {
+  font-weight: 600;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+  font-size: 0.95rem;
+}
+.pub-authors {
+  font-size: 0.88rem;
+  color: #555;
+  margin-bottom: 2px;
+}
+.pub-venue {
+  font-size: 0.88rem;
+  color: #666;
+  font-style: italic;
+}
+.pub-links {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+.pub-links a {
+  margin-right: 10px;
+  color: #b22222;
+}
+
+/* Experience */
+.exp-list { list-style: none !important; margin-left: 0 !important; }
+.exp-item { margin-bottom: 16px; }
+.exp-org {
+  font-size: 0.95rem;
+  color: #1a1a1a;
+}
+.exp-role {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* Awards */
+.award-list { list-style: none !important; margin-left: 0 !important; }
+.award-item { margin-bottom: 8px; }
+.award-year {
+  font-weight: 700;
+  color: #1a1a1a;
+  display: inline;
+  font-family: Arial, sans-serif;
+}
+
+/* Loading */
+.loading { color: #888; font-style: italic; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container { padding: 20px 16px; }
+  .site-nav a { display: inline-block; margin-bottom: 6px; }
+}
