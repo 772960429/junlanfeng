@@ -1,0 +1,219 @@
+/*!
+ *  Academicons 1.2.0 by Dennis T. Nedry - https://github.com/dtnedry
+ *  Fonts generated using the IcoMoon app - http://icomoon.io/app
+ *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
+ *  License - Font: SIL OFL 1.1, CSS: MIT License
+ */
+
+@font-face {
+	font-family: 'academicons';
+	src:url('fonts/academicons.eot?-evtvm1');
+	src:url('fonts/academicons.eot?#iefix-evtvm1') format('embedded-opentype'),
+		url('fonts/academicons.woff?-evtvm1') format('woff'),
+		url('fonts/academicons.ttf?-evtvm1') format('truetype'),
+		url('fonts/academicons.svg?-evtvm1#academicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ai {
+	display:inline-block;
+	font:normal normal normal 14px/1 Academicons;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+.ai-google-scholar:before {
+	content: "\e600";
+}
+
+.ai-google-scholar-square:before {
+	content: "\e601";
+}
+
+.ai-researchgate:before {
+	content: "\e602";
+}
+
+.ai-researchgate-square:before {
+	content: "\e603";
+}
+
+.ai-mendeley:before {
+	content: "\e604";
+}
+
+.ai-mendeley-square:before {
+	content: "\e605";
+}
+
+.ai-orcid:before {
+	content: "\e606";
+}
+
+.ai-orcid-square:before {
+	content: "\e607";
+}
+
+.ai-impactstory:before {
+	content: "\e608";
+}
+
+.ai-impactstory-square:before {
+	content: "\e609";
+}
+
+.ai-academia:before {
+	content: "\e60a";
+}
+
+.ai-academia-square:before {
+	content: "\e60b";
+}
+
+.ai-zotero:before {
+	content: "\e60c";
+}
+
+.ai-zotero-square:before {
+	content: "\e60d";
+}
+
+.ai-figshare:before {
+	content: "\e60e";
+}
+
+.ai-figshare-square:before {
+	content: "\e60f";
+}
+
+
+/* Container */
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		
+		/* width: (containers) */
+		width: 1300px;
+	}
+
+	/* Modifiers */
+
+		/* 125% */
+			.container.\31 25\25 {
+				width: 100%;
+				
+				/* max-width: (containers * 1.25) */
+				max-width: 1500px;
+
+				/* min-width: (containers) */
+				min-width: 1200px;
+			}
+
+		/* 75% */
+			.container.\37 5\25 {
+				
+				/* width: (containers * 0.75) */
+				width: 900px;
+
+			}
+
+		/* 50% */
+			.container.\35 0\25 {
+				
+				/* width: (containers * 0.50) */
+				width: 600px;
+
+			}
+
+		/* 25% */
+			.container.\32 5\25 {
+				
+				/* width: (containers * 0.25) */
+				width: 300px;
+
+			}
+
+
+/*h2 {
+  font-size: 30px;
+  padding: 0px 0px 15px 0px;
+}*/
+#headertext {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+.imgme {
+  border: 2px solid black;
+  box-shadow: #AAA 0px 0px 8px 0px; 
+  height: 250px;
+  width: 230px;
+  float: left;
+}
+#htname {
+  font-size: 40px;
+}
+#htem {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.pubwrap {
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #DDD;
+}
+.pubt {
+  font-size: 20px;
+}
+.puba {
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+  .pubt {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .pubd {
+    text-align: justify;
+  }
+}
+.pubd {  
+  font-size: 15px;
+  font-weight: 200;
+}
+.pubimg {
+  text-align: center;
+}
+.pubimg img {
+  max-width: 100%;
+  vertical-align: middle;
+    border-style: none;
+    width: 100%;
+    height: auto;
+    max-width: 828px;
+}
+.pubv {
+  color: #000080;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.publ {
+  padding-top: 10px;
+}
+.publ li {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 2px;
+  display: inline-block;
+}
