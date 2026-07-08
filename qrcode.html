@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的二维码</title>
+    <style>
+        /* 简单样式美化，非必需 */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        #qrcode {
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        #downloadBtn {
+            background-color: #2d8cf0;
+            color: white;
+            border: none;
+            padding: 10px 28px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+        #downloadBtn:hover {
+            background-color: #1a6bc4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 二维码容器 -->
+        <div id="qrcode"></div>
+        <br>
+        <!-- 下载按钮 -->
+        <button id="downloadBtn">下载二维码</button>
+    </div>
+
+    <!-- 1. 引入 qrcode.js 库 -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+    <script>
+        // 2. 生成二维码（宽高设为 512，保证清晰度）
+        var qrContainer = document.getElementById("qrcode");
+        var qrCode = new QRCode(qrContainer, {
+            text: "https://772960429.github.io/junlanfeng/index.html",  // 替换成你的网址
+            width: 512,
+            height: 512,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.H   // 高纠错等级，允许加Logo或遮挡
+        });
+
+        // 3. 下载按钮点击事件
+        document.getElementById("downloadBtn").addEventListener("click", function() {
+            var canvas = qrContainer.querySelector("canvas");
+            if (!canvas) {
+                alert("二维码还未生成，请稍候！");
+                return;
+            }
+            // 将 canvas 转为 PNG 图片数据
+            var imageDataUrl = canvas.toDataURL("image/png");
+            // 创建临时下载链接
+            var downloadLink = document.createElement("a");
+            downloadLink.href = imageDataUrl;
+            downloadLink.download = "我的二维码.png";   // 下载文件名
+            document.body.appendChild(downloadLink);
+            downloadLink.click();
+            document.body.removeChild(downloadLink);
+        });
+    </script>
+</body>
+</html>
