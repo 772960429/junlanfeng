@@ -50,7 +50,10 @@ jobs:
       #     path: issues.json
       # 步骤5：提交文件
       - name: Commit and push changes
-        uses: step-security/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Automated data update" # 自定义提交信息
-          file_pattern: "issues.json" # 指定要提交的文件，如果要提交所有更改，可以设为 "."
+          commit_message: "Automated data update"
+          file_pattern: "issues.json"   # 或者 "." 提交所有更改
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
