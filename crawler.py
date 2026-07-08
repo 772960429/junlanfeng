@@ -67,10 +67,12 @@ class WeChatCrawler:
             data = resp.json()
         except Exception as e:
             logger.error("搜索公众号失败：%s", e)
+            print("搜索公众号失败：%s", e)
             return None, None
 
         if data.get("base_resp", {}).get("ret") != 0:
             logger.error("搜索公众号接口返回异常：%s", data.get("base_resp"))
+            print("搜索公众号接口返回异常：%s", data.get("base_resp"))
             return None, None
 
         biz_list = data.get("list", []) or []
@@ -81,8 +83,10 @@ class WeChatCrawler:
         # 精确匹配失败则取第一条
         if biz_list:
             logger.warning("未精确匹配到「%s」，取第一个结果「%s」", name, biz_list[0].get("nickname"))
+            print("未精确匹配到「%s」，取第一个结果「%s」", name, biz_list[0].get("nickname"))
             return biz_list[0].get("fakeid"), biz_list[0].get("nickname")
         logger.warning("未搜到公众号「%s」", name)
+        print("未搜到公众号「%s」", name)
         return None, None
 
     # ---------- 2. 列出最新 N 篇文章 ----------
@@ -113,16 +117,19 @@ class WeChatCrawler:
                 data = resp.json()
             except Exception as e:
                 logger.error("获取文章列表失败（begin=%s）：%s", begin, e)
+                print("获取文章列表失败（begin=%s）：%s", begin, e)
                 break
 
             ret = data.get("base_resp", {}).get("ret")
             if ret != 0:
                 logger.error("list_ex 接口返回异常：%s（可能是 cookie/token 过期）", data.get("base_resp"))
+                print("list_ex 接口返回异常：%s（可能是 cookie/token 过期）", data.get("base_resp"))
                 break
 
             msg_list = data.get("app_msg_list", []) or []
             if not msg_list:
                 logger.info("没有更多文章了。")
+                print("没有更多文章了。")
                 break
 
             for item in msg_list:
@@ -179,6 +186,7 @@ class WeChatCrawler:
                 return full_text[:200] if full_text else ""
             except Exception as e:
                 logger.warning("抓取摘要失败（第%d次）：%s", attempt + 1, e)
+                print("抓取摘要失败（第%d次）：%s", attempt + 1, e)
                 time.sleep(1)
         return ""
 
@@ -195,8 +203,11 @@ class WeChatCrawler:
 
         logger.info("找到公众号「%s」(fakeid=%s)，开始获取最新 %d 篇文章...",
                     nickname, fakeid, count)
+        print("找到公众号「%s」(fakeid=%s)，开始获取最新 %d 篇文章...",
+                    nickname, fakeid, count)
         articles = self.get_latest_articles(fakeid, count)
         logger.info("共获取到 %d 篇文章，开始抓取摘要...", len(articles))
+        print("共获取到 %d 篇文章，开始抓取摘要...", len(articles))
 
         for i, art in enumerate(articles, 1):
             art["summary"] = self.fetch_summary(art.get("url", ""))

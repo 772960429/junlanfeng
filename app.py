@@ -64,15 +64,18 @@ def api_crawl():
         return jsonify(ok=False, error="单次采集不超过 100 篇，避免触发风控。")
 
     logger.info("开始采集：公众号=%s 数量=%d", account_name or config.ACCOUNT_NAME, count)
+    print("开始采集：公众号=%s 数量=%d", account_name or config.ACCOUNT_NAME, count)
     crawler = WeChatCrawler(cookie=cookie, token=token, account_name=account_name)
     articles, err = crawler.crawl(count)
 
     if err:
         logger.error("采集失败：%s", err)
+        print("采集失败：%s", err)
         return jsonify(ok=False, error=err)
     with open('issues.json', 'w') as f:
         json.dump(articles, f, indent=2)
     logger.info("采集完成，共 %d 篇。", len(articles))
+    print("采集完成，共 %d 篇。", len(articles))
     return jsonify(ok=True, count=len(articles), articles=articles)
 
 
