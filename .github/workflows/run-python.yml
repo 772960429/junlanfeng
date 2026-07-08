@@ -28,7 +28,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'   # 你可以换成 3.10, 3.12 等
+          python-version: '3.12'   # 你可以换成 3.10, 3.12 等
 
       # 步骤3：安装依赖（如果你的脚本有 requirements.txt）
       - name: Install dependencies
