@@ -38,7 +38,7 @@ jobs:
         
       # 步骤4：真正运行你的 Python 脚本
       - name: Run Python script
-        run: python fetch_data.py
+        run: python app.py
         env:
           token: ${{ secrets.TOKEN }}
           cookie: ${{ secrets.COOKIE }}
