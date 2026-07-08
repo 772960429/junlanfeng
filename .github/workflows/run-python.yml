@@ -39,9 +39,15 @@ jobs:
         env:
           token: ${{ secrets.TOKEN }}
           cookie: ${{ secrets.COOKIE }}
-      # 步骤5：上传文件 
-      - name: Upload JSON artifact
-        uses: actions/upload-artifact@v4
+      # # 步骤5：上传文件 
+      # - name: Upload JSON artifact
+      #   uses: actions/upload-artifact@v4
+      #   with:
+      #     name: issues-data
+      #     path: issues.json
+      # 步骤5：提交文件
+      - name: Commit and push changes
+        uses: step-security/git-auto-commit-action@v5
         with:
-          name: issues-data
-          path: issues.json
+          commit_message: "Automated data update" # 自定义提交信息
+          file_pattern: "issues.json" # 指定要提交的文件，如果要提交所有更改，可以设为 "."
