@@ -11,7 +11,10 @@ on:
     - cron: '0 0 * * *'
   # 3. 允许你从 GitHub 网页上手动点击运行
   workflow_dispatch:
-
+  
+# 全局设置，对所有 Job 生效
+permissions:
+  contents: write
 jobs:
   run-script:
     runs-on: ubuntu-latest  # 使用 Ubuntu 环境
