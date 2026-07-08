@@ -16,7 +16,7 @@ from flask import Flask, request, jsonify, render_template
 import config
 from crawler import WeChatCrawler
 import json
-
+import requests
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("wechat_backend")
@@ -32,8 +32,8 @@ def index():
                            default_token=config.TOKEN)
 
 
-@app.route("/api/crawl", methods=["POST"])
-def api_crawl():
+# @app.route("/api/crawl", methods=["POST"])
+def api_crawl(data):
     """采集接口。
 
     请求体 JSON：
@@ -47,7 +47,7 @@ def api_crawl():
         { "ok": true,  "articles": [...] }      # 成功
         { "ok": false, "error": "..." }         # 失败
     """
-    data = request.get_json(silent=True) or {}
+    # data = request.get_json(silent=True) or {}
     count = data.get("count")
     cookie = (data.get("cookie") or "").strip() or None
     token = (data.get("token") or "").strip() or None
@@ -79,26 +79,27 @@ def api_crawl():
     return jsonify(ok=True, count=len(articles), articles=articles)
 
 
-@app.route("/api/test", methods=["GET"])
-def api_test():
-    """连通性自检：检查 cookie/token 是否还有效（试着搜一次公众号）。"""
-    cookie = (request.args.get("cookie") or "").strip() or None
-    token = (request.args.get("token") or "").strip() or None
-    crawler = WeChatCrawler(cookie=cookie, token=token)
-    fakeid, nickname = crawler.get_fakeid()
-    if fakeid:
-        return jsonify(ok=True, fakeid=fakeid, nickname=nickname,
-                       msg=f"cookie/token 有效，找到公众号「{nickname}」。")
-    return jsonify(ok=False, msg="cookie/token 可能已失效，请重新登录 mp.weixin.qq.com 获取。")
+# @app.route("/api/test", methods=["GET"])
+# def api_test():
+#     """连通性自检：检查 cookie/token 是否还有效（试着搜一次公众号）。"""
+#     cookie = (request.args.get("cookie") or "").strip() or None
+#     token = (request.args.get("token") or "").strip() or None
+#     crawler = WeChatCrawler(cookie=cookie, token=token)
+#     fakeid, nickname = crawler.get_fakeid()
+#     if fakeid:
+#         return jsonify(ok=True, fakeid=fakeid, nickname=nickname,
+#                        msg=f"cookie/token 有效，找到公众号「{nickname}」。")
+#     return jsonify(ok=False, msg="cookie/token 可能已失效，请重新登录 mp.weixin.qq.com 获取。")
 
+api_crawl({"count": 5})
 
-if __name__ == "__main__":
-    # 关闭 requests 的 SSL 警告（crawler 里用了 verify=False）
-    import os
-    import urllib3
-    urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+# if __name__ == "__main__":
+#     # 关闭 requests 的 SSL 警告（crawler 里用了 verify=False）
+#     import os
+#     import urllib3
+#     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-    host = os.environ.get("HOST", "0.0.0.0")
-    port = int(os.environ.get("PORT", "5000"))
-    debug = os.environ.get("FLASK_DEBUG", "0") == "1"
-    app.run(host=host, port=port, debug=debug)
+#     host = os.environ.get("HOST", "0.0.0.0")
+#     port = int(os.environ.get("PORT", "5000"))
+#     debug = os.environ.get("FLASK_DEBUG", "0") == "1"
+#     app.run(host=host, port=port, debug=debug)
