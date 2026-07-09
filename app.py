@@ -11,7 +11,7 @@ import logging
 import sys
 from crawler import WeChatCrawler
 import config
-
+from crawler import filter_articles_by_fengjunlan
 # 配置日志
 logging.basicConfig(
     level=logging.INFO,
@@ -32,16 +32,16 @@ def main():
     try:
         count = int(count)
     except (TypeError, ValueError):
-        logger.error("文章数量必须是正整数")
+        print("文章数量必须是正整数")
         sys.exit(1)
     if count <= 0:
-        logger.error("文章数量必须大于 0")
+        print("文章数量必须大于 0")
         sys.exit(1)
     if count > 100:
-        logger.error("单次采集不超过 100 篇，避免触发风控")
+        print("单次采集不超过 100 篇，避免触发风控")
         sys.exit(1)
 
-    logger.info("开始采集：公众号=%s 数量=%d", account_name, count)
+    print("开始采集：公众号=%s 数量=%d", account_name, count)
 
     # 初始化爬虫
     crawler = WeChatCrawler(
@@ -50,18 +50,17 @@ def main():
         account_name=account_name
     )
 
-    # 执行采集
-    articles, err = crawler.crawl(count)
-
+    # 使用滚动采集，保证 5 篇（或尽力而为）
+    articles, err = crawler.crawl_fengjunlan(target=count, batch=20, max_total=100)
     if err:
-        logger.error("采集失败：%s", err)
+        print("采集失败：%s", err)
         sys.exit(1)
 
     # 保存为 JSON 文件（指定 utf-8 编码）
     with open('issues.json', 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=2, ensure_ascii=False)
 
-    logger.info("采集完成，共 %d 篇，已保存到 issues.json", len(articles))
+    print("采集完成，共 %d 篇，已保存到 issues.json", len(articles))
 
 
 if __name__ == "__main__":

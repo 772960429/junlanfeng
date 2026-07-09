@@ -12,7 +12,7 @@ import time
 import logging
 import requests
 from bs4 import BeautifulSoup
-
+import re
 import config
 
 logging.basicConfig(
@@ -90,14 +90,13 @@ class WeChatCrawler:
         return None, None
 
     # ---------- 2. 列出最新 N 篇文章 ----------
-    def get_latest_articles(self, fakeid, count):
+    def get_latest_articles(self, fakeid, count, begin_offset=0):
         """通过 list_ex 接口翻页，拿到最新 count 篇文章的元信息。
-
-        参考 main.py:264 的 EmsCnpl.run：每页 PAGE_SIZE 条，逐页累加。
-        返回 list[dict]，每个 dict 含 title / url / create_time / update_time。
+        
+        新增 begin_offset 参数，支持从指定位置继续抓取，避免重复。
         """
         articles = []
-        begin = 0
+        begin = begin_offset          # ← 改为从外部传入的偏移开始
         page_size = config.PAGE_SIZE
         while len(articles) < count:
             params = {
@@ -216,6 +215,76 @@ class WeChatCrawler:
 
         return articles, None
 
+    def crawl_fengjunlan(self, target=5, batch=20, max_total=100):
+        """
+        定向采集：滚动抓取并过滤，保证至少 target 篇冯俊兰相关文章（尽力而为）。
+        
+        策略：
+        1. 分批抓取，每批 batch 篇，从上次结束位置继续翻页
+        2. 为每篇抓取摘要
+        3. 过滤出冯俊兰相关文章
+        4. 去重合并，达到 target 或 max_total 时停止
+        """
+        fakeid, nickname = self.get_fakeid()
+        if not fakeid:
+            return [], f"未找到公众号「{self.account_name}」，请检查 cookie/token 是否有效。"
+
+        all_filtered = []
+        seen_urls = set()
+        begin_offset = 0
+
+        logger.info("开始定向采集冯俊兰相关文章，目标 %d 篇，每批 %d 篇，上限 %d 篇", 
+                    target, batch, max_total)
+
+        while len(all_filtered) < target and begin_offset < max_total:
+            current_batch = min(batch, max_total - begin_offset)
+            
+            logger.info("第 %d 批抓取：offset=%d, count=%d", 
+                        (begin_offset // batch) + 1, begin_offset, current_batch)
+            
+            # 1. 抓一批元信息（从指定偏移开始，不重复）
+            batch_articles = self.get_latest_articles(fakeid, current_batch, begin_offset=begin_offset)
+            if not batch_articles:
+                logger.info("没有更多文章，停止抓取。")
+                break
+
+            # 2. URL 去重（防止翻页重叠）
+            new_articles = []
+            for art in batch_articles:
+                url = art.get('url', '')
+                if url and url not in seen_urls:
+                    seen_urls.add(url)
+                    new_articles.append(art)
+            
+            if not new_articles:
+                break  # 全是重复，说明到底了
+
+            # 3. 抓取摘要（控制频率）
+            for i, art in enumerate(new_articles, 1):
+                art['summary'] = self.fetch_summary(art.get('url', ''))
+                time.sleep(0.3 if i % 5 != 0 else 0.8)
+
+            # 4. 过滤冯俊兰相关
+            filtered = filter_articles_by_fengjunlan(new_articles)
+            all_filtered.extend(filtered)
+
+            logger.info("本批结果：%d/%d 篇相关，累计 %d/%d 篇", 
+                        len(filtered), len(new_articles), len(all_filtered), target)
+
+            begin_offset += len(batch_articles)
+
+            # 如果返回不足请求数，说明已到末尾
+            if len(batch_articles) < current_batch:
+                break
+
+            time.sleep(config.SLEEP_BETWEEN_REQ)
+
+        if len(all_filtered) < target:
+            logger.warning("公众号内仅找到 %d 篇冯俊兰相关文章（目标 %d 篇）", 
+                          len(all_filtered), target)
+
+        return all_filtered[:target], None
+
 
 def _ts2str(ts):
     """时间戳 → 'YYYY-MM-DD HH:MM:SS'。"""
@@ -226,6 +295,36 @@ def _ts2str(ts):
     except Exception:
         return str(ts)
 
+
+
+def filter_articles_by_fengjunlan(articles):
+    """
+    从 articles 中过滤出与冯俊兰相关的文章。
+    
+    匹配规则（title 或 summary 任意一处命中即保留，不区分大小写）：
+    - 中文：冯俊兰
+    - 英文：Junlan / Junlan Feng / J Feng / Feng, J / Feng  J
+    """
+    if not articles:
+        return []
+
+    # \b 单词边界，避免误匹配 "Junlander" 中的 "Junlan"
+    patterns = [
+        r'冯俊兰',
+        r'\bJunlan\b(?:\s+Feng\b)?',   # Junlan 或 Junlan Feng
+        r'\bJ\b\s+\bFeng\b',            # J Feng
+        r'\bFeng\b\s*,\s*\bJ\b',       # Feng, J（兼容 Feng,J / Feng, J.）
+        r'\bFeng\b\s{2,}\bJ\b',        # Feng  J（两个及以上空格）
+    ]
+    regex = re.compile('|'.join(patterns), re.IGNORECASE)
+
+    filtered = []
+    for art in articles:
+        title = art.get('title', '') or ''
+        summary = art.get('summary', '') or ''
+        if regex.search(title) or regex.search(summary):
+            filtered.append(art)
+    return filtered
 
 if __name__ == "__main__":
     # 命令行直接跑：python crawler.py 3
