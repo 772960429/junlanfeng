@@ -48,7 +48,7 @@
             const date = formatDate(item.update_time);
             const safeTitle = escapeHtml(item.title);
             const safeUrl = escapeHtml(item.url);
-            html += `<b>${date}: <a href="${safeUrl}" style="color: #3BB9FF; text-decoration: none;">${safeTitle}</a></b><br>`;
+            html += `<b>${date}: ${safeTitle}<br> <a href="${safeUrl}" style="color: #3BB9FF; text-decoration: none;"> ${safeUrl}</a></b><br>`;
         });
 
         // 插入到容器
