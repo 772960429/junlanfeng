@@ -1,6 +1,6 @@
 /* ===== 语言切换 · 极简纯文字版 ===== */
 .lang-switch {
-    display: inline-flex;
+    /* display: inline-flex; */
     align-items: center;
     gap: 4px;
     /* margin-left: 14px; */
@@ -46,4 +46,28 @@
         padding: 1px 5px;
         font-size: 0.6rem;
     }
+}
+
+/* ===== 中文模式下的专属行距调整 ===== */
+/* 当 <html lang="zh"> 时，文章区域的段落行高变为 1.9 倍 */
+html[lang="zh"] p, html[lang="zh"] span {
+    line-height: 1.9;
+}
+
+/* ===== 中文模式下使用系统黑体（清晰现代） ===== */
+html[lang="zh"] body,
+html[lang="zh"] .article-wrap,
+html[lang="zh"] p,
+html[lang="zh"] a,
+html[lang="zh"] span,
+html[lang="zh"] li {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+}
+
+/* 标题和导航可以使用更粗的权重 */
+html[lang="zh"] h1,
+html[lang="zh"] h2,
+html[lang="zh"] h3,
+html[lang="zh"] .navigation-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
 }
