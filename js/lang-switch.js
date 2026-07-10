@@ -7,6 +7,12 @@ function setLanguage(lang) {
     localStorage.setItem('lang', lang);
     document.documentElement.lang = lang;
 
+    // ===== 更新 CV 链接的 href（新增） =====
+    var cvLink = document.getElementById('cv-link');
+    if (cvLink && translations[lang] && translations[lang]['cv.link']) {
+        cvLink.href = translations[lang]['cv.link'];
+    }
+
     // 更新 data-i18n 元素
     document.querySelectorAll('[data-i18n]').forEach(function(el) {
         var key = el.getAttribute('data-i18n');
