@@ -12,7 +12,7 @@
 .lang-btn {
     background: transparent;
     border: none;
-    color: #888;                    /* 浅灰色，类似导航未激活状态 */
+    color: #333332;                    /* 浅灰色，类似导航未激活状态 */
     padding: 2px 6px;
     border-radius: 14px;
     cursor: pointer;
@@ -60,6 +60,7 @@ html[lang="zh"] .article-wrap,
 html[lang="zh"] p,
 html[lang="zh"] a,
 html[lang="zh"] span,
+html[lang="zh"] button,
 html[lang="zh"] li {
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
 }
