@@ -1,9 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<!-- 语言切换 -->
-<link rel="stylesheet" href="assets/lang-switch.css">
 <script src="js/i18n.js"></script>
-<script src="js/lang-switch.js"></script>
+<script src="js/render.js"></script>   <!-- 先加载 render -->
+<script src="js/lang-switch.js"></script>  <!-- 后加载切换逻辑 -->
 <head>
     <meta charset="utf-8">
     <title>Junlan Feng – Publications</title>
@@ -21,11 +20,11 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/main.min.css">
     <link rel="stylesheet" href="assets/academicons.css" />
+    <link rel="stylesheet" href="assets/lang-switch.css">
     <meta http-equiv="cleartype" content="on">
     <script src="assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 </head>
 <body class="page">
-    <!-- 导航栏 -->
     <div class="navigation-wrapper">
         <div class="site-name">
             <a href="index.html">Junlan Feng – Chief Scientist, China Mobile Group</a>
@@ -33,26 +32,24 @@
         <div class="top-navigation">
             <nav role="navigation" id="site-nav" class="nav">
                 <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="patents.html">Patents</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="index.html" data-i18n="nav.about">About</a></li>
+                    <li><a href="publications.html" data-i18n="nav.publications">Publications</a></li>
+                    <li><a href="patents.html" data-i18n="nav.patents">Patents</a></li>
+                    <li><a href="experience.html" data-i18n="nav.experience">Experience</a></li>
+                    <li><a href="awards.html" data-i18n="nav.awards">Awards</a></li>
                 </ul>
                 <div class="lang-switch">
-                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
-                    <button class="lang-btn" data-lang="zh" aria-label="切换至中文">中</button>
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">CN</button>
                 </div>
             </nav>
         </div>
     </div>
 
     <div id="main" role="main">
-        <!-- 侧边栏（与首页一致） -->
         <div class="article-author-side">
             <img src="images/photo.png" class="bio-photo" alt="Junlan Feng" style="min-width:190px">
             <h3 style="min-width:240px">Junlan Feng</h3>
-            <!-- <i style="min-width:260px"><a href="CV_JunlanFeng.pdf" style="color: #3BB9FF">[CV]</a></i> -->
             <br>
             <i style="min-width:260px">IEEE Fellow | Chief Scientist</i>
             <br>
@@ -62,103 +59,88 @@
             <a href="https://scholar.google.com/citations?user=rBjPtmQAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; Google Scholar</a>
             <a href="https://dblp.org/pid/36/3948.html" class="author-social" target="_blank"><i class="fa fa-file-text-o" style="margin-right:0;"></i>&nbsp; DBLP</a>
             <a href="https://orcid.org/0000-0001-5292-2945" class="author-social" target="_blank"><i class="ai ai-orcid-square"></i>&nbsp; ORCID</a>
-            <!-- <a href="mailto:your-email@chinamobile.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a> -->
             <br>
             <br>
         </div>
 
-        <!-- 主内容：出版物列表 -->
         <article>
             <div class="article-wrap">
-                <p>For a complete list, please browse my 
-                    <a href="https://scholar.google.com/citations?user=rBjPtmQAAAAJ" target="_blank">Google Scholar</a>.
+                <p>
+                    <span data-i18n="publications.note">For a complete list, please browse my</span>
+                    <a href="https://scholar.google.com/citations?user=rBjPtmQAAAAJ" target="_blank" data-i18n="publications.note.link">Google Scholar</a>.
                 </p>
                 <ul class="biblist">
-                    <h1>Selected Publications</h1>
-                    <!-- 1 -->
+                    <h1 data-i18n="publications.title">Selected Publications</h1>
                     <li>
                         <p>
-                            Robust Sentiment Detection on Twitter from Biased and Noisy Data<br>
-                            COLING, 2010; 1,430+ citations.
+                            <span data-i18n="pub.1">Robust Sentiment Detection on Twitter from Biased and Noisy Data</span><br>
+                            <span data-i18n="pub.1.detail">COLING, 2010; 1,430+ citations.</span>
                         </p>
                     </li>
-                    <!-- 2 -->
                     <li>
                         <p>
-                            Network Topology Optimization via Deep Reinforcement Learning<br>
-                            IEEE Transactions on Communications, 2023; 61 citations, Impact Factor: 8.3.
+                            <span data-i18n="pub.2">Network Topology Optimization via Deep Reinforcement Learning</span><br>
+                            <span data-i18n="pub.2.detail">IEEE Transactions on Communications, 2023; 61 citations, Impact Factor: 8.3.</span>
                         </p>
                     </li>
-                    <!-- 3 -->
                     <li>
                         <p>
-                            Network Meets ChatGPT: Intent Autonomous Management, Control and Operation<br>
-                            Journal of Communications and Information Networks, 2023; 84 citations, Impact Factor: 4.7.
+                            <span data-i18n="pub.3">Network Meets ChatGPT: Intent Autonomous Management, Control and Operation</span><br>
+                            <span data-i18n="pub.3.detail">Journal of Communications and Information Networks, 2023; 84 citations, Impact Factor: 4.7.</span>
                         </p>
                     </li>
-                    <!-- 4 -->
                     <li>
                         <p>
-                            Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries<br>
-                            <!-- <a href="https://ieeexplore.ieee.org/abstract/document/10506610/" target="_blank">[Link]</a> -->
-                            2024; 35 citations, Impact Factor: 9.78.
+                            <span data-i18n="pub.4">Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries</span><br>
+                            <span data-i18n="pub.4.detail">2024; 35 citations, Impact Factor: 9.78.</span>
                         </p>
                     </li>
-                    <!-- 5 -->
                     <li>
                         <p>
-                            A survey of transformer-based multimodal pre-trained modals<br>
-                            Journal of Neurocomputing, 2023; 65 citations, Impact Factor: 6.5.
+                            <span data-i18n="pub.5">A survey of transformer-based multimodal pre-trained modals</span><br>
+                            <span data-i18n="pub.5.detail">Journal of Neurocomputing, 2023; 65 citations, Impact Factor: 6.5.</span>
                         </p>
                     </li>
-                    <!-- 6 -->
                     <li>
                         <p>
-                            Federated learning over coupled graphs<br>
-                            <!-- <a href="https://ieeexplore.ieee.org/abstract/document/10029878/" target="_blank">[Link]</a> -->
-                            2023; 51 citations, Impact Factor: 7.27.
+                            <span data-i18n="pub.6">Federated learning over coupled graphs</span><br>
+                            <span data-i18n="pub.6.detail">2023; 51 citations, Impact Factor: 7.27.</span>
                         </p>
                     </li>
-                    <!-- 7 -->
                     <li>
                         <p>
-                            A survey on deep learning for cellular traffic prediction<br>
-                            Intelligent Computing (Science Partner Journals), 2024; 52 citations, Impact Factor: 3.7.
+                            <span data-i18n="pub.7">A survey on deep learning for cellular traffic prediction</span><br>
+                            <span data-i18n="pub.7.detail">Intelligent Computing (Science Partner Journals), 2024; 52 citations, Impact Factor: 3.7.</span>
                         </p>
                     </li>
-                    <!-- 8 -->
                     <li>
                         <p>
-                            JT-SAFE-V2: Safety-by-Design Foundation Model with World-Context Data<br>
-                            arXiv:2605.24414, 2026.6
+                            <span data-i18n="pub.8">JT-SAFE-V2: Safety-by-Design Foundation Model with World-Context Data</span><br>
+                            <span data-i18n="pub.8.detail">arXiv:2605.24414, 2026.6</span>
                         </p>
                     </li>
-                    <!-- 9 -->
                     <li>
                         <p>
-                            Measuring User Influence on Twitter Using Modified K-Shell Decomposition<br>
-                            AAAI, 2021; 123 citations.
+                            <span data-i18n="pub.9">Measuring User Influence on Twitter Using Modified K-Shell Decomposition</span><br>
+                            <span data-i18n="pub.9.detail">AAAI, 2021; 123 citations.</span>
                         </p>
                     </li>
-                    <!-- 10 -->
                     <li>
                         <p>
-                            Probabilistic model-based sentiment analysis of twitter messages<br>
-                            2010 IEEE SLT; 121 citations.
+                            <span data-i18n="pub.10">Probabilistic model-based sentiment analysis of twitter messages</span><br>
+                            <span data-i18n="pub.10.detail">2010 IEEE SLT; 121 citations.</span>
                         </p>
                     </li>
-                    <!-- 11 -->
                     <li>
                         <p>
-                            A Comprehensive Survey on Long Context Language Modeling<br>
-                            arXiv:2503.17407, 2025; 117 citations.
+                            <span data-i18n="pub.11">A Comprehensive Survey on Long Context Language Modeling</span><br>
+                            <span data-i18n="pub.11.detail">arXiv:2503.17407, 2025; 117 citations.</span>
                         </p>
                     </li>
-                    <!-- 12 -->
                     <li>
                         <p>
-                            Deep Learning for Medication Recommendation: A Systematic Survey<br>
-                            Journal of Data Intelligence, 2023; 74 citations.
+                            <span data-i18n="pub.12">Deep Learning for Medication Recommendation: A Systematic Survey</span><br>
+                            <span data-i18n="pub.12.detail">Journal of Data Intelligence, 2023; 74 citations.</span>
                         </p>
                     </li>
                 </ul>
@@ -166,7 +148,6 @@
         </article>
     </div>
 
-    <!-- 页脚 -->
     <div class="footer-wrap">
         <footer>
             <span>&copy; 2026 Junlan Feng. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
@@ -176,7 +157,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="assets/js/scripts.min.js"></script>
-    <!-- (可选) 保留Google Analytics，可删除或替换为自己的ID -->
+    <script src="js/i18n.js"></script>
+    <script src="js/lang-switch.js"></script>
     <script>
         var _gaq = _gaq || [];
         var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';

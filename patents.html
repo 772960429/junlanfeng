@@ -1,9 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<!-- 语言切换 -->
-<link rel="stylesheet" href="assets/lang-switch.css">
 <script src="js/i18n.js"></script>
-<script src="js/lang-switch.js"></script>
+<script src="js/render.js"></script>   <!-- 先加载 render -->
+<script src="js/lang-switch.js"></script>  <!-- 后加载切换逻辑 -->
 <head>
     <meta charset="utf-8">
     <title>Junlan Feng – Selected Patents</title>
@@ -21,11 +20,11 @@
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/main.min.css">
     <link rel="stylesheet" href="assets/academicons.css" />
+    <link rel="stylesheet" href="assets/lang-switch.css">
     <meta http-equiv="cleartype" content="on">
     <script src="assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
 </head>
 <body class="page">
-    <!-- 导航栏 -->
     <div class="navigation-wrapper">
         <div class="site-name">
             <a href="index.html">Junlan Feng – Chief Scientist, China Mobile Group</a>
@@ -33,22 +32,21 @@
         <div class="top-navigation">
             <nav role="navigation" id="site-nav" class="nav">
                 <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="patents.html">Patents</a></li>
-                    <li><a href="experience.html">Experience</a></li>
-                    <li><a href="awards.html">Awards</a></li>
+                    <li><a href="index.html" data-i18n="nav.about">About</a></li>
+                    <li><a href="publications.html" data-i18n="nav.publications">Publications</a></li>
+                    <li><a href="patents.html" data-i18n="nav.patents">Patents</a></li>
+                    <li><a href="experience.html" data-i18n="nav.experience">Experience</a></li>
+                    <li><a href="awards.html" data-i18n="nav.awards">Awards</a></li>
                 </ul>
                 <div class="lang-switch">
-                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
-                    <button class="lang-btn" data-lang="zh" aria-label="切换至中文">中</button>
+                    <button class="lang-btn active" data-lang="en">EN</button>
+                    <button class="lang-btn" data-lang="zh">CN</button>
                 </div>
             </nav>
         </div>
     </div>
 
     <div id="main" role="main">
-        <!-- 侧边栏 -->
         <div class="article-author-side">
             <img src="images/photo.png" class="bio-photo" alt="Junlan Feng" style="min-width:190px">
             <h3 style="min-width:240px">Junlan Feng</h3>
@@ -59,101 +57,93 @@
             <br>
             <br>
             <a href="https://scholar.google.com/citations?user=rBjPtmQAAAAJ" class="author-social" target="_blank"><i class="ai ai-google-scholar-square"></i>&nbsp; Google Scholar</a>
-            <a href="https://dblp.org/pid/36/3948.html" class="author-social" target="_blank"><i class="ai ai-dblp-square"></i>&nbsp; DBLP</a>
+            <a href="https://dblp.org/pid/36/3948.html" class="author-social" target="_blank"><i class="fa fa-file-text-o" style="margin-right:0;"></i>&nbsp; DBLP</a>
             <a href="https://orcid.org/0000-0001-5292-2945" class="author-social" target="_blank"><i class="ai ai-orcid-square"></i>&nbsp; ORCID</a>
-            <!-- <a href="mailto:your-email@chinamobile.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> e-Mail</a> -->
             <br>
             <br>
         </div>
 
-        <!-- 主内容：专利列表 -->
         <article>
             <div class="article-wrap">
                 <ul class="biblist">
-                    <h1>Selected Patents</h1>
+                    <h1 data-i18n="patents.title">Selected Patents</h1>
                     <li>
                         <p>
-                        Systems and methods for social media data mining<br>
-                        US10496654B2, 208 Citations
+                            <span data-i18n="pat.1">Systems and methods for social media data mining</span><br>
+                            <span data-i18n="pat.1.detail">US10496654B2, 208 Citations</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        Relevance recognition for a human machine dialog system contextual question<br>
-                        US8639517B2, 127 Citations
+                            <span data-i18n="pat.2">Relevance recognition for a human machine dialog system contextual question</span><br>
+                            <span data-i18n="pat.2.detail">US8639517B2, 127 Citations</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        Method of detecting potential phishing by analyzing universal resource locators<br>
-                        US9521165B2, 81 Citations
+                            <span data-i18n="pat.3">Method of detecting potential phishing by analyzing universal resource locators</span><br>
+                            <span data-i18n="pat.3.detail">US9521165B2, 81 Citations</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        System and method of providing a spoken dialog interface to a website<br>
-                        US8949132B2, 81 Citations
+                            <span data-i18n="pat.4">System and method of providing a spoken dialog interface to a website</span><br>
+                            <span data-i18n="pat.4.detail">US8949132B2, 81 Citations</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        System and method using a discriminative learning approach for question<br>
-                        US8543565B2, 74 Citations
+                            <span data-i18n="pat.5">System and method using a discriminative learning approach for question</span><br>
+                            <span data-i18n="pat.5.detail">US8543565B2, 74 Citations</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        Method and apparatus for automatically building conversational systems<br>
-                        US8718242B2, 61 Citations
+                            <span data-i18n="pat.6">Method and apparatus for automatically building conversational systems</span><br>
+                            <span data-i18n="pat.6.detail">US8718242B2, 61 Citations</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        A State-Aware Adversarial Generative Closed-Loop Scheme<br>
-                        YF2401070
-                        </p>
-                    </li>
-                    </li>
-                    <li>
-                        <p>
-                        A Streaming Noisy Label Detection Method<br>
-                        YF2310321
+                            <span data-i18n="pat.7">A State-Aware Adversarial Generative Closed-Loop Scheme</span><br>
+                            <span data-i18n="pat.7.detail">YF2401070</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        A Decoder-Based Generative Pre-Training Large Model Architecture<br>
-                        YF2309241
+                            <span data-i18n="pat.8">A Streaming Noisy Label Detection Method</span><br>
+                            <span data-i18n="pat.8.detail">YF2310321</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        A Context Orchestration and Management Method for Integrated Development and Operations of Communication Network Software<br>
-                        YF2210005
+                            <span data-i18n="pat.9">A Decoder-Based Generative Pre-Training Large Model Architecture</span><br>
+                            <span data-i18n="pat.9.detail">YF2309241</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        Method, System, Framework, Device, and Apparatus for Holistic AI<br>
-                        YF2207055
+                            <span data-i18n="pat.10">A Context Orchestration and Management Method for Integrated Development and Operations of Communication Network Software</span><br>
+                            <span data-i18n="pat.10.detail">YF2210005</span>
                         </p>
                     </li>
                     <li>
                         <p>
-                        A Method for Context Orchestration and Management in Dev-Ops Integration of Communication Network Software<br>
-                        YF2110069
+                            <span data-i18n="pat.11">Method, System, Framework, Device, and Apparatus for Holistic AI</span><br>
+                            <span data-i18n="pat.11.detail">YF2207055</span>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span data-i18n="pat.12">A Method for Context Orchestration and Management in Dev-Ops Integration of Communication Network Software</span><br>
+                            <span data-i18n="pat.12.detail">YF2110069</span>
                         </p>
                     </li>
                 </ul>
-                <!-- <p><br>For a complete list, please visit my 
-                    <a href="https://scholar.google.com/citations?user=rBjPtmQAAAAJ" target="_blank">Google Scholar</a> or 
-                    <a href="https://dblp.org/pid/36/3948.html" target="_blank">DBLP</a>.
-                </p> -->
             </div>
         </article>
     </div>
 
-    <!-- 页脚 -->
     <div class="footer-wrap">
         <footer>
             <span>&copy; 2026 Junlan Feng. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
@@ -163,6 +153,8 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="assets/js/scripts.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/lang-switch.js"></script>
     <script>
         var _gaq = _gaq || [];
         var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';

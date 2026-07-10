@@ -1,5 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
+<script src="js/i18n.js"></script>
+<script src="js/render.js"></script>   <!-- 先加载 render -->
+<script src="js/lang-switch.js"></script>  <!-- 后加载切换逻辑 -->
 <head>
     <meta charset="utf-8">
     <title>Junlan Feng - Chief Scientist, China Mobile Group</title>
@@ -37,7 +40,7 @@
                 </ul>
                 <div class="lang-switch">
                     <button class="lang-btn active" data-lang="en">EN</button>
-                    <button class="lang-btn" data-lang="zh">中</button>
+                    <button class="lang-btn" data-lang="zh">CN</button>
                 </div>
             </nav>
         </div>
@@ -83,11 +86,11 @@
 
                 <h2 data-i18n="about.news">Recent news</h2>
                 <div class="article-wrap" id="Recent-news">
-                    <p>
+                    <!-- <p>
                         <script src="render.js"></script>
                         <br>
                         <br>
-                    </p>
+                    </p> -->
                 </div>
             </div>
         </article>
