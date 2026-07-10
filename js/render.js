@@ -74,7 +74,7 @@
             const title = (lang === 'zh') ? item.title : (item.title_en || item.title);
             const safeTitle = escapeHtml(title);
             const safeUrl = escapeHtml(item.url);
-            html += `<b>${date}</b><br> <a href="${safeUrl}" style="color: #3BB9FF; text-decoration: none;word-break: break-all;">: ${safeTitle}</a><br>`;
+            html += `<b>${date}</b><a href="${safeUrl}" style="color: #3BB9FF; text-decoration: none;word-break: break-all;">: ${safeTitle}</a><br>`;
         });
 
         container.innerHTML = html; // 替换内容
