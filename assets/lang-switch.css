@@ -21,15 +21,16 @@
     transition: all 0.2s ease;
     text-transform: uppercase;
     letter-spacing: 0.5px;
+    color: black;
 }
 
-.lang-btn:hover {
+/* .lang-btn:hover {
     color: rgba(255,255,255,0.9);
     background: rgba(255,255,255,0.1);
-}
+} */
 
 .lang-btn.active {
-    color: #fff;
+    color: blue;
     background: rgba(255,255,255,0.2);
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
