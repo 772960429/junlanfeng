@@ -50,7 +50,7 @@
 
 /* ===== 中文模式下的专属行距调整 ===== */
 /* 当 <html lang="zh"> 时，文章区域的段落行高变为 1.9 倍 */
-html[lang="zh"] p, html[lang="zh"] span, html[lang="zh"] li {
+html[lang="zh"] p, html[lang="zh"] span, html[lang="zh"] li, html[lang="zh"] #Recent-news a{
     line-height: 1.9;
 }
 
