@@ -76,3 +76,24 @@ html[lang="zh"] h3,
 html[lang="zh"] .navigation-wrapper {
     font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
 }
+
+/* 默认隐藏所有带 data-i18n 的元素，避免闪烁 */
+body:not(.i18n-ready) [data-i18n] {
+    visibility: hidden;
+}
+
+/* 翻译完成后显示 */
+body.i18n-ready [data-i18n] {
+    visibility: visible;
+}
+
+/* 导航按钮始终可见，但按钮上的文字会被隐藏，所以要单独处理 */
+body:not(.i18n-ready) .lang-btn {
+    visibility: visible;
+}
+
+/* 避免布局抖动，占位保持 */
+[data-i18n] {
+    display: inline-block; /* 或 block，取决于元素类型 */
+    min-height: 1em;
+}
