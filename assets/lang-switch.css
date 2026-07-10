@@ -50,8 +50,12 @@
 
 /* ===== 中文模式下的专属行距调整 ===== */
 /* 当 <html lang="zh"> 时，文章区域的段落行高变为 1.9 倍 */
-html[lang="zh"] p, html[lang="zh"] span {
+html[lang="zh"] p, html[lang="zh"] span, html[lang="zh"] li {
     line-height: 1.9;
+}
+
+html[lang="zh"] li p {
+    margin-bottom: 1rem;
 }
 
 /* ===== 中文模式下使用系统黑体（清晰现代） ===== */
