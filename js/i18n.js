@@ -361,6 +361,8 @@ const translations = {
         if (typeof window.renderNews === 'function') {
             window.renderNews(lang);
         }
+            // ===== 新增：翻译完成后显示页面 =====
+        document.body.classList.add('i18n-ready');
     };
 
     // 设置语言（对外接口）
