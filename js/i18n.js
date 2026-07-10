@@ -7,6 +7,17 @@ const translations = {
         'nav.patents': 'Patents',
         'nav.experience': 'Experience',
         'nav.awards': 'Awards',
+
+        // ===== 导航栏 =====
+        'site.name': 'Junlan Feng – Chief Scientist, China Mobile Group',
+
+        // ===== 侧边栏 =====
+        'sidebar.name': 'Junlan Feng',
+        'sidebar.title': 'IEEE Fellow | Chief Scientist',
+        'sidebar.company': 'China Mobile Group',
+        'sidebar.scholar': 'Google Scholar',
+        'sidebar.dblp': 'DBLP',
+        'sidebar.orcid': 'ORCID',
         
         // 首页 (index.html)
         'about.title': 'About',
@@ -143,6 +154,17 @@ const translations = {
         'nav.patents': '专利',
         'nav.experience': '经历',
         'nav.awards': '荣誉',
+
+        // ===== 导航栏 =====
+        'site.name': '冯俊兰 – 中国移动集团首席科学家',
+
+        // ===== 侧边栏 =====
+        'sidebar.name': '冯俊兰',
+        'sidebar.title': 'IEEE Fellow | 首席科学家',
+        'sidebar.company': '中国移动集团',
+        'sidebar.scholar': '谷歌学术',
+        'sidebar.dblp': 'DBLP',
+        'sidebar.orcid': 'ORCID',
         
         // 首页
         'about.title': '关于我',
@@ -154,7 +176,7 @@ const translations = {
         'about.tech.leadership': '研究与技术领导力：',
         'about.conversational.ai': '对话式AI：',
         'about.conversational.ai.text': '在AT&T Labs Research期间，开创了WebTalk系统——早期从网页内容自动构建对话服务的系统。后来领导中国移动客服智能化项目，包括Eva智能客服系统。',
-        'about.network.intelligence': '网络智能：',
+        'about.network.intelligence': '自智网络：',
         'about.network.intelligence.text': '领导中国移动网络智能化项目和自治网络关键技术，支撑自治网络能力演进和大规模智能运维。',
         'about.jiutian': '九天AI平台与基础模型：',
         'about.jiutian.text': '九天AI平台、九天AI中台和九天基础模型核心技术的总工程师。平台支撑通信、能源、化工、航空、医疗、政务等多行业大规模AI生产部署。',
@@ -223,8 +245,8 @@ const translations = {
         'exp.1': '2021年至今：中国移动集团首席科学家',
         'exp.2': '2016-2021年：中国移动研究院首席科学家',
         'exp.3': '2013年：IBM研发中心大数据产品线架构师',
-        'exp.4': '2006-2013年：AT&T实验室研究首席研究员',
-        'exp.5': '2001-2006年：AT&T实验室研究高级研究员',
+        'exp.4': '2006-2013年：AT&T 实验室研究部首席研究员',
+        'exp.5': '2001-2006年：AT&T 实验室研究部高级研究员',
         'education.title': '教育背景',
         'edu.1': '1998-2001年：中国科学院声学研究所 博士',
         'edu.1.detail': '论文：自然语音识别中的声学模型与解码算法',
@@ -234,11 +256,11 @@ const translations = {
         'edu.3.detail': '信息科学',
         'leadership.title': '专业领导职务',
         'lead.1': '2024年至今：中国通信学会会士',
-        'lead.2': '2020-2023年：Linux基金会网络（LFN）董事会主席',
-        'lead.3': '2020年至今：Linux基金会网络（LFN）董事会成员',
+        'lead.2': '2020-2023年：Linux网络基金会（LFN）董事会主席',
+        'lead.3': '2020年至今：Linux网络基金会（LFN）董事会成员',
         'lead.4': '2023年至今：CCF中国大模型委员会副主席',
         'lead.5': '2023年至今：中国人工智能产业联盟副主席',
-        'lead.6': '2020年至今：中国互联网协会AI委员会副主任',
+        'lead.6': '2020年至今：中国互联网协会人工智能工委会副主任委员',
         'lead.7': '2023年至今：国家AI标准化总体组大模型专题组联合组长',
         'lead.8': '2009-2012年：IEEE语音与语言处理技术委员会成员',
         'lead.9': '2014-2016年：IEEE信号处理工业关系委员会成员',
