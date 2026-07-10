@@ -167,7 +167,7 @@ const translations = {
         // ===== 侧边栏 =====
         'sidebar.name': '冯俊兰',
         'sidebar.title': 'IEEE Fellow',
-        'sidebar.company': '中国移动首席科学家',
+        'sidebar.company': '中国移动集团首席科学家',
         'sidebar.scholar': '谷歌学术',
         'sidebar.dblp': 'DBLP',
         'sidebar.orcid': 'ORCID',
