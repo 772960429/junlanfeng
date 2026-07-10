@@ -14,8 +14,8 @@ const translations = {
 
         // ===== 侧边栏 =====
         'sidebar.name': 'Junlan Feng',
-        'sidebar.title': 'IEEE Fellow | Chief Scientist',
-        'sidebar.company': 'China Mobile Group',
+        'sidebar.title': 'IEEE Fellow',
+        'sidebar.company': 'Chief Scientist, China Mobile Group',
         'sidebar.scholar': 'Google Scholar',
         'sidebar.dblp': 'DBLP',
         'sidebar.orcid': 'ORCID',
@@ -166,8 +166,8 @@ const translations = {
 
         // ===== 侧边栏 =====
         'sidebar.name': '冯俊兰',
-        'sidebar.title': 'IEEE Fellow | 首席科学家',
-        'sidebar.company': '中国移动集团',
+        'sidebar.title': 'IEEE Fellow',
+        'sidebar.company': '中国移动首席科学家',
         'sidebar.scholar': '谷歌学术',
         'sidebar.dblp': 'DBLP',
         'sidebar.orcid': 'ORCID',
@@ -273,7 +273,7 @@ const translations = {
         'lead.8': '2009-2012：IEEE语音与语言处理技术委员会成员',
         'lead.9': '2014-2016：IEEE信号处理产业关系委员会委员',
         'lead.10': '2016-2018：中国自然语言处理专委会',
-        'lead.11': '10+年担任ACL、ISCA、ACM、AAAI、ICML、ICASSP、ICLR、NeurIPS、IEEE Transactions等主要会议及期刊的程序委员会委员/审稿人。',
+        'lead.11': '10+年担任ACL、ISCA、ACM、AAAI、ICML、ICASSP、ICLR、NeurIPS、IEEE Transactions等主要会议及期刊的程序委员会委员/审稿人',
         'projects.national': '近5年重点国家级项目',
         'proj.1': '2024-2025：项目负责人，安全可信基础大模型（JT-Safe），360+研究人员',
         'proj.2': '2022-2025：项目负责人，国家新一代AI开放创新平台，150+研究人员和工程师',
@@ -303,41 +303,108 @@ const translations = {
         'awd.9': '多项中国移动集团技术一等奖：九天人工智能平台、九天人工智能推荐平台、网络智能化、智能语音技术等',
     }
 };
+// ============================================================
+// 语言管理（唯一版本）
+// ============================================================
+(function() {
+    'use strict';
 
-// 获取当前语言
-function getCurrentLang() {
-    return localStorage.getItem('lang') || 'en';
-}
+    // 获取当前语言
+    window.getCurrentLang = function() {
+        return localStorage.getItem('lang') || 'en';
+    };
 
-// 设置语言
-function setLanguage(lang) {
-    localStorage.setItem('lang', lang);
-    document.documentElement.lang = lang;
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (translations[lang] && translations[lang][key]) {
-            // 如果是输入框，设置placeholder或value
-            if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-                if (el.hasAttribute('placeholder')) {
-                    el.placeholder = translations[lang][key];
+    // 核心翻译函数 - 直接渲染，无中间态
+    window.applyTranslation = function(lang) {
+        var t = translations[lang];
+        if (!t) return;
+
+        // 批量更新所有 data-i18n 元素
+        var elements = document.querySelectorAll('[data-i18n]');
+        for (var i = 0; i < elements.length; i++) {
+            var el = elements[i];
+            var key = el.getAttribute('data-i18n');
+            if (t[key] !== undefined) {
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    if (el.hasAttribute('placeholder')) {
+                        el.placeholder = t[key];
+                    } else {
+                        el.value = t[key];
+                    }
                 } else {
-                    el.value = translations[lang][key];
+                    el.innerHTML = t[key];
                 }
-            } else {
-                el.innerHTML = translations[lang][key];
             }
         }
-    });
-    // 更新按钮状态
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-        btn.classList.toggle('active', btn.dataset.lang === lang);
-    });
-    // 更新HTML lang属性
-    document.documentElement.lang = lang;
-}
 
-// 切换语言
-function switchLanguage(lang) {
-    if (lang === getCurrentLang()) return;
-    setLanguage(lang);
-}
+        // 更新 CV 链接
+        var cvLink = document.getElementById('cv-link');
+        if (cvLink && t['cv.link']) {
+            cvLink.href = t['cv.link'];
+        }
+
+        // 更新按钮状态
+        var btns = document.querySelectorAll('.lang-btn');
+        for (var j = 0; j < btns.length; j++) {
+            var btn = btns[j];
+            if (btn.dataset.lang === lang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        }
+
+        // 更新 HTML lang 属性
+        document.documentElement.lang = lang;
+
+        // 重新渲染新闻（如果存在）
+        if (typeof window.renderNews === 'function') {
+            window.renderNews(lang);
+        }
+    };
+
+    // 设置语言（对外接口）
+    window.setLanguage = function(lang) {
+        if (!lang || lang === window.getCurrentLang()) return;
+        localStorage.setItem('lang', lang);
+        window.applyTranslation(lang);
+    };
+
+    // 切换语言（对外接口）
+    window.switchLanguage = function(lang) {
+        window.setLanguage(lang);
+    };
+
+    // ============================================================
+    // 页面加载时自动初始化
+    // ============================================================
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            var lang = window.getCurrentLang();
+            window.applyTranslation(lang);
+            bindButtons();
+        });
+    } else {
+        // DOM 已加载，立即执行
+        var lang = window.getCurrentLang();
+        window.applyTranslation(lang);
+        bindButtons();
+    }
+
+    // 绑定按钮事件
+    function bindButtons() {
+        var btns = document.querySelectorAll('.lang-btn');
+        for (var i = 0; i < btns.length; i++) {
+            var btn = btns[i];
+            // 防止重复绑定
+            if (btn._bound) continue;
+            btn._bound = true;
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                var lang = this.dataset.lang;
+                window.switchLanguage(lang);
+            });
+        }
+    }
+
+})();
