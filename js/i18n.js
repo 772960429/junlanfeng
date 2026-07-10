@@ -93,7 +93,7 @@ const translations = {
         'pat.10.detail': 'YF2210005',
         'pat.11': 'Method, System, Framework, Device, and Apparatus for Holistic AI',
         'pat.11.detail': 'YF2207055',
-        'pat.12': 'A Method for Context Orchestration and Management in Dev-Ops Integration of Communication Network Software',
+        'pat.12': 'A Planning-Based Robust Multi-Action Dialogue Policy Model and System',
         'pat.12.detail': 'YF2110069',
         
         // 经历 (experience.html)
