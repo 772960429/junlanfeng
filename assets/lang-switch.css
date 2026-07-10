@@ -1,0 +1,56 @@
+/* 语言切换按钮样式 */
+.lang-switch {
+    display: inline-flex;
+    gap: 0.25rem;
+    align-items: center;
+    margin-left: 1rem;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    padding: 2px;
+}
+
+.lang-btn {
+    background: transparent;
+    border: none;
+    color: rgba(255,255,255,0.6);
+    padding: 4px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.lang-btn:hover {
+    color: rgba(255,255,255,0.9);
+    background: rgba(255,255,255,0.1);
+}
+
+.lang-btn.active {
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.lang-btn:focus {
+    outline: none;
+}
+
+/* 暗色背景适配（如果导航栏是深色背景） */
+.navigation-wrapper .lang-switch {
+    background: rgba(255,255,255,0.08);
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .lang-switch {
+        margin-left: 0.5rem;
+        padding: 1px;
+    }
+    .lang-btn {
+        padding: 2px 8px;
+        font-size: 0.65rem;
+    }
+}
