@@ -94,6 +94,27 @@ body:not(.i18n-ready) .lang-btn {
 
 /* 避免布局抖动，占位保持 */
 [data-i18n] {
-    display: inline-block; /* 或 block，取决于元素类型 */
     min-height: 1em;
+}
+
+/* li 元素保持 list-item，保留黑点 */
+li[data-i18n] {
+    display: list-item;
+}
+
+/* span、i、b 等内联元素保持 inline */
+span[data-i18n],
+i[data-i18n],
+b[data-i18n],
+a[data-i18n] {
+    display: inline;
+}
+
+/* p、h1、h2、h3、div 等块级元素保持 block */
+p[data-i18n],
+h1[data-i18n],
+h2[data-i18n],
+h3[data-i18n],
+div[data-i18n] {
+    display: block;
 }
