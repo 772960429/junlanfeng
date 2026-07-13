@@ -122,6 +122,4 @@ div[data-i18n] {
 /* 当前激活的页面（高亮） */
 .top-navigation li a.active {
     color: #3BB9FF;
-    border-bottom: 3px solid #3BB9FF;
-    padding-bottom: 4px;
 }
