@@ -31,8 +31,7 @@ jobs:
       (github.event_name == 'push' && 
        (
          contains(github.event.head_commit.modified, 'data/issues.json') ||
-         contains(github.event.head_commit.modified, 'templates/index.html') ||
-         contains(github.event.head_commit.modified, 'scripts/build_html.py') ||
+         contains(github.event.head_commit.modified, 'build_html.py') ||
          (contains(github.event.head_commit.modified, 'index.html') && github.actor != 'github-actions[bot]')
        ))
     permissions:
