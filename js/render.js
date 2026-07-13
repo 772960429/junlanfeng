@@ -102,7 +102,7 @@
             return;
         }
 
-        fetch('issues.json')
+        fetch('data/issues.json')
             .then(response => {
                 if (!response.ok) throw new Error('HTTP ' + response.status);
                 return response.json();
