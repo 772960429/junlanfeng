@@ -23,21 +23,27 @@ jobs:
   build:
     runs-on: ubuntu-latest
  # ✅ 分开处理不同事件
-    if: |
-      github.event_name == 'workflow_dispatch' ||
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
-      (github.event_name == 'push' && 
-       github.actor != 'github-actions[bot]' &&
-       (
-         contains(github.event.head_commit.modified, 'data/issues.json') ||
-         contains(github.event.head_commit.modified, 'build_html.py') ||
-         contains(github.event.head_commit.modified, '.github/workflows/build-site.yml') ||
-         contains(github.event.head_commit.modified, 'index.html')
-       ))
+    # if: |
+    #   github.event_name == 'workflow_dispatch' ||
+    #   (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
+    #   (github.event_name == 'push' && 
+    #    github.actor != 'github-actions[bot]' &&
+    #    (
+    #      contains(github.event.head_commit.modified, 'data/issues.json') ||
+    #      contains(github.event.head_commit.modified, 'build_html.py') ||
+    #      contains(github.event.head_commit.modified, '.github/workflows/build-site.yml') ||
+    #      contains(github.event.head_commit.modified, 'index.html')
+    #    ))
     permissions:
       contents: write  # 允许提交代码
     
     steps:
+      - name: Debug - Show modified files
+        run: |
+          echo "Event name: ${{ github.event_name }}"
+          echo "Actor: ${{ github.actor }}"
+          echo "Modified: ${{ github.event.head_commit.modified }}"
+          echo "Added: ${{ github.event.head_commit.added }}"
       - name: Checkout repository
         uses: actions/checkout@v4
       
