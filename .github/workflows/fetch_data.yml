@@ -13,9 +13,6 @@ on:
     paths:
       - 'scripts/**'
       - '.github/workflows/fetch-data.yml'
-    # 关键：排除 index.html，避免循环
-    paths-ignore:
-      - 'scripts/build_html.py'
 # 全局设置，对所有 Job 生效
 permissions:
   contents: write
