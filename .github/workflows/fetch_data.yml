@@ -55,7 +55,7 @@ jobs:
         id: check_changes
         run: |
           # 检查 data/issues.json 是否有变化
-          git add data/issues.json
+          git add issues.json
           # if git diff --staged --quiet; then
           #   echo "changed=false" >> $GITHUB_OUTPUT
           #   echo "✅ 数据未变化"
