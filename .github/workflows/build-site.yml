@@ -8,7 +8,7 @@ on:
       - 'data/issues.json'
       - 'data/data.json'
       - 'index.html'  # 模板更新时也触发
-      - 'scripts/build_html.py'
+      - 'build_html.py'
       - '.github/workflows/build-site.yml'
   
   # 手动触发
