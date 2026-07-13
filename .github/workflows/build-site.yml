@@ -17,6 +17,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # 跳过 bot 提交 + 只在 main 分支运行
+    if: github.actor != 'github-actions[bot]' && github.ref == 'refs/heads/main'
     permissions:
       contents: write  # 允许提交代码
     
