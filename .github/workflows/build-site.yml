@@ -32,6 +32,7 @@ jobs:
        (
          contains(github.event.head_commit.modified, 'data/issues.json') ||
          contains(github.event.head_commit.modified, 'build_html.py') ||
+         contains(github.event.head_commit.modified, '.github/workflows/build-site.yml') ||
          (contains(github.event.head_commit.modified, 'index.html') && github.actor != 'github-actions[bot]')
        ))
     permissions:
