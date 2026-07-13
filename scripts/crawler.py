@@ -6,6 +6,7 @@
 2. 用 appmsg?action=list_ex 接口按 fakeid 翻页，拿到最新 N 篇文章的
    标题、链接、发布时间。
 3. 逐篇打开文章页，提取正文「第一段」作为文章摘要。
+4. 使用 AI 生成英文标题（通过 API 或本地规则）
 """
 
 import time
@@ -14,6 +15,8 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import config
+import requests
+import json
 
 logging.basicConfig(
     level=logging.INFO,
@@ -41,16 +44,10 @@ class WeChatCrawler:
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
-        # 关闭 SSL 校验告警（原 main.py 也用的 verify=False）
         self.session.verify = False
-
-    # ---------- 1. 获取公众号 fakeid ----------
+ # ---------- 1. 获取公众号 fakeid ----------
     def get_fakeid(self, account_name=None):
-        """按公众号名称搜索 fakeid。
-
-        对应微信公众平台后台「搜索公众号」功能。
-        返回 (fakeid, nickname) 或 (None, None)。
-        """
+        """按公众号名称搜索 fakeid。"""
         name = account_name or self.account_name
         params = {
             "action": "search_biz",
@@ -67,43 +64,33 @@ class WeChatCrawler:
             data = resp.json()
         except Exception as e:
             logger.error("搜索公众号失败：%s", e)
-            print("搜索公众号失败：%s", e)
             return None, None
 
         if data.get("base_resp", {}).get("ret") != 0:
             logger.error("搜索公众号接口返回异常：%s", data.get("base_resp"))
-            print("搜索公众号接口返回异常：%s", data.get("base_resp"))
             return None, None
 
         biz_list = data.get("list", []) or []
         for biz in biz_list:
-            # 精确匹配名称，避免搜到同名近似号
             if biz.get("nickname") == name:
                 return biz.get("fakeid"), biz.get("nickname")
-        # 精确匹配失败则取第一条
         if biz_list:
             logger.warning("未精确匹配到「%s」，取第一个结果「%s」", name, biz_list[0].get("nickname"))
-            print("未精确匹配到「%s」，取第一个结果「%s」", name, biz_list[0].get("nickname"))
             return biz_list[0].get("fakeid"), biz_list[0].get("nickname")
         logger.warning("未搜到公众号「%s」", name)
-        print("未搜到公众号「%s」", name)
         return None, None
-
-    # ---------- 2. 列出最新 N 篇文章 ----------
+  # ---------- 2. 列出最新 N 篇文章 ----------
     def get_latest_articles(self, fakeid, count, begin_offset=0):
-        """通过 list_ex 接口翻页，拿到最新 count 篇文章的元信息。
-        
-        新增 begin_offset 参数，支持从指定位置继续抓取，避免重复。
-        """
+        """通过 list_ex 接口翻页，拿到最新 count 篇文章的元信息。"""
         articles = []
-        begin = begin_offset          # ← 改为从外部传入的偏移开始
+        begin = begin_offset
         page_size = config.PAGE_SIZE
         while len(articles) < count:
             params = {
                 "action": "list_ex",
                 "begin": begin,
                 "count": page_size,
-                "type": 9,           # 9 = 图文消息（参考原 main.py）
+                "type": 9,
                 "query": "",
                 "fakeid": fakeid,
                 "token": self.token,
@@ -116,19 +103,16 @@ class WeChatCrawler:
                 data = resp.json()
             except Exception as e:
                 logger.error("获取文章列表失败（begin=%s）：%s", begin, e)
-                print("获取文章列表失败（begin=%s）：%s", begin, e)
                 break
 
             ret = data.get("base_resp", {}).get("ret")
             if ret != 0:
-                logger.error("list_ex 接口返回异常：%s（可能是 cookie/token 过期）", data.get("base_resp"))
-                print("list_ex 接口返回异常：%s（可能是 cookie/token 过期）", data.get("base_resp"))
+                logger.error("list_ex 接口返回异常：%s", data.get("base_resp"))
                 break
 
             msg_list = data.get("app_msg_list", []) or []
             if not msg_list:
                 logger.info("没有更多文章了。")
-                print("没有更多文章了。")
                 break
 
             for item in msg_list:
@@ -136,6 +120,7 @@ class WeChatCrawler:
                 link = item.get("link", "")
                 articles.append({
                     "title": title,
+                    "title_en": "",
                     "url": link,
                     "create_time": _ts2str(item.get("create_time", 0)),
                     "update_time": _ts2str(item.get("update_time", 0)),
@@ -146,70 +131,194 @@ class WeChatCrawler:
             total = int(data.get("app_msg_cnt", 0))
             begin += page_size
             time.sleep(config.SLEEP_BETWEEN_REQ)
-            # 已经翻到尾
             if begin >= total:
                 break
 
         return articles[:count]
-
-    # ---------- 3. 提取文章第一段作为摘要 ----------
+ # ---------- 3. 提取文章第一段作为摘要 ----------
     def fetch_summary(self, url):
-        """打开文章页，提取正文「第一段」作为摘要。
-
-        微信文章正文在 <div id="js_content"> 内，第一段通常是
-        <p> 或 <section><p>。这里取第一个有实际文字的 <p>。
-        """
+        """打开文章页，提取正文「第一段」作为摘要。"""
         if not url:
             return ""
         for attempt in range(config.FETCH_RETRY + 1):
             try:
-                # 文章页不需要后台 cookie，普通 UA 即可
                 resp = self.session.get(url, timeout=20,
                                         headers={"User-Agent": config.USER_AGENT})
                 soup = BeautifulSoup(resp.text, "html.parser")
 
-                # 正文容器
                 content = soup.find(id="js_content") or soup.find("div", id="page-content")
                 if content is None:
-                    # 退而求其次：找全文第一个 <p>
                     content = soup
 
-                # 优先按 <p> 找第一段有文字的
                 for p in content.find_all(["p", "section"]):
                     text = p.get_text(strip=True)
-                    if text and len(text) > 2:        # 过滤空段/单字符段
+                    if text and len(text) > 2:
                         return text
 
-                # 兜底：取正文全部纯文本前 200 字
                 full_text = content.get_text(strip=True)
                 return full_text[:200] if full_text else ""
             except Exception as e:
                 logger.warning("抓取摘要失败（第%d次）：%s", attempt + 1, e)
-                print("抓取摘要失败（第%d次）：%s", attempt + 1, e)
                 time.sleep(1)
         return ""
+# ---------- 4. 生成英文标题 ----------
+    def generate_english_title(self, title, summary=""):
+        """根据中文标题和摘要生成英文标题。
+        
+        优先使用 AI API，如果不可用则使用规则生成。
+        """
+        # 方法1：尝试使用 AI API（如果配置了）
+        if hasattr(config, 'AI_API_KEY') and config.AI_API_KEY:
+            try:
+                return self._generate_title_with_ai(title, summary)
+            except Exception as e:
+                logger.warning("AI 生成英文标题失败：%s，回退到规则生成", e)
+                print("AI 生成英文标题失败：%s，回退到规则生成", e)
+        
+        # 方法2：回退到规则生成
+        return self._generate_title_by_rules(title)
+
+    def _generate_title_with_ai(self, title, summary=""):
+        """使用 DeepSeek API 生成英文标题"""
+        # DeepSeek API 配置
+        api_key = getattr(config, 'DEEPSEEK_API_KEY', None)
+        if not api_key:
+            logger.warning("未配置 DEEPSEEK_API_KEY，回退到规则生成")
+            return self._generate_title_by_rules(title)
+        
+        api_base = getattr(config, 'DEEPSEEK_API_BASE', 'https://api.deepseek.com/v1')
+        model = getattr(config, 'DEEPSEEK_MODEL', 'deepseek-chat')
+        
+        # 构建 prompt
+        system_prompt = """你是一位专业的学术翻译专家，擅长将中文论文标题、新闻标题翻译成地道、简洁、专业的英文标题。翻译要求：
+    1. 保持学术严谨性
+    2. 使用专业术语
+    3. 语序符合英文习惯
+    4. 直接输出英文标题，不要添加任何解释、引号或额外内容"""
+        
+        user_content = f"中文标题：{title}\n"
+        if summary:
+            user_content += f"文章摘要：{summary[:200]}\n"
+        user_content += "请翻译为英文标题："
+        
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        
+        payload = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_content}
+            ],
+            "temperature": 0.3,
+            "max_tokens": 150,
+            "top_p": 0.9
+        }
+        
+        try:
+            response = requests.post(
+                f"{api_base}/chat/completions",
+                headers=headers,
+                json=payload,
+                timeout=30
+            )
+            response.raise_for_status()
+            
+            result = response.json()
+            english_title = result['choices'][0]['message']['content'].strip()
+            
+            # 清理可能的引号
+            english_title = english_title.strip('"\'')
+            
+            return english_title if english_title else self._generate_title_by_rules(title)
+            
+        except requests.exceptions.Timeout:
+            logger.warning("DeepSeek API 请求超时，回退到规则生成")
+            return self._generate_title_by_rules(title)
+        except requests.exceptions.RequestException as e:
+            logger.warning("DeepSeek API 请求失败：%s，回退到规则生成", e)
+            return self._generate_title_by_rules(title)
+        except (KeyError, json.JSONDecodeError) as e:
+            logger.warning("DeepSeek API 响应解析失败：%s，回退到规则生成", e)
+            return self._generate_title_by_rules(title)
+
+    def _generate_title_by_rules(self, title):
+        """使用规则生成英文标题（回退方案）"""
+        # 简单规则：提取关键词进行翻译
+        # 这里提供基本的翻译映射，复杂的可以用字典或调用翻译API
+        
+        # 常见学术词汇映射
+        translation_map = {
+            '大模型': 'Large Model',
+            '智能体': 'Agent',
+            '安全': 'Safe',
+            '可信': 'Trustworthy',
+            '技术': 'Technology',
+            '会议': 'Conference',
+            '研讨会': 'Workshop',
+            '专题': 'Special Session',
+            '成功': 'Successfully',
+            '举办': 'Host',
+            '探索': 'Exploring',
+            '路径': 'Path',
+            '能力': 'Capability',
+            '治理': 'Governance',
+            '原生': 'Native',
+            '边界': 'Boundary',
+            '方向': 'Direction',
+            '发展': 'Development',
+            '应用': 'Application',
+            '研究': 'Research',
+            '创新': 'Innovation',
+            '突破': 'Breakthrough',
+            '实践': 'Practice',
+            '体系': 'System',
+            '框架': 'Framework',
+            '方法': 'Method',
+            '模型': 'Model',
+            '网络': 'Network',
+            '数据': 'Data',
+            '算法': 'Algorithm',
+            '平台': 'Platform',
+            '服务': 'Service',
+            '产业': 'Industry',
+            '生态': 'Ecosystem',
+        }
+        
+        # 如果标题太长，取前50个字符生成
+        # 简单处理：提取关键词
+        words = []
+        for zh, en in translation_map.items():
+            if zh in title:
+                words.append(en)
+        
+        if words:
+            # 组合成标题
+            if len(words) > 1:
+                return ' '.join(words[:3]) + ' Research'
+            else:
+                return title[:30] + ' Research'
+        else:
+            # 默认：取前30个字符 + 年月
+            return title[:30].strip() + ' (' + time.strftime("%Y") + ')'
 
     # ---------- 组合：一键采集 ----------
     def crawl(self, count):
-        """完整采集流程：拿 fakeid → 列文章 → 抓摘要。
-
-        返回 (articles, error)。error 为 None 表示成功。
-        articles 每项含 title / url / create_time / update_time / summary。
-        """
+        """完整采集流程。"""
         fakeid, nickname = self.get_fakeid()
         if not fakeid:
-            return [], f"未找到公众号「{self.account_name}」，请检查 cookie/token 是否有效。"
+            return [], f"未找到公众号「{self.account_name}」"
 
         logger.info("找到公众号「%s」(fakeid=%s)，开始获取最新 %d 篇文章...",
                     nickname, fakeid, count)
-        print("找到公众号「%s」(fakeid=%s)，开始获取最新 %d 篇文章...",
-                    nickname, fakeid, count)
         articles = self.get_latest_articles(fakeid, count)
-        logger.info("共获取到 %d 篇文章，开始抓取摘要...", len(articles))
-        print("共获取到 %d 篇文章，开始抓取摘要...", len(articles))
+        logger.info("共获取到 %d 篇文章，开始抓取摘要并生成英文标题...", len(articles))
 
         for i, art in enumerate(articles, 1):
             art["summary"] = self.fetch_summary(art.get("url", ""))
+            art["title_en"] = self.generate_english_title(art.get("title", ""), art.get("summary", ""))
             logger.info("[%d/%d] %s", i, len(articles), art["title"])
             time.sleep(0.5)
 
@@ -217,17 +326,11 @@ class WeChatCrawler:
 
     def crawl_fengjunlan(self, target=5, batch=20, max_total=100):
         """
-        定向采集：滚动抓取并过滤，保证至少 target 篇冯俊兰相关文章（尽力而为）。
-        
-        策略：
-        1. 分批抓取，每批 batch 篇，从上次结束位置继续翻页
-        2. 为每篇抓取摘要
-        3. 过滤出冯俊兰相关文章
-        4. 去重合并，达到 target 或 max_total 时停止
+        定向采集：滚动抓取并过滤，保证至少 target 篇冯俊兰相关文章。
         """
         fakeid, nickname = self.get_fakeid()
         if not fakeid:
-            return [], f"未找到公众号「{self.account_name}」，请检查 cookie/token 是否有效。"
+            return [], f"未找到公众号「{self.account_name}」"
 
         all_filtered = []
         seen_urls = set()
@@ -242,13 +345,11 @@ class WeChatCrawler:
             logger.info("第 %d 批抓取：offset=%d, count=%d", 
                         (begin_offset // batch) + 1, begin_offset, current_batch)
             
-            # 1. 抓一批元信息（从指定偏移开始，不重复）
             batch_articles = self.get_latest_articles(fakeid, current_batch, begin_offset=begin_offset)
             if not batch_articles:
                 logger.info("没有更多文章，停止抓取。")
                 break
 
-            # 2. URL 去重（防止翻页重叠）
             new_articles = []
             for art in batch_articles:
                 url = art.get('url', '')
@@ -257,14 +358,15 @@ class WeChatCrawler:
                     new_articles.append(art)
             
             if not new_articles:
-                break  # 全是重复，说明到底了
+                break
 
-            # 3. 抓取摘要（控制频率）
+            # 抓取摘要并生成英文标题
             for i, art in enumerate(new_articles, 1):
                 art['summary'] = self.fetch_summary(art.get('url', ''))
+                art['title_en'] = self.generate_english_title(art.get('title', ''), art.get('summary', ''))
                 time.sleep(0.3 if i % 5 != 0 else 0.8)
 
-            # 4. 过滤冯俊兰相关
+            # 过滤冯俊兰相关
             filtered = filter_articles_by_fengjunlan(new_articles)
             all_filtered.extend(filtered)
 
@@ -273,7 +375,6 @@ class WeChatCrawler:
 
             begin_offset += len(batch_articles)
 
-            # 如果返回不足请求数，说明已到末尾
             if len(batch_articles) < current_batch:
                 break
 
@@ -283,7 +384,18 @@ class WeChatCrawler:
             logger.warning("公众号内仅找到 %d 篇冯俊兰相关文章（目标 %d 篇）", 
                           len(all_filtered), target)
 
-        return all_filtered[:target], None
+        # ✅ 返回时只保留需要的字段，去掉 summary
+        result = []
+        for art in all_filtered[:target]:
+            result.append({
+                "title": art.get('title', ''),
+                "title_en": art.get('title_en', ''),
+                "url": art.get('url', ''),
+                "create_time": art.get('create_time', ''),
+                "update_time": art.get('update_time', '')
+            })
+        
+        return result, None
 
 
 def _ts2str(ts):
@@ -296,25 +408,19 @@ def _ts2str(ts):
         return str(ts)
 
 
-
 def filter_articles_by_fengjunlan(articles):
     """
     从 articles 中过滤出与冯俊兰相关的文章。
-    
-    匹配规则（title 或 summary 任意一处命中即保留，不区分大小写）：
-    - 中文：冯俊兰
-    - 英文：Junlan / Junlan Feng / J Feng / Feng, J / Feng  J
     """
     if not articles:
         return []
 
-    # \b 单词边界，避免误匹配 "Junlander" 中的 "Junlan"
     patterns = [
         r'冯俊兰',
-        r'\bJunlan\b(?:\s+Feng\b)?',   # Junlan 或 Junlan Feng
-        r'\bJ\b\s+\bFeng\b',            # J Feng
-        r'\bFeng\b\s*,\s*\bJ\b',       # Feng, J（兼容 Feng,J / Feng, J.）
-        r'\bFeng\b\s{2,}\bJ\b',        # Feng  J（两个及以上空格）
+        r'\bJunlan\b(?:\s+Feng\b)?',
+        r'\bJ\b\s+\bFeng\b',
+        r'\bFeng\b\s*,\s*\bJ\b',
+        r'\bFeng\b\s{2,}\bJ\b',
     ]
     regex = re.compile('|'.join(patterns), re.IGNORECASE)
 
@@ -326,8 +432,8 @@ def filter_articles_by_fengjunlan(articles):
             filtered.append(art)
     return filtered
 
+
 if __name__ == "__main__":
-    # 命令行直接跑：python crawler.py 3
     import sys
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 5
     crawler = WeChatCrawler()
@@ -337,6 +443,6 @@ if __name__ == "__main__":
     else:
         for idx, art in enumerate(result, 1):
             print(f"\n===== {idx}. {art['title']} =====")
+            print(f"英文：{art.get('title_en', '')}")
             print(f"时间：{art['create_time']}")
             print(f"链接：{art['url']}")
-            print(f"摘要：{art['summary']}")

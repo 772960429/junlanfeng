@@ -35,7 +35,8 @@ _DEFAULT_COOKIE = (
 
 COOKIE = _env("cookie", _DEFAULT_COOKIE)
 TOKEN = _env("token", "922632755")
-
+DEEPSEEK_API_KEY = _env("DEEPSEEK_API_KEY", "")
+DEEPSEEK_API_BASE = _env("DEEPSEEK_API_BASE", "https://api.deepseek.com/v1")
 # User-Agent，建议和登录时浏览器的 UA 保持一致
 USER_AGENT = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
