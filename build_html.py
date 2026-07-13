@@ -60,7 +60,7 @@ def generate_inline_js(data, variable_name='issuesData'):
     json_str = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     return f'var {variable_name} = {json_str};'
 
-def read_html(template_path='templates/index.html'):
+def read_html(template_path='index.html'):
     """读取 HTML 模板"""
     try:
         with open(template_path, 'r', encoding='utf-8') as f:
@@ -104,7 +104,7 @@ def write_html(content, output_path='index.html'):
 
 def build_html(issues_path='data/issues.json', 
                extra_path='data/data.json',
-               template_path='templates/index.html',
+               template_path='index.html',
                output_path='index.html'):
     """
     主构建函数
@@ -154,7 +154,7 @@ def main():
     build_html(
         issues_path='data/issues.json',
         extra_path='data/data.json',  # 如果不需要可以传 None
-        template_path='templates/index.html',
+        template_path='index.html',
         output_path='index.html'
     )
 
