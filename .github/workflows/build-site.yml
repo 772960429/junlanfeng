@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 # ✅ 核心条件：
-    # 1. data/issues.json 变化 → 总是构建（不管谁提交）
+    # 1. data/issues.json build_html.py  .github/workflows/build-site.yml变化 → 总是构建（不管谁提交）
     # 2. 用户提交 index.html → 构建
     # 3. bot 提交 index.html → 跳过
     if: |
