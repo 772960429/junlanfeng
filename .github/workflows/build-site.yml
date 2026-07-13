@@ -2,14 +2,18 @@
 name: Build Site
 
 on:
-  # 当 issues.json 被更新时触发（包括工作流1提交的）
+  # ✅ 当 fetch_data.yml 完成时触发
+  workflow_run:
+    workflows: ["Update News and Build Site"]  # 你的 fetch_data.yml 的 name
+    types:
+      - completed
+  
+  # ✅ 模板变化时触发
   push:
     paths:
-      - 'data/issues.json'
-      - 'data/data.json'
-      - 'index.html'  # 模板更新时也触发
+      - 'issues.json'
+      - 'index.html'
       - 'build_html.py'
-      - '.github/workflows/build-site.yml'
   
   # 手动触发
   workflow_dispatch:
@@ -17,8 +21,12 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    # 跳过 bot 提交 + 只在 main 分支运行
-    if: github.actor != 'github-actions[bot]' && github.ref == 'refs/heads/main'
+     # ✅ 核心判断：跳过包含 [skip build] 的提交
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && 
+       github.actor != 'github-actions[bot]' &&
+       !contains(github.event.head_commit.message, '[skip build]'))
     permissions:
       contents: write  # 允许提交代码
     
