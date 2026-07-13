@@ -8,6 +8,7 @@ scripts/build_html.py - 从本地 JSON 文件构建带内联数据的 HTML
 import json
 import os
 import sys
+import re
 from datetime import datetime
 
 def load_json(file_path):
@@ -39,11 +40,13 @@ def merge_data(issues_path='data/issues.json', extra_path='data/data.json'):
         print(f"📊 加载了 {len(issues)} 条 issues 数据")
     
     # 2. 加载额外数据（如果有）
-    extra = load_json(extra_path)
-    if extra:
-        # 假设 extra 也是相同格式
-        data.extend(extra)
-        print(f"📊 加载了 {len(extra)} 条额外数据")
+    if os.path.exists(extra_path):
+        extra = load_json(extra_path)
+        if extra:
+            data.extend(extra)
+            print(f"📊 加载了 {len(extra)} 条额外数据")
+    else:
+        print(f"ℹ️ 额外数据文件 {extra_path} 不存在，跳过")
     
     # 3. 按 update_time 排序
     data.sort(key=lambda x: x.get('update_time', ''), reverse=True)
@@ -70,25 +73,57 @@ def read_html(template_path='index.html'):
         return None
 
 def inject_inline_data(html_content, inline_js, before_script='js/render.js'):
-    """将内联数据注入到 HTML 中"""
-    # 方法1: 在 render.js 之前插入
+    """
+    将内联数据注入到 HTML 中
+    会先删除已有的内联数据，避免重复
+    
+    Args:
+        html_content: HTML 内容
+        inline_js: 要注入的 JavaScript 代码
+        before_script: 在哪个 script 标签之前插入
+    
+    Returns:
+        修改后的 HTML 内容
+    """
+    # 1. 删除所有 issuesData 相关的定义（多种匹配模式）
+    patterns = [
+        # 带 <script> 标签的完整定义
+        r'<script>\s*var\s+issuesData\s*=\s*[^;]+;\s*</script>',
+        r'<script>\s*const\s+issuesData\s*=\s*[^;]+;\s*</script>',
+        r'<script>\s*let\s+issuesData\s*=\s*[^;]+;\s*</script>',
+        # 裸变量定义（不带 script 标签）
+        r'var\s+issuesData\s*=\s*[^;]+;',
+        r'const\s+issuesData\s*=\s*[^;]+;',
+        r'let\s+issuesData\s*=\s*[^;]+;',
+        # window 对象
+        r'window\.issuesData\s*=\s*[^;]+;',
+    ]
+    
+    for pattern in patterns:
+        html_content = re.sub(pattern, '', html_content, flags=re.DOTALL)
+    
+    # 2. 清理多余的空行（让生成的 HTML 更干净）
+    html_content = re.sub(r'\n\s*\n\s*\n', '\n\n', html_content)
+    
+    # 3. 构建新的内联脚本
+    inline_script = f'<script>\n{inline_js}\n</script>\n    '
+    
+    # 4. 在 render.js 之前插入
     script_tag = f'<script src="{before_script}"'
     
     if script_tag in html_content:
-        inline_script = f'<script>\n{inline_js}\n</script>\n    '
         html_content = html_content.replace(script_tag, inline_script + script_tag)
         print(f"✅ 内联数据已插入到 {before_script} 之前")
         return html_content
     
-    # 方法2: 在 </head> 之前插入
+    # 5. 在 </head> 之前插入
     head_end = '</head>'
     if head_end in html_content:
-        inline_script = f'<script>\n{inline_js}\n</script>\n'
         html_content = html_content.replace(head_end, inline_script + head_end)
         print("✅ 内联数据已插入到 </head> 之前")
         return html_content
     
-    # 方法3: 添加到文件开头
+    # 6. 添加到文件开头
     print("⚠️ 未找到合适的插入位置，添加到文件顶部")
     return f'<script>\n{inline_js}\n</script>\n' + html_content
 
@@ -131,7 +166,7 @@ def build_html(issues_path='data/issues.json',
         print("❌ 构建失败")
         return False
     
-    # 4. 注入内联数据
+    # 4. 注入内联数据（会自动删除旧数据）
     html_content = inject_inline_data(html_content, inline_js)
     
     # 5. 写入文件
@@ -150,10 +185,9 @@ def build_html(issues_path='data/issues.json',
 
 def main():
     """主函数"""
-    # 默认配置
     build_html(
         issues_path='data/issues.json',
-        extra_path='data/data.json',  # 如果不需要可以传 None
+        extra_path='data/data.json',
         template_path='index.html',
         output_path='index.html'
     )
