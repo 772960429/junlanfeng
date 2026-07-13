@@ -56,16 +56,16 @@ jobs:
         run: |
           # 检查 data/issues.json 是否有变化
           git add data/issues.json
-          # if git diff --staged --quiet; then
-          #   echo "changed=false" >> $GITHUB_OUTPUT
-          #   echo "✅ 数据未变化"
-          # else
-          #   echo "changed=true" >> $GITHUB_OUTPUT
-          #   echo "📝 数据有变化，准备提交"
-          # fi
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "✅ 数据未变化"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "📝 数据有变化，准备提交"
+          fi
       
       - name: Commit and push data
-        # if: steps.check_changes.outputs.changed == 'true'
+        if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
