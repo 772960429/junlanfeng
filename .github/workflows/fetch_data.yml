@@ -2,9 +2,9 @@
 name: Update News and Build Site
 
 on:
-  # 2. 定时触发（每天 UTC 0:17，即北京时间 8:17）
+  # 2. 定时触发（每天 UTC 2:00，即北京时间 10:00）
   schedule:
-    - cron: '17 0 * * *'
+    - cron: '0 2 * * *'
   # 手动触发
   workflow_dispatch:
   
