@@ -40,7 +40,7 @@ const translations = {
         'about.industrial.ai.text': 'Chief technical leader for major AI platform and foundation-model projects with PetroChina, China National Chemical Corporation, Chinese PLA General Hospital, China Eastern Airlines, TravelSky, Gansu Provincial Government, and Heilongjiang Provincial Government.',
         'about.news': 'Recent news',
         
-        // 出版物 (publications.html)
+        // 论文 (publications.html)
         'publications.title': 'Selected Publications',
         'publications.note': 'For a complete list, please browse my',
         'publications.note.link': 'Google Scholar.',
@@ -153,7 +153,7 @@ const translations = {
     zh: {
         // 导航
         'nav.about': '关于',
-        'nav.publications': '出版物',
+        'nav.publications': '论文',
         'nav.patents': '专利',
         'nav.experience': '经历',
         'nav.awards': '荣誉',
@@ -192,8 +192,8 @@ const translations = {
         'about.industrial.ai.text': '担任中国石油、中国化工集团、中国人民解放军总医院、中国东方航空、中国航信、甘肃省政府、黑龙江省政府等重大人工智能平台和基础模型项目的首席技术负责人。',
         'about.news': '最新动态',
         
-        // 出版物
-        'publications.title': '代表性出版物',
+        // 论文
+        'publications.title': '代表性论文',
         'publications.note': '完整列表请浏览我的',
         'publications.note.link': '谷歌学术。',
         'pub.1': '有偏噪声数据下的Twitter鲁棒情感检测',
