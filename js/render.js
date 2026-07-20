@@ -45,32 +45,57 @@
 
         // 最多显示 20 条
         const items = sorted.slice(0, 20);
-        const fragment = document.createDocumentFragment();
-        
+
+        // 外层容器
+        const newsContainer = document.createElement('div');
+        newsContainer.className = 'news-container';
+
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
             var date = formatDate(item.update_time, lang);
             var title = (lang === 'zh') ? item.title : (item.title_en || item.title);
-            
-            var b = document.createElement('b');
-            b.textContent = date + ': ';
-            
-            var a = document.createElement('a');
-            a.href = escapeHtml(item.url);
-            a.style.color = '#3BB9FF';
-            a.style.textDecoration = 'none';
-            a.style.wordBreak = 'break-all';
-            a.textContent = escapeHtml(title);
-            
-            var br = document.createElement('br');
-            
-            fragment.appendChild(b);
-            fragment.appendChild(a);
-            fragment.appendChild(br);
+            var imgSrc = item.img || item.image || '';
+            var imgTitle = item.img_title || item.imgTitle || '';
+
+            // news-card
+            var card = document.createElement('div');
+            card.className = 'news-card';
+
+            // img-box
+            var imgBox = document.createElement('div');
+            imgBox.className = 'img-box';
+
+            if (imgSrc) {
+                var img = document.createElement('img');
+                img.src = escapeHtml(imgSrc);
+                imgBox.appendChild(img);
+            }
+
+            if (imgTitle) {
+                var imgTitleDiv = document.createElement('div');
+                imgTitleDiv.className = 'img-title';
+                imgTitleDiv.textContent = imgTitle;
+                imgBox.appendChild(imgTitleDiv);
+            }
+
+            card.appendChild(imgBox);
+
+            // h3 标题
+            var h3 = document.createElement('h3');
+            h3.textContent = title;
+            card.appendChild(h3);
+
+            // date
+            var dateDiv = document.createElement('div');
+            dateDiv.className = 'date';
+            dateDiv.textContent = date;
+            card.appendChild(dateDiv);
+
+            newsContainer.appendChild(card);
         }
 
         container.innerHTML = '';
-        container.appendChild(fragment);
+        container.appendChild(newsContainer);
     }
 
     function renderNews(lang) {
