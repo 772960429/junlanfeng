@@ -5,7 +5,7 @@
 (function() {
     // ---------- 缓存 ----------
     const CACHE_KEY = 'news_data_cache';
-    const CACHE_DURATION = 10 * 60 * 1000; // 10分钟
+    const CACHE_DURATION = 1 * 60 * 1000; // 1分钟
 
     function getContainer() {
         let el = document.getElementById('Recent-news');
@@ -83,6 +83,7 @@
             // h3 标题
             var h3 = document.createElement('h3');
             h3.textContent = title;
+            h3.title = title;
             card.appendChild(h3);
 
             // date
