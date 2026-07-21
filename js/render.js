@@ -69,6 +69,10 @@
                 var img = document.createElement('img');
                 img.src = escapeHtml(imgSrc);
                 imgBox.appendChild(img);
+                var imgCaption = document.createElement('div');
+                imgCaption.className = 'img-caption';
+                imgCaption.textContent = item.image_caption;
+                imgBox.appendChild(imgCaption);
             }
 
             if (imgTitle) {
