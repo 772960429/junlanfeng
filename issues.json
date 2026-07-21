@@ -4,7 +4,9 @@
     "title_en": "2026 Dalian Summer Davos Forum | Junlan Feng, Chief Scientist of China Mobile: Learn by Doing, Define the Future in Action",
     "url": "http://mp.weixin.qq.com/s?__biz=MzY0MDA3NDc0NA==&mid=2247502477&idx=1&sn=602ac97d549c4203846c1303b87872b1&chksm=f0ca5c1ac7bdd50cb540c3ac1cf42805b7d460685e68991da7875c88a4c19e2713bcc7c2bba4#rd",
     "update_time": "2026-06-30 02:14:32",
-    "img": "images/news1.png"
+    "img": "images/news1.png",
+    "image_caption_en":"2026 Dalian Summer Davos Forum",
+    "image_caption_cn":"2026大连夏季达沃斯论坛"
 },
   {
     "title": "九天公司成功举办“大模型与智能体安全可信技术”专题会议，从能力边界到原生治理，共探智能体时代安全可信路径",
@@ -12,7 +14,9 @@
     "url": "http://mp.weixin.qq.com/s?__biz=MzY0MDA3NDc0NA==&mid=2247502467&idx=1&sn=2e08e1561c83d8f76bbce7b48a01c858&chksm=f0ca5c14c7bdd502c2180eaf5cf7c1c7dbad78d8e463701f1d05a70f479fa79f70918be72cf4#rd",
     "create_time": "2026-06-23 07:25:27",
     "update_time": "2026-06-23 07:25:27",
-    "img": "images/news2.png"
+    "img": "images/news2.png",
+    "image_caption_en":"Jiutian Special Session",
+    "image_caption_cn":"九天专题会议"
   },
   {
     "title": "2026北京智源大会“AI开闭源产业论坛”成功举办",
@@ -20,7 +24,9 @@
     "url": "http://mp.weixin.qq.com/s?__biz=MzY0MDA3NDc0NA==&mid=2247502466&idx=1&sn=be0391715e4dcc52016f9638e77fe8c4&chksm=f0ca5c15c7bdd503dc24d784d8feaa13e664811113db462f2571306dfaa7d826962fbd6ef63a#rd",
     "create_time": "2026-06-22 08:46:25",
     "update_time": "2026-06-22 08:46:25",
-    "img": "images/news3.png"
+    "img": "images/news3.png",
+    "image_caption_en":"2026 BAAI Conference",
+    "image_caption_cn":"2026北京智源大会"
   },
   {
     "title": "JIUTIAN Research | 中国移动九天人工智能研究院2篇论文入选 ICIP 2026",
@@ -28,7 +34,9 @@
     "url": "http://mp.weixin.qq.com/s?__biz=MzY0MDA3NDc0NA==&mid=2247502398&idx=1&sn=317d336cfcf5d72eb4914fad7afe07c7&chksm=f0ca5ca9c7bdd5bfb2b607ace4f0eadedf0e96f8d82b99503f4562735aff8f20dd5b8329ba17#rd",
     "create_time": "2026-05-21 13:06:34",
     "update_time": "2026-05-21 13:06:34",
-    "img": "images/news4.png"
+    "img": "images/news4.png",
+    "image_caption_en":"JIUTIAN Research",
+    "image_caption_cn":"九天研究"
   },
   {
     "title": "GAITC2026主报告丨冯俊兰：基础模型原生安全可信技术",
@@ -36,6 +44,8 @@
     "url": "http://mp.weixin.qq.com/s?__biz=MzY0MDA3NDc0NA==&mid=2247502385&idx=1&sn=f97940a7b155f2be98ea420c841b5f2e&chksm=f0ca5ca6c7bdd5b0fe8ee0e655340e7ce86727a2f5e2f5f3287206e2ea7933cf92a13004520b#rd",
     "create_time": "2026-05-19 09:52:29",
     "update_time": "2026-05-19 09:52:29",
-    "img": "images/news5.png"
+    "img": "images/news5.png",
+    "image_caption_en":"GAITC2026 Keynote",
+    "image_caption_cn":"GAITC2026 主报告"
   }
 ]
