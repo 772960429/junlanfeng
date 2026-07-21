@@ -258,3 +258,19 @@ div[data-i18n] {
     font-size:14px;
 
 }
+
+.img-caption {
+
+    position:absolute;
+
+    bottom:8px;
+    left:8px;
+
+
+    color:#fff;
+
+    font-size:14px;
+
+    font-weight:700;
+
+}
