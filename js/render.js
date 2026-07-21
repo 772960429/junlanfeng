@@ -58,8 +58,10 @@
             var imgTitle = item.img_title || item.imgTitle || '';
 
             // news-card
-            var card = document.createElement('div');
+            var card = document.createElement('a');
             card.className = 'news-card';
+            card.href = item.url || '#';
+            card.target = '_blank';
 
             // img-box
             var imgBox = document.createElement('div');
@@ -71,7 +73,7 @@
                 imgBox.appendChild(img);
                 var imgCaption = document.createElement('div');
                 imgCaption.className = 'img-caption';
-                imgCaption.textContent = item.image_caption;
+                imgCaption.textContent = (lang === 'zh') ? item.image_caption_cn : (item.image_caption_en || item.image_caption_cn);
                 imgBox.appendChild(imgCaption);
             }
 
@@ -84,10 +86,13 @@
 
             card.appendChild(imgBox);
 
-            // h3 标题
-            var h3 = document.createElement('h3');
+            // 新闻标题
+            var h3 = document.createElement('div');
             h3.textContent = title;
             h3.title = title;
+            // h3.href = item.url;
+            // h3.target = '_blank';
+            h3.className = 'news-title';
             card.appendChild(h3);
 
             // date
