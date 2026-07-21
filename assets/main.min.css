@@ -3602,12 +3602,13 @@ body {
 
 .navigation-wrapper {
     width: 100%;
-    padding: 2em 0 0;
+    padding: 1em 0 0;
     margin: 0 auto;
     font-family: 'PT Sans Narrow',sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    *zoom:1}
+    *zoom: 1
+}
 
 .navigation-wrapper:before,.navigation-wrapper:after {
     display: table;
