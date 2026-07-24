@@ -130,7 +130,7 @@ div[data-i18n] {
     display: flex;
     align-items: center;
     .logo {
-        margin-left: 68px; 
+        margin-bottom: 0; 
     }
 }
 
