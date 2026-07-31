@@ -57,7 +57,7 @@ def main():
         sys.exit(1)
 
     # 保存为 JSON 文件（指定 utf-8 编码）
-    with open('issues.json', 'w', encoding='utf-8') as f:
+    with open('data/issues.json', 'w', encoding='utf-8') as f:
         json.dump(articles, f, indent=2, ensure_ascii=False)
 
     print("采集完成，共 %d 篇，已保存到 issues.json", len(articles))
