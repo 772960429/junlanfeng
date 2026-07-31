@@ -1,0 +1,74 @@
+# .github/workflows/update.yml
+name: Update News and Build Site
+
+on:
+  # 2. 定时触发（每天 UTC 0:00，即北京时间 8:00）
+  schedule:
+    - cron: '0 0 * * *'
+  # 手动触发
+  workflow_dispatch:
+  
+  # 当脚本或配置文件更新时触发
+  push:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/fetch-data.yml'
+# 全局设置，对所有 Job 生效
+permissions:
+  contents: write
+jobs:
+  update-and-build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 步骤1：检出代码，让工作流能访问到你的脚本
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      # 步骤2：设置 Python 版本
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'   # 你可以换成 3.10, 3.12 等
+
+      # 步骤3：安装依赖（如果你的脚本有 requirements.txt）
+      - name: Install dependencies
+        run: |
+          # 检查多个可能的位置
+          if [ -f scripts/requirements.txt ]; then
+            pip install -r scripts/requirements.txt
+          elif [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            echo "⚠️ 未找到 requirements.txt，安装默认依赖"
+            pip install requests
+          fi
+      #从微信公众号中提取数据
+      - name: Step 1 - Fetch issues from 微信公众号
+        env:
+          token: ${{ secrets.TOKEN }}
+          cookie: ${{ secrets.COOKIE }}
+        run: |
+          python scripts/app.py
+      
+      - name: Check if data changed
+        id: check_changes
+        run: |
+          # 检查 data/issues.json 是否有变化
+          git add data/issues.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "✅ 数据未变化"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "📝 数据有变化，准备提交"
+          fi
+      
+      - name: Commit and push data
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git commit -m "📊 Update issues data: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git push
+          echo "✅ 数据已提交"
