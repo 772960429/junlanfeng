@@ -4,7 +4,7 @@ name: Update News and Build Site
 on:
   # 2. 定时触发（每天 UTC 0:00，即北京时间 18:00）
   schedule:
-    - cron: '0 10 * * *'
+    - cron: '25 9 * * *'
   # 手动触发
   workflow_dispatch:
   
