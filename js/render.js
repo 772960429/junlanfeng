@@ -33,7 +33,81 @@
         div.textContent = text;
         return div.innerHTML;
     }
+    // 这个函数是带图片的新闻卡片式的展示方式
+    // function renderData(data, lang, container) {
+    //     if (!Array.isArray(data) || data.length === 0) {
+    //         return;
+    //     }
 
+    //     const sorted = data.slice().sort(function(a, b) {
+    //         return new Date(b.update_time) - new Date(a.update_time);
+    //     });
+
+    //     // 最多显示 20 条
+    //     const items = sorted.slice(0, 50);
+
+    //     // 外层容器
+    //     const newsContainer = document.createElement('div');
+    //     newsContainer.className = 'news-container';
+
+    //     for (var i = 0; i < items.length; i++) {
+    //         var item = items[i];
+    //         var date = formatDate(item.update_time, lang);
+    //         var title = (lang === 'zh') ? item.title : (item.title_en || item.title);
+    //         var imgSrc = item.img || item.image || '';
+    //         var imgTitle = item.img_title || item.imgTitle || '';
+
+    //         // news-card
+    //         var card = document.createElement('a');
+    //         card.className = 'news-card';
+    //         card.href = item.url || '#';
+    //         card.target = '_blank';
+
+    //         // img-box
+    //         var imgBox = document.createElement('div');
+    //         imgBox.className = 'img-box';
+
+    //         if (imgSrc) {
+    //             var img = document.createElement('img');
+    //             img.src = escapeHtml(imgSrc);
+    //             imgBox.appendChild(img);
+    //             var imgCaption = document.createElement('div');
+    //             imgCaption.className = 'img-caption';
+    //             imgCaption.textContent = (lang === 'zh') ? item.image_caption_cn : (item.image_caption_en || item.image_caption_cn);
+    //             imgBox.appendChild(imgCaption);
+    //         }
+
+    //         if (imgTitle) {
+    //             var imgTitleDiv = document.createElement('div');
+    //             imgTitleDiv.className = 'img-title';
+    //             imgTitleDiv.textContent = imgTitle;
+    //             imgBox.appendChild(imgTitleDiv);
+    //         }
+
+    //         card.appendChild(imgBox);
+
+    //         // 新闻标题
+    //         var h3 = document.createElement('div');
+    //         h3.textContent = title;
+    //         h3.title = title;
+    //         // h3.href = item.url;
+    //         // h3.target = '_blank';
+    //         h3.className = 'news-title';
+    //         card.appendChild(h3);
+
+    //         // date
+    //         var dateDiv = document.createElement('div');
+    //         dateDiv.className = 'date';
+    //         dateDiv.textContent = date;
+    //         card.appendChild(dateDiv);
+
+    //         newsContainer.appendChild(card);
+    //     }
+
+    //     container.innerHTML = '';
+    //     container.appendChild(newsContainer);
+    // }
+    // 这个函数是最简单的新闻展示形式，为了实现自动化展示新闻动态
     function renderData(data, lang, container) {
         if (!Array.isArray(data) || data.length === 0) {
             return;
@@ -45,69 +119,34 @@
 
         // 最多显示 20 条
         const items = sorted.slice(0, 20);
-
-        // 外层容器
-        const newsContainer = document.createElement('div');
-        newsContainer.className = 'news-container';
-
+        const fragment = document.createDocumentFragment();
+        
         for (var i = 0; i < items.length; i++) {
             var item = items[i];
             var date = formatDate(item.update_time, lang);
             var title = (lang === 'zh') ? item.title : (item.title_en || item.title);
-            var imgSrc = item.img || item.image || '';
-            var imgTitle = item.img_title || item.imgTitle || '';
-
-            // news-card
-            var card = document.createElement('a');
-            card.className = 'news-card';
-            card.href = item.url || '#';
-            card.target = '_blank';
-
-            // img-box
-            var imgBox = document.createElement('div');
-            imgBox.className = 'img-box';
-
-            if (imgSrc) {
-                var img = document.createElement('img');
-                img.src = escapeHtml(imgSrc);
-                imgBox.appendChild(img);
-                var imgCaption = document.createElement('div');
-                imgCaption.className = 'img-caption';
-                imgCaption.textContent = (lang === 'zh') ? item.image_caption_cn : (item.image_caption_en || item.image_caption_cn);
-                imgBox.appendChild(imgCaption);
-            }
-
-            if (imgTitle) {
-                var imgTitleDiv = document.createElement('div');
-                imgTitleDiv.className = 'img-title';
-                imgTitleDiv.textContent = imgTitle;
-                imgBox.appendChild(imgTitleDiv);
-            }
-
-            card.appendChild(imgBox);
-
-            // 新闻标题
-            var h3 = document.createElement('div');
-            h3.textContent = title;
-            h3.title = title;
-            // h3.href = item.url;
-            // h3.target = '_blank';
-            h3.className = 'news-title';
-            card.appendChild(h3);
-
-            // date
-            var dateDiv = document.createElement('div');
-            dateDiv.className = 'date';
-            dateDiv.textContent = date;
-            card.appendChild(dateDiv);
-
-            newsContainer.appendChild(card);
+            
+            var b = document.createElement('b');
+            b.textContent = date + ': ';
+            
+            var a = document.createElement('a');
+            a.href = escapeHtml(item.url);
+            a.target = '_blank';
+            a.style.color = '#3BB9FF';
+            a.style.textDecoration = 'none';
+            a.style.wordBreak = 'break-all';
+            a.textContent = escapeHtml(title);
+            
+            var br = document.createElement('br');
+            
+            fragment.appendChild(b);
+            fragment.appendChild(a);
+            fragment.appendChild(br);
         }
 
         container.innerHTML = '';
-        container.appendChild(newsContainer);
+        container.appendChild(fragment);
     }
-
     function renderNews(lang) {
         const currentLang = lang || localStorage.getItem('lang') || 'en';
         const container = getContainer();
