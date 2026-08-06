@@ -5,8 +5,7 @@ on:
   # 当 issues.json 被更新时触发（包括工作流1提交的）
   push:
     paths:
-      - 'data/issues.json'
-      - 'data/data.json'
+      - 'data/**'
       - 'index.html'  # 模板更新时也触发
       - 'scripts/build_html.py'
       - '.github/workflows/build-site.yml'
