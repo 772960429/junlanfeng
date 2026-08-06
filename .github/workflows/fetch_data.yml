@@ -47,6 +47,7 @@ jobs:
         env:
           token: ${{ secrets.TOKEN }}
           cookie: ${{ secrets.COOKIE }}
+          deepseek_api_key: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
           python scripts/app.py
       
