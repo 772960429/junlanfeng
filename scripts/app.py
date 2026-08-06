@@ -56,14 +56,14 @@ def merge_and_limit(existing: list, new_articles: list) -> list:
     """
     # 用字典按 title 去重，保留最新的一条（如果有重复）
     title_map = {}
-    # 先加入现有文章，再加入新文章（新文章覆盖同title旧文章）
+    # 先加入现有文章，再加入新文章（新文章不覆盖同title旧文章）
     for art in existing:
         title = art.get('title')
         if title:
             title_map[title] = art
     for art in new_articles:
         title = art.get('title')
-        if title:
+        if title and not title_map.get(title):
             title_map[title] = art
     # 转为列表
     merged = list(title_map.values())
