@@ -10,7 +10,7 @@ import json
 import logging
 import sys
 from pathlib import Path
-from crawler_wewerss import WeWeRssCrawler
+from crawler_zlzchat import Crawler
 import config
 import time
 from datetime import datetime
@@ -19,7 +19,7 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
-logger = logging.getLogger("wewerss_crawler_script")
+logger = logging.getLogger("zlzchat_crawler_script")
 
 MAX_ARTICLES = 30
 DATA_FILE = Path("data/issues.json")
@@ -56,14 +56,14 @@ def merge_and_limit(existing: list, new_articles: list) -> list:
     """
     # 用字典按 title 去重，保留最新的一条（如果有重复）
     title_map = {}
-    # 先加入现有文章，再加入新文章（新文章不覆盖同title旧文章）
+    # 先加入现有文章，再加入新文章（新文章覆盖同title旧文章）
     for art in existing:
         title = art.get('title')
         if title:
             title_map[title] = art
     for art in new_articles:
         title = art.get('title')
-        if title and not title_map.get(title):
+        if title:
             title_map[title] = art
     # 转为列表
     merged = list(title_map.values())
@@ -82,13 +82,13 @@ def main():
     """主流程：采集文章并增量保存到 issues.json"""
     count = getattr(config, 'COUNT', 20)
     feed_url = getattr(config, 'FEED_URL', 
-                       f'http://120.53.251.205:4000/feeds/MP_WXS_3690269372.json?limit={count}')
+                       f'http://120.53.251.205:10082/getFeedArticleAllList?key=zlzchat&pageNum=1&pageSize={count}&orderByColumn=publish_time&isAsc=desc')
 
     
     print(f"开始采集，目标数量 {count} 篇，Feed 地址：{feed_url}")
 
     # 初始化爬虫
-    crawler = WeWeRssCrawler(feed_url=feed_url)
+    crawler = Crawler(feed_url=feed_url)
 
     # 采集并筛选冯俊兰相关文章
     new_articles = crawler.crawl()
