@@ -24,6 +24,8 @@ jobs:
       # 步骤1：检出代码，让工作流能访问到你的脚本
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT }}   # 使用你的 PAT
       # 步骤2：设置 Python 版本
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -67,9 +69,9 @@ jobs:
       - name: Commit and push data
         if: steps.check_changes.outputs.changed == 'true'
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          git commit -m "📊 Update issues data: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-          git push
-          echo "✅ 数据已提交"
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git remote set-url origin https://x-access-token:${{ secrets.PAT }}@github.com/${{ github.repository }}
+            git commit -m "📊 Update issues data: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+            echo "✅ 数据已提交"
