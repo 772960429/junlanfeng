@@ -201,7 +201,6 @@ class Crawler:
             })
         return result
 
-
 def filter_articles_by_fengjunlan(articles):
     crawler = Crawler()
     return crawler.filter_articles_by_fengjunlan(articles)
