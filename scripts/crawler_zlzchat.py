@@ -188,7 +188,8 @@ class Crawler:
         all_articles = self.fetch_articles(limit)
         if not all_articles:
             return []
-        filtered = self.filter_articles_by_fengjunlan(all_articles)
+        # filtered = self.filter_articles_by_fengjunlan(all_articles)
+        filtered = all_articles
 
         result = []
         for art in filtered:
