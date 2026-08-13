@@ -188,8 +188,7 @@ class Crawler:
         all_articles = self.fetch_articles(limit)
         if not all_articles:
             return []
-        # filtered = self.filter_articles_by_fengjunlan(all_articles)
-        filtered = all_articles
+        filtered = self.filter_articles_by_fengjunlan(all_articles)
 
         result = []
         for art in filtered:
@@ -200,6 +199,7 @@ class Crawler:
                 "update_time": art.get("date_modified", ""),
             })
         return result
+
 
 def filter_articles_by_fengjunlan(articles):
     crawler = Crawler()
