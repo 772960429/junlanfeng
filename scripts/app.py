@@ -10,7 +10,7 @@ import json
 import logging
 import sys
 from pathlib import Path
-from crawler_zlzchat import Crawler
+from crawler_zlzchat import Crawler, trigger_update_feed_all
 import config
 import time
 from datetime import datetime
@@ -81,12 +81,20 @@ def merge_and_limit(existing: list, new_articles: list) -> list:
 def main():
     """主流程：采集文章并增量保存到 issues.json"""
     count = getattr(config, 'COUNT', 20)
-    feed_url = getattr(config, 'FEED_URL', 
+    feed_url = getattr(config, 'FEED_URL',
                        f'http://120.53.251.205:10082/getFeedArticleAllList?key=zlzchat&pageNum=1&pageSize={count}&orderByColumn=publish_time&isAsc=desc')
 
-    
+
     print(f"开始采集，目标数量 {count} 篇，Feed 地址：{feed_url}")
 
+    # 触发 zlzchat 的全量更新任务
+    print("开始调用更新 Feed 接口...")
+    ok, resp_data = trigger_update_feed_all()
+    if ok:
+        print(f"更新 Feed 接口调用成功，返回内容：{resp_data}")
+    else:
+        print(f"更新 Feed 接口调用失败，返回内容：{resp_data}")
+    time.sleep(120)
     # 初始化爬虫
     crawler = Crawler(feed_url=feed_url)
 

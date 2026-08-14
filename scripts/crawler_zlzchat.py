@@ -206,6 +206,31 @@ def filter_articles_by_fengjunlan(articles):
     return crawler.filter_articles_by_fengjunlan(articles)
 
 
+def trigger_update_feed_all():
+    """调用更新 Feed 接口，触发 zlzchat 的全量更新任务。
+
+    接口返回格式: {"msg":"任务提交成功","code":0}
+    成功条件: code == 0
+    """
+    url = "http://120.53.251.205:10082/updateFeedAll?key=zlzchat"
+    try:
+        resp = requests.get(url, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        if data.get("code") == 0:
+            logger.info("更新任务提交成功：%s", data.get("msg"))
+            print(f"更新任务提交成功：{data.get('msg')}")
+            return True, data
+        else:
+            logger.warning("更新任务提交失败：%s", data)
+            print(f"更新任务提交失败：{data}")
+            return False, data
+    except Exception as e:
+        logger.error("调用更新 Feed 接口异常：%s", e)
+        print(f"调用更新 Feed 接口异常：{e}")
+        return False, None
+
+
 if __name__ == "__main__":
     import sys
    #  limit = int(sys.argv[1]) if len(sys.argv) > 1 else 50
