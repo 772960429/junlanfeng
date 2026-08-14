@@ -130,12 +130,12 @@
             b.textContent = date + ': ';
             
             var a = document.createElement('a');
-            a.href = escapeHtml(item.url);
+            a.href = item.url;
             a.target = '_blank';
             a.style.color = '#3BB9FF';
             a.style.textDecoration = 'none';
             a.style.wordBreak = 'break-all';
-            a.textContent = escapeHtml(title);
+            a.textContent = title;
             
             var br = document.createElement('br');
             
