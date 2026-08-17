@@ -80,7 +80,7 @@ def merge_and_limit(existing: list, new_articles: list) -> list:
 
 def main():
     """主流程：采集文章并增量保存到 issues.json"""
-    count = getattr(config, 'COUNT', 20)
+    count = getattr(config, 'COUNT', 5)
     feed_url = getattr(config, 'FEED_URL',
                        f'http://120.53.251.205:10082/getFeedArticleAllList?key=zlzchat&pageNum=1&pageSize={count}&orderByColumn=publish_time&isAsc=desc')
 
