@@ -4190,9 +4190,9 @@ body {
     }
 }
 
-.article-wrap p>a,.article-wrap li>a {
+/* .article-wrap p>a,.article-wrap li>a {
     border-bottom: 1px dotted #b3b3b3
-}
+} */
 
 .article-wrap p>a:hover,.article-wrap li>a:hover {
     border-bottom-style: solid
