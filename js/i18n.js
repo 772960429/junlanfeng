@@ -156,7 +156,7 @@ const translations = {
     },
     zh: {
         // 导航
-        'nav.about': '个人简介',
+        'nav.about': '关于',
         'nav.publications': '论文',
         'nav.patents': '专利',
         'nav.experience': '经历',
@@ -179,7 +179,7 @@ const translations = {
         'cv.link': 'CV_JunlanFeng_CN.pdf', // 中文简历路径
         
         // 首页
-        'about.title': '关于我',
+        'about.title': '个人简介',
         'about.intro': '人工智能科学家和技术领导者，在对话式人工智能、网络智能、人工智能平台及安全基础模型等领域深耕近30年。现任中国移动集团首席科学家，曾任全球最大开源网络社区LF Networking董事会主席。带领团队开展九天人工智能平台及基础模型技术研发。',
         'about.research': '学术研究：', 
         'about.research.text': '发表学术论文200余篇，引用次数6800余次；拥有授权专利100余项，在审专利申请200余项；参与著书一部。',
