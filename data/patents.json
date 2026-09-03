@@ -307,7 +307,7 @@
   },
   {
     "title_zh": "交互上下文管理方法、装置、设备、系统和存储介质",
-    "title_en": "Interaction context management method and apparatus, device, system, and",
+    "title_en": "Interaction context management method and apparatus, device, system, and storage medium",
     "source_zh": "EP4675532A1",
     "source_en": "EP4675532A1",
     "year": "2024",
@@ -1512,15 +1512,6 @@
     "pdf": "http://epub.cnipa.gov.cn/patent/CN116911889A"
   },
   {
-    "title_zh": "交互上下文的管理方法、装置、设备、系统及存储介质",
-    "title_en": "Interaction Context Management Method, Apparatus, Device, System, and Storage Medium",
-    "source_zh": "CN118735425A",
-    "source_en": "CN118735425A",
-    "year": "2023",
-    "citations": "",
-    "pdf": "http://epub.cnipa.gov.cn/patent/CN118735425A"
-  },
-  {
     "title_zh": "业务系统的异常告警方法、装置及计算机可读存储介质",
     "title_en": "Abnormal Alarm Method for a Business System, Apparatus, and Computer-Readable Storage Medium",
     "source_zh": "CN116910343A",
@@ -2593,7 +2584,7 @@
   },
   {
     "title_zh": "基于用户输入长度归一化的人机对话系统上下文问题回答相关性识别",
-    "title_en": "Relevance recognition for a human machine dialog system contextual question",
+    "title_en": "Relevance recognition for a human machine dialog system contextual question answering based on a normalization of the length of the user input",
     "source_zh": "US8639517B2",
     "source_en": "US8639517B2",
     "year": "2014",
@@ -2629,7 +2620,7 @@
   },
   {
     "title_zh": "基于判别式学习方法的问答系统与方法",
-    "title_en": "System and method using a discriminative learning approach for question",
+    "title_en": "System and method using a discriminative learning approach for question answering",
     "source_zh": "US8543565B2",
     "source_en": "US8543565B2",
     "year": "2013",
@@ -2638,7 +2629,7 @@
   },
   {
     "title_zh": "基于自动用户画像识别的语音搜索增强系统与方法",
-    "title_en": "System and method for enhancing voice-enabled search based on automated",
+    "title_en": "System and method for enhancing voice-enabled search based on automated demographic identification",
     "source_zh": "US8401853B2",
     "source_en": "US8401853B2",
     "year": "2013",
@@ -2674,7 +2665,7 @@
   },
   {
     "title_zh": "用于检测和提取动态生成网页信息的方法及装置",
-    "title_en": "Method and apparatus for detecting and extracting information from dynamically",
+    "title_en": "Method and apparatus for detecting and extracting information from dynamically generated web pages",
     "source_zh": "US8161057B2",
     "source_en": "US8161057B2",
     "year": "2012",
@@ -2682,8 +2673,8 @@
     "pdf": "https://patents.google.com/patent/US8161057B2/en"
   },
   {
-    "title_zh": "通过利用网站内容和结构自动生成建筑对话服务的系统与方法",
-    "title_en": "System and method of automatically generating building dialog services by",
+    "title_zh": "利用网站内容和结构自动构建对话服务的系统和方法",
+    "title_en": "System and method of automatically generating building dialog services by exploiting the content and structure of websites",
     "source_zh": "US8090583B1",
     "source_en": "US8090583B1",
     "year": "2011",
