@@ -48,17 +48,15 @@
         return m ? parseInt(m[0], 10) : 0;
     }
 
-    // 排序：年份倒序；年份相同按标题升序
-    // 中文模式按中文标题拼音排序，英文模式按英文标题字母排序，忽略大小写/标点
-    function sortItems(data, lang) {
-        var locale = (lang === 'zh') ? 'zh-Hans-CN' : 'en';
+    // 排序：年份倒序；年份相同按英文标题字母排序（中英文模式一致，忽略大小写/标点）
+    function sortItems(data) {
         return data.slice().sort(function(a, b) {
             var ya = extractYearNum(a.year);
             var yb = extractYearNum(b.year);
             if (ya !== yb) return yb - ya; // 年份倒序
-            var ta = (lang === 'zh') ? (a.title_zh || a.title_en || '') : (a.title_en || a.title_zh || '');
-            var tb = (lang === 'zh') ? (b.title_zh || b.title_en || '') : (b.title_en || b.title_zh || '');
-            return ta.localeCompare(tb, locale, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
+            var ta = a.title_en || a.title_zh || '';
+            var tb = b.title_en || b.title_zh || '';
+            return ta.localeCompare(tb, 'en', { sensitivity: 'base', numeric: true, ignorePunctuation: true });
         });
     }
 
@@ -66,7 +64,7 @@
     function renderPapers(data, lang, container) {
         if (!Array.isArray(data) || data.length === 0) return;
 
-        data = sortItems(data, lang);
+        data = sortItems(data);
 
         var fragment = document.createDocumentFragment();
 
