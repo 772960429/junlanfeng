@@ -1,16 +1,5 @@
 [
   {
-    "title_zh": "智能对话系统架构及算法",
-    "title_en": "Architecture and Algorithms of Intelligent Dialogue System",
-    "source_zh": "北京邮电大学学报",
-    "source_en": "Journal of Beijing University of Posts and Telecommunications",
-    "year": "2019",
-    "citations": "6",
-    "impact_factor": "1.758",
-    "bibtex": "@article{yi2019,\n  author    = {HUANG Yi and FENG Jun-lan and HU Min and WU Xiao-ting and DU Xiao-yu},\n  title     = {Architecture and Algorithms of Intelligent Dialogue System},\n  journal   = {北京邮电大学学报},\n  year      = {2019},\n  url       = {https://html.rhhz.net/buptjournal/html/20190602.htm}\n}",
-    "pdf": "https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=4598"
-  },
-  {
     "title_zh": "PAMDP：基于部分可观测马尔可夫决策过程的交互式人格对齐",
     "title_en": "PAMDP: Interact to Persona Alignment via a Partially Observable Markov Decision Process",
     "source_zh": "国际学习表征会议",
@@ -20,50 +9,6 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{yang2026,\n  author    = {ZHE YANG and Yi Huang and Si Chen and Xiaoting Wu and Jingyu Yao and Junlan Feng},\n  title     = {PAMDP: Interact to Persona Alignment via a Partially Observable Markov Decision Process},\n  booktitle = {ICLR},\n  year      = {2026},\n  url       = {https://openreview.net/forum?id=tNWZVoVPzZ}\n}",
     "pdf": "https://openreview.net/pdf?id=tNWZVoVPzZ"
-  },
-  {
-    "title_zh": "一种用于中文大词汇量连续语音识别的基于框架的MCE训练新策略",
-    "title_en": "A new framed-based MCE training strategy for Mandarin LVCSR",
-    "source_zh": "IEEE国际会议 WCC 2000 - ICSP 2000",
-    "source_en": "International Conference on Signal Processing(ICSP)",
-    "year": "2000",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{feng2000,\n  author    = {Jun Lan Feng and Li Min Du},\n  title     = {A new framed-based MCE training strategy for Mandarin LVCSR},\n  booktitle = {IEEE国际会议 WCC 2000 - ICSP},\n  year      = {2000},\n  url       = {https://ieeexplore.ieee.org/iel5/7173/19349/00894408.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel5/7173/19349/00894408.pdf"
-  },
-  {
-    "title_zh": "蜂窝流量预测深度学习技术综述",
-    "title_en": "A survey on deep learning for cellular traffic prediction",
-    "source_zh": "学术期刊Intelligent Computing (Science Partner Journals) 2024",
-    "source_en": "Intelligent Computing (Science Partner Journals)",
-    "year": "2024",
-    "citations": "52",
-    "impact_factor": "3.7",
-    "bibtex": "@article{Wang_2024, title = {A Survey on Deep Learning for Cellular Traffic Prediction}, volume = {3}, ISSN = {2771-5892}, url={http://dx.doi.org/10.34133/icomputing.0054}, DOI={10.34133/icomputing.0054}, journal = {Intelligent Computing}, publisher = {American Association for the Advancement of Science (AAAS)}, author = {Wang, Xing and Wang, Zhendong and Yang, Kexin and Song, Zhiyan and Bian, Chong and Feng, Junlan and Deng, Chao}, year = {2024}, month=Jan }",
-    "pdf": "https://spj.science.org/doi/pdf/10.34133/icomputing.0054"
-  },
-  {
-    "title_zh": "探索大语言模型用于锂离子电池通用且鲁棒的荷电状态估计：一种混合提示学习方法",
-    "title_en": "Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method",
-    "source_zh": "Energy (Elsevier) 2024",
-    "source_en": "Energy",
-    "year": "2024",
-    "citations": "30",
-    "impact_factor": "9.0",
-    "bibtex": "@article{Bian_2024, title = {Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method}, volume = {302}, ISSN = {0360-5442}, url={http://dx.doi.org/10.1016/j.energy.2024.131856}, DOI={10.1016/j.energy.2024.131856}, journal = {Energy}, publisher = {Elsevier BV}, author = {Bian, Chong and Duan, Zhiyu and Hao, Yaqian and Yang, Shunkun and Feng, Junlan}, year = {2024}, month=Sept, pages = {131856} }",
-    "pdf": "https://doi.org/10.1016/j.energy.2024.131856"
-  },
-  {
-    "title_zh": "混合提示驱动的大语言模型用于多类型锂离子电池鲁棒荷电状态估计",
-    "title_en": "Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries",
-    "source_zh": "IEEE Transactions on Transportation Electrification 2024",
-    "source_en": "IEEE Transactions on Transportation Electrification",
-    "year": "2024",
-    "citations": "35",
-    "impact_factor": "6.0",
-    "bibtex": "@article{bian2024,\n  author    = {Chong Bian and Xue Han and Zhiyu Duan and Chao Deng and Shunkun Yang and Junlan Feng},\n  title     = {Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries},\n  journal   = {IEEE Transactions on Transportation Electrification},\n  year      = {2024},\n  url       = {https://ieeexplore.ieee.org/document/10506610}\n}",
-    "pdf": "https://ieeexplore.ieee.org/document/10506610"
   },
   {
     "title_zh": "SafeDialBench：面向多轮对话中多种越狱攻击的大语言模型细粒度安全评估基准",
@@ -77,72 +22,6 @@
     "pdf": "https://openreview.net/pdf?id=KFjtRqVnKH"
   },
   {
-    "title_zh": "一种基于BERT与堆叠双向LSTM的多注意力方法用于改进对话状态跟踪",
-    "title_en": "A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking",
-    "source_zh": "应用科学",
-    "source_en": "Applied Sciences (MDPI)",
-    "year": "2023",
-    "citations": "18",
-    "impact_factor": "2.7",
-    "bibtex": "@inproceedings{khan2023,\n  author    = {Muhammad Asif Khan and Yi Huang and Junlan Feng and Bhuyan Kaibalya Prasad and Zafar Ali and Irfan Ullah and Pavlos Kefalas},\n  title     = {A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2023},\n  url       = {https://www.mdpi.com//2076-3417/13/3/1775/pdf?version=1675216575}\n}",
-    "pdf": "https://www.mdpi.com//2076-3417/13/3/1775/pdf?version=1675216575"
-  },
-  {
-    "title_zh": "重新审视过度思考：惩罚思维链推理中的内部与外部冗余",
-    "title_en": "Reconsidering overthinking: Penalizing internal and external redundancy in CoT reasoning",
-    "source_zh": "arXiv",
-    "source_en": "arXiv",
-    "year": "2025",
-    "citations": "10",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{hong2025,\n  author    = {Jialiang Hong and Taihang Zhen and Kai Chen and Jiaheng Liu and Junlan Feng and Wenpeng Zhu and Jing Huo and Yang Gao and Depeng Wang and Haitao Wan and Xi Yang and Boyan Wang and Fanyu Meng and Yuyao Zhang},\n  title     = {Reconsidering overthinking: Penalizing internal and external redundancy in CoT reasoning},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2508.02178}\n}",
-    "pdf": "https://arxiv.org/pdf/2508.02178"
-  },
-  {
-    "title_zh": "大循环与原子化：大语言模型扩展能力的整体性综述",
-    "title_en": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
-    "source_zh": "应用科学",
-    "source_en": "Applied Sciences (MDPI)",
-    "year": "2025",
-    "citations": "2",
-    "impact_factor": "2.7",
-    "bibtex": "@inproceedings{hu2025,\n  author    = {Zefa Hu and Yi Huang and Junlan Feng and and Chao Deng},\n  title     = {Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2025},\n  url       = {https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648}\n}",
-    "pdf": "https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648"
-  },
-  {
-    "title_zh": "基于大语言模型的锂离子电池跨不同时间尺度与多变运行阶段的荷电状态及健康状态联合估计：一种多阶段方法",
-    "title_en": "Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-stage approach",
-    "source_zh": "Reliability Engineering & System Safety（Elsevier），2026",
-    "source_en": "Reliability Engineering & System Safety (Elsevier)",
-    "year": "2025",
-    "citations": "2",
-    "impact_factor": "9.2",
-    "bibtex": "@article{bian2025,\n  author    = {Chong Bian and Zhiyu Duan and Daoyi Li and Shunkun Yang and Junlan Feng},\n  title     = {Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-stage approach},\n  journal   = {Reliability Engineering \\& System Safety（Elsevier）},\n  year      = {2025},\n}",
-    "pdf": "付费订阅"
-  },
-  {
-    "title_zh": "一种结构增强的图卷积网络用于情感分析",
-    "title_en": "A structure-enhanced graph convolutional network for sentiment analysis",
-    "source_zh": "自然语言处理实证方法会议",
-    "source_en": "Conference on Empirical Methods in Natural Language Processing(EMNLP)",
-    "year": "2020",
-    "citations": "19",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Meng_2020, title = {A structure-enhanced graph convolutional network for sentiment analysis}, url={http://dx.doi.org/10.18653/v1/2020.findings-emnlp.52}, DOI={10.18653/v1/2020.findings-emnlp.52}, booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020}, publisher = {Association for Computational Linguistics}, author = {Meng, Fanyu and Feng, Junlan and Yin, Danping and Chen, Si and Hu, Min}, year = {2020}, pages = {586–595} }",
-    "pdf": "https://aclanthology.org/2020.findings-emnlp.52.pdf"
-  },
-  {
-    "title_zh": "CTGGAN：基于生成对抗网络的可控文本生成",
-    "title_en": "CTGGAN: controllable text generation with generative adversarial network",
-    "source_zh": "应用科学",
-    "source_en": "Applied Sciences (MDPI)",
-    "year": "2024",
-    "citations": "5",
-    "impact_factor": "2.5",
-    "bibtex": "@inproceedings{yang2024,\n  author    = {Zhe Yang and Yi Huang *ORCID and Yaqin Chen and Xiaoting Wu and Junlan Feng and and Chao Deng},\n  title     = {CTGGAN: controllable text generation with generative adversarial network},\n  booktitle = {(Applied Sciences - MDPI)},\n  year      = {2024},\n  url       = {https://www.mdpi.com//2076-3417/14/7/3106/pdf?version=1712538759}\n}",
-    "pdf": "https://www.mdpi.com//2076-3417/14/7/3106/pdf?version=1712538759"
-  },
-  {
     "title_zh": "B-GRPO：基于批分组相对策略优化的无监督语音情感识别",
     "title_en": "B-GRPO: Unsupervised Speech Emotion Recognition based on Batched-Group Relative Policy Optimization",
     "source_zh": "学术会议（IEEE ICASSP 2026）",
@@ -154,105 +33,6 @@
     "pdf": "https://arxiv.org/pdf/2602.06290"
   },
   {
-    "title_zh": "在预训练语言模型骨干上构建马尔可夫生成式架构",
-    "title_en": "Building markovian generative architectures over pretrained lm backbones",
-    "source_zh": "IEEE SLT",
-    "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
-    "year": "2023",
-    "citations": "10",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{liu2023,\n  author    = {Hong Liu and Yucheng Cai and Zhijian Ou and Yi Huang and Junlan Feng},\n  title     = {Building markovian generative architectures over pretrained lm backbones},\n  booktitle = {IEEE SLT},\n  year      = {2023},\n  url       = {https://oa.ee.tsinghua.edu.cn/ouzhijian/pdf/MGA_SLT_camera.pdf}\n}",
-    "pdf": "https://oa.ee.tsinghua.edu.cn/ouzhijian/pdf/MGA_SLT_camera.pdf"
-  },
-  {
-    "title_zh": "WebTalk：挖掘网站以自动构建对话系统",
-    "title_en": "Webtalk: Mining websites for automatically building dialog systems",
-    "source_zh": "IEEE ASRU",
-    "source_en": "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
-    "year": "2003",
-    "citations": "33",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{feng2003,\n  author    = {Junlan Feng and S. Bangalore and M. Rahim},\n  title     = {Webtalk: Mining websites for automatically building dialog systems},\n  booktitle = {IEEE ASRU},\n  year      = {2003},\n  url       = {https://www.researchgate.net/profile/Mazin-Gilbert/publication/4084613_WebTalk_mining_Websites_for_automatically_building_dialog_systems/links/0046353433519cb753000000/WebTalk-mining-Websites-for-automatically-building-dialog-systems.pdf}\n}",
-    "pdf": "https://www.researchgate.net/profile/Mazin-Gilbert/publication/4084613_WebTalk_mining_Websites_for_automatically_building_dialog_systems/links/0046353433519cb753000000/WebTalk-mining-Websites-for-automatically-building-dialog-systems.pdf"
-  },
-  {
-    "title_zh": "呼叫中心用户满意度自动分析中的信息融合",
-    "title_en": "Information fusion in automatic user satisfaction analysis in call center",
-    "source_zh": "IEEE智能人机系统与控制论国际会议",
-    "source_en": "IEEE International Conference on Intelligent Human-Machine Systems and Cybernetics(IHMSC)",
-    "year": "2016",
-    "citations": "14",
-    "impact_factor": "不适用",
-    "bibtex": "@article{sun2016,\n  author    = {Jia Sun and Weiqun Xu and Yonghong Yan and Chaomin Wang and Zhijie Ren and Pengyu Cong and Huixin Wang and Junlan Feng},\n  title     = {Information fusion in automatic user satisfaction analysis in call center},\n  journal   = {IEEE IHMSC},\n  year      = {2016},\n  url       = {https://ieeexplore.ieee.org/iel7/7781860/7782467/07783644.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel7/7781860/7782467/07783644.pdf"
-  },
-  {
-    "title_zh": "客户语音传感器：面向呼叫中心对话的综合性观点挖掘系统",
-    "title_en": "Customer Voice Sensor: A Comprehensive Opinion Mining System for Call Center Conversation",
-    "source_zh": "IEEE云计算与大数据分析国际会议",
-    "source_en": "International Conference on Cloud Computing and Big Data Analytics( ICCCBDA)",
-    "year": "2016",
-    "citations": "17",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{li2016,\n  author    = {Peijia Li and Yonghong Yan and Chaomin Wang and Zhijie Ren and Pengyu Cong and Huixin Wang and Junlan Feng},\n  title     = {Customer Voice Sensor: A Comprehensive Opinion Mining System for Call Center Conversation},\n  booktitle = {IEEE ICCCBDA},\n  year      = {2016},\n  url       = {https://ieeexplore.ieee.org/iel7/7524253/7529520/07529578.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel7/7524253/7529520/07529578.pdf"
-  },
-  {
-    "title_zh": "大视觉语言模型的资源消耗红队测试",
-    "title_en": "Resource Consumption Red-Teaming for Large Vision-Language Models",
-    "source_zh": "arXiv",
-    "source_en": "arXiv",
-    "year": "2025",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{gao2025,\n  author    = {Haoran Gao and Yuanhe Zhang and Zhenhong Zhou and Lei Jiang and Fanyu Meng and Yujia Xiao and Li Sun and Kun Wang and Yang Liu and Junlan Feng},\n  title     = {Resource Consumption Red-Teaming for Large Vision-Language Models},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2507.18053}\n}",
-    "pdf": "https://arxiv.org/pdf/2507.18053"
-  },
-  {
-    "title_zh": "基于大语言模型闭环感知-自适应-反馈推理的铁路应答器通信健康预测",
-    "title_en": "Health Prognostics of Rail Balise Communications With Large Language Model via Closed-Loop Perception–Adaptation–Feedback Reasoning",
-    "source_zh": "IEEE Transactions on Instrumentation and Measurement，2025",
-    "source_en": "IEEE Transactions on Instrumentation and Measurement",
-    "year": "2025",
-    "citations": "1",
-    "impact_factor": "5.9",
-    "bibtex": "@article{bian2025b,\n  author    = {Chong Bian and Zhiyu Duan and Qingyang Xu and Shunkun Yang and Junlan Feng},\n  title     = {Health Prognostics of Rail Balise Communications With Large Language Model via Closed-Loop Perception–Adaptation–Feedback Reasoning},\n  journal   = {IEEE Transactions on Instrumentation and Measurement},\n  year      = {2025},\n  url       = {https://ieeexplore.ieee.org/iel8/19/10764799/11303935.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel8/19/10764799/11303935.pdf"
-  },
-  {
-    "title_zh": "基于多状态显隐式提示学习驱动预训练语言模型的锂离子电池健康状态、荷电状态与能量状态协同估计",
-    "title_en": "State-of-Health, State-of-Charge, and State-of-Energy Co-Estimation of Li-Ion Batteries With Pretrained Language Model Empowered by Multistate Explicit-Implicit Prompt Learning",
-    "source_zh": "IEEE Transactions on Transportation Electrification，2026",
-    "source_en": "IEEE Transactions on Transportation Electrification",
-    "year": "2025",
-    "citations": "1",
-    "impact_factor": "8.3",
-    "bibtex": "@article{bian2025c,\n  author    = {Chong Bian and Zhiyu Duan and Shunkun Yang and Junlan Feng},\n  title     = {State-of-Health, State-of-Charge, and State-of-Energy Co-Estimation of Li-Ion Batteries With Pretrained Language Model Empowered by Multistate Explicit-Implicit Prompt Learning},\n  journal   = {IEEE Transactions on Transportation Electrification},\n  year      = {2025},\n  url       = {https://ieeexplore.ieee.org/iel8/6687316/11456638/11275919.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel8/6687316/11456638/11275919.pdf"
-  },
-  {
-    "title_zh": "语音与语言处理技术趋势",
-    "title_en": "Trends in speech and language processing",
-    "source_zh": "会议IEEE Signal Processing Magazine",
-    "source_en": "IEEE Signal Processing Magazine",
-    "year": "2012",
-    "citations": "17",
-    "impact_factor": "9.6",
-    "bibtex": "@inproceedings{feng2012,\n  author    = {Junlan Feng and Bhuvana Ramabhadran and John H. L. Hansen and Jason D. Williams},\n  title     = {Trends in speech and language processing},\n  booktitle = {会议IEEE Signal Processing Magazine},\n  year      = {2012},\n  url       = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6105446}\n}",
-    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6105446"
-  },
-  {
-    "title_zh": "基于共指增强对比预训练的任务型对话建模增强方法",
-    "title_en": "Enhancing Task-Oriented Dialogue Modeling through Coreference-Enhanced Contrastive Pre-Training",
-    "source_zh": "Applied Sciences (MDPI)",
-    "source_en": "Applied Sciences (MDPI)",
-    "year": "2024",
-    "citations": "1",
-    "impact_factor": "2.5",
-    "bibtex": "@inproceedings{huang2024,\n  author    = {Yi Huang and Si Chen and Yaqin Chen and Junlan Feng and Chao Deng},\n  title     = {Enhancing Task-Oriented Dialogue Modeling through Coreference-Enhanced Contrastive Pre-Training},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2024},\n  url       = {https://www.mdpi.com/2076-3417/14/17/7614}\n}",
-    "pdf": "https://www.mdpi.com/2076-3417/14/17/7614"
-  },
-  {
     "title_zh": "个性化遇见安全：个性化大语言模型中的机制、风险与缓解策略",
     "title_en": "Personalization Meets Safety: Mechanisms, Risks, and Mitigations in Personalized LLMs",
     "source_zh": "arXiv",
@@ -262,39 +42,6 @@
     "impact_factor": "不适用",
     "bibtex": "@misc{luo2026,\n  author    = {Yanyan Luo and Xue Han and Ruiqiao Bai and Xin Huang and Yitong Wang and Qian Hu and Qing Wang and Chunxu Zhao and Jie Liu and Cong Geng and Lehao Xing and Pengwei Hu and Junlan Feng},\n  title     = {Personalization Meets Safety: Mechanisms, Risks, and Mitigations in Personalized LLMs},\n  howpublished= {arXiv preprint},\n  year      = {2026},\n  url       = {https://arxiv.org/abs/2606.09038}\n}",
     "pdf": "https://arxiv.org/pdf/2606.09038"
-  },
-  {
-    "title_zh": "GenAD：面向大规模无线基站的通用无监督多变量时序异常检测方法",
-    "title_en": "GenAD: General unsupervised anomaly detection using multivariate time series for large-scale wireless base stations",
-    "source_zh": "Electronics Letters (Wiley)",
-    "source_en": "Electronics Letters (Wiley)",
-    "year": "2023",
-    "citations": "5",
-    "impact_factor": "1.0",
-    "bibtex": "@article{Hua_2022, title = {GenAD: General unsupervised anomaly detection using multivariate time series for large‐scale wireless base stations}, volume = {59}, ISSN = {1350-911X}, url={http://dx.doi.org/10.1049/ell2.12683}, DOI={10.1049/ell2.12683}, number = {1}, journal = {Electronics Letters}, publisher = {Institution of Engineering and Technology (IET)}, author = {Hua, Xiaolei and Zhu, Lin and Zhang, Shenglin and Li, Zeyan and Wang, Su and Deng, Chao and Feng, Junlan and Zhang, Zhao and Wu, Wei}, year = {2022}, month=Dec }",
-    "pdf": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ell2.12683"
-  },
-  {
-    "title_zh": "从整体到原子：面向跨模态少样本学习的视觉-语言对齐增强",
-    "title_en": "Holism To Atomism: Enhancing The Vision-Language Alignment For Cross-Modal Few-Shot Learning",
-    "source_zh": "IEEE ICIP",
-    "source_en": "IEEE International Conference on Image Processing (ICIP)",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@article{yang2025,\n  author    = {Boyu Yang and Mingjie Li and Xi Chen and Liang Li and Chao Deng and Junlan Feng},\n  title     = {Holism To Atomism: Enhancing The Vision-Language Alignment For Cross-Modal Few-Shot Learning},\n  journal   = {IEEE ICIP},\n  year      = {2025},\n  url       = {https://ieeexplore.ieee.org/iel8/11084272/11083968/11084286.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel8/11084272/11083968/11084286.pdf"
-  },
-  {
-    "title_zh": "反事实至关重要：面向对话状态追踪的内在探针方法",
-    "title_en": "Counterfactual Matters: Intrinsic Probing For Dialogue State Tracking",
-    "source_zh": "第一届神经对话系统评估与评测研讨会",
-    "source_en": "Evaluations and Assessments of Neural Conversation Systems(EANCS)",
-    "year": "2021",
-    "citations": "7",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Huang_2021, title = {Counterfactual Matters: Intrinsic Probing For Dialogue State Tracking}, url={http://dx.doi.org/10.18653/v1/2021.eancs-1.1}, DOI={10.18653/v1/2021.eancs-1.1}, booktitle = {The First Workshop on Evaluations and Assessments of Neural Conversation Systems}, publisher = {Association for Computational Linguistics}, author = {Huang, Yi and Feng, Junlan and Wu, Xiaoting and Du, Xiaoyu}, year = {2021}, pages = {1–6} }",
-    "pdf": "https://aclanthology.org/2021.eancs-1.1.pdf"
   },
   {
     "title_zh": "PEGRL：基于译后编辑引导强化学习的机器翻译改进方法",
@@ -319,28 +66,6 @@
     "pdf": "https://arxiv.org/pdf/2509.18579"
   },
   {
-    "title_zh": "基于CTC触发的时空丢弃孪生网络语音识别方法",
-    "title_en": "A CTC triggered siamese network with spatial-temporal dropout for speech recognition",
-    "source_zh": "arXiv",
-    "source_en": "arXiv",
-    "year": "2022",
-    "citations": "4",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{gao2022,\n  author    = {Yingying Gao and Junlan Feng and Tianrui Wang and Chao Deng and Shilei Zhang},\n  title     = {A CTC triggered siamese network with spatial-temporal dropout for speech recognition},\n  howpublished= {arXiv preprint},\n  year      = {2022},\n  url       = {https://arxiv.org/abs/2206.08031}\n}",
-    "pdf": "https://arxiv.org/pdf/2206.08031.pdf"
-  },
-  {
-    "title_zh": "CSDnet：面向蜂窝网络中切换参数调整效应估计的因果推断辅助方法",
-    "title_en": "CSDnet: Causal inference aided handover parameter adjusting effect estimation in cellular networks",
-    "source_zh": "ICC 2023 - IEEE International Conference on Communications",
-    "source_en": "IEEE International Conference on Communications (ICC)",
-    "year": "2023",
-    "citations": "4",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{hua2023,\n  author    = {Xiaolei Hua and Qingliang Li and Zhendong Zhang and Xinwen Fan and Lin Zhu and Renkai Yu and Yaxing Zhou and Yongqian Zhang and Junlan Feng and Chao Deng and Xiang Yuan},\n  title     = {CSDnet: Causal inference aided handover parameter adjusting effect estimation in cellular networks},\n  booktitle = {ICC 2023 - IEEE International Conference on Communications},\n  year      = {2023},\n  url       = {https://ieeexplore.ieee.org/iel7/10278505/10278554/10279707.pdf}\n}",
-    "pdf": "https://ieeexplore.ieee.org/iel7/10278505/10278554/10279707.pdf"
-  },
-  {
     "title_zh": "深度研究智能体在何处出错？面向智能体轨迹的跨度级错误定位",
     "title_en": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories",
     "source_zh": "arXiv",
@@ -350,17 +75,6 @@
     "impact_factor": "不适用",
     "bibtex": "@misc{wang2026,\n  author    = {Jiaming Wang and Ziteng Feng and Jiangtao Wu and Ruihao Li and Qianqian Xie and Yuxiang Ren and He Zhu and Xueming Han and Fanyu Meng and Junlan Feng and Jiaheng Liu},\n  title     = {Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories},\n  howpublished= {arXiv preprint},\n  year      = {2026},\n  url       = {https://arxiv.org/abs/2606.02060}\n}",
     "pdf": "https://arxiv.org/pdf/2606.02060.pdf"
-  },
-  {
-    "title_zh": "基于循环编码的大语言模型时间对齐方法用于长距离时间表示",
-    "title_en": "Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations",
-    "source_zh": "arXiv",
-    "source_en": "arXiv",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{han2025,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2503.04150}\n}",
-    "pdf": "https://arxiv.org/pdf/2503.04150.pdf"
   },
   {
     "title_zh": "Cine-shot Director：原生电影级多镜头视频生成框架",
@@ -385,61 +99,6 @@
     "pdf": "https://arxiv.org/pdf/2601.17671.pdf"
   },
   {
-    "title_zh": "Cmcc：面向对话系统的综合性大规模人人对话数据集",
-    "title_en": "Cmcc: a comprehensive and large-scale human-human dataset for dialogue systems",
-    "source_zh": "SereTOD 2022",
-    "source_en": "SereTOD",
-    "year": "2022",
-    "citations": "4",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Huang_2022, title = {CMCC: A Comprehensive and Large-Scale Human-Human Dataset for Dialogue Systems}, url={http://dx.doi.org/10.18653/v1/2022.seretod-1.7}, DOI={10.18653/v1/2022.seretod-1.7}, booktitle = {Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)}, publisher = {Association for Computational Linguistics}, author = {Huang, Yi and Wu, Xiaoting and Chen, Si and Hu, Wei and Zhu, Qing and Feng, Junlan and Deng, Chao and Ou, Zhijian and Zhao, Jiangjiang}, year = {2022}, pages = {48–61} }",
-    "pdf": "https://aclanthology.org/2022.seretod-1.7.pdf"
-  },
-  {
-    "title_zh": "基于Internet CEST-CAS2.0的语音翻译",
-    "title_en": "Speech translation on Internet CEST-CAS2. 0",
-    "source_zh": "ISIMP 2001",
-    "source_en": "ISIMP",
-    "year": "2001",
-    "citations": "7",
-    "impact_factor": "不适用",
-    "bibtex": "@article{du2001,\n  author    = {Limin Du and Junlan Feng and Yi Song and Heng Wang},\n  title     = {Speech translation on Internet CEST-CAS2. 0},\n  journal   = {ISIMP},\n  year      = {2001},\n  url       = {https://ieeexplore.ieee.org/document/925364/}\n}",
-    "pdf": "https://ieeexplore.ieee.org/document/925364/"
-  },
-  {
-    "title_zh": "Webtalk：面向交互式问答的网站挖掘方法",
-    "title_en": "Webtalk: mining websites for interactively answering questions.",
-    "source_zh": "INTERSPEECH",
-    "source_en": "Conference of the International Speech Communication Association (INTERSPEECH)",
-    "year": "2005",
-    "citations": "6",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{feng2005,\n  author    = {Junlan Feng and Srihari Reddy and Murat Saraclar},\n  title     = {Webtalk: mining websites for interactively answering questions},\n  booktitle = {INTERSPEECH},\n  year      = {2005},\n  url       = {https://www.isca-archive.org/interspeech_2005/feng05_interspeech.pdf}\n}",
-    "pdf": "https://www.isca-archive.org/interspeech_2005/feng05_interspeech.pdf"
-  },
-  {
-    "title_zh": "体系化人工智能",
-    "title_en": "Holistic artificial intelligence",
-    "source_zh": "北京邮电大学学报，2024",
-    "source_en": "Journal of Beijing University of Posts and Telecommunications",
-    "year": "2024",
-    "citations": "2",
-    "impact_factor": "不适用",
-    "bibtex": "@article{feng2024,\n  author    = {Junlan Feng},\n  title     = {Holistic artificial intelligence},\n  journal   = {北京邮电大学学报},\n  year      = {2024},\n  url       = {https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=5285}\n}",
-    "pdf": "https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=5285"
-  },
-  {
-    "title_zh": "Ticktack：利用干支周期时间表达的大语言模型长距离时间对齐方法",
-    "title_en": "Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression",
-    "source_zh": "arXiv",
-    "source_en": "arXiv",
-    "year": "2025",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@article{han2025b,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression},\n  journal   = {arXiv——未正式发表},\n  year      = {2025},\n  url       = {https://ui.adsabs.harvard.edu/abs/2025arXiv250304150H/abstract}\n}",
-    "pdf": "https://ui.adsabs.harvard.edu/abs/2025arXiv250304150H/abstract"
-  },
-  {
     "title_zh": "De-Codec：在编解码器中解耦语音和背景声以便为下游音频任务进行明确的特征选择",
     "title_en": "De-Codec: Decoupling Speech and Background-Sound in Codec to Allow Explicit Feature Selections for Downstream Audio Tasks",
     "source_zh": "Journal of Shanghai Jiaotong University (Science)",
@@ -451,116 +110,6 @@
     "pdf": "https://link.springer.com/article/10.1007/s12204-026-2916-y"
   },
   {
-    "title_zh": "面向语句级对话生成的状态感知对抗训练方法",
-    "title_en": "State-Aware Adversarial Training for Utterance-Level Dialogue Generation",
-    "source_zh": "半监督和强化对话系统研讨会",
-    "source_en": "Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems(SereTOD)",
-    "year": "2022",
-    "citations": "2",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Huang_2022b, title = {State-Aware Adversarial Training for Utterance-Level Dialogue Generation}, url={http://dx.doi.org/10.18653/v1/2022.seretod-1.8}, DOI={10.18653/v1/2022.seretod-1.8}, booktitle = {Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)}, publisher = {Association for Computational Linguistics}, author = {Huang, Yi and Wu, Xiaoting and Hu, Wei and Feng, Junlan and Deng, Chao}, year = {2022}, pages = {62–74} }",
-    "pdf": "https://aclanthology.org/2022.seretod-1.8.pdf"
-  },
-  {
-    "title_zh": "基于推文的语音增强社交电视语言建模方法",
-    "title_en": "Language Modeling for Voice-Enabled Social TV Using Tweets.",
-    "source_zh": "INTERSPEECH",
-    "source_en": "Conference of the International Speech Communication Association (INTERSPEECH)",
-    "year": "2012",
-    "citations": "3",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{feng2012b,\n  author    = {Junlan Feng and Bernard Renger},\n  title     = {Language Modeling for Voice-Enabled Social TV Using Tweets},\n  booktitle = {INTERSPEECH},\n  year      = {2012},\n  url       = {https://www.isca-archive.org/interspeech_2012/feng12b_interspeech.pdf}\n}",
-    "pdf": "https://www.isca-archive.org/interspeech_2012/feng12b_interspeech.pdf"
-  },
-  {
-    "title_zh": "基于结构协调的多智能体强化学习方法",
-    "title_en": "Multiagent Reinforcement Learning Based on Structural Coordination",
-    "source_zh": "Tsinghua Science and Technology",
-    "source_en": "Tsinghua Science and Technology",
-    "year": "2025",
-    "citations": "3",
-    "impact_factor": "5.4",
-    "bibtex": "@article{Li_2025, title = {Multiagent Reinforcement Learning Based on Structural Coordination}, ISSN = {1878-7606}, url={http://dx.doi.org/10.26599/TST.2025.9010043}, DOI={10.26599/tst.2025.9010043}, journal = {Tsinghua Science and Technology}, publisher = {Tsinghua University Press}, author = {Li, Yixuan and Huang, Yi and Feng, Junlan and Deng, Chao and Liu, Chunyu and Chau, Vincent and Wang, Wanyuan}, year = {2025}, month=Sept }",
-    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/TST.2025.9010043.pdf"
-  },
-  {
-    "title_zh": "面向半监督与强化任务型对话系统研讨会（SereTOD）论文集",
-    "title_en": "Proceedings of the towards semi-supervised and reinforced task-oriented dialog systems (seretod)",
-    "source_zh": "半监督和强化对话系统研讨会",
-    "source_en": "Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems(SereTOD)",
-    "year": "2022",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Ou_2022, title = {Front Matter}, url={http://dx.doi.org/10.18653/v1/2022.seretod-1.0}, DOI={10.18653/v1/2022.seretod-1.0}, booktitle = {Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)}, publisher = {Association for Computational Linguistics}, author = {Ou, Zhijian and Feng, Junlan and Li, Juanzi}, year = {2022} }",
-    "pdf": "https://aclanthology.org/2022.seretod-1.0.pdf"
-  },
-  {
-    "title_zh": "面向多步时空网络数据预测的自适应时空Inception图卷积网络",
-    "title_en": "Adaptive Spatial-Temporal Inception Graph Convolutional Networks for Multi-step Spatial-Temporal Network Data Forecasting",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations(ICLR)",
-    "year": "2021",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{wang2021,\n  author    = {Xing Wang and Lin Zhu and Juan Zhao and Zhou Xu and Zhao Li and Junlan Feng and Chao Deng},\n  title     = {Adaptive Spatial-Temporal Inception Graph Convolutional Networks for Multi-step Spatial-Temporal Network Data Forecasting},\n  booktitle = {ICLR 2021 Conference Blind Submission},\n  year      = {2021},\n  url       = {https://openreview.net/references/pdf?id=XHM2gCjTg}\n}",
-    "pdf": "https://openreview.net/references/pdf?id=XHM2gCjTg"
-  },
-  {
-    "title_zh": "面向语音增强与语音识别联合训练的多种置信门方法",
-    "title_en": "Multiple Confidence Gates For Joint Training Of SE And ASR",
-    "source_zh": "全国人机语音通讯学术会议",
-    "source_en": "National Conference on Man-Machine Speech Communication(NCMMSC)",
-    "year": "2022",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@inbook{Wang_2023, title = {Multiple Confidence Gates for Joint Training of SE and ASR}, ISBN = {9789819924011}, ISSN = {1865-0937}, url={http://dx.doi.org/10.1007/978-981-99-2401-1_13}, DOI={10.1007/978-981-99-2401-1_13}, booktitle = {Man-Machine Speech Communication}, publisher = {Springer Nature Singapore}, author = {Wang, Tianrui and Zhu, Weibin and Gao, Yingying and Feng, Junlan and Zhu, Dongjie and Zhu, Surong and Zhang, Shilei}, year = {2023}, pages = {141–148} }",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-981-99-2401-1_13"
-  },
-  {
-    "title_zh": "中英混合语音中语码转换类型与特征研究",
-    "title_en": "A study of types and characteristics of code-switching in mandarin-english speech",
-    "source_zh": "第一届多语言社区语码转换语音技术研讨会",
-    "source_en": "The First Workshop on Speech Technologies for Code-Switching in Multilingual Communities(WSTCSMC)",
-    "year": "2020",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@article{hou2020,\n  author    = {Leijing Hou and Ying Liu and Yingying Gao and Junlan Feng},\n  title     = {A study of types and characteristics of code-switching in mandarin-english speech},\n  journal   = {WSTCSMC},\n  year      = {2020},\n  url       = {http://festvox.org/cedar/WSTCSMC2020.pdf#page=14}\n}",
-    "pdf": "http://festvox.org/cedar/WSTCSMC2020.pdf#page=14"
-  },
-  {
-    "title_zh": "WebTalk中问答系统的评估研究",
-    "title_en": "Question-answering in webtalk: an evaluation study.",
-    "source_zh": "INTERSPEECH 2004",
-    "source_en": "Conference of the International Speech Communication Association (INTERSPEECH) 2004",
-    "year": "2004",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{feng2004,\n  author    = {Junlan Feng and Srinivas Bangalore and Mazin G. Rahim},\n  title     = {Question-answering in webtalk: an evaluation study},\n  booktitle = {INTERSPEECH},\n  year      = {2004},\n  url       = {https://www.isca-archive.org/interspeech_2004/feng04_interspeech.pdf}\n}",
-    "pdf": "https://www.isca-archive.org/interspeech_2004/feng04_interspeech.pdf"
-  },
-  {
-    "title_zh": "融合情感与时长全局特征的呼叫中心自动满意度分析方法",
-    "title_en": "Automatic Satisfaction Analysis in Call Centers Considering Global Features of Emotion and Duration",
-    "source_zh": "Journal of Beijing Institute of Technology",
-    "source_en": "Journal of Beijing Institute of Technology",
-    "year": "2018",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@article{liu2018,\n  author    = {Jing Liu and Chaomin Wang and Yingnan Zhang and Pengyu Cong and L. Xu and Z. Ren and J. Hu and X. Xie and J. Feng and J. Kuang},\n  title     = {Automatic Satisfaction Analysis in Call Centers Considering Global Features of Emotion and Duration},\n  journal   = {Journal of Beijing Institute of Technology},\n  year      = {2018},\n  url       = {https://doi.org/10.15918/j.jbit1004-0579.201827.0108}\n}",
-    "pdf": "https://journal.bit.edu.cn/jbit/article/doi/10.15918/j.jbit1004-0579.201827.0108"
-  },
-  {
-    "title_zh": "大语言模型的最优增长调度是什么？一项理论研究",
-    "title_en": "What is an Optimal Growth Schedule for Large Language Models? A Theoretical Study",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{han2025c,\n  author    = {Xue Han and Qian Hu and Yitong Wang and wenchun.gao and Qing Wang and Qicheng Li and Chao Deng and Junlan Feng},\n  title     = {What is an Optimal Growth Schedule for Large Language Models? A Theoretical Study},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=EIztkUMIZB}\n}",
-    "pdf": "https://openreview.net/pdf?id=EIztkUMIZB"
-  },
-  {
     "title_zh": "Go4RL：改进大语言模型预训练数据混合以增强强化学习的方法",
     "title_en": "Go4RL: Improving the Pre-training Data Mixture of Large Language Models for Enhancing Reinforcement Learning",
     "source_zh": "国际学习表征会议",
@@ -570,138 +119,6 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{han2026b,\n  author    = {Xue Han and Qian Hu and Yitong Wang and wenchun.gao and Lianlian Zhang and Chao Deng and Junlan Feng},\n  title     = {Go4RL: Improving the Pre-training Data Mixture of Large Language Models for Enhancing Reinforcement Learning},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2026},\n  url       = {https://openreview.net/forum?id=PIxyvNPhSh}\n}",
     "pdf": "https://openreview.net/forum?id=PIxyvNPhSh"
-  },
-  {
-    "title_zh": "面向医学自然语言理解的渐进式学习策略",
-    "title_en": "A Progressive Learning Strategy for Medical Natural Language Understanding",
-    "source_zh": "KnowFM @ ACL 2025, OpenReview, non-archiva",
-    "source_en": "KnowFM @ ACL 2025, OpenReview, non-archival",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{yang2025b,\n  author    = {ZHE YANG and Yi Huang and Mengfei Guo and Yaqin Chen and Xiaoting Wu and Junlan Feng and Chao Deng},\n  title     = {A Progressive Learning Strategy for Medical Natural Language Understanding},\n  booktitle = {KnowFM @ ACL 2025, OpenReview, non-archiva},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=f4OM3Mn2wb}\n}",
-    "pdf": "https://openreview.net/pdf?id=f4OM3Mn2wb"
-  },
-  {
-    "title_zh": "DGPO：利用双向KL散度间隙缓解似然偏移的方法",
-    "title_en": "DGPO: Mitigating Likelihood Displacement with Bidirectional KL Divergence Gap",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{zhen2025,\n  author    = {Taihang Zhen and Fanyu Meng and Boyan Wang and Jiaheng Liu and Jing Huo and Yang Gao and Xi Yang and Chao Deng and Junlan Feng},\n  title     = {DGPO: Mitigating Likelihood Displacement with Bidirectional KL Divergence Gap},\n  booktitle = {OpenReview，Submitted to ICLR 2026，未确认正式接收},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=wmi6satsIu}\n}",
-    "pdf": "https://openreview.net/forum?id=wmi6satsIu"
-  },
-  {
-    "title_zh": "ASO-LoRA：面向大语言模型持续学习的基于归因分数的软正交低秩适配方法",
-    "title_en": "ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{wang2025,\n  author    = {Yitong Wang and Xue Han and wenchun.gao and Qian Hu and Jiahui Wang and Chao Deng and Junlan Feng},\n  title     = {ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=mh5388TZJ4}\n}",
-    "pdf": "https://openreview.net/forum?id=mh5388TZJ4"
-  },
-  {
-    "title_zh": "M-Tokenpose：面向人体姿态估计的多尺度关键点Token学习",
-    "title_en": "M-Tokenpose: Learning Multiscale Keypoint Tokens for Human Pose Estimation",
-    "source_zh": "2024｜SSRN 预印本，暂未检索到正式会议/期刊发表信息",
-    "source_en": "SSRN Preprint 2024",
-    "year": "2023",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{liu2023b,\n  author    = {yan liu and Yi Zhang and Zhihao Liu and Junfeng Cao and Wenhui Huang and Chao Deng and Junlan Feng},\n  title     = {M-Tokenpose: Learning Multiscale Keypoint Tokens for Human Pose Estimation},\n  booktitle = {2024｜SSRN 预印本，暂未检索到正式会议/期刊发表信息},\n  year      = {2023},\n  url       = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4768669}\n}",
-    "pdf": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4768669"
-  },
-  {
-    "title_zh": "TRACE：真实场景下考虑安全性的移动智能体由粗到细自动评估",
-    "title_en": "TRACE: Coarse-to-Fine Automated Evaluation of Mobile Agents with Safety Considerations in Realistic Environments",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{gao2025b,\n  author    = {Zijing Gao and Pengshuai Yang and Xue Yu and Benhui Zhuang and Bo Yuan and Chao Deng and Junlan Feng},\n  title     = {TRACE: Coarse-to-Fine Automated Evaluation of Mobile Agents with Safety Considerations in Realistic Environments},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=mDXSvmz4np}\n}",
-    "pdf": "https://openreview.net/forum?id=mDXSvmz4np"
-  },
-  {
-    "title_zh": "通过映射函数重塑输入以实现对齐",
-    "title_en": "Recast Your Input via a Mapping Function for Alignment",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{yang2025c,\n  author    = {ZHE YANG and Yi Huang and Xiaoting Wu and Chao Deng and Junlan Feng},\n  title     = {Recast Your Input via a Mapping Function for Alignment},\n  booktitle = {Submitted to ICLR 2026，未确认正式接收},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=sGiE05Dc0v}\n}",
-    "pdf": "https://openreview.net/forum?id=sGiE05Dc0v"
-  },
-  {
-    "title_zh": "基于最优路径（SLOP）的模型生长调度学习以实现高效大语言模型预训练",
-    "title_en": "Model Growth Schedule learning via Optimal Path (SLOP) for Efficient LLM Pre-Training",
-    "source_zh": "国际学习表征会议",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2024",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{han2024,\n  author    = {Xue Han and Qian Hu and Yitong Wang and wenchun.gao and Qing Wang and Junlan Feng and Qicheng Li and Chao Deng},\n  title     = {Model Growth Schedule learning via Optimal Path (SLOP) for Efficient LLM Pre-Training},\n  booktitle = {ICLR 2025 Conference Withdrawn Submission},\n  year      = {2024},\n  url       = {https://openreview.net/forum?id=7XgTh3i8FI}\n}",
-    "pdf": "https://openreview.net/forum?id=7XgTh3i8FI"
-  },
-  {
-    "title_zh": "基于网络的语音与语言处理",
-    "title_en": "Speech and Language Processing over the Web",
-    "source_zh": "2008｜IEEE Signal Processing Magazine",
-    "source_en": "IEEE Signal Processing Magazine, 2008",
-    "year": "2008",
-    "citations": "19",
-    "impact_factor": "10.3",
-    "bibtex": "@inproceedings{gilbert2008,\n  author    = {Mazin Gilbert and Junlan Feng},\n  title     = {Speech and Language Processing over the Web},\n  booktitle = {2008｜IEEE Signal Processing Magazine},\n  year      = {2008},\n  url       = {https://www.researchgate.net/publication/3322050_Speech_and_language_processing_over_the_web}\n}",
-    "pdf": "https://www.researchgate.net/publication/3322050_Speech_and_language_processing_over_the_web"
-  },
-  {
-    "title_zh": "基于细粒度可解释矩阵的摘要生成模型",
-    "title_en": "Abstractive Summarization Based on Fine-Grained Interpretable Matrix",
-    "source_zh": "北京大学学报（自然科学版），2021",
-    "source_en": "Journal of Peking University (Natural Science Edition), 2021",
-    "year": "2021",
-    "citations": "0",
-    "impact_factor": "1.828",
-    "bibtex": "@article{wang2021b,\n  author    = {Wang and Haonan and Gao and Yang and Feng and Junlan and Hu and Min and Wang and Huixin and Bai and Yu.},\n  title     = {Abstractive Summarization Based on Fine-Grained Interpretable Matrix},\n  journal   = {北京大学学报（自然科学版）},\n  year      = {2021},\n  url       = {https://doi.org/10.13209/j.0479-8023.2020.082}\n}",
-    "pdf": "https://xbna.pku.edu.cn/EN/10.13209/j.0479-8023.2020.082"
-  },
-  {
-    "title_zh": "中英语音翻译原型系统：CEST-CAS1.0",
-    "title_en": "A Chinese-English speech translation prototype system: CEST-CAS1.0",
-    "source_zh": "ICSPAT",
-    "source_en": "ICSPAT",
-    "year": "1999",
-    "citations": "7",
-    "impact_factor": "不适用",
-    "bibtex": "@article{du1999,\n  author    = {Limin Du and Junlan Feng and Yi Song and Jinchen Sun},\n  title     = {A Chinese-English speech translation prototype system: CEST-CAS1.0},\n  journal   = {ICSPAT},\n  year      = {1999},\n}",
-    "pdf": "网站点击不了内容，只有题目"
-  },
-  {
-    "title_zh": "汉语自发语音识别综述",
-    "title_en": "Review on Chinese spontaneous speech recognition",
-    "source_zh": "Electronic science & technology review",
-    "source_en": "Electronic Science & Technology Review",
-    "year": "1999",
-    "citations": "2",
-    "impact_factor": "不适用",
-    "bibtex": "@article{junlan1999,\n  author    = {F Junlan and D Limin},\n  title     = {Review on Chinese spontaneous speech recognition},\n  journal   = {Electronic science \\& technology review},\n  year      = {1999},\n}",
-    "pdf": "网站点击不了内容，只有题目"
-  },
-  {
-    "title_zh": "一种改进的词验证架构",
-    "title_en": "An Improved Architecture for Word Verification",
-    "source_zh": "SST",
-    "source_en": "SST",
-    "year": "2000",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{jun2000,\n  author    = {Jun and Lan Feng and LiMin Du},\n  title     = {An Improved Architecture for Word Verification},\n  booktitle = {SST},\n  year      = {2000},\n  url       = {https://assta.org/proceedings/sst/SST-00/cache/SST-00-Chapter16-p14.pdf}\n}",
-    "pdf": "https://assta.org/proceedings/sst/SST-00/cache/SST-00-Chapter16-p14.pdf"
   },
   {
     "title_zh": "Pythia-RAG：基于统一多模态知识图谱的检索增强生成以增强问答",
@@ -900,6 +317,193 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{luo2026c, title={ChildEval:WHEN LARGE LANGUAGE MODELS MEET CHILDREN’S PERSONALITIES}, url={http://dx.doi.org/10.18653/v1/2026.findings-acl.1070}, DOI={10.18653/v1/2026.findings-acl.1070}, booktitle={Findings of the Association for Computational Linguistics: ACL 2026}, publisher={Association for Computational Linguistics}, author={Luo, Yanyan and Han, Xue and Zhao, Chunxu and Bai, Ruiqiao and Zhang, Yaxing and Hu, Qian and Mei, Lijun and Feng, Junlan}, year={2026}, pages={21282–21304} }",
     "pdf": "https://arxiv.org/pdf/2605.27805.pdf"
+  },
+  {
+    "title_zh": "SeerGuard：基于世界模型预测的移动GUI智能体安全框架",
+    "title_en": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
+    "source_zh": "arXiv（即将发表在）",
+    "source_en": "arXiv",
+    "year": "2026",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@misc{yu2026seerguardsafetyframeworkmobile,\n      title={SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction}, \n      author={Xue Yu and Bo Yuan and Kailin Zhao and Pengshuai Yang and Hong Hu and Junlan Feng},\n      year={2026},\n      eprint={2607.15550},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2607.15550}, \n}",
+    "pdf": "https://arxiv.org/pdf/2607.15550"
+  },
+  {
+    "title_zh": "重新审视过度思考：惩罚思维链推理中的内部与外部冗余",
+    "title_en": "Reconsidering overthinking: Penalizing internal and external redundancy in CoT reasoning",
+    "source_zh": "arXiv",
+    "source_en": "arXiv",
+    "year": "2025",
+    "citations": "10",
+    "impact_factor": "不适用",
+    "bibtex": "@misc{hong2025,\n  author    = {Jialiang Hong and Taihang Zhen and Kai Chen and Jiaheng Liu and Junlan Feng and Wenpeng Zhu and Jing Huo and Yang Gao and Depeng Wang and Haitao Wan and Xi Yang and Boyan Wang and Fanyu Meng and Yuyao Zhang},\n  title     = {Reconsidering overthinking: Penalizing internal and external redundancy in CoT reasoning},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2508.02178}\n}",
+    "pdf": "https://arxiv.org/pdf/2508.02178"
+  },
+  {
+    "title_zh": "大循环与原子化：大语言模型扩展能力的整体性综述",
+    "title_en": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
+    "source_zh": "应用科学",
+    "source_en": "Applied Sciences (MDPI)",
+    "year": "2025",
+    "citations": "2",
+    "impact_factor": "2.7",
+    "bibtex": "@inproceedings{hu2025,\n  author    = {Zefa Hu and Yi Huang and Junlan Feng and and Chao Deng},\n  title     = {Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2025},\n  url       = {https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648}\n}",
+    "pdf": "https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648"
+  },
+  {
+    "title_zh": "基于大语言模型的锂离子电池跨不同时间尺度与多变运行阶段的荷电状态及健康状态联合估计：一种多阶段方法",
+    "title_en": "Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-stage approach",
+    "source_zh": "Reliability Engineering & System Safety（Elsevier），2026",
+    "source_en": "Reliability Engineering & System Safety (Elsevier)",
+    "year": "2025",
+    "citations": "2",
+    "impact_factor": "9.2",
+    "bibtex": "@article{bian2025,\n  author    = {Chong Bian and Zhiyu Duan and Daoyi Li and Shunkun Yang and Junlan Feng},\n  title     = {Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-stage approach},\n  journal   = {Reliability Engineering \\& System Safety（Elsevier）},\n  year      = {2025},\n}",
+    "pdf": "付费订阅"
+  },
+  {
+    "title_zh": "大视觉语言模型的资源消耗红队测试",
+    "title_en": "Resource Consumption Red-Teaming for Large Vision-Language Models",
+    "source_zh": "arXiv",
+    "source_en": "arXiv",
+    "year": "2025",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@misc{gao2025,\n  author    = {Haoran Gao and Yuanhe Zhang and Zhenhong Zhou and Lei Jiang and Fanyu Meng and Yujia Xiao and Li Sun and Kun Wang and Yang Liu and Junlan Feng},\n  title     = {Resource Consumption Red-Teaming for Large Vision-Language Models},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2507.18053}\n}",
+    "pdf": "https://arxiv.org/pdf/2507.18053"
+  },
+  {
+    "title_zh": "基于大语言模型闭环感知-自适应-反馈推理的铁路应答器通信健康预测",
+    "title_en": "Health Prognostics of Rail Balise Communications With Large Language Model via Closed-Loop Perception–Adaptation–Feedback Reasoning",
+    "source_zh": "IEEE Transactions on Instrumentation and Measurement，2025",
+    "source_en": "IEEE Transactions on Instrumentation and Measurement",
+    "year": "2025",
+    "citations": "1",
+    "impact_factor": "5.9",
+    "bibtex": "@article{bian2025b,\n  author    = {Chong Bian and Zhiyu Duan and Qingyang Xu and Shunkun Yang and Junlan Feng},\n  title     = {Health Prognostics of Rail Balise Communications With Large Language Model via Closed-Loop Perception–Adaptation–Feedback Reasoning},\n  journal   = {IEEE Transactions on Instrumentation and Measurement},\n  year      = {2025},\n  url       = {https://ieeexplore.ieee.org/iel8/19/10764799/11303935.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel8/19/10764799/11303935.pdf"
+  },
+  {
+    "title_zh": "基于多状态显隐式提示学习驱动预训练语言模型的锂离子电池健康状态、荷电状态与能量状态协同估计",
+    "title_en": "State-of-Health, State-of-Charge, and State-of-Energy Co-Estimation of Li-Ion Batteries With Pretrained Language Model Empowered by Multistate Explicit-Implicit Prompt Learning",
+    "source_zh": "IEEE Transactions on Transportation Electrification，2026",
+    "source_en": "IEEE Transactions on Transportation Electrification",
+    "year": "2025",
+    "citations": "1",
+    "impact_factor": "8.3",
+    "bibtex": "@article{bian2025c,\n  author    = {Chong Bian and Zhiyu Duan and Shunkun Yang and Junlan Feng},\n  title     = {State-of-Health, State-of-Charge, and State-of-Energy Co-Estimation of Li-Ion Batteries With Pretrained Language Model Empowered by Multistate Explicit-Implicit Prompt Learning},\n  journal   = {IEEE Transactions on Transportation Electrification},\n  year      = {2025},\n  url       = {https://ieeexplore.ieee.org/iel8/6687316/11456638/11275919.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel8/6687316/11456638/11275919.pdf"
+  },
+  {
+    "title_zh": "从整体到原子：面向跨模态少样本学习的视觉-语言对齐增强",
+    "title_en": "Holism To Atomism: Enhancing The Vision-Language Alignment For Cross-Modal Few-Shot Learning",
+    "source_zh": "IEEE ICIP",
+    "source_en": "IEEE International Conference on Image Processing (ICIP)",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@article{yang2025,\n  author    = {Boyu Yang and Mingjie Li and Xi Chen and Liang Li and Chao Deng and Junlan Feng},\n  title     = {Holism To Atomism: Enhancing The Vision-Language Alignment For Cross-Modal Few-Shot Learning},\n  journal   = {IEEE ICIP},\n  year      = {2025},\n  url       = {https://ieeexplore.ieee.org/iel8/11084272/11083968/11084286.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel8/11084272/11083968/11084286.pdf"
+  },
+  {
+    "title_zh": "基于循环编码的大语言模型时间对齐方法用于长距离时间表示",
+    "title_en": "Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations",
+    "source_zh": "arXiv",
+    "source_en": "arXiv",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@misc{han2025,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2503.04150}\n}",
+    "pdf": "https://arxiv.org/pdf/2503.04150.pdf"
+  },
+  {
+    "title_zh": "Ticktack：利用干支周期时间表达的大语言模型长距离时间对齐方法",
+    "title_en": "Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression",
+    "source_zh": "arXiv",
+    "source_en": "arXiv",
+    "year": "2025",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@article{han2025b,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression},\n  journal   = {arXiv——未正式发表},\n  year      = {2025},\n  url       = {https://ui.adsabs.harvard.edu/abs/2025arXiv250304150H/abstract}\n}",
+    "pdf": "https://ui.adsabs.harvard.edu/abs/2025arXiv250304150H/abstract"
+  },
+  {
+    "title_zh": "基于结构协调的多智能体强化学习方法",
+    "title_en": "Multiagent Reinforcement Learning Based on Structural Coordination",
+    "source_zh": "Tsinghua Science and Technology",
+    "source_en": "Tsinghua Science and Technology",
+    "year": "2025",
+    "citations": "3",
+    "impact_factor": "5.4",
+    "bibtex": "@article{Li_2025, title = {Multiagent Reinforcement Learning Based on Structural Coordination}, ISSN = {1878-7606}, url={http://dx.doi.org/10.26599/TST.2025.9010043}, DOI={10.26599/tst.2025.9010043}, journal = {Tsinghua Science and Technology}, publisher = {Tsinghua University Press}, author = {Li, Yixuan and Huang, Yi and Feng, Junlan and Deng, Chao and Liu, Chunyu and Chau, Vincent and Wang, Wanyuan}, year = {2025}, month=Sept }",
+    "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/TST.2025.9010043.pdf"
+  },
+  {
+    "title_zh": "大语言模型的最优增长调度是什么？一项理论研究",
+    "title_en": "What is an Optimal Growth Schedule for Large Language Models? A Theoretical Study",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{han2025c,\n  author    = {Xue Han and Qian Hu and Yitong Wang and wenchun.gao and Qing Wang and Qicheng Li and Chao Deng and Junlan Feng},\n  title     = {What is an Optimal Growth Schedule for Large Language Models? A Theoretical Study},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=EIztkUMIZB}\n}",
+    "pdf": "https://openreview.net/pdf?id=EIztkUMIZB"
+  },
+  {
+    "title_zh": "面向医学自然语言理解的渐进式学习策略",
+    "title_en": "A Progressive Learning Strategy for Medical Natural Language Understanding",
+    "source_zh": "KnowFM @ ACL 2025, OpenReview, non-archiva",
+    "source_en": "KnowFM @ ACL 2025, OpenReview, non-archival",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{yang2025b,\n  author    = {ZHE YANG and Yi Huang and Mengfei Guo and Yaqin Chen and Xiaoting Wu and Junlan Feng and Chao Deng},\n  title     = {A Progressive Learning Strategy for Medical Natural Language Understanding},\n  booktitle = {KnowFM @ ACL 2025, OpenReview, non-archiva},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=f4OM3Mn2wb}\n}",
+    "pdf": "https://openreview.net/pdf?id=f4OM3Mn2wb"
+  },
+  {
+    "title_zh": "DGPO：利用双向KL散度间隙缓解似然偏移的方法",
+    "title_en": "DGPO: Mitigating Likelihood Displacement with Bidirectional KL Divergence Gap",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{zhen2025,\n  author    = {Taihang Zhen and Fanyu Meng and Boyan Wang and Jiaheng Liu and Jing Huo and Yang Gao and Xi Yang and Chao Deng and Junlan Feng},\n  title     = {DGPO: Mitigating Likelihood Displacement with Bidirectional KL Divergence Gap},\n  booktitle = {OpenReview，Submitted to ICLR 2026，未确认正式接收},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=wmi6satsIu}\n}",
+    "pdf": "https://openreview.net/forum?id=wmi6satsIu"
+  },
+  {
+    "title_zh": "ASO-LoRA：面向大语言模型持续学习的基于归因分数的软正交低秩适配方法",
+    "title_en": "ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{wang2025,\n  author    = {Yitong Wang and Xue Han and wenchun.gao and Qian Hu and Jiahui Wang and Chao Deng and Junlan Feng},\n  title     = {ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=mh5388TZJ4}\n}",
+    "pdf": "https://openreview.net/forum?id=mh5388TZJ4"
+  },
+  {
+    "title_zh": "TRACE：真实场景下考虑安全性的移动智能体由粗到细自动评估",
+    "title_en": "TRACE: Coarse-to-Fine Automated Evaluation of Mobile Agents with Safety Considerations in Realistic Environments",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{gao2025b,\n  author    = {Zijing Gao and Pengshuai Yang and Xue Yu and Benhui Zhuang and Bo Yuan and Chao Deng and Junlan Feng},\n  title     = {TRACE: Coarse-to-Fine Automated Evaluation of Mobile Agents with Safety Considerations in Realistic Environments},\n  booktitle = {ICLR 2026 Conference Withdrawn Submission},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=mDXSvmz4np}\n}",
+    "pdf": "https://openreview.net/forum?id=mDXSvmz4np"
+  },
+  {
+    "title_zh": "通过映射函数重塑输入以实现对齐",
+    "title_en": "Recast Your Input via a Mapping Function for Alignment",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations (ICLR)",
+    "year": "2025",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{yang2025c,\n  author    = {ZHE YANG and Yi Huang and Xiaoting Wu and Chao Deng and Junlan Feng},\n  title     = {Recast Your Input via a Mapping Function for Alignment},\n  booktitle = {Submitted to ICLR 2026，未确认正式接收},\n  year      = {2025},\n  url       = {https://openreview.net/forum?id=sGiE05Dc0v}\n}",
+    "pdf": "https://openreview.net/forum?id=sGiE05Dc0v"
   },
   {
     "title_zh": "JCCMTM：面向掩码多变量时间序列建模的通道无关与通道相关联合策略",
@@ -1309,6 +913,83 @@
     "pdf": "https://arxiv.org/pdf/2512.21120.pdf"
   },
   {
+    "title_zh": "蜂窝流量预测深度学习技术综述",
+    "title_en": "A survey on deep learning for cellular traffic prediction",
+    "source_zh": "学术期刊Intelligent Computing (Science Partner Journals) 2024",
+    "source_en": "Intelligent Computing (Science Partner Journals)",
+    "year": "2024",
+    "citations": "52",
+    "impact_factor": "3.7",
+    "bibtex": "@article{Wang_2024, title = {A Survey on Deep Learning for Cellular Traffic Prediction}, volume = {3}, ISSN = {2771-5892}, url={http://dx.doi.org/10.34133/icomputing.0054}, DOI={10.34133/icomputing.0054}, journal = {Intelligent Computing}, publisher = {American Association for the Advancement of Science (AAAS)}, author = {Wang, Xing and Wang, Zhendong and Yang, Kexin and Song, Zhiyan and Bian, Chong and Feng, Junlan and Deng, Chao}, year = {2024}, month=Jan }",
+    "pdf": "https://spj.science.org/doi/pdf/10.34133/icomputing.0054"
+  },
+  {
+    "title_zh": "探索大语言模型用于锂离子电池通用且鲁棒的荷电状态估计：一种混合提示学习方法",
+    "title_en": "Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method",
+    "source_zh": "Energy (Elsevier) 2024",
+    "source_en": "Energy",
+    "year": "2024",
+    "citations": "30",
+    "impact_factor": "9.0",
+    "bibtex": "@article{Bian_2024, title = {Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method}, volume = {302}, ISSN = {0360-5442}, url={http://dx.doi.org/10.1016/j.energy.2024.131856}, DOI={10.1016/j.energy.2024.131856}, journal = {Energy}, publisher = {Elsevier BV}, author = {Bian, Chong and Duan, Zhiyu and Hao, Yaqian and Yang, Shunkun and Feng, Junlan}, year = {2024}, month=Sept, pages = {131856} }",
+    "pdf": "https://doi.org/10.1016/j.energy.2024.131856"
+  },
+  {
+    "title_zh": "混合提示驱动的大语言模型用于多类型锂离子电池鲁棒荷电状态估计",
+    "title_en": "Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries",
+    "source_zh": "IEEE Transactions on Transportation Electrification 2024",
+    "source_en": "IEEE Transactions on Transportation Electrification",
+    "year": "2024",
+    "citations": "35",
+    "impact_factor": "6.0",
+    "bibtex": "@article{bian2024,\n  author    = {Chong Bian and Xue Han and Zhiyu Duan and Chao Deng and Shunkun Yang and Junlan Feng},\n  title     = {Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries},\n  journal   = {IEEE Transactions on Transportation Electrification},\n  year      = {2024},\n  url       = {https://ieeexplore.ieee.org/document/10506610}\n}",
+    "pdf": "https://ieeexplore.ieee.org/document/10506610"
+  },
+  {
+    "title_zh": "CTGGAN：基于生成对抗网络的可控文本生成",
+    "title_en": "CTGGAN: controllable text generation with generative adversarial network",
+    "source_zh": "应用科学",
+    "source_en": "Applied Sciences (MDPI)",
+    "year": "2024",
+    "citations": "5",
+    "impact_factor": "2.5",
+    "bibtex": "@inproceedings{yang2024,\n  author    = {Zhe Yang and Yi Huang *ORCID and Yaqin Chen and Xiaoting Wu and Junlan Feng and and Chao Deng},\n  title     = {CTGGAN: controllable text generation with generative adversarial network},\n  booktitle = {(Applied Sciences - MDPI)},\n  year      = {2024},\n  url       = {https://www.mdpi.com//2076-3417/14/7/3106/pdf?version=1712538759}\n}",
+    "pdf": "https://www.mdpi.com//2076-3417/14/7/3106/pdf?version=1712538759"
+  },
+  {
+    "title_zh": "基于共指增强对比预训练的任务型对话建模增强方法",
+    "title_en": "Enhancing Task-Oriented Dialogue Modeling through Coreference-Enhanced Contrastive Pre-Training",
+    "source_zh": "Applied Sciences (MDPI)",
+    "source_en": "Applied Sciences (MDPI)",
+    "year": "2024",
+    "citations": "1",
+    "impact_factor": "2.5",
+    "bibtex": "@inproceedings{huang2024,\n  author    = {Yi Huang and Si Chen and Yaqin Chen and Junlan Feng and Chao Deng},\n  title     = {Enhancing Task-Oriented Dialogue Modeling through Coreference-Enhanced Contrastive Pre-Training},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2024},\n  url       = {https://www.mdpi.com/2076-3417/14/17/7614}\n}",
+    "pdf": "https://www.mdpi.com/2076-3417/14/17/7614"
+  },
+  {
+    "title_zh": "体系化人工智能",
+    "title_en": "Holistic artificial intelligence",
+    "source_zh": "北京邮电大学学报，2024",
+    "source_en": "Journal of Beijing University of Posts and Telecommunications",
+    "year": "2024",
+    "citations": "2",
+    "impact_factor": "不适用",
+    "bibtex": "@article{feng2024,\n  author    = {Junlan Feng},\n  title     = {Holistic artificial intelligence},\n  journal   = {北京邮电大学学报},\n  year      = {2024},\n  url       = {https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=5285}\n}",
+    "pdf": "https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=5285"
+  },
+  {
+    "title_zh": "基于最优路径（SLOP）的模型生长调度学习以实现高效大语言模型预训练",
+    "title_en": "Model Growth Schedule learning via Optimal Path (SLOP) for Efficient LLM Pre-Training",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations (ICLR)",
+    "year": "2024",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{han2024,\n  author    = {Xue Han and Qian Hu and Yitong Wang and wenchun.gao and Qing Wang and Junlan Feng and Qicheng Li and Chao Deng},\n  title     = {Model Growth Schedule learning via Optimal Path (SLOP) for Efficient LLM Pre-Training},\n  booktitle = {ICLR 2025 Conference Withdrawn Submission},\n  year      = {2024},\n  url       = {https://openreview.net/forum?id=7XgTh3i8FI}\n}",
+    "pdf": "https://openreview.net/forum?id=7XgTh3i8FI"
+  },
+  {
     "title_zh": "基于迁移学习的双层注意力图卷积网络用于动态图分类",
     "title_en": "A double-layer attentive graph convolution networks based on transfer learning for dynamic graph classification.",
     "source_zh": "Int. J. Mach. Learn. Cybern.",
@@ -1626,6 +1307,61 @@
     "impact_factor": "不适用",
     "bibtex": "@misc{yang2024b,\n  author    = {Runyan Yang and Huibao Yang and Xiqing Zhang and Tiantian Ye and Ying Liu and Yingying Gao and Shilei Zhang and Chao Deng and Junlan Feng},\n  title     = {PolySpeech: Exploring Unified Multitask Speech Models for Competitiveness with Single-task Models},\n  howpublished= {arXiv preprint},\n  year      = {2024},\n  url       = {https://arxiv.org/abs/2406.07801}\n}",
     "pdf": "https://arxiv.org/pdf/2406.07801.pdf"
+  },
+  {
+    "title_zh": "一种基于BERT与堆叠双向LSTM的多注意力方法用于改进对话状态跟踪",
+    "title_en": "A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking",
+    "source_zh": "应用科学",
+    "source_en": "Applied Sciences (MDPI)",
+    "year": "2023",
+    "citations": "18",
+    "impact_factor": "2.7",
+    "bibtex": "@inproceedings{khan2023,\n  author    = {Muhammad Asif Khan and Yi Huang and Junlan Feng and Bhuyan Kaibalya Prasad and Zafar Ali and Irfan Ullah and Pavlos Kefalas},\n  title     = {A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2023},\n  url       = {https://www.mdpi.com//2076-3417/13/3/1775/pdf?version=1675216575}\n}",
+    "pdf": "https://www.mdpi.com//2076-3417/13/3/1775/pdf?version=1675216575"
+  },
+  {
+    "title_zh": "在预训练语言模型骨干上构建马尔可夫生成式架构",
+    "title_en": "Building markovian generative architectures over pretrained lm backbones",
+    "source_zh": "IEEE SLT",
+    "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
+    "year": "2023",
+    "citations": "10",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{liu2023,\n  author    = {Hong Liu and Yucheng Cai and Zhijian Ou and Yi Huang and Junlan Feng},\n  title     = {Building markovian generative architectures over pretrained lm backbones},\n  booktitle = {IEEE SLT},\n  year      = {2023},\n  url       = {https://oa.ee.tsinghua.edu.cn/ouzhijian/pdf/MGA_SLT_camera.pdf}\n}",
+    "pdf": "https://oa.ee.tsinghua.edu.cn/ouzhijian/pdf/MGA_SLT_camera.pdf"
+  },
+  {
+    "title_zh": "GenAD：面向大规模无线基站的通用无监督多变量时序异常检测方法",
+    "title_en": "GenAD: General unsupervised anomaly detection using multivariate time series for large-scale wireless base stations",
+    "source_zh": "Electronics Letters (Wiley)",
+    "source_en": "Electronics Letters (Wiley)",
+    "year": "2023",
+    "citations": "5",
+    "impact_factor": "1.0",
+    "bibtex": "@article{Hua_2022, title = {GenAD: General unsupervised anomaly detection using multivariate time series for large‐scale wireless base stations}, volume = {59}, ISSN = {1350-911X}, url={http://dx.doi.org/10.1049/ell2.12683}, DOI={10.1049/ell2.12683}, number = {1}, journal = {Electronics Letters}, publisher = {Institution of Engineering and Technology (IET)}, author = {Hua, Xiaolei and Zhu, Lin and Zhang, Shenglin and Li, Zeyan and Wang, Su and Deng, Chao and Feng, Junlan and Zhang, Zhao and Wu, Wei}, year = {2022}, month=Dec }",
+    "pdf": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/ell2.12683"
+  },
+  {
+    "title_zh": "CSDnet：面向蜂窝网络中切换参数调整效应估计的因果推断辅助方法",
+    "title_en": "CSDnet: Causal inference aided handover parameter adjusting effect estimation in cellular networks",
+    "source_zh": "ICC 2023 - IEEE International Conference on Communications",
+    "source_en": "IEEE International Conference on Communications (ICC)",
+    "year": "2023",
+    "citations": "4",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{hua2023,\n  author    = {Xiaolei Hua and Qingliang Li and Zhendong Zhang and Xinwen Fan and Lin Zhu and Renkai Yu and Yaxing Zhou and Yongqian Zhang and Junlan Feng and Chao Deng and Xiang Yuan},\n  title     = {CSDnet: Causal inference aided handover parameter adjusting effect estimation in cellular networks},\n  booktitle = {ICC 2023 - IEEE International Conference on Communications},\n  year      = {2023},\n  url       = {https://ieeexplore.ieee.org/iel7/10278505/10278554/10279707.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel7/10278505/10278554/10279707.pdf"
+  },
+  {
+    "title_zh": "M-Tokenpose：面向人体姿态估计的多尺度关键点Token学习",
+    "title_en": "M-Tokenpose: Learning Multiscale Keypoint Tokens for Human Pose Estimation",
+    "source_zh": "2024｜SSRN 预印本，暂未检索到正式会议/期刊发表信息",
+    "source_en": "SSRN Preprint 2024",
+    "year": "2023",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{liu2023b,\n  author    = {yan liu and Yi Zhang and Zhihao Liu and Junfeng Cao and Wenhui Huang and Chao Deng and Junlan Feng},\n  title     = {M-Tokenpose: Learning Multiscale Keypoint Tokens for Human Pose Estimation},\n  booktitle = {2024｜SSRN 预印本，暂未检索到正式会议/期刊发表信息},\n  year      = {2023},\n  url       = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4768669}\n}",
+    "pdf": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4768669"
   },
   {
     "title_zh": "面向用药推荐的深度学习：系统性综述",
@@ -2024,6 +1760,61 @@
     "pdf": "https://arxiv.org/pdf/2306.06895.pdf"
   },
   {
+    "title_zh": "基于CTC触发的时空丢弃孪生网络语音识别方法",
+    "title_en": "A CTC triggered siamese network with spatial-temporal dropout for speech recognition",
+    "source_zh": "arXiv",
+    "source_en": "arXiv",
+    "year": "2022",
+    "citations": "4",
+    "impact_factor": "不适用",
+    "bibtex": "@misc{gao2022,\n  author    = {Yingying Gao and Junlan Feng and Tianrui Wang and Chao Deng and Shilei Zhang},\n  title     = {A CTC triggered siamese network with spatial-temporal dropout for speech recognition},\n  howpublished= {arXiv preprint},\n  year      = {2022},\n  url       = {https://arxiv.org/abs/2206.08031}\n}",
+    "pdf": "https://arxiv.org/pdf/2206.08031.pdf"
+  },
+  {
+    "title_zh": "Cmcc：面向对话系统的综合性大规模人人对话数据集",
+    "title_en": "Cmcc: a comprehensive and large-scale human-human dataset for dialogue systems",
+    "source_zh": "SereTOD 2022",
+    "source_en": "SereTOD",
+    "year": "2022",
+    "citations": "4",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Huang_2022, title = {CMCC: A Comprehensive and Large-Scale Human-Human Dataset for Dialogue Systems}, url={http://dx.doi.org/10.18653/v1/2022.seretod-1.7}, DOI={10.18653/v1/2022.seretod-1.7}, booktitle = {Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)}, publisher = {Association for Computational Linguistics}, author = {Huang, Yi and Wu, Xiaoting and Chen, Si and Hu, Wei and Zhu, Qing and Feng, Junlan and Deng, Chao and Ou, Zhijian and Zhao, Jiangjiang}, year = {2022}, pages = {48–61} }",
+    "pdf": "https://aclanthology.org/2022.seretod-1.7.pdf"
+  },
+  {
+    "title_zh": "面向语句级对话生成的状态感知对抗训练方法",
+    "title_en": "State-Aware Adversarial Training for Utterance-Level Dialogue Generation",
+    "source_zh": "半监督和强化对话系统研讨会",
+    "source_en": "Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems(SereTOD)",
+    "year": "2022",
+    "citations": "2",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Huang_2022b, title = {State-Aware Adversarial Training for Utterance-Level Dialogue Generation}, url={http://dx.doi.org/10.18653/v1/2022.seretod-1.8}, DOI={10.18653/v1/2022.seretod-1.8}, booktitle = {Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)}, publisher = {Association for Computational Linguistics}, author = {Huang, Yi and Wu, Xiaoting and Hu, Wei and Feng, Junlan and Deng, Chao}, year = {2022}, pages = {62–74} }",
+    "pdf": "https://aclanthology.org/2022.seretod-1.8.pdf"
+  },
+  {
+    "title_zh": "面向半监督与强化任务型对话系统研讨会（SereTOD）论文集",
+    "title_en": "Proceedings of the towards semi-supervised and reinforced task-oriented dialog systems (seretod)",
+    "source_zh": "半监督和强化对话系统研讨会",
+    "source_en": "Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems(SereTOD)",
+    "year": "2022",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Ou_2022, title = {Front Matter}, url={http://dx.doi.org/10.18653/v1/2022.seretod-1.0}, DOI={10.18653/v1/2022.seretod-1.0}, booktitle = {Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)}, publisher = {Association for Computational Linguistics}, author = {Ou, Zhijian and Feng, Junlan and Li, Juanzi}, year = {2022} }",
+    "pdf": "https://aclanthology.org/2022.seretod-1.0.pdf"
+  },
+  {
+    "title_zh": "面向语音增强与语音识别联合训练的多种置信门方法",
+    "title_en": "Multiple Confidence Gates For Joint Training Of SE And ASR",
+    "source_zh": "全国人机语音通讯学术会议",
+    "source_en": "National Conference on Man-Machine Speech Communication(NCMMSC)",
+    "year": "2022",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@inbook{Wang_2023, title = {Multiple Confidence Gates for Joint Training of SE and ASR}, ISBN = {9789819924011}, ISSN = {1865-0937}, url={http://dx.doi.org/10.1007/978-981-99-2401-1_13}, DOI={10.1007/978-981-99-2401-1_13}, booktitle = {Man-Machine Speech Communication}, publisher = {Springer Nature Singapore}, author = {Wang, Tianrui and Zhu, Weibin and Gao, Yingying and Feng, Junlan and Zhu, Dongjie and Zhu, Surong and Zhang, Shilei}, year = {2023}, pages = {141–148} }",
+    "pdf": "https://link.springer.com/chapter/10.1007/978-981-99-2401-1_13"
+  },
+  {
     "title_zh": "面向多兴趣推荐的目标兴趣蒸馏",
     "title_en": "Target Interest Distillation for Multi-Interest Recommendation.",
     "source_zh": "CIKM '22：第31届ACM国际信息与知识管理会议论文集",
@@ -2244,6 +2035,39 @@
     "pdf": "https://arxiv.org/pdf/2210.08692.pdf"
   },
   {
+    "title_zh": "反事实至关重要：面向对话状态追踪的内在探针方法",
+    "title_en": "Counterfactual Matters: Intrinsic Probing For Dialogue State Tracking",
+    "source_zh": "第一届神经对话系统评估与评测研讨会",
+    "source_en": "Evaluations and Assessments of Neural Conversation Systems(EANCS)",
+    "year": "2021",
+    "citations": "7",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Huang_2021, title = {Counterfactual Matters: Intrinsic Probing For Dialogue State Tracking}, url={http://dx.doi.org/10.18653/v1/2021.eancs-1.1}, DOI={10.18653/v1/2021.eancs-1.1}, booktitle = {The First Workshop on Evaluations and Assessments of Neural Conversation Systems}, publisher = {Association for Computational Linguistics}, author = {Huang, Yi and Feng, Junlan and Wu, Xiaoting and Du, Xiaoyu}, year = {2021}, pages = {1–6} }",
+    "pdf": "https://aclanthology.org/2021.eancs-1.1.pdf"
+  },
+  {
+    "title_zh": "面向多步时空网络数据预测的自适应时空Inception图卷积网络",
+    "title_en": "Adaptive Spatial-Temporal Inception Graph Convolutional Networks for Multi-step Spatial-Temporal Network Data Forecasting",
+    "source_zh": "国际学习表征会议",
+    "source_en": "International Conference on Learning Representations(ICLR)",
+    "year": "2021",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{wang2021,\n  author    = {Xing Wang and Lin Zhu and Juan Zhao and Zhou Xu and Zhao Li and Junlan Feng and Chao Deng},\n  title     = {Adaptive Spatial-Temporal Inception Graph Convolutional Networks for Multi-step Spatial-Temporal Network Data Forecasting},\n  booktitle = {ICLR 2021 Conference Blind Submission},\n  year      = {2021},\n  url       = {https://openreview.net/references/pdf?id=XHM2gCjTg}\n}",
+    "pdf": "https://openreview.net/references/pdf?id=XHM2gCjTg"
+  },
+  {
+    "title_zh": "基于细粒度可解释矩阵的摘要生成模型",
+    "title_en": "Abstractive Summarization Based on Fine-Grained Interpretable Matrix",
+    "source_zh": "北京大学学报（自然科学版），2021",
+    "source_en": "Journal of Peking University (Natural Science Edition), 2021",
+    "year": "2021",
+    "citations": "0",
+    "impact_factor": "1.828",
+    "bibtex": "@article{wang2021b,\n  author    = {Wang and Haonan and Gao and Yang and Feng and Junlan and Hu and Min and Wang and Huixin and Bai and Yu.},\n  title     = {Abstractive Summarization Based on Fine-Grained Interpretable Matrix},\n  journal   = {北京大学学报（自然科学版）},\n  year      = {2021},\n  url       = {https://doi.org/10.13209/j.0479-8023.2020.082}\n}",
+    "pdf": "https://xbna.pku.edu.cn/EN/10.13209/j.0479-8023.2020.082"
+  },
+  {
     "title_zh": "学习检测合同不一致性",
     "title_en": "Learning to Check Contract Inconsistencies.",
     "source_zh": "2021年AAAI人工智能大会论文集",
@@ -2264,6 +2088,39 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{wang2021c, title={Adaptive Multi-receptive Field Spatial-Temporal Graph Convolutional Network for Traffic Forecasting}, url={http://dx.doi.org/10.1109/globecom46510.2021.9685054}, DOI={10.1109/globecom46510.2021.9685054}, booktitle={2021 IEEE Global Communications Conference (GLOBECOM)}, publisher={IEEE}, author={Wang, Xing and Zhao, Juan and Zhu, Lin and Zhou, Xu and Li, Zhao and Feng, Junlan and Deng, Chao and Zhang, Yong}, year={2021}, month=Dec, pages={1–7} }",
     "pdf": "https://arxiv.org/pdf/2111.00724"
+  },
+  {
+    "title_zh": "面向开放本体槽填充的弹性 CRF",
+    "title_en": "Elastic CRFs for Open-ontology Slot Filling.",
+    "source_zh": "Applied Sciences, 2021",
+    "source_en": "Applied Sciences",
+    "year": "2021",
+    "citations": "5",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{dai2021,\n  author    = {Yinpei Dai and Yichi Zhang and Zhijian Ou and Yanmeng Wang and Junlan Feng},\n  title     = {Elastic CRFs for Open-ontology Slot Filling},\n  booktitle = {Applied Sciences},\n  year      = {2021},\n  url       = {https://www.mdpi.com/2076-3417/11/22/10675}\n}",
+    "pdf": "https://www.mdpi.com/2076-3417/11/22/10675"
+  },
+  {
+    "title_zh": "一种结构增强的图卷积网络用于情感分析",
+    "title_en": "A structure-enhanced graph convolutional network for sentiment analysis",
+    "source_zh": "自然语言处理实证方法会议",
+    "source_en": "Conference on Empirical Methods in Natural Language Processing(EMNLP)",
+    "year": "2020",
+    "citations": "19",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Meng_2020, title = {A structure-enhanced graph convolutional network for sentiment analysis}, url={http://dx.doi.org/10.18653/v1/2020.findings-emnlp.52}, DOI={10.18653/v1/2020.findings-emnlp.52}, booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020}, publisher = {Association for Computational Linguistics}, author = {Meng, Fanyu and Feng, Junlan and Yin, Danping and Chen, Si and Hu, Min}, year = {2020}, pages = {586–595} }",
+    "pdf": "https://aclanthology.org/2020.findings-emnlp.52.pdf"
+  },
+  {
+    "title_zh": "中英混合语音中语码转换类型与特征研究",
+    "title_en": "A study of types and characteristics of code-switching in mandarin-english speech",
+    "source_zh": "第一届多语言社区语码转换语音技术研讨会",
+    "source_en": "The First Workshop on Speech Technologies for Code-Switching in Multilingual Communities(WSTCSMC)",
+    "year": "2020",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@article{hou2020,\n  author    = {Leijing Hou and Ying Liu and Yingying Gao and Junlan Feng},\n  title     = {A study of types and characteristics of code-switching in mandarin-english speech},\n  journal   = {WSTCSMC},\n  year      = {2020},\n  url       = {http://festvox.org/cedar/WSTCSMC2020.pdf#page=14}\n}",
+    "pdf": "http://festvox.org/cedar/WSTCSMC2020.pdf#page=14"
   },
   {
     "title_zh": "面向对话系统的元强化多领域状态生成器",
@@ -2343,6 +2200,17 @@
     "pdf": "https://doi.org/10.1145/3341216.3342209"
   },
   {
+    "title_zh": "智能对话系统架构及算法",
+    "title_en": "Architecture and Algorithms of Intelligent Dialogue System",
+    "source_zh": "北京邮电大学学报",
+    "source_en": "Journal of Beijing University of Posts and Telecommunications",
+    "year": "2019",
+    "citations": "6",
+    "impact_factor": "1.758",
+    "bibtex": "@article{yi2019,\n  author    = {HUANG Yi and FENG Jun-lan and HU Min and WU Xiao-ting and DU Xiao-yu},\n  title     = {Architecture and Algorithms of Intelligent Dialogue System},\n  journal   = {北京邮电大学学报},\n  year      = {2019},\n  url       = {https://html.rhhz.net/buptjournal/html/20190602.htm}\n}",
+    "pdf": "https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=4598"
+  },
+  {
     "title_zh": "用于序列标注的神经 CRF 转导器",
     "title_en": "Neural CRF Transducers for Sequence Labeling.",
     "source_zh": "2019 年 IEEE 国际声学会议 (ICASSP 2019)",
@@ -2376,15 +2244,37 @@
     "pdf": "https://link.springer.com/chapter/10.1007/978-3-030-32236-6_29"
   },
   {
-    "title_zh": "面向开放本体槽填充的弹性 CRF",
-    "title_en": "Elastic CRFs for Open-ontology Slot Filling.",
-    "source_zh": "Applied Sciences, 2021",
-    "source_en": "Applied Sciences",
-    "year": "2021",
-    "citations": "5",
+    "title_zh": "融合情感与时长全局特征的呼叫中心自动满意度分析方法",
+    "title_en": "Automatic Satisfaction Analysis in Call Centers Considering Global Features of Emotion and Duration",
+    "source_zh": "Journal of Beijing Institute of Technology",
+    "source_en": "Journal of Beijing Institute of Technology",
+    "year": "2018",
+    "citations": "1",
     "impact_factor": "不适用",
-    "bibtex": "@inproceedings{dai2021,\n  author    = {Yinpei Dai and Yichi Zhang and Zhijian Ou and Yanmeng Wang and Junlan Feng},\n  title     = {Elastic CRFs for Open-ontology Slot Filling},\n  booktitle = {Applied Sciences},\n  year      = {2021},\n  url       = {https://www.mdpi.com/2076-3417/11/22/10675}\n}",
-    "pdf": "https://www.mdpi.com/2076-3417/11/22/10675"
+    "bibtex": "@article{liu2018,\n  author    = {Jing Liu and Chaomin Wang and Yingnan Zhang and Pengyu Cong and L. Xu and Z. Ren and J. Hu and X. Xie and J. Feng and J. Kuang},\n  title     = {Automatic Satisfaction Analysis in Call Centers Considering Global Features of Emotion and Duration},\n  journal   = {Journal of Beijing Institute of Technology},\n  year      = {2018},\n  url       = {https://doi.org/10.15918/j.jbit1004-0579.201827.0108}\n}",
+    "pdf": "https://journal.bit.edu.cn/jbit/article/doi/10.15918/j.jbit1004-0579.201827.0108"
+  },
+  {
+    "title_zh": "呼叫中心用户满意度自动分析中的信息融合",
+    "title_en": "Information fusion in automatic user satisfaction analysis in call center",
+    "source_zh": "IEEE智能人机系统与控制论国际会议",
+    "source_en": "IEEE International Conference on Intelligent Human-Machine Systems and Cybernetics(IHMSC)",
+    "year": "2016",
+    "citations": "14",
+    "impact_factor": "不适用",
+    "bibtex": "@article{sun2016,\n  author    = {Jia Sun and Weiqun Xu and Yonghong Yan and Chaomin Wang and Zhijie Ren and Pengyu Cong and Huixin Wang and Junlan Feng},\n  title     = {Information fusion in automatic user satisfaction analysis in call center},\n  journal   = {IEEE IHMSC},\n  year      = {2016},\n  url       = {https://ieeexplore.ieee.org/iel7/7781860/7782467/07783644.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel7/7781860/7782467/07783644.pdf"
+  },
+  {
+    "title_zh": "客户语音传感器：面向呼叫中心对话的综合性观点挖掘系统",
+    "title_en": "Customer Voice Sensor: A Comprehensive Opinion Mining System for Call Center Conversation",
+    "source_zh": "IEEE云计算与大数据分析国际会议",
+    "source_en": "International Conference on Cloud Computing and Big Data Analytics( ICCCBDA)",
+    "year": "2016",
+    "citations": "17",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{li2016,\n  author    = {Peijia Li and Yonghong Yan and Chaomin Wang and Zhijie Ren and Pengyu Cong and Huixin Wang and Junlan Feng},\n  title     = {Customer Voice Sensor: A Comprehensive Opinion Mining System for Call Center Conversation},\n  booktitle = {IEEE ICCCBDA},\n  year      = {2016},\n  url       = {https://ieeexplore.ieee.org/iel7/7524253/7529520/07529578.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel7/7524253/7529520/07529578.pdf"
   },
   {
     "title_zh": "基于深度学习的不满意客户来电检测",
@@ -2396,6 +2286,28 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{Cong_2016, title = {Unsatisfied customer call detection with deep learning}, url={http://dx.doi.org/10.1109/ISCSLP.2016.7918385}, DOI={10.1109/iscslp.2016.7918385}, booktitle = {2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)}, publisher = {IEEE}, author = {Cong, Pengyu and Wang, Chaomin and Ren, Zhijie and Wang, Huixin and Wang, Yanmeng and Feng, Junlan}, year = {2016}, month=Oct, pages = {1–5} }",
     "pdf": "https://doi.org/10.1109/ISCSLP.2016.7918385"
+  },
+  {
+    "title_zh": "语音与语言处理技术趋势",
+    "title_en": "Trends in speech and language processing",
+    "source_zh": "会议IEEE Signal Processing Magazine",
+    "source_en": "IEEE Signal Processing Magazine",
+    "year": "2012",
+    "citations": "17",
+    "impact_factor": "9.6",
+    "bibtex": "@inproceedings{feng2012,\n  author    = {Junlan Feng and Bhuvana Ramabhadran and John H. L. Hansen and Jason D. Williams},\n  title     = {Trends in speech and language processing},\n  booktitle = {会议IEEE Signal Processing Magazine},\n  year      = {2012},\n  url       = {https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6105446}\n}",
+    "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6105446"
+  },
+  {
+    "title_zh": "基于推文的语音增强社交电视语言建模方法",
+    "title_en": "Language Modeling for Voice-Enabled Social TV Using Tweets.",
+    "source_zh": "INTERSPEECH",
+    "source_en": "Conference of the International Speech Communication Association (INTERSPEECH)",
+    "year": "2012",
+    "citations": "3",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{feng2012b,\n  author    = {Junlan Feng and Bernard Renger},\n  title     = {Language Modeling for Voice-Enabled Social TV Using Tweets},\n  booktitle = {INTERSPEECH},\n  year      = {2012},\n  url       = {https://www.isca-archive.org/interspeech_2012/feng12b_interspeech.pdf}\n}",
+    "pdf": "https://www.isca-archive.org/interspeech_2012/feng12b_interspeech.pdf"
   },
   {
     "title_zh": "语音与语言处理的发展研究趋势",
@@ -2563,6 +2475,17 @@
     "pdf": "https://www.isca-archive.org/interspeech_2009/feng09_interspeech.pdf"
   },
   {
+    "title_zh": "基于网络的语音与语言处理",
+    "title_en": "Speech and Language Processing over the Web",
+    "source_zh": "2008｜IEEE Signal Processing Magazine",
+    "source_en": "IEEE Signal Processing Magazine, 2008",
+    "year": "2008",
+    "citations": "19",
+    "impact_factor": "10.3",
+    "bibtex": "@inproceedings{gilbert2008,\n  author    = {Mazin Gilbert and Junlan Feng},\n  title     = {Speech and Language Processing over the Web},\n  booktitle = {2008｜IEEE Signal Processing Magazine},\n  year      = {2008},\n  url       = {https://www.researchgate.net/publication/3322050_Speech_and_language_processing_over_the_web}\n}",
+    "pdf": "https://www.researchgate.net/publication/3322050_Speech_and_language_processing_over_the_web"
+  },
+  {
     "title_zh": "网络环境下的语音与语言处理",
     "title_en": "Speech and language processing over the web.",
     "source_zh": "IEEE Signal Processing Magazine, 2008",
@@ -2607,6 +2530,17 @@
     "pdf": "https://www.isca-archive.org/interspeech_2006/feng06_interspeech.pdf"
   },
   {
+    "title_zh": "Webtalk：面向交互式问答的网站挖掘方法",
+    "title_en": "Webtalk: mining websites for interactively answering questions.",
+    "source_zh": "INTERSPEECH",
+    "source_en": "Conference of the International Speech Communication Association (INTERSPEECH)",
+    "year": "2005",
+    "citations": "6",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{feng2005,\n  author    = {Junlan Feng and Srihari Reddy and Murat Saraclar},\n  title     = {Webtalk: mining websites for interactively answering questions},\n  booktitle = {INTERSPEECH},\n  year      = {2005},\n  url       = {https://www.isca-archive.org/interspeech_2005/feng05_interspeech.pdf}\n}",
+    "pdf": "https://www.isca-archive.org/interspeech_2005/feng05_interspeech.pdf"
+  },
+  {
     "title_zh": "一种发现网页语义结构的学习方法",
     "title_en": "A Learning Approach to Discovering Web Page Semantic Structures.",
     "source_zh": "IEEE",
@@ -2616,6 +2550,28 @@
     "impact_factor": "不适用",
     "bibtex": "@article{feng2005b,\n  author    = {Junlan Feng and Patrick Haffner and Mazin Gilbert},\n  title     = {A Learning Approach to Discovering Web Page Semantic Structures},\n  journal   = {IEEE},\n  year      = {2005},\n  url       = {https://ieeexplore.ieee.org/abstract/document/1575705}\n}",
     "pdf": "https://ieeexplore.ieee.org/abstract/document/1575705"
+  },
+  {
+    "title_zh": "WebTalk中问答系统的评估研究",
+    "title_en": "Question-answering in webtalk: an evaluation study.",
+    "source_zh": "INTERSPEECH 2004",
+    "source_en": "Conference of the International Speech Communication Association (INTERSPEECH) 2004",
+    "year": "2004",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{feng2004,\n  author    = {Junlan Feng and Srinivas Bangalore and Mazin G. Rahim},\n  title     = {Question-answering in webtalk: an evaluation study},\n  booktitle = {INTERSPEECH},\n  year      = {2004},\n  url       = {https://www.isca-archive.org/interspeech_2004/feng04_interspeech.pdf}\n}",
+    "pdf": "https://www.isca-archive.org/interspeech_2004/feng04_interspeech.pdf"
+  },
+  {
+    "title_zh": "WebTalk：挖掘网站以自动构建对话系统",
+    "title_en": "Webtalk: Mining websites for automatically building dialog systems",
+    "source_zh": "IEEE ASRU",
+    "source_en": "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
+    "year": "2003",
+    "citations": "33",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{feng2003,\n  author    = {Junlan Feng and S. Bangalore and M. Rahim},\n  title     = {Webtalk: Mining websites for automatically building dialog systems},\n  booktitle = {IEEE ASRU},\n  year      = {2003},\n  url       = {https://www.researchgate.net/profile/Mazin-Gilbert/publication/4084613_WebTalk_mining_Websites_for_automatically_building_dialog_systems/links/0046353433519cb753000000/WebTalk-mining-Websites-for-automatically-building-dialog-systems.pdf}\n}",
+    "pdf": "https://www.researchgate.net/profile/Mazin-Gilbert/publication/4084613_WebTalk_mining_Websites_for_automatically_building_dialog_systems/links/0046353433519cb753000000/WebTalk-mining-Websites-for-automatically-building-dialog-systems.pdf"
   },
   {
     "title_zh": "WebTalk：利用网站内容与结构自动构建对话服务",
@@ -2629,6 +2585,39 @@
     "pdf": "付费订阅 无法公开"
   },
   {
+    "title_zh": "基于Internet CEST-CAS2.0的语音翻译",
+    "title_en": "Speech translation on Internet CEST-CAS2. 0",
+    "source_zh": "ISIMP 2001",
+    "source_en": "ISIMP",
+    "year": "2001",
+    "citations": "7",
+    "impact_factor": "不适用",
+    "bibtex": "@article{du2001,\n  author    = {Limin Du and Junlan Feng and Yi Song and Heng Wang},\n  title     = {Speech translation on Internet CEST-CAS2. 0},\n  journal   = {ISIMP},\n  year      = {2001},\n  url       = {https://ieeexplore.ieee.org/document/925364/}\n}",
+    "pdf": "https://ieeexplore.ieee.org/document/925364/"
+  },
+  {
+    "title_zh": "一种用于中文大词汇量连续语音识别的基于框架的MCE训练新策略",
+    "title_en": "A new framed-based MCE training strategy for Mandarin LVCSR",
+    "source_zh": "IEEE国际会议 WCC 2000 - ICSP 2000",
+    "source_en": "International Conference on Signal Processing(ICSP)",
+    "year": "2000",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{feng2000,\n  author    = {Jun Lan Feng and Li Min Du},\n  title     = {A new framed-based MCE training strategy for Mandarin LVCSR},\n  booktitle = {IEEE国际会议 WCC 2000 - ICSP},\n  year      = {2000},\n  url       = {https://ieeexplore.ieee.org/iel5/7173/19349/00894408.pdf}\n}",
+    "pdf": "https://ieeexplore.ieee.org/iel5/7173/19349/00894408.pdf"
+  },
+  {
+    "title_zh": "一种改进的词验证架构",
+    "title_en": "An Improved Architecture for Word Verification",
+    "source_zh": "SST",
+    "source_en": "SST",
+    "year": "2000",
+    "citations": "0",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{jun2000,\n  author    = {Jun and Lan Feng and LiMin Du},\n  title     = {An Improved Architecture for Word Verification},\n  booktitle = {SST},\n  year      = {2000},\n  url       = {https://assta.org/proceedings/sst/SST-00/cache/SST-00-Chapter16-p14.pdf}\n}",
+    "pdf": "https://assta.org/proceedings/sst/SST-00/cache/SST-00-Chapter16-p14.pdf"
+  },
+  {
     "title_zh": "汉语自发语音语料库 IIS_CSS 中的数据采集与处理",
     "title_en": "Data collection and processing in a Chinese spontaneous speech corpus IIS_CSS.",
     "source_zh": "INTERSPEECH",
@@ -2640,14 +2629,25 @@
     "pdf": "https://www.isca-archive.org/icslp_2000/feng00_icslp.pdf"
   },
   {
-    "title_zh": "SeerGuard：基于世界模型预测的移动GUI智能体安全框架",
-    "title_en": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
-    "source_zh": "arXiv（即将发表在）",
-    "source_en": "arXiv",
-    "year": "2026",
-    "citations": "1",
+    "title_zh": "中英语音翻译原型系统：CEST-CAS1.0",
+    "title_en": "A Chinese-English speech translation prototype system: CEST-CAS1.0",
+    "source_zh": "ICSPAT",
+    "source_en": "ICSPAT",
+    "year": "1999",
+    "citations": "7",
     "impact_factor": "不适用",
-    "bibtex": "@misc{yu2026seerguardsafetyframeworkmobile,\n      title={SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction}, \n      author={Xue Yu and Bo Yuan and Kailin Zhao and Pengshuai Yang and Hong Hu and Junlan Feng},\n      year={2026},\n      eprint={2607.15550},\n      archivePrefix={arXiv},\n      primaryClass={cs.AI},\n      url={https://arxiv.org/abs/2607.15550}, \n}",
-    "pdf": "https://arxiv.org/pdf/2607.15550"
+    "bibtex": "@article{du1999,\n  author    = {Limin Du and Junlan Feng and Yi Song and Jinchen Sun},\n  title     = {A Chinese-English speech translation prototype system: CEST-CAS1.0},\n  journal   = {ICSPAT},\n  year      = {1999},\n}",
+    "pdf": "网站点击不了内容，只有题目"
+  },
+  {
+    "title_zh": "汉语自发语音识别综述",
+    "title_en": "Review on Chinese spontaneous speech recognition",
+    "source_zh": "Electronic science & technology review",
+    "source_en": "Electronic Science & Technology Review",
+    "year": "1999",
+    "citations": "2",
+    "impact_factor": "不适用",
+    "bibtex": "@article{junlan1999,\n  author    = {F Junlan and D Limin},\n  title     = {Review on Chinese spontaneous speech recognition},\n  journal   = {Electronic science \\& technology review},\n  year      = {1999},\n}",
+    "pdf": "网站点击不了内容，只有题目"
   }
 ]
