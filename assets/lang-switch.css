@@ -285,3 +285,7 @@ div[data-i18n] {
 .pat {
     font-weight: bold;
  }
+
+ .biblist {
+    list-style: decimal; /* 使用数字列表 */
+ }
