@@ -85,7 +85,7 @@
     "citations": "0",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{han2026,\n  author    = {Jianan Han and Xiaoqian Ye and Zigan Zhen and Lingxue Song and Qian Wang and Liang Li and Chao Deng and Junlan Feng},\n  title     = {Cine-shot Director: Native Cinema-Grade Multi-Shot Video Generation Framework},\n  booktitle = {IEEE ICASSP},\n  year      = {2026},\n  url       = {https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=6987&bare=1}\n}",
-    "pdf": "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=6987&bare=1"
+    "pdf": "https://ieeexplore.ieee.org/document/11464190"
   },
   {
     "title_zh": "向枢轴对齐：基于自反馈双重对齐的多语言数学推理方法",
@@ -162,7 +162,7 @@
     "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{zhu2026,\n  author    = {Yushan Zhu and Wen Zhang and Long Jin and Mengshu Sun and Ling Zhong and Zhiqiang Liu and Juan Li and Lei Liang and Chong Long and Chao Deng and Junlan Feng},\n  title     = {Self-Correction Distillation for Structured Data Question Answering},\n  booktitle = {AAAI},\n  year      = {2026},\n  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/38697/42659}\n}",
-    "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/38697/42659"
+    "pdf": "https://arxiv.org/pdf/2511.07998"
   },
   {
     "title_zh": "基于思考的非思考：通过强化学习解决混合推理模型训练中的奖励欺骗问题",
@@ -206,7 +206,7 @@
     "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "@misc{liu2026,\n  author    = {Junxiao Liu and Zhijun Wang and Yixiao Li and Zhejian Lai and Liqian Huang and Xin Huang and Xue Han and Junlan Feng and Shujian Huang},\n  title     = {Self-Improving Multilingual Long Reasoning via Translation-Reasoning Integrated Training},\n  howpublished= {arXiv preprint},\n  year      = {2026},\n  url       = {https://arxiv.org/abs/2602.05940}\n}",
-    "pdf": "https://arxiv.org/pdf/2602.05940.pdf"
+    "pdf": "https://arxiv.org/pdf/2602.05940v1"
   },
   {
     "title_zh": "超越统一范式：面向大语言模型零样本图学习的自适应子图去噪方法",
@@ -349,7 +349,7 @@
     "citations": "2",
     "impact_factor": "2.7",
     "bibtex": "@inproceedings{hu2025,\n  author    = {Zefa Hu and Yi Huang and Junlan Feng and and Chao Deng},\n  title     = {Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2025},\n  url       = {https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648}\n}",
-    "pdf": "https://www.mdpi.com/2076-3417/15/17/9466/pdf?version=1756391648"
+    "pdf": "https://www.mdpi.com/2076-3417/15/17/9466"
   },
   {
     "title_zh": "基于大语言模型的锂离子电池跨不同时间尺度与多变运行阶段的荷电状态及健康状态联合估计：一种多阶段方法",
@@ -360,7 +360,7 @@
     "citations": "2",
     "impact_factor": "9.2",
     "bibtex": "@article{bian2025,\n  author    = {Chong Bian and Zhiyu Duan and Daoyi Li and Shunkun Yang and Junlan Feng},\n  title     = {Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-stage approach},\n  journal   = {Reliability Engineering \\& System Safety（Elsevier）},\n  year      = {2025},\n}",
-    "pdf": ""
+    "pdf": "https://www.sciencedirect.com/science/article/abs/pii/S0951832025010725"
   },
   {
     "title_zh": "大视觉语言模型的资源消耗红队测试",
@@ -412,20 +412,9 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{han2025,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2503.04150}\n}",
-    "pdf": "https://arxiv.org/pdf/2503.04150.pdf"
-  },
-  {
-    "title_zh": "基于循环编码的大语言模型时间对齐：长时间跨度的时间表示",
-    "title_en": "Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations",
-    "source_zh": "arXiv——未正式发表",
-    "source_en": "arXiv——未正式发表",
-    "year": "2025",
     "citations": "1",
     "impact_factor": "不适用",
-    "bibtex": "@article{han2025b,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression},\n  journal   = {arXiv——未正式发表},\n  year      = {2025},\n  url       = {https://ui.adsabs.harvard.edu/abs/2025arXiv250304150H/abstract}\n}",
+    "bibtex": "@misc{han2025,\n  author    = {Xue Han and Qian Hu and Yitong Wang and Wenchun Gao and Lianlian Zhang and Qing Wang and Lijun Mei and Chao Deng and Junlan Feng},\n  title     = {Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2503.04150}\n}",
     "pdf": "https://arxiv.org/pdf/2503.04150.pdf"
   },
   {
@@ -558,7 +547,7 @@
     "citations": "23",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{zhou2025,\n  author    = {Hao Zhou and Zhijun Wang and Shujian Huang and Xin Huang and Xue Han and Junlan Feng and Chao Deng and Weihua Luo and Jiajun Chen},\n  title     = {MoE-LPR: Multilingual Extension of Large Language Models Through Mixture-of-Experts with Language Priors Routing},\n  booktitle = {AAAI},\n  year      = {2025},\n  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/34805/36960}\n}",
-    "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/34805/36960"
+    "pdf": "https://ar5iv.labs.arxiv.org/html/2408.11396"
   },
   {
     "title_zh": "基于自注意力的思维图用于数学问题求解",
@@ -954,7 +943,7 @@
     "citations": "5",
     "impact_factor": "2.5",
     "bibtex": "@inproceedings{yang2024,\n  author    = {Zhe Yang and Yi Huang *ORCID and Yaqin Chen and Xiaoting Wu and Junlan Feng and and Chao Deng},\n  title     = {CTGGAN: controllable text generation with generative adversarial network},\n  booktitle = {(Applied Sciences - MDPI)},\n  year      = {2024},\n  url       = {https://www.mdpi.com//2076-3417/14/7/3106/pdf?version=1712538759}\n}",
-    "pdf": "https://www.mdpi.com//2076-3417/14/7/3106/pdf?version=1712538759"
+    "pdf": "https://www.mdpi.com/2076-3417/14/7/3106"
   },
   {
     "title_zh": "基于共指增强对比预训练的任务型对话建模增强方法",
@@ -976,7 +965,7 @@
     "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "@article{feng2024,\n  author    = {Junlan Feng},\n  title     = {Holistic artificial intelligence},\n  journal   = {北京邮电大学学报},\n  year      = {2024},\n  url       = {https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=5285}\n}",
-    "pdf": "https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=5285"
+    "pdf": "https://journal.bupt.edu.cn/EN/Y2024/V47/I4/1"
   },
   {
     "title_zh": "基于最优路径（SLOP）的模型生长调度学习以实现高效大语言模型预训练",
@@ -1045,7 +1034,7 @@
     "pdf": "https://dl.acm.org/doi/epdf/10.1145/3677019"
   },
   {
-    "title_zh": "EMERGE：利用检索增强生成提升多模态电子健康记录预测建模",
+    "title_zh": "EMERGE：基于检索增强生成的多模态电子健康记录预测建模增强方法",
     "title_en": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation.",
     "source_zh": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
     "source_en": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
@@ -1276,8 +1265,8 @@
     "pdf": "https://arxiv.org/pdf/2402.12746.pdf"
   },
   {
-    "title_zh": "大语言模型是优秀的自发多语言学习者：多语言标注数据是否必要？",
-    "title_en": "Large Language Models are Good Spontaneous Multilingual Learners: Is the Multilingual Annotated Data Necessary?",
+    "title_zh": "以少博多：大语言模型是高效的自发多语言学习者",
+    "title_en": "Getting More from Less: Large Language Models are Good Spontaneous Multilingual Learners",
     "source_zh": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "source_en": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "year": "2024",
@@ -1288,13 +1277,13 @@
   },
   {
     "title_zh": "EMERGE：集成检索增强生成以改进多模态电子健康记录预测建模",
-    "title_en": "EMERGE: Integrating RAG for Improved Multimodal EHR Predictive Modeling.",
+    "title_en": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation",
     "source_zh": "Modeling CIKM 2024",
     "source_en": "Modeling CIKM 2024",
     "year": "2024",
     "citations": "44",
     "impact_factor": "不适用",
-    "bibtex": "@misc{zhu2024,\n  author    = {Yinghao Zhu and Changyu Ren and Zixiang Wang and Xiaochen Zheng and Shiyun Xie and Junlan Feng and Xi Zhu and Zhoujun Li and Liantao Ma and Chengwei Pan},\n  title     = {EMERGE: Integrating RAG for Improved Multimodal EHR Predictive Modeling},\n  howpublished= {arXiv preprint},\n  year      = {2024},\n  url       = {https://arxiv.org/abs/2406.00036}\n}",
+    "bibtex": "@inproceedings{10.1145/3627673.3679582,\n  author    = {Yinghao Zhu and Changyu Ren and Zixiang Wang and Xiaochen Zheng and Shiyun Xie and Junlan Feng and Xi Zhu and Zhoujun Li and Liantao Ma and Chengwei Pan},\n  title     = {EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation},\n  booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM '24)},\n  pages     = {3549--3559},\n  year      = {2024},\n  month     = oct,\n  doi       = {10.1145/3627673.3679582},\n  url       = {https://doi.org/10.1145/3627673.3679582}\n}",
     "pdf": "https://arxiv.org/pdf/2406.00036.pdf"
   },
   {
@@ -1317,17 +1306,17 @@
     "citations": "18",
     "impact_factor": "2.7",
     "bibtex": "@inproceedings{khan2023,\n  author    = {Muhammad Asif Khan and Yi Huang and Junlan Feng and Bhuyan Kaibalya Prasad and Zafar Ali and Irfan Ullah and Pavlos Kefalas},\n  title     = {A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking},\n  booktitle = {Applied Sciences (MDPI)},\n  year      = {2023},\n  url       = {https://www.mdpi.com//2076-3417/13/3/1775/pdf?version=1675216575}\n}",
-    "pdf": "https://www.mdpi.com//2076-3417/13/3/1775/pdf?version=1675216575"
+    "pdf": "https://www.mdpi.com/2076-3417/13/3/1775"
   },
   {
-    "title_zh": "在预训练语言模型骨干上构建马尔可夫生成式架构",
-    "title_en": "Building markovian generative architectures over pretrained lm backbones",
-    "source_zh": "IEEE SLT",
-    "source_en": "IEEE SLT",
+    "title_zh": "基于预训练语言模型主干的马尔可夫生成架构构建及其高效任务型对话系统应用",
+    "title_en": "Building Markovian Generative Architectures over Pretrained LM Backbones for Efficient Task-Oriented Dialog Systems",
+    "source_zh": "2022 IEEE Spoken Language Technology Workshop (SLT",
+    "source_en": "2022 IEEE Spoken Language Technology Workshop (SLT",
     "year": "2023",
     "citations": "10",
     "impact_factor": "不适用",
-    "bibtex": "@inproceedings{liu2023,\n  author    = {Hong Liu and Yucheng Cai and Zhijian Ou and Yi Huang and Junlan Feng},\n  title     = {Building markovian generative architectures over pretrained lm backbones},\n  booktitle = {IEEE SLT},\n  year      = {2023},\n  url       = {https://oa.ee.tsinghua.edu.cn/ouzhijian/pdf/MGA_SLT_camera.pdf}\n}",
+    "bibtex": "@inproceedings{liu2022building,\n  title={Building Markovian Generative Architectures over Pretrained LM Backbones for Efficient Task-Oriented Dialog Systems},\n  author={Liu, Hong and Cai, Yucheng and Ou, Zhijian and Huang, Yi and Feng, Junlan},\n  booktitle={2022 IEEE Spoken Language Technology Workshop (SLT)},\n  pages={382--389},\n  year={2023},\n  organization={IEEE}\n}",
     "pdf": "https://oa.ee.tsinghua.edu.cn/ouzhijian/pdf/MGA_SLT_camera.pdf"
   },
   {
@@ -1916,8 +1905,8 @@
   {
     "title_zh": "基于课程的自训练提升数据到文本生成的少样本学习能力",
     "title_en": "Curriculum-Based Self-Training Makes Better Few-Shot Learners for Data-to-Text Generation.",
-    "source_zh": "arXiv 预印本 arXiv:2206.0",
-    "source_en": "arXiv 预印本 arXiv:2206.0",
+    "source_zh": "arXiv:2206.0",
+    "source_en": "arXiv:2206.0",
     "year": "2022",
     "citations": "8",
     "impact_factor": "不适用",
@@ -1927,8 +1916,8 @@
   {
     "title_zh": "“三思而后言”：通过规划单动作对话改进多动作对话策略",
     "title_en": "\"Think Before You Speak\": Improving Multi-Action Dialog Policy by Planning Single-Action Dialogs.",
-    "source_zh": "arXiv 预印本 arXiv:2204.1",
-    "source_en": "arXiv 预印本 arXiv:2204.1",
+    "source_zh": "arXiv:2204.1",
+    "source_en": "arXiv:2204.1",
     "year": "2022",
     "citations": "9",
     "impact_factor": "不适用",
@@ -1938,8 +1927,8 @@
   {
     "title_zh": "面向低资源口语理解的元辅助学习",
     "title_en": "Meta Auxiliary Learning for Low-resource Spoken Language Understanding.",
-    "source_zh": "arXiv 预印本 arXiv:2206.1",
-    "source_en": "arXiv 预印本 arXiv:2206.1",
+    "source_zh": "arXiv:2206.1",
+    "source_en": "arXiv:2206.1",
     "year": "2022",
     "citations": "3",
     "impact_factor": "不适用",
@@ -1969,30 +1958,8 @@
     "pdf": "https://aclanthology.org/2022.sigdial-1.44.pdf"
   },
   {
-    "title_zh": "基于预训练语言模型骨干构建马尔可夫生成架构以实现高效任务型对话系统",
-    "title_en": "Building Markovian Generative Architectures Over Pretrained LM Backbones for Efficient Task-Oriented Dialog Systems.",
-    "source_zh": "2022 IEEE Spoken Language Technology Workshop (SLT)",
-    "source_en": "2022 IEEE Spoken Language Technology Workshop (SLT)",
-    "year": "2022",
-    "citations": "10",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Liu_2023, title = {Building Markovian Generative Architectures Over Pretrained LM Backbones for Efficient Task-Oriented Dialog Systems}, url={http://dx.doi.org/10.1109/SLT54892.2023.10023191}, DOI={10.1109/slt54892.2023.10023191}, booktitle = {2022 IEEE Spoken Language Technology Workshop (SLT)}, publisher = {IEEE}, author = {Liu, Hong and Cai, Yucheng and Ou, Zhijian and Huang, Yi and Feng, Junlan}, year = {2023}, month=Jan, pages = {382–389} }",
-    "pdf": "https://doi.org/10.1109/SLT54892.2023.10023191"
-  },
-  {
-    "title_zh": "重访面向高效任务型对话系统的马尔可夫生成架构",
-    "title_en": "Revisiting Markovian Generative Architectures for Efficient Task-Oriented Dialog Systems.",
-    "source_zh": "IEEE Spoken Language Technology Workshop (SLT)",
-    "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
-    "year": "2022",
-    "citations": "0",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{liu2022,\n  author    = {Hong Liu and Yucheng Cai and Zhijian Ou and Yi Huang and Junlan Feng},\n  title     = {Revisiting Markovian Generative Architectures for Efficient Task-Oriented Dialog Systems},\n  howpublished= {arXiv preprint},\n  year      = {2022},\n  url       = {https://arxiv.org/abs/2204.06452}\n}",
-    "pdf": "https://arxiv.org/pdf/2204.06452.pdf"
-  },
-  {
     "title_zh": "半监督与强化任务型对话系统挑战赛",
-    "title_en": "A Challenge on Semi-Supervised and Reinforced Task-Oriented Dialog Systems.",
+    "title_en": "A Challenge on Semi-Supervised and Rein-forced Task-Oriented Dialog Systems",
     "source_zh": "EMNLP 2022 SereTOD Workshop Challenge",
     "source_en": "EMNLP 2022 SereTOD Workshop Challenge",
     "year": "2022",
@@ -2076,7 +2043,7 @@
     "citations": "12",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{zhang2021,\n  author    = {Shuo Zhang and Junzhou Zhao and Pinghui Wang and Nuo Xu and Yang Yang and Yiting Liu and Yi Huang and Junlan Feng},\n  title     = {Learning to Check Contract Inconsistencies},\n  booktitle = {2021年AAAI人工智能大会论文集},\n  year      = {2021},\n  url       = {https://ojs.aaai.org/index.php/AAAI/article/view/17698/17505}\n}",
-    "pdf": "https://ojs.aaai.org/index.php/AAAI/article/view/17698/17505"
+    "pdf": "https://doc-04-bk-apps-viewer.googleusercontent.com/viewer/secure/pdf/3nb9bdfcv3e2h2k1cmql0ee9cvc5lole/b0p3r0ml99h11ui84tfc8di29gmbs8ss/1788428700000/lantern/*/ACFrOgAbc77xS6zlglSmrJybrNYzsqETFJK5_f0GoSnvkch0qdOzkcHlMv1RZneq2nUn2raBXKfsBSsWAIdnhuzmSAOr3aJ2W6w6QlDYxcVfAPdsTy4n_i_rvS4VJ5UoVfEdc5mrOYR8FUBzC6OK?print=false"
   },
   {
     "title_zh": "面向交通预测的自适应多感受野时空图卷积网络",
@@ -2145,17 +2112,6 @@
     "pdf": "https://aclanthology.org/2020.findings-emnlp.368.pdf"
   },
   {
-    "title_zh": "基于加权图卷积网络的情感分析",
-    "title_en": "Sentiment Analysis with Weighted Graph Convolutional Networks.",
-    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP 2020",
-    "source_en": "Findings of the Association for Computational Linguistics: EMNLP 2020",
-    "year": "2020",
-    "citations": "17",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Meng_2020b, title = {A structure-enhanced graph convolutional network for sentiment analysis}, url={http://dx.doi.org/10.18653/v1/2020.findings-emnlp.52}, DOI={10.18653/v1/2020.findings-emnlp.52}, booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020}, publisher = {Association for Computational Linguistics}, author = {Meng, Fanyu and Feng, Junlan and Yin, Danping and Chen, Si and Hu, Min}, year = {2020}, pages = {586–595} }",
-    "pdf": "https://aclanthology.org/2020.findings-emnlp.52.pdf"
-  },
-  {
     "title_zh": "一种面向半监督学习的具有潜在信念状态的概率端到端任务型对话模型",
     "title_en": "A Probabilistic End-To-End Task-Oriented Dialog Model with Latent Belief States towards Semi-Supervised Learning.",
     "source_zh": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
@@ -2208,7 +2164,7 @@
     "citations": "6",
     "impact_factor": "1.758",
     "bibtex": "@article{yi2019,\n  author    = {HUANG Yi and FENG Jun-lan and HU Min and WU Xiao-ting and DU Xiao-yu},\n  title     = {Architecture and Algorithms of Intelligent Dialogue System},\n  journal   = {北京邮电大学学报},\n  year      = {2019},\n  url       = {https://html.rhhz.net/buptjournal/html/20190602.htm}\n}",
-    "pdf": "https://journal.bupt.edu.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=4598"
+    "pdf": "https://html.rhhz.net/buptjournal/html/20190602.htm"
   },
   {
     "title_zh": "用于序列标注的神经 CRF 转导器",
@@ -2504,7 +2460,7 @@
     "year": "2008",
     "citations": "1",
     "impact_factor": "不适用",
-    "bibtex": "@article{feng2008,\n  author    = {Junlan Feng and Valerie Torres and Daniel Sheleheda and Cynthia Cama},\n  title     = {WebTrack: Mining and Tracking Content and Structure of Websites},\n  journal   = {DMIN},\n  year      = {2008},\n}",
+    "bibtex": "@inproceedings{Feng2008WebTrackMA,\n  title={WebTrack: Mining and Tracking Content and Structure of Websites},\n  author={Junlan Feng and Valerie Torres and Daniel Sheleheda and Cynthia Cama},\n  booktitle={International Conference on Data Mining},\n  year={2008},\n  url={https://api.semanticscholar.org/CorpusID:1162456}\n}",
     "pdf": ""
   },
   {
@@ -2586,7 +2542,7 @@
   },
   {
     "title_zh": "基于Internet CEST-CAS2.0的语音翻译",
-    "title_en": "Speech translation on Internet CEST-CAS2. 0",
+    "title_en": "Speech translation on Internet CEST-CAS2.0",
     "source_zh": "ISIMP",
     "source_en": "ISIMP",
     "year": "2001",
