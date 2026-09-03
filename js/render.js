@@ -126,9 +126,11 @@
             var date = formatDate(item.update_time, lang);
             var title = (lang === 'zh') ? item.title : (item.title_en || item.title);
             
+            var wrapper = document.createElement('div');
+            wrapper.style.marginBottom = '5px';
             var b = document.createElement('b');
             b.textContent = date + ': ';
-            
+
             var a = document.createElement('a');
             a.href = item.url;
             a.target = '_blank';
@@ -136,12 +138,10 @@
             a.style.textDecoration = 'none';
             a.style.wordBreak = 'break-all';
             a.textContent = title;
-            
-            var br = document.createElement('br');
-            
-            fragment.appendChild(b);
-            fragment.appendChild(a);
-            fragment.appendChild(br);
+
+            wrapper.appendChild(b);
+            wrapper.appendChild(a);
+            fragment.appendChild(wrapper);
         }
 
         container.innerHTML = '';

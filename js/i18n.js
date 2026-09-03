@@ -41,7 +41,7 @@ const translations = {
         'about.news': 'Recent news',
         
         // 论文 (publications.html)
-        'publications.title': 'Selected Publications',
+        'publications.title': 'Publications',
         'publications.note': 'For a complete list, please browse my',
         'publications.note.link': 'Google Scholar.',
         'pub.1': 'Robust Sentiment Detection on Twitter from Biased and Noisy Data',
@@ -70,7 +70,7 @@ const translations = {
         'pub.12.detail': 'Journal of Data Intelligence, 2023; 74 citations.',
         
         // 专利 (patents.html)
-        'patents.title': 'Selected Patents',
+        'patents.title': 'Patents',
         'pat.1': 'Systems and methods for social media data mining',
         'pat.1.detail': 'US10496654B2, 208 Citations',
         'pat.2': 'Relevance recognition for a human machine dialog system contextual question answering based on a normalization of the length of the user input',
@@ -197,7 +197,7 @@ const translations = {
         'about.news': '最新动态',
         
         // 论文
-        'publications.title': '代表性论文',
+        'publications.title': '论文',
         'publications.note': '完整列表请浏览我的',
         'publications.note.link': '谷歌学术。',
         'pub.1': '有偏噪声数据下的Twitter鲁棒情感检测',
@@ -226,7 +226,7 @@ const translations = {
         'pub.12.detail': 'Journal of Data Intelligence, 2023；被引用次数：74。',
 
         // 专利
-        'patents.title': '代表性专利',
+        'patents.title': '专利',
         'pat.1': '用于社交媒体数据挖掘的系统和方法',
         'pat.1.detail': 'US10496654B2；被引用次数：208',
         'pat.2': '人机对话系统上下文问题相关性识别',
@@ -368,6 +368,16 @@ const translations = {
         // 重新渲染新闻（如果存在）
         if (typeof window.renderNews === 'function') {
             window.renderNews(lang);
+        }
+
+        // 重新渲染论文列表（如果存在）
+        if (typeof window.renderPub === 'function') {
+            window.renderPub(lang);
+        }
+
+        // 重新渲染专利列表（如果存在）
+        if (typeof window.renderPat === 'function') {
+            window.renderPat(lang);
         }
             // ===== 新增：翻译完成后显示页面 =====
         document.body.classList.add('i18n-ready');
