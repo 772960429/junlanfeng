@@ -330,6 +330,17 @@
     "pdf": "https://arxiv.org/pdf/2607.15550"
   },
   {
+    "title_zh": "R3S：面向多语言理解与推理的强化信号精炼与恢复",
+    "title_en": "R3S: Refining and Recovering Reinforcement Signals for Multilingual Understanding and Reasoning",
+    "source_zh": "arXiv:2602.0594",
+    "source_en": "arXiv:2602.0594",
+    "year": "2026",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Liu2026R3SRA,\n  title={R3S: Refining and Recovering Reinforcement Signals for Multilingual Understanding and Reasoning},\n  author={Junxiao Liu and Zhijun Wang and Yixiao Li and Zhejian Lai and Liqian Huang and Xin Huang and Xue Han and Junlan Feng and Shujian Huang},\n  year={2026},\n  url={https://api.semanticscholar.org/CorpusID:285303632}\n}",
+    "pdf": ""
+  },
+  {
     "title_zh": "重新审视过度思考：惩罚思维链推理中的内部与外部冗余",
     "title_en": "Reconsidering overthinking: Penalizing internal and external redundancy in CoT reasoning",
     "source_zh": "arXiv preprint",
