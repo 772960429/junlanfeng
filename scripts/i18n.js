@@ -1,0 +1,430 @@
+// 所有页面的翻译数据
+const translations = {
+    en: {
+        // 导航
+        'nav.about': 'About',
+        'nav.publications': 'Publications',
+        'nav.patents': 'Patents',
+        'nav.experience': 'Experience',
+        'nav.awards': 'Awards',
+        // ===== 页面标题 =====
+        'site.title': 'Junlan Feng – Chief Scientist, China Mobile Group',
+        // ===== 导航栏 =====
+        'site.name': 'Junlan Feng – China Mobile',
+
+        // ===== 侧边栏 =====
+        'sidebar.name': 'Junlan Feng',
+        'sidebar.title': 'IEEE Fellow',
+        'sidebar.company': 'Chief Scientist, China Mobile Group',
+        'sidebar.scholar': 'Google Scholar',
+        'sidebar.dblp': 'DBLP',
+        'sidebar.orcid': 'ORCID',
+        'sidebar.cv': '[CV]',
+        'cv.link': 'CV_JunlanFeng_EN.pdf', // 英文简历路径
+        
+        // 首页 (index.html)
+        'about.title': 'About',
+        'about.intro': 'AI scientist and technology leader with nearly 30 years of experience across conversational AI, network intelligence, AI platforms, and safe foundation models. Chief Scientist of China Mobile Group; former Chair of LF Networking, the world\'s largest open-source networking community. Led the development of the Jiutian AI Platform and foundation-model technologies, supporting 4,000+ production use cases, 30+ enterprise and government clients across 9 sectors, and services reaching over one billion users.',
+        'about.research': 'Research:',
+        'about.research.text': '200+ academic papers; 6,800+ citations; 100+ authorized patents and 200+ pending patent applications; 1 co-authored book.',
+        'about.leadership': 'Leadership & Impact:',
+        'about.leadership.text': '20+ awards; 100+ keynote/invited talks; 4,000+ AI production use cases; 30+ major enterprise deployments.',
+        'about.tech.leadership': 'Research and Technology Leadership:',
+        'about.conversational.ai': 'Conversational AI:',
+        'about.conversational.ai.text': 'At AT&T Labs Research, pioneered WebTalk, an early system for automatically building dialogue services from web content. Later led China Mobile\'s customer-service intelligence program, including the Eva intelligent customer-service system.',
+        'about.network.intelligence': 'Network Intelligence:',
+        'about.network.intelligence.text': 'Led China Mobile\'s network-intelligence program and key technologies for autonomous networks, supporting the evolution of autonomous-network capabilities and large-scale intelligent operations.',
+        'about.jiutian': 'Jiutian AI Platform and Foundation Models:',
+        'about.jiutian.text': 'Chief engineer of the Jiutian AI Platform, Jiutian AI middle platform, and Jiutian foundation-model core technologies. The platform supports large-scale AI production deployment across communications, energy, chemicals, aviation, healthcare, government services, and other sectors.',
+        'about.industrial.ai': 'Industrial AI Deployment:',
+        'about.industrial.ai.text': 'Chief technical leader for major AI platform and foundation-model projects with PetroChina, China National Chemical Corporation, Chinese PLA General Hospital, China Eastern Airlines, TravelSky, Gansu Provincial Government, and Heilongjiang Provincial Government.',
+        'about.news': 'Recent news',
+        
+        // 论文 (publications.html)
+        'publications.title': 'Selected Publications',
+        'publications.note': 'For a complete list, please browse my',
+        'publications.note.link': 'Google Scholar.',
+        'pub.1': 'Robust Sentiment Detection on Twitter from Biased and Noisy Data',
+        'pub.1.detail': 'COLING, 2010; 1,430+ citations.',
+        'pub.2': 'Network Topology Optimization via Deep Reinforcement Learning',
+        'pub.2.detail': 'IEEE Transactions on Communications, 2023; 61 citations, Impact Factor: 8.3.',
+        'pub.3': 'Network Meets ChatGPT: Intent Autonomous Management, Control and Operation',
+        'pub.3.detail': 'Journal of Communications and Information Networks, 2023; 84 citations, Impact Factor: 4.7.',
+        'pub.4': 'Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries',
+        'pub.4.detail': '2024; 35 citations, Impact Factor: 9.78.',
+        'pub.5': 'A survey of transformer-based multimodal pre-trained modals',
+        'pub.5.detail': 'Journal of Neurocomputing, 2023; 65 citations, Impact Factor: 6.5.',
+        'pub.6': 'Federated learning over coupled graphs',
+        'pub.6.detail': '2023; 51 citations, Impact Factor: 7.27.',
+        'pub.7': 'A survey on deep learning for cellular traffic prediction',
+        'pub.7.detail': 'Intelligent Computing (Science Partner Journals), 2024; 52 citations, Impact Factor: 3.7.',
+        'pub.8': 'JT-SAFE-V2: Safety-by-Design Foundation Model with World-Context Data',
+        'pub.8.detail': 'arXiv:2605.24414, 2026.6',
+        'pub.9': 'Measuring User Influence on Twitter Using Modified K-Shell Decomposition',
+        'pub.9.detail': 'AAAI, 2021; 123 citations.',
+        'pub.10': 'Probabilistic model-based sentiment analysis of twitter messages',
+        'pub.10.detail': 'IEEE SLT, 2010; 121 citations.',
+        'pub.11': 'A Comprehensive Survey on Long Context Language Modeling',
+        'pub.11.detail': 'arXiv:2503.17407, 2025; 117 citations.',
+        'pub.12': 'Deep Learning for Medication Recommendation: A Systematic Survey',
+        'pub.12.detail': 'Journal of Data Intelligence, 2023; 74 citations.',
+        
+        // 专利 (patents.html)
+        'patents.title': 'Selected Patents',
+        'pat.1': 'Systems and methods for social media data mining',
+        'pat.1.detail': 'US10496654B2, 208 Citations',
+        'pat.2': 'Relevance recognition for a human machine dialog system contextual question answering based on a normalization of the length of the user input',
+        'pat.2.detail': 'US8639517B2, 127 Citations',
+        'pat.3': 'Method of detecting potential phishing by analyzing universal resource locators',
+        'pat.3.detail': 'US9521165B2, 81 Citations',
+        'pat.4': 'System and method of providing a spoken dialog interface to a website',
+        'pat.4.detail': 'US8949132B2, 81 Citations',
+        'pat.5': 'System and method using a discriminative learning approach for question answering',
+        'pat.5.detail': 'US8543565B2, 74 Citations',
+        'pat.6': 'Method and apparatus for automatically building conversational systems',
+        'pat.6.detail': 'US8718242B2, 61 Citations',
+        'pat.7': 'A State-Aware Adversarial Generative Closed-Loop Scheme',
+        'pat.7.detail': 'CN118798312A',
+        'pat.8': 'A Streaming Noisy Label Detection Method',
+        'pat.8.detail': 'CN118797432A',
+        'pat.9': 'A Decoder-Based Generative Pre-Training Large Model Architecture',
+        'pat.9.detail': 'CN120257116A',
+        'pat.10': 'A Context Orchestration and Management Method for Integrated Development and Operations of Communication Network Software',
+        'pat.10.detail': 'CN118735425A',
+        'pat.11': 'Method, System, Framework, Device, and Apparatus for Holistic AI',
+        'pat.11.detail': 'CN116911757A',
+        'pat.12': 'A Planning-Based Robust Multi-Action Dialogue Policy Model and System',
+        'pat.12.detail': 'CN116431771A',
+        
+        // 经历 (experience.html)
+        'experience.title': 'Professional Experience',
+        'exp.1': '2021-Present: Chief Scientist at China Mobile Group',
+        'exp.2': '2016-2021: CMR Chief Scientist, China Mobile Research Institute',
+        'exp.3': '2013-2013: Architect, Big Data Product Line, IBM R&D Center',
+        'exp.4': '2006-2013: Principal Researcher, AT&T Labs Research',
+        'exp.5': '2001-2006: Senior Researcher, AT&T Labs Research',
+        'education.title': 'Education',
+        'edu.1': '1998-2001: Ph.D., Institute of Acoustics, Chinese Academy of Sciences',
+        'edu.1.detail': 'Thesis: Acoustic models and decoding algorithms in natural speech recognition',
+        'edu.2': '1995-1998: Master, Harbin Engineering University',
+        'edu.2.detail': 'Thesis: Text-independent speaker recognition',
+        'edu.3': '1990-1995: Bachelor, Shanxi University of Finance & Economics',
+        'edu.3.detail': 'Information Science',
+        'leadership.title': 'Professional Leadership',
+        'lead.0': '2024-Present: Fellow of Chinese Institute of Communications',
+        'lead.1': '2023-Present: Vice Chair, Artificial Intelligence Committee, Chinese Institute of Communications (CIC)',
+        'lead.2': '2020-2023: Chairman of the Board of Linux Foundation Networking',
+        'lead.3': '2020-Present: Board Member, Linux Foundation Networking',
+        'lead.4': '2023-Present: Vice Chairman, China Large Model Committee of CCF',
+        'lead.5': '2023-Present: Vice Chairman, China Artificial Intelligence Industry Alliance',
+        'lead.6': '2020-Present: Deputy Director, AI Committee of Internet Society of China',
+        'lead.7': '2023-Present: Co-Leader, Large Model Task Force, National AI Standardization Overall Group',
+        'lead.8': '2009-2012: Member of IEEE Speech and Language Processing Technical Committee',
+        'lead.9': '2014-2016: Member of IEEE Signal Processing Industrial Relation Committee',
+        'lead.10': '2016-2018: China Natural Language Processing Committee',
+        'lead.11': '10+ Years of Program committee members/Reviewers, Major Conferences of ACL, ISCA, ACM, AAAI, ICML, ICASSP, ICLR, NeurIPS, IEEE Transactions, etc.',
+        'projects.title': 'Recent Major Projects Led',
+        'projects.national': 'National-Level Projects',
+        'proj.1': '2024-2025: Project Leader, Safety by Design Foundation Models (JT-Safe), 360+ Researchers',
+        'proj.2': '2022-2025: Project Leader, National New-Generation AI Open Innovation Platform, 150+ Researchers and Engineers',
+        'proj.3': '2022-2026: Director of Laboratory Council, National Key Laboratory of Multimedia Information Processing, 190+ Members of Technical Staff',
+        'proj.4': '2019-2022: Project Leader, Cross-Domain Intelligent Orchestration Plane for Software-Defined Networking',
+        'proj.5': '2020-2023: Technical Leader, Human-Computer Interaction Services: Large Scale',
+        'projects.enterprise': 'Enterprise-Level Projects',
+        'ent.1': '2024-2025: Chief Technical Leader, PetroChina AI Middle Platform and Multimodal Foundation Model',
+        'ent.2': '2025-2026: Chief Technical Leader, China National Chemical Corporation Industry Model and Platform',
+        'ent.3': '2020-2025: Chief Technical Leader, Network Intelligence Transformation of China Mobile',
+        'ent.4': '2023-2026: Chief Technical Leader, Jiutian Foundation Models',
+        'ent.5': '2020-Present: Chief Technical Leader, Jiutian AI Platform and Middle Platform, China Mobile',
+        'ent.6': '2021-2022: Chief Technical Leader, China Eastern Airlines Platform and Foundation Model',
+        'ent.7': '2024-2026: Chief Technical Leader, TravelSky AI Platform and Customer Service',
+        'ent.8': '2023-2025: Chief Technical Leader, Hospital AI Platform and Capabilities',
+        
+        // 奖项 (awards.html)
+        'awards.title': 'Selected Honors and Awards',
+        'awd.title1': 'Honorary Titles',
+        'awd.title2': 'Research Achievement Awards',
+        'awd.1': 'IEEE Fellow (2022)',
+        'awd.2': 'National Outstanding Scientists — Strategic Scientist (2023)',
+        'awd.3': 'Jiutian Large Model selected into the Top 10 National Key Foundation Technologies of Central Enterprises, First Principal Contributor',
+        'awd.4': 'Jiutian AI Team awarded the "Model Central Enterprise" honorary Title (2024; team leader; no more than 10 nationwide each year)',
+        'awd.5': 'Science and Technology Award for Key Technologies and Large-Scale Application of Autonomous Networks — As First Principal Contributor, First Class Prize, Science and Technology Award of China Institute of Communications',
+        'awd.6': 'Jiutian AI Platform for the Communications Industry and Its Application — As First Principal Contributor, Second Prize, Science and Technology Award of China Institute of Communications',
+        'awd.7': 'Distinguished Keynote Speech — IEEE, IEEE Computer Society, and IEEE Communication Society Technical Committee on Big Data (2019)',
+        'awd.8': 'AT&T CTO Award (2009; 8 recipients across AT&T)',
+        'awd.9': 'Multiple China Mobile Group Top Technical Awards: For work on Jiutian AI Platform, Jiutian Intelligent Recommendation Platform, Network intelligence, and Intelligent speech technologies',
+    },
+    zh: {
+        // 导航
+        'nav.about': '关于',
+        'nav.publications': '论文',
+        'nav.patents': '专利',
+        'nav.experience': '经历',
+        'nav.awards': '荣誉',
+        // ===== 页面标题 =====
+        'site.title': '冯俊兰 – 中国移动集团首席科学家',
+
+        // ===== 导航栏 =====
+        'site.name': '冯俊兰 – 中国移动',
+        
+
+        // ===== 侧边栏 =====
+        'sidebar.name': '冯俊兰',
+        'sidebar.title': 'IEEE Fellow',
+        'sidebar.company': '中国移动集团首席科学家',
+        'sidebar.scholar': '谷歌学术',
+        'sidebar.dblp': 'DBLP',
+        'sidebar.orcid': 'ORCID',
+        'sidebar.cv': '[简历]',
+        'cv.link': 'CV_JunlanFeng_CN.pdf', // 中文简历路径
+        
+        // 首页
+        'about.title': '个人简介',
+        'about.intro': '人工智能科学家和技术领导者，在对话式人工智能、网络智能、人工智能平台及安全基础模型等领域深耕近30年。现任中国移动集团首席科学家，曾任全球最大开源网络社区LF Networking董事会主席，带领团队开展九天人工智能平台及基础模型技术研发。',
+        'about.research': '学术研究：', 
+        'about.research.text': '发表学术论文200余篇，引用次数6800余次；拥有授权专利100余项，在审专利申请200余项；参与著书一部。',
+        'about.leadership': '产业影响：',
+        'about.leadership.text': '获得20余项奖项；受邀参加行业峰会并作报告100余场；相关成果已支撑4000余个生产应用场景，覆盖9个行业的30余家政企客户，服务用户超过10亿。',
+        'about.tech.leadership': '代表成果：',
+        'about.conversational.ai': '对话式人工智能：',
+        'about.conversational.ai.text': '在AT&T（贝尔）实验室研究中心工作期间，开创性研发了一个基于网页内容自动构建对话服务的WebTalk系统。随后，领导中国移动客户服务智能化项目，研发Eva智能客服系统。',
+        'about.network.intelligence': '网络智能：',
+        'about.network.intelligence.text': '领导中国移动网络智能化项目和自智网络关键技术研发，支撑自智网络能力演进和大规模智能化运维。',
+        'about.jiutian': '平台与基础模型：',
+        'about.jiutian.text': '担任九天人工智能平台、九天人工智能中台和九天基础模型研发技术总师，服务于人工智能在通信、能源、化工、航空、医疗健康、政务服务等行业的大规模生产应用部署。',
+        'about.industrial.ai': '产业人工智能部署：',
+        'about.industrial.ai.text': '担任中国石油、中国化工集团、中国人民解放军总医院、中国东方航空、中国航信、甘肃省政府、黑龙江省政府等重大人工智能平台和基础模型项目的首席技术负责人。',
+        'about.news': '最新动态',
+        
+        // 论文
+        'publications.title': '代表性论文',
+        'publications.note': '完整列表请浏览我的',
+        'publications.note.link': '谷歌学术。',
+        'pub.1': '有偏噪声数据下的Twitter鲁棒情感检测',
+        'pub.1.detail': 'COLING, 2010； 被引用次数：1430+。',
+        'pub.2': '基于深度强化学习的网络拓扑优化',
+        'pub.2.detail': 'IEEE Transactions on Communications, 2023；被引用次数：61；影响因子：8.3。',
+        'pub.3': '网络遇见ChatGPT：意图自治管理、控制与运营',
+        'pub.3.detail': 'Journal of Communications and Information Networks, 2023；被引用次数：84；影响因子：4.7。',
+        'pub.4': '用于多类型锂离子电池鲁棒荷电状态估计的混合提示驱动大语言模型',
+        'pub.4.detail': '2024；被引用次数：35；影响因子：9.78。',
+        'pub.5': '基于Transformer的多模态预训练模型综述',
+        'pub.5.detail': 'Journal of Neurocomputing, 2023； 被引用次数：65；影响因子：6.5。',
+        'pub.6': '耦合图上的联邦学习',
+        'pub.6.detail': '2023；被引用次数：51；影响因子：7.27。',
+        'pub.7': '蜂窝流量预测中的深度学习综述',
+        'pub.7.detail': 'Intelligent Computing (Science Partner Journals), 2024；被引用次数：52；影响因子：3.7。',
+        'pub.8': 'JT-SAFE-V2：采用世界上下文数据的安全内生基础模型',
+        'pub.8.detail': 'arXiv:2605.24414, 2026.6。',
+        'pub.9': '使用改进K-Shell分解衡量Twitter用户影响力',
+        'pub.9.detail': 'AAAI, 2021；被引用次数：123。',
+        'pub.10': '基于概率模型的Twitter消息情感分析',
+        'pub.10.detail': 'IEEE SLT, 2010；被引用次数：121。',
+        'pub.11': '长上下文语言建模综合综述',
+        'pub.11.detail': 'arXiv:2503.17407, 2025；被引用次数：117。',
+        'pub.12': '面向用药推荐的深度学习系统综述',
+        'pub.12.detail': 'Journal of Data Intelligence, 2023；被引用次数：74。',
+
+        // 专利
+        'patents.title': '代表性专利',
+        'pat.1': '用于社交媒体数据挖掘的系统和方法',
+        'pat.1.detail': 'US10496654B2；被引用次数：208',
+        'pat.2': '人机对话系统上下文问题相关性识别',
+        'pat.2.detail': 'US8639517B2；被引用次数：127',
+        'pat.3': '通过分析统一资源定位符检测潜在网络钓鱼的方法',
+        'pat.3.detail': 'US9521165B2；被引用次数：81',
+        'pat.4': '一种为网站提供语音对话接口的系统和方法',
+        'pat.4.detail': 'US8949132B2；被引用次数：81',
+        'pat.5': '使用判别学习方法处理问题的系统和方法',
+        'pat.5.detail': 'US8543565B2；被引用次数：74',
+        'pat.6': '自动构建对话系统的方法和装置',
+        'pat.6.detail': 'US8718242B2；被引用次数：61',
+        'pat.7': '对话生成模型的训练方法、对话生成方法及装置',
+        'pat.7.detail': 'CN118798312A',
+        'pat.8': '模型训练方法、装置、设备、存储介质及计算机程序产品',
+        'pat.8.detail': 'CN118797432A',
+        'pat.9': '用于网络运维的模型训练及应用方法、装置、设备和介质',
+        'pat.9.detail': 'CN120257116A',
+        'pat.10': '交互上下文的管理方法、装置、设备、系统及存储介质',
+        'pat.10.detail': 'CN118735425A',
+        'pat.11': '一种业务实现方法、装置和存储介质',
+        'pat.11.detail': 'CN116911757A',
+        'pat.12': '对话策略获取方法、装置及相关设备',
+        'pat.12.detail': 'CN116431771A',
+        
+        // 经历
+        'experience.title': '工作经历',
+        'exp.1': '2021-至今：中国移动集团首席科学家',
+        'exp.2': '2016-2021：中国移动研究院首席科学家',
+        'exp.3': '2013-2013：IBM研发中心大数据产品线架构师',
+        'exp.4': '2006-2013：AT&T（贝尔）实验室研究中心（美国）主任研究员',
+        'exp.5': '2001-2006：AT&T（贝尔）实验室研究中心（美国）高级研究员',
+        'education.title': '教育经历',
+        'edu.1': '1998-2001：中国科学院声学研究所 博士',
+        'edu.1.detail': '论文：口语语音识别的声学建模改进和解码方案研究',
+        'edu.2': '1995-1998：哈尔滨工程大学 硕士',
+        'edu.2.detail': '论文：基于GMM的与文本无关的讲话者识别系统的研究',
+        'edu.3': '1990-1995：山西财经大学，信息管理系，学士',
+        'edu.3.detail': '',
+        'leadership.title': '行业任职',
+        'lead.0': '2024-至今：中国通信学会Fellow',
+        'lead.1': '2023-至今：中国通信学会人工智能专委会副主任委员',
+        'lead.2': '2020-2023：Linux网络基金会（LFN）董事会主席',
+        'lead.3': '2020-至今：Linux网络基金会（LFN）董事会委员',
+        'lead.4': '2023-至今：中国计算机学会（CCF）大模型论坛副主席',
+        'lead.5': '2023-至今：中国人工智能产业发展联盟（AIIA）副理事长',
+        'lead.6': '2020-至今：中国互联网协会人工智能工作委员会副主任委员',
+        'lead.7': '2023-至今：国家人工智能标准化总体组大模型专题组联合组长',
+        'lead.8': '2009-2012：IEEE信号处理学会语音与语言处理技术委员会委员',
+        'lead.9': '2014-2016：IEEE信号处理学会产业DSP技术常设委员会委员',
+        'lead.10': '2016-2018：中国计算机学会自然语言处理专业委员会委员',
+        'lead.11': '10+年担任ACL、ISCA、ACM、AAAI、ICML、ICASSP、ICLR、NeurIPS、IEEE Transactions等主要会议及期刊的程序委员会委员/审稿人',
+        'projects.title': '近年承担的重点项目',
+        'projects.national': '国家级项目',
+        'proj.1': '2024-2025：《安全可信基础大模型（JT-Safe）》项目负责人',
+        'proj.2': '2022-2025：《国家新一代人工智能开放创新平台》项目负责人',
+        'proj.3': '2022-2026：《多媒体信息处理全国重点实验室》理事会主任',
+        'proj.4': '2019-2022：《开放协同可控的软件定义网络关键技术与系统》项目负责人',
+        'proj.5': '2020-2023：《拟人化人机交互服务关键技术与系统》技术负责人',
+        'projects.enterprise': '企业级项目',
+        'ent.1': '2024-2025：《中国石油AI中台及多模态基础模型》技术负责人',
+        'ent.2': '2025-2026：《中国化工集团行业模型及平台》技术负责人',
+        'ent.3': '2020-2025：《中国移动网络智能化转型》技术负责人',
+        'ent.4': '2023-2026：《九天基础模型》技术负责人',
+        'ent.5': '2020-至今：《中国移动九天人工智能平台与中台》技术负责人',
+        'ent.6': '2021-2022：《东方航空公司平台及基座模型》技术负责人',
+        'ent.7': '2024-2026：《中国航信AI平台及客服》技术负责人',
+        'ent.8': '2023-2025：《医院AI平台与能力》技术负责人',
+        
+        // 奖项
+        'awards.title': '荣誉与奖项',
+        'awd.title1': '荣誉称号',
+        'awd.title2': '成果奖项',
+        'awd.1': 'IEEE Fellow (2022)',
+        'awd.2': '中央企业优秀科技领军人才 （2023）',
+        'awd.3': '“九天”大模型入选2024年度央企十大国之重器（2024，第一完成人）',
+        'awd.4': '“九天”人工智能团队荣获国资委“央企楷模”荣誉称号（2024，团队带头人，每年全国不超过10个）',
+        'awd.5': '自智网络关键技术及规模应用荣获中国通信学会科学技术奖一等奖（2023，第一完成人）',
+        'awd.6': '面向通信行业的九天人工智能平台及应用荣获中国通信学会科学技术奖二等奖（2020，第一完成人）',
+        'awd.7': 'IEEE计算机学会和IEEE通信学会大数据技术委员会杰出主题演讲（2019）',
+        'awd.8': 'AT&T首席技术官（CTO）大奖（2009，全AT&T共8人获奖）',
+        'awd.9': '人工智能平台、推荐平台、网络智能化、智能语音技术等多项成果荣获中国移动集团技术一等奖',
+    }
+};
+// ============================================================
+// 语言管理（唯一版本）
+// ============================================================
+(function() {
+    'use strict';
+
+    // 获取当前语言
+    window.getCurrentLang = function() {
+        return localStorage.getItem('lang') || 'en';
+    };
+
+    // 核心翻译函数 - 直接渲染，无中间态
+    window.applyTranslation = function(lang) {
+        var t = translations[lang];
+        if (!t) return;
+
+        // 批量更新所有 data-i18n 元素
+        var elements = document.querySelectorAll('[data-i18n]');
+        for (var i = 0; i < elements.length; i++) {
+            var el = elements[i];
+            var key = el.getAttribute('data-i18n');
+            if (t[key] !== undefined) {
+                if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+                    if (el.hasAttribute('placeholder')) {
+                        el.placeholder = t[key];
+                    } else {
+                        el.value = t[key];
+                    }
+                } else {
+                    el.innerHTML = t[key];
+                }
+            }
+        }
+
+        // 更新 CV 链接
+        var cvLink = document.getElementById('cv-link');
+        if (cvLink && t['cv.link']) {
+            cvLink.href = t['cv.link'];
+        }
+
+        // 更新按钮状态
+        var btns = document.querySelectorAll('.lang-btn');
+        for (var j = 0; j < btns.length; j++) {
+            var btn = btns[j];
+            if (btn.dataset.lang === lang) {
+                btn.classList.add('active');
+            } else {
+                btn.classList.remove('active');
+            }
+        }
+
+        // 更新 HTML lang 属性
+        document.documentElement.lang = lang;
+
+        // 重新渲染新闻（如果存在）
+        if (typeof window.renderNews === 'function') {
+            window.renderNews(lang);
+        }
+
+        // 重新渲染论文列表（如果存在）
+        if (typeof window.renderPub === 'function') {
+            window.renderPub(lang);
+        }
+
+        // 重新渲染专利列表（如果存在）
+        if (typeof window.renderPat === 'function') {
+            window.renderPat(lang);
+        }
+            // ===== 新增：翻译完成后显示页面 =====
+        document.body.classList.add('i18n-ready');
+    };
+
+    // 设置语言（对外接口）
+    window.setLanguage = function(lang) {
+        if (!lang || lang === window.getCurrentLang()) return;
+        localStorage.setItem('lang', lang);
+        window.applyTranslation(lang);
+    };
+
+    // 切换语言（对外接口）
+    window.switchLanguage = function(lang) {
+        window.setLanguage(lang);
+    };
+
+    // ============================================================
+    // 页面加载时自动初始化
+    // ============================================================
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', function() {
+            var lang = window.getCurrentLang();
+            window.applyTranslation(lang);
+            bindButtons();
+        });
+    } else {
+        // DOM 已加载，立即执行
+        var lang = window.getCurrentLang();
+        window.applyTranslation(lang);
+        bindButtons();
+    }
+
+    // 绑定按钮事件
+    function bindButtons() {
+        var btns = document.querySelectorAll('.lang-btn');
+        for (var i = 0; i < btns.length; i++) {
+            var btn = btns[i];
+            // 防止重复绑定
+            if (btn._bound) continue;
+            btn._bound = true;
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                var lang = this.dataset.lang;
+                window.switchLanguage(lang);
+            });
+        }
+    }
+
+})();
