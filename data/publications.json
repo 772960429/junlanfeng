@@ -2,7 +2,7 @@
   {
     "title_zh": "PAMDP：基于部分可观测马尔可夫决策过程的交互式人格对齐",
     "title_en": "PAMDP: Interact to Persona Alignment via a Partially Observable Markov Decision Process",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2026",
     "citations": "0",
@@ -13,7 +13,7 @@
   {
     "title_zh": "SafeDialBench：面向多轮对话中多种越狱攻击的大语言模型细粒度安全评估基准",
     "title_en": "SafeDialBench: a fine-grained safety evaluation benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2026",
     "citations": "2",
@@ -24,7 +24,7 @@
   {
     "title_zh": "B-GRPO：基于批分组相对策略优化的无监督语音情感识别",
     "title_en": "B-GRPO: Unsupervised Speech Emotion Recognition based on Batched-Group Relative Policy Optimization",
-    "source_zh": "学术会议（IEEE ICASSP 2026）",
+    "source_zh": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2026",
     "citations": "1",
@@ -35,7 +35,7 @@
   {
     "title_zh": "个性化遇见安全：个性化大语言模型中的机制、风险与缓解策略",
     "title_en": "Personalization Meets Safety: Mechanisms, Risks, and Mitigations in Personalized LLMs",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "0",
@@ -46,7 +46,7 @@
   {
     "title_zh": "PEGRL：基于译后编辑引导强化学习的机器翻译改进方法",
     "title_en": "PEGRL: Improving Machine Translation by Post-Editing Guided Reinforcement Learning",
-    "source_zh": "Findings of ACL 2026",
+    "source_zh": "Findings of the Association for Computational Linguistics (ACL)",
     "source_en": "Findings of the Association for Computational Linguistics (ACL)",
     "year": "2026",
     "citations": "1",
@@ -57,7 +57,7 @@
   {
     "title_zh": "教音频模型学会推理：面向源与层级的统一知识蒸馏框架",
     "title_en": "Teaching Audio Models to Reason: A Unified Framework for Source-and Layer-Wise Distillation",
-    "source_zh": "ICASSP 2026 - 2026 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "source_zh": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "source_en": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2026",
     "citations": "1",
@@ -68,7 +68,7 @@
   {
     "title_zh": "深度研究智能体在何处出错？面向智能体轨迹的跨度级错误定位",
     "title_en": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "0",
@@ -90,7 +90,7 @@
   {
     "title_zh": "对齐支点：面向多语言数学推理的自反馈双重对齐方法",
     "title_en": "Align to the Pivot: Dual Alignment with Self-Feedback for Multilingual Math Reasoning",
-    "source_zh": "ICASSP 2026",
+    "source_zh": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "source_en": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2026",
     "citations": "0",
@@ -112,7 +112,7 @@
   {
     "title_zh": "Go4RL：改进大语言模型预训练数据混合以增强强化学习的方法",
     "title_en": "Go4RL: Improving the Pre-training Data Mixture of Large Language Models for Enhancing Reinforcement Learning",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2026",
     "citations": "0",
@@ -123,7 +123,7 @@
   {
     "title_zh": "Pythia-RAG：基于统一多模态知识图谱的检索增强生成以增强问答",
     "title_en": "Pythia-RAG: Retrieval-augmented generation over a unified multimodal knowledge graph for enhanced QA.",
-    "source_zh": "Knowl. Based Syst.",
+    "source_zh": "Knowledge-Based Systems",
     "source_en": "Knowledge-Based Systems",
     "year": "2026",
     "citations": "1",
@@ -134,7 +134,7 @@
   {
     "title_zh": "基于大语言模型的锂离子电池荷电状态与健康状态联合估计：跨不同时标与运行阶段的多任务提示方法",
     "title_en": "Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: a multi-task prompting method.",
-    "source_zh": "Reliab. Eng. Syst. Saf.",
+    "source_zh": "Reliability Engineering & System Safety",
     "source_en": "Reliability Engineering & System Safety",
     "year": "2026",
     "citations": "2",
@@ -145,7 +145,7 @@
   {
     "title_zh": "基于因果建模的蜂窝网络参数调整多变量KPI预测",
     "title_en": "Causal Modeling-Based Multivariate KPIs Prediction for Parameter Adjustment in Cellular Networks.",
-    "source_zh": "IEEE Trans. Veh. Technol.",
+    "source_zh": "IEEE Transactions on Vehicular Technology",
     "source_en": "IEEE Transactions on Vehicular Technology",
     "year": "2026",
     "citations": "0",
@@ -156,7 +156,7 @@
   {
     "title_zh": "面向结构化数据问答的自校正知识蒸馏",
     "title_en": "Self-Correction Distillation for Structured Data Question Answering.",
-    "source_zh": "AAAI 2026",
+    "source_zh": "AAAI Conference on Artificial Intelligence 2026",
     "source_en": "AAAI Conference on Artificial Intelligence 2026",
     "year": "2026",
     "citations": "1",
@@ -167,7 +167,7 @@
   {
     "title_zh": "基于思考的非思考：通过强化学习解决混合推理模型训练中的奖励欺骗问题",
     "title_en": "Thinking-Based Non-Thinking: Solving the Reward Hacking Problem in Training Hybrid Reasoning Models via Reinforcement Learning.",
-    "source_zh": "ACL 2026",
+    "source_zh": "Annual Meeting of the Association for Computational Linguistics (ACL) 2026",
     "source_en": "Annual Meeting of the Association for Computational Linguistics (ACL) 2026",
     "year": "2026",
     "citations": "0",
@@ -178,7 +178,7 @@
   {
     "title_zh": "NL2Dashboard：一种基于大语言模型生成仪表盘的轻量可控框架",
     "title_en": "NL2Dashboard: A Lightweight and Controllable Framework for Generating Dashboards with LLMs.",
-    "source_zh": "投稿至ACL ARR 2026，暂未接收",
+    "source_zh": "Submitted to ACL ARR 2026",
     "source_en": "Submitted to ACL ARR 2026",
     "year": "2026",
     "citations": "1",
@@ -200,7 +200,7 @@
   {
     "title_zh": "通过翻译-推理一体化训练实现自改进多语言长程推理",
     "title_en": "Self-Improving Multilingual Long Reasoning via Translation-Reasoning Integrated Training.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "1",
@@ -211,7 +211,7 @@
   {
     "title_zh": "超越一刀切：基于大语言模型的零样本图学习自适应子图去噪",
     "title_en": "Beyond One-Size-Fits-All: Adaptive Subgraph Denoising for Zero-Shot Graph Learning with Large Language Models.",
-    "source_zh": "KDD 2026",
+    "source_zh": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "source_en": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "year": "2026",
     "citations": "0",
@@ -222,7 +222,7 @@
   {
     "title_zh": "CCR-Bench：评估大语言模型在复杂约束、控制流与真实场景案例上的综合基准",
     "title_en": "CCR-Bench: A Comprehensive Benchmark for Evaluating LLMs on Complex Constraints, Control Flows, and Real-World Cases.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "0",
@@ -233,7 +233,7 @@
   {
     "title_zh": "GeoTikzBridge：推进几何感知与推理的多模态代码生成",
     "title_en": "GeoTikzBridge: Advancing Multimodal Code Generation for Geometric Perception and Reasoning.",
-    "source_zh": "CVPR 2026",
+    "source_zh": "CVPR",
     "source_en": "CVPR",
     "year": "2026",
     "citations": "0",
@@ -244,7 +244,7 @@
   {
     "title_zh": "DR3-Eval：迈向真实可复现的深度研究评估",
     "title_en": "DR3-Eval: Towards Realistic and Reproducible Deep Research Evaluation.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "1",
@@ -255,7 +255,7 @@
   {
     "title_zh": "SeaEvo：基于策略空间进化的算法发现推进",
     "title_en": "SeaEvo: Advancing Algorithm Discovery with Strategy Space Evolution.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "0",
@@ -266,7 +266,7 @@
   {
     "title_zh": "基于推理大语言模型的策略感知优化建模",
     "title_en": "Strategy-Aware Optimization Modeling with Reasoning LLMs.",
-    "source_zh": "ICML 2026",
+    "source_zh": "International Conference on Machine Learning (ICML) 2026",
     "source_en": "International Conference on Machine Learning (ICML) 2026",
     "year": "2026",
     "citations": "0",
@@ -277,7 +277,7 @@
   {
     "title_zh": "基于结构噪声初始化与引导的无调参指令式视频编辑",
     "title_en": "Tuning-free Instruction-based Video Editing Via Structural Noise Initialization and Guidance.",
-    "source_zh": "IEEE ICIP 2026",
+    "source_zh": "IEEE International Conference on Image Processing (ICIP) 2026",
     "source_en": "IEEE International Conference on Image Processing (ICIP) 2026",
     "year": "2026",
     "citations": "0",
@@ -288,7 +288,7 @@
   {
     "title_zh": "REC-RL：基于高斯与范围奖励优化的指称表达式计数",
     "title_en": "REC-RL: Referring expression counting via Gaussian and range-based reward optimization.",
-    "source_zh": "IEEE ICIP 2026",
+    "source_zh": "IEEE International Conference on Image Processing (ICIP) 2026",
     "source_en": "IEEE International Conference on Image Processing (ICIP) 2026",
     "year": "2026",
     "citations": "0",
@@ -299,7 +299,7 @@
   {
     "title_zh": "JT-SAFE-V2：融合世界语境数据的安全设计基础模型",
     "title_en": "JT-SAFE-V2: Safety-by-Design Foundation Model with World-Context Data.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "0",
@@ -310,7 +310,7 @@
   {
     "title_zh": "ChildEval：当大语言模型遇见儿童人格",
     "title_en": "ChildEval: When large language models meet children's personalities.",
-    "source_zh": "ACL 2026 findings",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
     "citations": "0",
@@ -321,7 +321,7 @@
   {
     "title_zh": "SeerGuard：基于世界模型预测的移动GUI智能体安全框架",
     "title_en": "SeerGuard: A Safety Framework for Mobile GUI Agents via World Model Prediction",
-    "source_zh": "arXiv（即将发表在）",
+    "source_zh": "arXiv",
     "source_en": "arXiv",
     "year": "2026",
     "citations": "1",
@@ -332,7 +332,7 @@
   {
     "title_zh": "重新审视过度思考：惩罚思维链推理中的内部与外部冗余",
     "title_en": "Reconsidering overthinking: Penalizing internal and external redundancy in CoT reasoning",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "10",
@@ -343,7 +343,7 @@
   {
     "title_zh": "大循环与原子化：大语言模型扩展能力的整体性综述",
     "title_en": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
-    "source_zh": "应用科学",
+    "source_zh": "Applied Sciences (MDPI)",
     "source_en": "Applied Sciences (MDPI)",
     "year": "2025",
     "citations": "2",
@@ -354,7 +354,7 @@
   {
     "title_zh": "基于大语言模型的锂离子电池跨不同时间尺度与多变运行阶段的荷电状态及健康状态联合估计：一种多阶段方法",
     "title_en": "Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-stage approach",
-    "source_zh": "Reliability Engineering & System Safety（Elsevier），2026",
+    "source_zh": "Reliability Engineering & System Safety（Elsevier）",
     "source_en": "Reliability Engineering & System Safety（Elsevier）",
     "year": "2025",
     "citations": "2",
@@ -365,7 +365,7 @@
   {
     "title_zh": "大视觉语言模型的资源消耗红队测试",
     "title_en": "Resource Consumption Red-Teaming for Large Vision-Language Models",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "1",
@@ -376,7 +376,7 @@
   {
     "title_zh": "基于大语言模型闭环感知-自适应-反馈推理的铁路应答器通信健康预测",
     "title_en": "Health Prognostics of Rail Balise Communications With Large Language Model via Closed-Loop Perception–Adaptation–Feedback Reasoning",
-    "source_zh": "IEEE Transactions on Instrumentation and Measurement，2025",
+    "source_zh": "IEEE Transactions on Instrumentation and Measurement",
     "source_en": "IEEE Transactions on Instrumentation and Measurement",
     "year": "2025",
     "citations": "1",
@@ -387,7 +387,7 @@
   {
     "title_zh": "基于多状态显隐式提示学习驱动预训练语言模型的锂离子电池健康状态、荷电状态与能量状态协同估计",
     "title_en": "State-of-Health, State-of-Charge, and State-of-Energy Co-Estimation of Li-Ion Batteries With Pretrained Language Model Empowered by Multistate Explicit-Implicit Prompt Learning",
-    "source_zh": "IEEE Transactions on Transportation Electrification，2026",
+    "source_zh": "IEEE Transactions on Transportation Electrification",
     "source_en": "IEEE Transactions on Transportation Electrification",
     "year": "2025",
     "citations": "1",
@@ -409,7 +409,7 @@
   {
     "title_zh": "基于循环编码的大语言模型时间对齐方法用于长距离时间表示",
     "title_en": "Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "0",
@@ -420,7 +420,7 @@
   {
     "title_zh": "Ticktack：利用干支周期时间表达的大语言模型长距离时间对齐方法",
     "title_en": "Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv——未正式发表",
     "source_en": "arXiv——未正式发表",
     "year": "2025",
     "citations": "1",
@@ -442,7 +442,7 @@
   {
     "title_zh": "大语言模型的最优增长调度是什么？一项理论研究",
     "title_en": "What is an Optimal Growth Schedule for Large Language Models? A Theoretical Study",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2025",
     "citations": "0",
@@ -453,7 +453,7 @@
   {
     "title_zh": "面向医学自然语言理解的渐进式学习策略",
     "title_en": "A Progressive Learning Strategy for Medical Natural Language Understanding",
-    "source_zh": "KnowFM @ ACL 2025, OpenReview, non-archiva",
+    "source_zh": "Knowledgeable Foundation Models at ACL 2025",
     "source_en": "Knowledgeable Foundation Models at ACL 2025",
     "year": "2025",
     "citations": "0",
@@ -464,7 +464,7 @@
   {
     "title_zh": "DGPO：利用双向KL散度间隙缓解似然偏移的方法",
     "title_en": "DGPO: Mitigating Likelihood Displacement with Bidirectional KL Divergence Gap",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2025",
     "citations": "0",
@@ -475,7 +475,7 @@
   {
     "title_zh": "ASO-LoRA：面向大语言模型持续学习的基于归因分数的软正交低秩适配方法",
     "title_en": "ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2025",
     "citations": "0",
@@ -486,7 +486,7 @@
   {
     "title_zh": "TRACE：真实场景下考虑安全性的移动智能体由粗到细自动评估",
     "title_en": "TRACE: Coarse-to-Fine Automated Evaluation of Mobile Agents with Safety Considerations in Realistic Environments",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2025",
     "citations": "0",
@@ -497,7 +497,7 @@
   {
     "title_zh": "通过映射函数重塑输入以实现对齐",
     "title_en": "Recast Your Input via a Mapping Function for Alignment",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2025",
     "citations": "0",
@@ -519,7 +519,7 @@
   {
     "title_zh": "Uni-AdaFocus：面向视频识别的时空动态计算",
     "title_en": "Uni-AdaFocus: Spatial-Temporal Dynamic Computation for Video Recognition.",
-    "source_zh": "IEEE Trans. Pattern Anal. Mach. Intell.",
+    "source_zh": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "source_en": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "year": "2025",
     "citations": "21",
@@ -530,7 +530,7 @@
   {
     "title_zh": "基于上下文感知动态超图的移动应用使用预测",
     "title_en": "Predicting Mobile App Usage With Context-Aware Dynamic Hypergraphs.",
-    "source_zh": "IEEE Trans. Mob. Comput.",
+    "source_zh": "IEEE Transactions on Mobile Computing",
     "source_en": "IEEE Transactions on Mobile Computing",
     "year": "2025",
     "citations": "5",
@@ -541,7 +541,7 @@
   {
     "title_zh": "在边缘设备上构建准确可解释的在线分类器",
     "title_en": "Building Accurate and Interpretable Online Classifiers on Edge Devices.",
-    "source_zh": "IEEE Trans. Parallel Distributed Syst.",
+    "source_zh": "IEEE Transactions on Parallel and Distributed Systems",
     "source_en": "IEEE Transactions on Parallel and Distributed Systems",
     "year": "2025",
     "citations": "2",
@@ -563,7 +563,7 @@
   {
     "title_zh": "基于自注意力的思维图用于数学问题求解",
     "title_en": "Self-attention-based Graph-of-Thought for Math Problem Solving.",
-    "source_zh": "ACL (Findings)",
+    "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2025",
     "citations": "4",
@@ -574,7 +574,7 @@
   {
     "title_zh": "Entriever：面向知识驱动对话系统的基于能量的检索器",
     "title_en": "Entriever: Energy-based Retriever for Knowledge-Grounded Dialog Systems.",
-    "source_zh": "ACL (Findings)",
+    "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2025",
     "citations": "1",
@@ -585,7 +585,7 @@
   {
     "title_zh": "探索与扩展语码转换用于多语言语言模型预训练",
     "title_en": "Investigating and Scaling up Code-Switching for Multilingual Language Model Pre-Training.",
-    "source_zh": "ACL (Findings)",
+    "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2025",
     "citations": "15",
@@ -596,7 +596,7 @@
   {
     "title_zh": "由浅入深：融合外部知识图谱与大语言模型的追问生成",
     "title_en": "From Superficial to Deep: Integrating External Knowledge for Follow-up Question Generation Using Knowledge Graph and LLM.",
-    "source_zh": "COLING",
+    "source_zh": "International Conference on Computational Linguistics (COLING)",
     "source_en": "International Conference on Computational Linguistics (COLING)",
     "year": "2025",
     "citations": "15",
@@ -607,7 +607,7 @@
   {
     "title_zh": "汇聚多元视角：面向知识图谱错误检测增强的多智能体框架",
     "title_en": "Harnessing Diverse Perspectives: A Multi-agent Framework for Enhanced Error Detection in Knowledge Graphs.",
-    "source_zh": "DASFAA (6)",
+    "source_zh": "DASFAA",
     "source_en": "DASFAA",
     "year": "2025",
     "citations": "4",
@@ -618,7 +618,7 @@
   {
     "title_zh": "理解大语言模型的跨语言上下文检索：性能几何及其来源",
     "title_en": "Understanding LLMs' Cross-Lingual Context Retrieval: How Good It Is And Where It Comes From.",
-    "source_zh": "EMNLP",
+    "source_zh": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "source_en": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "year": "2025",
     "citations": "4",
@@ -629,7 +629,7 @@
   {
     "title_zh": "MultiPL-MoE：基于混合专家模型的大语言模型多编程语言扩展",
     "title_en": "MultiPL-MoE: Multi-Programming-Lingual Extension of Large Language Models through Hybrid Mixture-of-Experts.",
-    "source_zh": "EMNLP (Findings)",
+    "source_zh": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
     "source_en": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
     "year": "2025",
     "citations": "2",
@@ -640,7 +640,7 @@
   {
     "title_zh": "InjectTST：向独立通道注入全局信息以进行长时间序列预测",
     "title_en": "InjectTST: Injecting Global Information into Independent Channels for Long Time Series Forecasting.",
-    "source_zh": "ICASSP",
+    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP",
     "year": "2025",
     "citations": "1",
@@ -651,7 +651,7 @@
   {
     "title_zh": "基于能量模型引导的自监督学习用于说话人验证",
     "title_en": "Energy-based Model Guided Self-Supervised Learning for Speaker Verification.",
-    "source_zh": "ICASSP",
+    "source_zh": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2025",
     "citations": "2",
@@ -662,7 +662,7 @@
   {
     "title_zh": "高效超大规模说话人验证：面向加速训练与内存优化的动态激活子全连接层",
     "title_en": "Efficient Extreme Large-Scale Speaker Verification: Dynamic Active Sub Fully-Connected Layers for Faster Training and Memory Optimization.",
-    "source_zh": "ICASSP",
+    "source_zh": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2025",
     "citations": "1",
@@ -673,7 +673,7 @@
   {
     "title_zh": "LOIRE：基于预训练语言模型高效增长的增量数据终身学习",
     "title_en": "LOIRE: LifelOng learning on Incremental data via pre-trained language model gRowth Efficiently.",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "International Conference on Learning Representations (ICLR)",
     "source_en": "International Conference on Learning Representations (ICLR)",
     "year": "2025",
     "citations": "13",
@@ -684,7 +684,7 @@
   {
     "title_zh": "STNet：时空Transformer对多元时间序列预测的有效性",
     "title_en": "STNet: Spatial-Temporal Transformers are Effective for Multivariate Time Series Forecasting.",
-    "source_zh": "IJCNN",
+    "source_zh": "International Joint Conference on Neural Networks (IJCNN)",
     "source_en": "International Joint Conference on Neural Networks (IJCNN)",
     "year": "2025",
     "citations": "0",
@@ -717,7 +717,7 @@
   {
     "title_zh": "预测参数调整对蜂窝网络的影响",
     "title_en": "Predicting the Impact of Parameter Adjustments on Cellular Networks.",
-    "source_zh": "ISSREW",
+    "source_zh": "2025 IEEE 36th International Symposium on Software Reliability Engineering Workshops (ISSREW)",
     "source_en": "2025 IEEE 36th International Symposium on Software Reliability Engineering Workshops (ISSREW)",
     "year": "2025",
     "citations": "0",
@@ -728,7 +728,7 @@
   {
     "title_zh": "面向大规模移动流量预测的增强知识分层图迁移学习框架",
     "title_en": "A Knowledge-enhanced Hierarchical Graph Transfer Learning Framework for Large-scale Mobile Traffic Prediction.",
-    "source_zh": "IWQoS",
+    "source_zh": "2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS)",
     "source_en": "2025 IEEE/ACM 33rd International Symposium on Quality of Service (IWQoS)",
     "year": "2025",
     "citations": "0",
@@ -739,7 +739,7 @@
   {
     "title_zh": "大语言模型是跨语言无知识推理器",
     "title_en": "Large Language Models Are Cross-Lingual Knowledge-Free Reasoners.",
-    "source_zh": "NAACL (Long Papers)",
+    "source_zh": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "year": "2025",
     "citations": "19",
@@ -750,7 +750,7 @@
   {
     "title_zh": "语言模型调色板：可控文本生成的求解器",
     "title_en": "Palette of Language Models: A Solver for Controlled Text Generation.",
-    "source_zh": "NAACL (Long Papers)",
+    "source_zh": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "year": "2025",
     "citations": "1",
@@ -761,7 +761,7 @@
   {
     "title_zh": "SafeDialBench：面向多轮对话中多样越狱攻击的大语言模型细粒度安全基准",
     "title_en": "SafeDialBench: A Fine-Grained Safety Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks.",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "International Conference on Learning Representations (ICLR)",
     "source_en": "International Conference on Learning Representations (ICLR)",
     "year": "2025",
     "citations": "23",
@@ -772,7 +772,7 @@
   {
     "title_zh": "长上下文语言建模综合综述",
     "title_en": "A Comprehensive Survey on Long Context Language Modeling.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "117",
@@ -783,7 +783,7 @@
   {
     "title_zh": "ReDDiT：用于离散视觉生成的噪声重哈希",
     "title_en": "ReDDiT: Rehashing Noise for Discrete Visual Generation.",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "International Conference on Learning Representations (ICLR)",
     "source_en": "International Conference on Learning Representations (ICLR)",
     "year": "2025",
     "citations": "0",
@@ -794,7 +794,7 @@
   {
     "title_zh": "TReB：评估大语言模型表格推理能力的综合基准",
     "title_en": "TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models.",
-    "source_zh": "SIGIR 2026",
+    "source_zh": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
     "source_en": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
     "year": "2025",
     "citations": "2",
@@ -816,7 +816,7 @@
   {
     "title_zh": "JT-Math：面向大语言模型高级数学推理的多阶段框架",
     "title_en": "JT-Math: A Multi-Stage Framework for Advanced Mathematical Reasoning in Large Language Models.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "3",
@@ -827,7 +827,7 @@
   {
     "title_zh": "迈向通用化路由：面向自适应高效推理的模型与智能体编排",
     "title_en": "Towards Generalized Routing: Model and Agent Orchestration for Adaptive and Efficient Inference.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "5",
@@ -838,7 +838,7 @@
   {
     "title_zh": "DeCodec：将音频编解码器重新构想为通用解耦表征学习器",
     "title_en": "DeCodec: Rethinking Audio Codecs as Universal Disentangled Representation Learners.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "2",
@@ -849,7 +849,7 @@
   {
     "title_zh": "HarmoniFuse：面向多任务语音语言建模的组件选择与提示自适应框架",
     "title_en": "HarmoniFuse: A Component-Selective and Prompt-Adaptive Framework for Multi-Task Speech Language Modeling.",
-    "source_zh": "ICASSP 2026",
+    "source_zh": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "source_en": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2025/2026",
     "citations": "0",
@@ -860,7 +860,7 @@
   {
     "title_zh": "JT-Safe：从本质上提升大语言模型的安全性与可信度",
     "title_en": "JT-Safe: Intrinsically Enhancing the Safety and Trustworthiness of LLMs.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "0",
@@ -871,7 +871,7 @@
   {
     "title_zh": "基于大语言模型驱动代码进化的认知Alpha挖掘",
     "title_en": "Cognitive Alpha Mining via LLM-Driven Code-Based Evolution.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "2",
@@ -882,7 +882,7 @@
   {
     "title_zh": "JT-DA：利用工具集成表格推理大语言模型增强数据分析",
     "title_en": "JT-DA: Enhancing Data Analysis with Tool-Integrated Table Reasoning Large Language Models.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "0",
@@ -893,7 +893,7 @@
   {
     "title_zh": "DisCo-Speech：基于解耦语音编解码器的可控零样本语音生成",
     "title_en": "DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec.",
-    "source_zh": "ACL 2026",
+    "source_zh": "Annual Meeting of the Association for Computational Linguistics (ACL)",
     "source_en": "Annual Meeting of the Association for Computational Linguistics (ACL)",
     "year": "2025",
     "citations": "1",
@@ -904,7 +904,7 @@
   {
     "title_zh": "ClarifyMT-Bench：面向对话式大语言模型多轮澄清的基准测试与改进",
     "title_en": "ClarifyMT-Bench: Benchmarking and Improving Multi-Turn Clarification for Conversational Large Language Models.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
     "citations": "5",
@@ -915,7 +915,7 @@
   {
     "title_zh": "蜂窝流量预测深度学习技术综述",
     "title_en": "A survey on deep learning for cellular traffic prediction",
-    "source_zh": "学术期刊Intelligent Computing (Science Partner Journals) 2024",
+    "source_zh": "Intelligent Computing",
     "source_en": "Intelligent Computing",
     "year": "2024",
     "citations": "52",
@@ -926,7 +926,7 @@
   {
     "title_zh": "探索大语言模型用于锂离子电池通用且鲁棒的荷电状态估计：一种混合提示学习方法",
     "title_en": "Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method",
-    "source_zh": "Energy (Elsevier) 2024",
+    "source_zh": "Energy",
     "source_en": "Energy",
     "year": "2024",
     "citations": "30",
@@ -937,7 +937,7 @@
   {
     "title_zh": "混合提示驱动的大语言模型用于多类型锂离子电池鲁棒荷电状态估计",
     "title_en": "Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries",
-    "source_zh": "IEEE Transactions on Transportation Electrification 2024",
+    "source_zh": "IEEE Transactions on Transportation Electrification",
     "source_en": "IEEE Transactions on Transportation Electrification",
     "year": "2024",
     "citations": "35",
@@ -948,7 +948,7 @@
   {
     "title_zh": "CTGGAN：基于生成对抗网络的可控文本生成",
     "title_en": "CTGGAN: controllable text generation with generative adversarial network",
-    "source_zh": "应用科学",
+    "source_zh": "Applied Sciences (MDPI)",
     "source_en": "Applied Sciences (MDPI)",
     "year": "2024",
     "citations": "5",
@@ -970,7 +970,7 @@
   {
     "title_zh": "体系化人工智能",
     "title_en": "Holistic artificial intelligence",
-    "source_zh": "北京邮电大学学报，2024",
+    "source_zh": "JOURNAL OF BEIJING UNIVERSITY OF POSTS AND TELECOMMUNICATIONS",
     "source_en": "JOURNAL OF BEIJING UNIVERSITY OF POSTS AND TELECOMMUNICATIONS",
     "year": "2024",
     "citations": "2",
@@ -981,7 +981,7 @@
   {
     "title_zh": "基于最优路径（SLOP）的模型生长调度学习以实现高效大语言模型预训练",
     "title_en": "Model Growth Schedule learning via Optimal Path (SLOP) for Efficient LLM Pre-Training",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2024",
     "citations": "0",
@@ -992,7 +992,7 @@
   {
     "title_zh": "基于迁移学习的双层注意力图卷积网络用于动态图分类",
     "title_en": "A double-layer attentive graph convolution networks based on transfer learning for dynamic graph classification.",
-    "source_zh": "Int. J. Mach. Learn. Cybern.",
+    "source_zh": "International Journal of Machine Learning and Cybernetics",
     "source_en": "International Journal of Machine Learning and Cybernetics",
     "year": "2024",
     "citations": "1",
@@ -1003,7 +1003,7 @@
   {
     "title_zh": "用于增强三维人脸识别的深度图去噪网络与轻量融合网络",
     "title_en": "Depth Map Denoising Network and Lightweight Fusion Network for Enhanced 3D Face Recognition.",
-    "source_zh": "Pattern Recognit.",
+    "source_zh": "Pattern Recognition",
     "source_en": "Pattern Recognition",
     "year": "2024",
     "citations": "31",
@@ -1014,7 +1014,7 @@
   {
     "title_zh": "基于可学习语义数据增强的细粒度识别",
     "title_en": "Fine-Grained Recognition With Learnable Semantic Data Augmentation.",
-    "source_zh": "IEEE Trans. Image Process.",
+    "source_zh": "IEEE Transactions on Image Processing",
     "source_en": "IEEE Transactions on Image Processing",
     "year": "2024",
     "citations": "76",
@@ -1025,7 +1025,7 @@
   {
     "title_zh": "KGDA：面向蜂窝流量预测的知识图驱动分解方法",
     "title_en": "KGDA: A Knowledge Graph Driven Decomposition Approach for Cellular Traffic Prediction.",
-    "source_zh": "期刊ACM Trans. Intell. Syst. Technol.",
+    "source_zh": "ACM Transactions on Intelligent Systems and Technology",
     "source_en": "ACM Transactions on Intelligent Systems and Technology",
     "year": "2024",
     "citations": "13",
@@ -1036,7 +1036,7 @@
   {
     "title_zh": "基于规则增强知识图的移动性预测",
     "title_en": "Mobility Prediction via Rule-enhanced Knowledge Graph.",
-    "source_zh": "ACM Trans. Knowl. Discov. Data",
+    "source_zh": "ACM Transactions on Knowledge Discovery from Data",
     "source_en": "ACM Transactions on Knowledge Discovery from Data",
     "year": "2024",
     "citations": "8",
@@ -1047,7 +1047,7 @@
   {
     "title_zh": "EMERGE：利用检索增强生成提升多模态电子健康记录预测建模",
     "title_en": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation.",
-    "source_zh": "会议CIKM",
+    "source_zh": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
     "source_en": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
     "year": "2024",
     "citations": "44",
@@ -1058,7 +1058,7 @@
   {
     "title_zh": "大语言模型作为低资源关系识别的度量评判器",
     "title_en": "LLM as a metric critic for low resource relation identification.",
-    "source_zh": "EMNLP (Findings)",
+    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP",
     "year": "2024",
     "citations": "0",
@@ -1069,7 +1069,7 @@
   {
     "title_zh": "以少博多：大语言模型是优秀的自发多语言学习者",
     "title_en": "Getting More from Less: Large Language Models are Good Spontaneous Multilingual Learners.",
-    "source_zh": "EMNLP",
+    "source_zh": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
     "source_en": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
     "year": "2024",
     "citations": "15",
@@ -1080,7 +1080,7 @@
   {
     "title_zh": "基于特征混合的主动学习用于多标签文本分类",
     "title_en": "Feature Mixing-Based Active Learning for Multi-Label Text Classification.",
-    "source_zh": "ICASSP",
+    "source_zh": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2024",
     "citations": "5",
@@ -1091,7 +1091,7 @@
   {
     "title_zh": "结合神经架构搜索的对话生成生成对抗框架",
     "title_en": "A Generative Adversarial Framework for Dialogue Generation with Neural Architecture Search.",
-    "source_zh": "ICASSP",
+    "source_zh": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2024",
     "citations": "0",
@@ -1102,7 +1102,7 @@
   {
     "title_zh": "基于对比样本的自然语言理解鲁棒自监督学习",
     "title_en": "Robust Self-Supervised Learning with Contrast Samples for Natural Language Understanding.",
-    "source_zh": "ICASSP",
+    "source_zh": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2024",
     "citations": "4",
@@ -1113,7 +1113,7 @@
   {
     "title_zh": "利用Householder变换的时序知识图嵌入",
     "title_en": "Temporal Knowledge Graph Embedding using Householder Transformations.",
-    "source_zh": "ICASSP",
+    "source_zh": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2024",
     "citations": "2",
@@ -1124,7 +1124,7 @@
   {
     "title_zh": "世界模型辅助的无线接入网参数调整决策与评估系统",
     "title_en": "World Model Aided Parameter Adjustment Decision and Evaluation System for Radio Access Network.",
-    "source_zh": "ICC",
+    "source_zh": "ICC 2024 - IEEE International Conference on Communications",
     "source_en": "ICC 2024 - IEEE International Conference on Communications",
     "year": "2024",
     "citations": "1",
@@ -1135,7 +1135,7 @@
   {
     "title_zh": "一种用于估计大范围集合差基数的紧凑精确概要结构",
     "title_en": "A Compact and Accurate Sketch for Estimating a Large Range of Set Difference Cardinalities.",
-    "source_zh": "ICDE",
+    "source_zh": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
     "source_en": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
     "year": "2024",
     "citations": "7",
@@ -1157,7 +1157,7 @@
   {
     "title_zh": "MFSN：面向语音情感识别中预训练知识的多视角融合搜索网络",
     "title_en": "MFSN: Multi-perspective Fusion Search Network For Pre-training Knowledge in Speech Emotion Recognition.",
-    "source_zh": "会议INTERSPEECH",
+    "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
     "citations": "6",
@@ -1168,7 +1168,7 @@
   {
     "title_zh": "GenDistiller：基于自回归生成模型的预训练语言模型蒸馏",
     "title_en": "GenDistiller: Distilling Pre-trained Language Models based on an Autoregressive Generative Model.",
-    "source_zh": "会议INTERSPEECH",
+    "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
     "citations": "1",
@@ -1179,7 +1179,7 @@
   {
     "title_zh": "探索基于能量模型用于方言识别中的分布外检测",
     "title_en": "Exploring Energy-Based Models for Out-of-Distribution Detection in Dialect Identification.",
-    "source_zh": "会议INTERSPEECH",
+    "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
     "citations": "1",
@@ -1190,7 +1190,7 @@
   {
     "title_zh": "关于语音分类模型校准：来自基于能量模型研究的启示",
     "title_en": "On Calibration of Speech Classification Models: Insights from Energy-Based Model Investigations.",
-    "source_zh": "会议INTERSPEECH",
+    "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
     "citations": "3",
@@ -1201,7 +1201,7 @@
   {
     "title_zh": "CEC：一种面向说话人识别的噪声标签检测方法",
     "title_en": "CEC: A Noisy Label Detection Method for Speaker Recognition.",
-    "source_zh": "会议INTERSPEECH",
+    "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
     "citations": "1",
@@ -1212,7 +1212,7 @@
   {
     "title_zh": "ASRLM：基于生成式与判别式学习的语音识别鲁棒语言模型预训练",
     "title_en": "ASRLM: ASR-Robust Language Model Pre-training via Generative and Discriminative Learning.",
-    "source_zh": "NLPCC (3)",
+    "source_zh": "Natural Language Processing and Chinese Computing",
     "source_en": "Natural Language Processing and Chinese Computing",
     "year": "2024",
     "citations": "0",
@@ -1223,7 +1223,7 @@
   {
     "title_zh": "通过自动提示工程与集成学习提升开放域问答的自一致性",
     "title_en": "Improving Self-consistency for Open-Domain Question Answering via Automatic Prompt Engineering and Ensemble Learning.",
-    "source_zh": "NLPCC (2)",
+    "source_zh": "Natural Language Processing and Chinese Computing",
     "source_en": "Natural Language Processing and Chinese Computing",
     "year": "2024",
     "citations": "5",
@@ -1234,7 +1234,7 @@
   {
     "title_zh": "基于结构协调的多智能体强化学习",
     "title_en": "Multiagent Reinforcement Learning Based on Structural Coordination.",
-    "source_zh": "PDCAT",
+    "source_zh": "Parallel and Distributed Computing, Applications and Technologies",
     "source_en": "Parallel and Distributed Computing, Applications and Technologies",
     "year": "2024",
     "citations": "3",
@@ -1245,7 +1245,7 @@
   {
     "title_zh": "第二届 Futuredial 挑战赛：基于检索增强生成的对话系统（Futuredial-RAG）",
     "title_en": "The 2nd Futuredial Challenge: Dialog Systems With Retrieval Augmented Generation (Futuredial-RAG).",
-    "source_zh": "SLT",
+    "source_zh": "IEEE Spoken Language Technology Workshop (SLT)",
     "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
     "year": "2024",
     "citations": "5",
@@ -1256,7 +1256,7 @@
   {
     "title_zh": "规划、生成与优化：通过基于提示的协作方法扩展大语言模型用于对话系统",
     "title_en": "Plan, Generate and Optimize: Extending Large Language Models for Dialogue Systems Via Prompt-Based Collaborativec Method.",
-    "source_zh": "SLT",
+    "source_zh": "IEEE Spoken Language Technology Workshop (SLT)",
     "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
     "year": "2024",
     "citations": "0",
@@ -1278,7 +1278,7 @@
   {
     "title_zh": "大语言模型是优秀的自发多语言学习者：多语言标注数据是否必要？",
     "title_en": "Large Language Models are Good Spontaneous Multilingual Learners: Is the Multilingual Annotated Data Necessary?",
-    "source_zh": "EMNLP 2024",
+    "source_zh": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "source_en": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "year": "2024",
     "citations": "0",
@@ -1300,7 +1300,7 @@
   {
     "title_zh": "PolySpeech：探索统一多任务语音模型以媲美单任务模型",
     "title_en": "PolySpeech: Exploring Unified Multitask Speech Models for Competitiveness with Single-task Models.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2024",
     "citations": "3",
@@ -1311,7 +1311,7 @@
   {
     "title_zh": "一种基于BERT与堆叠双向LSTM的多注意力方法用于改进对话状态跟踪",
     "title_en": "A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking",
-    "source_zh": "应用科学",
+    "source_zh": "Applied Sciences (MDPI)",
     "source_en": "Applied Sciences (MDPI)",
     "year": "2023",
     "citations": "18",
@@ -1333,7 +1333,7 @@
   {
     "title_zh": "GenAD：面向大规模无线基站的通用无监督多变量时序异常检测方法",
     "title_en": "GenAD: General unsupervised anomaly detection using multivariate time series for large-scale wireless base stations",
-    "source_zh": "Electronics Letters (Wiley)",
+    "source_zh": "Electronics Letters",
     "source_en": "Electronics Letters",
     "year": "2023",
     "citations": "5",
@@ -1344,7 +1344,7 @@
   {
     "title_zh": "CSDnet：面向蜂窝网络中切换参数调整效应估计的因果推断辅助方法",
     "title_en": "CSDnet: Causal inference aided handover parameter adjusting effect estimation in cellular networks",
-    "source_zh": "ICC 2023 - IEEE International Conference on Communications",
+    "source_zh": "IEEE International Conference on Communications (ICC)",
     "source_en": "IEEE International Conference on Communications (ICC)",
     "year": "2023",
     "citations": "4",
@@ -1355,7 +1355,7 @@
   {
     "title_zh": "M-Tokenpose：面向人体姿态估计的多尺度关键点Token学习",
     "title_en": "M-Tokenpose: Learning Multiscale Keypoint Tokens for Human Pose Estimation",
-    "source_zh": "2024｜SSRN 预印本，暂未检索到正式会议/期刊发表信息",
+    "source_zh": "SSRN",
     "source_en": "SSRN",
     "year": "2023",
     "citations": "0",
@@ -1366,7 +1366,7 @@
   {
     "title_zh": "面向用药推荐的深度学习：系统性综述",
     "title_en": "Deep Learning for Medication Recommendation: A Systematic Survey.",
-    "source_zh": "Data Intell.",
+    "source_zh": "Data Intelligence",
     "source_en": "Data Intelligence",
     "year": "2023",
     "citations": "74",
@@ -1388,7 +1388,7 @@
   {
     "title_zh": "网络邂逅ChatGPT：意图自主管理、控制与运维",
     "title_en": "Network Meets ChatGPT: Intent Autonomous Management, Control and Operation.",
-    "source_zh": "J. Commun. Inf. Networks",
+    "source_zh": "Journal of Communications and Information Networks",
     "source_en": "Journal of Communications and Information Networks",
     "year": "2023",
     "citations": "84",
@@ -1399,7 +1399,7 @@
   {
     "title_zh": "一种基于伪标签的表格数据域适应新方法",
     "title_en": "A novel Pseudo-label based domain adaptation method on tabular data.",
-    "source_zh": "J. Intell. Fuzzy Syst.",
+    "source_zh": "Journal of Intelligent & Fuzzy Systems",
     "source_en": "Journal of Intelligent & Fuzzy Systems",
     "year": "2023",
     "citations": "1",
@@ -1410,7 +1410,7 @@
   {
     "title_zh": "面向半监督任务型对话系统的变分隐状态GPT",
     "title_en": "Variational Latent-State GPT for Semi-Supervised Task-Oriented Dialog Systems.",
-    "source_zh": "IEEE ACM Trans. Audio Speech Lang. Process.",
+    "source_zh": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "source_en": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "year": "2023",
     "citations": "27",
@@ -1421,7 +1421,7 @@
   {
     "title_zh": "面向单通道语音增强的谐波注意力",
     "title_en": "Harmonic Attention for Monaural Speech Enhancement.",
-    "source_zh": "IEEE ACM Trans. Audio Speech Lang. Process.",
+    "source_zh": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "source_en": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "year": "2023",
     "citations": "20",
@@ -1432,7 +1432,7 @@
   {
     "title_zh": "基于深度强化学习的网络拓扑优化",
     "title_en": "Network Topology Optimization via Deep Reinforcement Learning.",
-    "source_zh": "IEEE Trans. Commun.",
+    "source_zh": "IEEE Transactions on Communications",
     "source_en": "IEEE Transactions on Communications",
     "year": "2023",
     "citations": "61",
@@ -1443,7 +1443,7 @@
   {
     "title_zh": "耦合图上的联邦学习",
     "title_en": "Federated Learning Over Coupled Graphs.",
-    "source_zh": "IEEE Trans. Parallel Distributed Syst.",
+    "source_zh": "IEEE Transactions on Parallel and Distributed Systems",
     "source_en": "IEEE Transactions on Parallel and Distributed Systems",
     "year": "2023",
     "citations": "51",
@@ -1454,7 +1454,7 @@
   {
     "title_zh": "基于门控残差交织网络的应答器系统整体传输性能预测",
     "title_en": "Holistic Transmission Performance Prediction of Balise System With Gate-Steered Residual Interweave Networks.",
-    "source_zh": "IEEE Trans. Syst. Man Cybern. Syst.",
+    "source_zh": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
     "source_en": "IEEE Transactions on Systems, Man, and Cybernetics: Systems",
     "year": "2023",
     "citations": "4",
@@ -1476,7 +1476,7 @@
   {
     "title_zh": "学习利用高阶医学知识图谱进行联合实体与关系抽取",
     "title_en": "Learning to Leverage High-Order Medical Knowledge Graph for Joint Entity and Relation Extraction.",
-    "source_zh": "ACL (Findings)",
+    "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2023",
     "citations": "13",
@@ -1487,7 +1487,7 @@
   {
     "title_zh": "基于超分辨率谐波的噪声鲁棒基音检测",
     "title_en": "Noise-robust Pitch Detection Based on Super-Resolution Harmonics.",
-    "source_zh": "APSIPA ASC",
+    "source_zh": "2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)",
     "source_en": "2023 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)",
     "year": "2023",
     "citations": "1",
@@ -1498,7 +1498,7 @@
   {
     "title_zh": "面向对话状态跟踪的基于提示池的类增量持续学习",
     "title_en": "Prompt Pool Based Class-Incremental Continual Learning for Dialog State Tracking.",
-    "source_zh": "ASRU",
+    "source_zh": "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
     "source_en": "IEEE Automatic Speech Recognition and Understanding Workshop (ASRU)",
     "year": "2023",
     "citations": "4",
@@ -1509,7 +1509,7 @@
   {
     "title_zh": "基于条件熵的蜂窝网络流量可预测性",
     "title_en": "Predictability of Cellular Network Traffic Based on Conditional Entropy.",
-    "source_zh": "2023年IEEE第九届云计算与智能系统国际会议（CCIS）",
+    "source_zh": "2023 IEEE 9th International Conference on Cloud Computing and Intelligent Systems (CCIS)",
     "source_en": "2023 IEEE 9th International Conference on Cloud Computing and Intelligent Systems (CCIS)",
     "year": "2023",
     "citations": "0",
@@ -1520,7 +1520,7 @@
   {
     "title_zh": "面向电视推荐的基于图门控机制的多门对比专家混合模型",
     "title_en": "Multi-gate Mixture-of-Contrastive-Experts with Graph-based Gating Mechanism for TV Recommendation.",
-    "source_zh": "CIKM '23：第32届ACM国际信息与知识管理会议论文集",
+    "source_zh": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
     "source_en": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
     "year": "2023",
     "citations": "5",
@@ -1531,7 +1531,7 @@
   {
     "title_zh": "BiQCap：一种基于双四元数与胶囊网络的时间知识图谱补全嵌入模型",
     "title_en": "BiQCap: A Biquaternion and Capsule Network-Based Embedding Model for Temporal Knowledge Graph Completion.",
-    "source_zh": "DASFAA (2)",
+    "source_zh": "Database Systems for Advanced Applications",
     "source_en": "Database Systems for Advanced Applications",
     "year": "2023",
     "citations": "23",
@@ -1542,7 +1542,7 @@
   {
     "title_zh": "面向交通预测的时空残差多图卷积网络",
     "title_en": "Spatial-Temporal Residual Multi-Graph Convolution Network for Traffic Forecasting.",
-    "source_zh": "2023 年 IEEE 第十届数据科学与技术国际会议，2023 年",
+    "source_zh": "2023 IEEE 10th International Conference on Data Science and Advanced Analytics (DSAA)",
     "source_en": "2023 IEEE 10th International Conference on Data Science and Advanced Analytics (DSAA)",
     "year": "2023",
     "citations": "1",
@@ -1553,7 +1553,7 @@
   {
     "title_zh": "Log-FGAER：基于逻辑引导的从多轮口语对话中细粒度地址实体识别",
     "title_en": "Log-FGAER: Logic-Guided Fine-Grained Address Entity Recognition from Multi-Turn Spoken Dialogue.",
-    "source_zh": "2023年自然语言处理实证方法会议论文集",
+    "source_zh": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
     "source_en": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
     "year": "2023",
     "citations": "1",
@@ -1564,7 +1564,7 @@
   {
     "title_zh": "超越布局嵌入：面向结构化文档理解的高斯偏置布局注意力",
     "title_en": "Beyond Layout Embedding: Layout Attention with Gaussian Biases for Structured Document Understanding.",
-    "source_zh": "计算语言学协会的研究成果：EMNLP 2023，2023",
+    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP 2023",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP 2023",
     "year": "2023",
     "citations": "6",
@@ -1575,7 +1575,7 @@
   {
     "title_zh": "赋能空间知识图谱用于移动流量预测",
     "title_en": "Empowering Spatial Knowledge Graph for Mobile Traffic Prediction.",
-    "source_zh": "第31届ACM国际技术进展会议论文集，2023年",
+    "source_zh": "Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems",
     "source_en": "Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems",
     "year": "2023",
     "citations": "46",
@@ -1586,7 +1586,7 @@
   {
     "title_zh": "基于语音纯度的半监督语音增强",
     "title_en": "Semi-Supervised Speech Enhancement Based On Speech Purity.",
-    "source_zh": "2023 年 IEEE 国际声学会议 (ICASSP 2023)",
+    "source_zh": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2023",
     "citations": "7",
@@ -1597,7 +1597,7 @@
   {
     "title_zh": "ESCL：面向句子表示的等变自对比学习",
     "title_en": "ESCL: Equivariant Self-Contrastive Learning for Sentence Representations.",
-    "source_zh": "2023 年 IEEE 国际声学会议 (ICASSP 2023)",
+    "source_zh": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2023",
     "citations": "6",
@@ -1608,7 +1608,7 @@
   {
     "title_zh": "VE-KWS：视觉模态增强的端到端关键词检测",
     "title_en": "VE-KWS: Visual Modality Enhanced End-to-End Keyword Spotting.",
-    "source_zh": "2023 年 IEEE 国际声学会议 (ICASSP 2023)",
+    "source_zh": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2023",
     "citations": "12",
@@ -1619,7 +1619,7 @@
   {
     "title_zh": "意图至关重要！传播高阶关系以挖掘兴趣偏好",
     "title_en": "Intent Does Matter! Propagating High-Order Relations for Exploring Interest Preferences.",
-    "source_zh": "2023 年 IEEE 国际声学会议 (ICASSP 2023)",
+    "source_zh": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2023",
     "citations": "1",
@@ -1630,7 +1630,7 @@
   {
     "title_zh": "CSDnet：因果推断辅助的蜂窝网络切换参数调整效果估计",
     "title_en": "CSDnet:Causal Inference Aided Handover Parameter Adjusting Effect Estimation in Cellular Networks.",
-    "source_zh": "2023年IEEE国际通信会议（ICC 2023）",
+    "source_zh": "ICC 2023 - IEEE International Conference on Communications",
     "source_en": "ICC 2023 - IEEE International Conference on Communications",
     "year": "2023",
     "citations": "4",
@@ -1641,7 +1641,7 @@
   {
     "title_zh": "面向蜂窝流量预测的自适应混合时空图神经网络",
     "title_en": "Adaptive Hybrid Spatial-Temporal Graph Neural Network for Cellular Traffic Prediction.",
-    "source_zh": "2023年IEEE国际通信会议（ICC 2023）",
+    "source_zh": "ICC 2023 - IEEE International Conference on Communications",
     "source_en": "ICC 2023 - IEEE International Conference on Communications",
     "year": "2023",
     "citations": "40",
@@ -1652,7 +1652,7 @@
   {
     "title_zh": "面向高效视觉识别的动态感知器",
     "title_en": "Dynamic Perceiver for Efficient Visual Recognition.",
-    "source_zh": "IEEE/CVF国际会议论文集，2023",
+    "source_zh": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Proceedings",
     "source_en": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Proceedings",
     "year": "2023",
     "citations": "59",
@@ -1663,7 +1663,7 @@
   {
     "title_zh": "面向可迁移推荐的基于词协作的预训练物品表示",
     "title_en": "Collaborative Word-based Pre-trained Item Representation for Transferable Recommendation.",
-    "source_zh": "2023 年 IEEE 数据挖掘国际会议 (ICDM)，2023 年",
+    "source_zh": "IEEE International Conference on Data Mining (ICDM)",
     "source_en": "IEEE International Conference on Data Mining (ICDM)",
     "year": "2023",
     "citations": "21",
@@ -1674,7 +1674,7 @@
   {
     "title_zh": "面向交通预测的多分支时空解耦神经网络",
     "title_en": "Multi-Branch Spatial-Temporal Decoupling Neural Network for Traffic Forecasting.",
-    "source_zh": "2023 International Joint Conference on Neural Networks (IJCNN), 2023",
+    "source_zh": "2023 International Joint Conference on Neural Networks (IJCNN)",
     "source_en": "2023 International Joint Conference on Neural Networks (IJCNN)",
     "year": "2023",
     "citations": "2",
@@ -1685,7 +1685,7 @@
   {
     "title_zh": "基于知识检索的半监督任务型对话系统",
     "title_en": "Knowledge-Retrieval Task-Oriented Dialog Systems with Semi-Supervision.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint arXiv:2305.1",
     "source_en": "arXiv preprint arXiv:2305.1",
     "year": "2023",
     "citations": "8",
@@ -1696,7 +1696,7 @@
   {
     "title_zh": "基于神经架构搜索的级联多任务自适应学习",
     "title_en": "Cascaded Multi-task Adaptive Learning Based on Neural Architecture Search.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv 预印本 arXiv:2310.1",
     "source_en": "arXiv 预印本 arXiv:2310.1",
     "year": "2023",
     "citations": "1",
@@ -1707,7 +1707,7 @@
   {
     "title_zh": "基于知识增强生成对抗网络与多周期模式的大规模城市蜂窝流量生成",
     "title_en": "Large-scale Urban Cellular Traffic Generation via Knowledge-Enhanced GANs with Multi-Periodic Patterns.",
-    "source_zh": "KDD '23：第29届ACM SIGKDD知识发现与数据挖掘会议论文集",
+    "source_zh": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "source_en": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "year": "2023",
     "citations": "46",
@@ -1718,7 +1718,7 @@
   {
     "title_zh": "面向质量感知负责任推荐的双边校准",
     "title_en": "Two-sided Calibration for Quality-aware Responsible Recommendation.",
-    "source_zh": "第十七届ACM推荐系统会议论文集，2023",
+    "source_zh": "Proceedings of the 17th ACM Conference on Recommender Systems",
     "source_en": "Proceedings of the 17th ACM Conference on Recommender Systems",
     "year": "2023",
     "citations": "16",
@@ -1729,7 +1729,7 @@
   {
     "title_zh": "面向电视推荐的多用户耦合行为辨识学习",
     "title_en": "Learning to Distinguish Multi-User Coupling Behaviors for TV Recommendation.",
-    "source_zh": "WSDM '23：第十六届ACM国际网络搜索与数据挖掘会议论文集",
+    "source_zh": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
     "source_en": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
     "year": "2023",
     "citations": "15",
@@ -1740,7 +1740,7 @@
   {
     "title_zh": "借助弱监督信号修复不安全的对话回复",
     "title_en": "Healing Unsafe Dialogue Responses with Weak Supervision Signals.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2023",
     "citations": "2",
@@ -1751,7 +1751,7 @@
   {
     "title_zh": "MPPN：面向长期时间序列预测的多分辨率周期模式网络",
     "title_en": "MPPN: Multi-Resolution Periodic Pattern Network For Long-Term Time Series Forecasting.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2023",
     "citations": "15",
@@ -1762,7 +1762,7 @@
   {
     "title_zh": "基于CTC触发的时空丢弃孪生网络语音识别方法",
     "title_en": "A CTC triggered siamese network with spatial-temporal dropout for speech recognition",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2022",
     "citations": "4",
@@ -1773,7 +1773,7 @@
   {
     "title_zh": "Cmcc：面向对话系统的综合性大规模人人对话数据集",
     "title_en": "Cmcc: a comprehensive and large-scale human-human dataset for dialogue systems",
-    "source_zh": "SereTOD 2022",
+    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "year": "2022",
     "citations": "4",
@@ -1784,7 +1784,7 @@
   {
     "title_zh": "面向语句级对话生成的状态感知对抗训练方法",
     "title_en": "State-Aware Adversarial Training for Utterance-Level Dialogue Generation",
-    "source_zh": "半监督和强化对话系统研讨会",
+    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "year": "2022",
     "citations": "2",
@@ -1795,7 +1795,7 @@
   {
     "title_zh": "面向半监督与强化任务型对话系统研讨会（SereTOD）论文集",
     "title_en": "Proceedings of the towards semi-supervised and reinforced task-oriented dialog systems (seretod)",
-    "source_zh": "半监督和强化对话系统研讨会",
+    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "year": "2022",
     "citations": "1",
@@ -1806,7 +1806,7 @@
   {
     "title_zh": "面向语音增强与语音识别联合训练的多种置信门方法",
     "title_en": "Multiple Confidence Gates For Joint Training Of SE And ASR",
-    "source_zh": "全国人机语音通讯学术会议",
+    "source_zh": "Man-Machine Speech Communication",
     "source_en": "Man-Machine Speech Communication",
     "year": "2022",
     "citations": "1",
@@ -1817,7 +1817,7 @@
   {
     "title_zh": "面向多兴趣推荐的目标兴趣蒸馏",
     "title_en": "Target Interest Distillation for Multi-Interest Recommendation.",
-    "source_zh": "CIKM '22：第31届ACM国际信息与知识管理会议论文集",
+    "source_zh": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "source_en": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "year": "2022",
     "citations": "53",
@@ -1828,7 +1828,7 @@
   {
     "title_zh": "面向自监督实体对齐的交互式对比学习",
     "title_en": "Interactive Contrastive Learning for Self-Supervised Entity Alignment.",
-    "source_zh": "CIKM '22：第31届ACM国际信息与知识管理会议论文集",
+    "source_zh": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "source_en": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "year": "2022",
     "citations": "55",
@@ -1839,7 +1839,7 @@
   {
     "title_zh": "PSSAT：面向抗扰动槽填充的扰动语义结构感知迁移方法",
     "title_en": "PSSAT: A Perturbed Semantic Structure Awareness Transferring Method for Perturbation-Robust Slot Filling.",
-    "source_zh": "第29届国际计算语言学会议论文集",
+    "source_zh": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "source_en": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "year": "2022",
     "citations": "20",
@@ -1850,7 +1850,7 @@
   {
     "title_zh": "广义意图发现：从开放世界对话系统学习",
     "title_en": "Generalized Intent Discovery: Learning from Open World Dialogue System.",
-    "source_zh": "第29届国际计算语言学会议论文集",
+    "source_zh": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "source_en": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "year": "2022",
     "citations": "10",
@@ -1861,7 +1861,7 @@
   {
     "title_zh": "面向蜂窝流量预测的多尺度集成学习模型",
     "title_en": "A Multi-scale Ensemble Learning Model for Cellular Traffic Prediction.",
-    "source_zh": "GLOBECOM 2022 - 2022 年 IEEE 全球通信会议",
+    "source_zh": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference",
     "source_en": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference",
     "year": "2022",
     "citations": "2",
@@ -1872,7 +1872,7 @@
   {
     "title_zh": "面向 ICASSP 2022 DNS 挑战赛的谐波门控补偿网络增强版",
     "title_en": "Harmonic Gated Compensation Network Plus for ICASSP 2022 DNS Challenge.",
-    "source_zh": "2022 年 IEEE 国际声学会议 (ICASSP 2022)",
+    "source_zh": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2022",
     "citations": "18",
@@ -1883,7 +1883,7 @@
   {
     "title_zh": "HGCN：面向语音增强的谐波门控补偿网络",
     "title_en": "HGCN: Harmonic Gated Compensation Network for Speech Enhancement.",
-    "source_zh": "ICASSP 2022 - 2022 年 IEEE 国际声学、语音和信号处理会议 (ICASSP)",
+    "source_zh": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2022",
     "citations": "33",
@@ -1894,7 +1894,7 @@
   {
     "title_zh": "基于时序图注意力卷积网络的网络流量过载预测",
     "title_en": "Network Traffic Overload Prediction with Temporal Graph Attention Convolutional Networks.",
-    "source_zh": "2022年IEEE国际通信研讨会（ICC Workshops）",
+    "source_zh": "2022 IEEE International Conference on Communications Workshops (ICC Workshops)",
     "source_en": "2022 IEEE International Conference on Communications Workshops (ICC Workshops)",
     "year": "2022",
     "citations": "14",
@@ -1905,7 +1905,7 @@
   {
     "title_zh": "面向十亿规模图的精确可扩展图神经网络",
     "title_en": "Accurate and Scalable Graph Neural Networks for Billion-Scale Graphs.",
-    "source_zh": "2022 IEEE 38th international conference on data engineering (ICDE), 2022",
+    "source_zh": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
     "source_en": "2022 IEEE 38th International Conference on Data Engineering (ICDE)",
     "year": "2022",
     "citations": "14",
@@ -1916,7 +1916,7 @@
   {
     "title_zh": "基于课程的自训练提升数据到文本生成的少样本学习能力",
     "title_en": "Curriculum-Based Self-Training Makes Better Few-Shot Learners for Data-to-Text Generation.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv 预印本 arXiv:2206.0",
     "source_en": "arXiv 预印本 arXiv:2206.0",
     "year": "2022",
     "citations": "8",
@@ -1927,7 +1927,7 @@
   {
     "title_zh": "“三思而后言”：通过规划单动作对话改进多动作对话策略",
     "title_en": "\"Think Before You Speak\": Improving Multi-Action Dialog Policy by Planning Single-Action Dialogs.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv 预印本 arXiv:2204.1",
     "source_en": "arXiv 预印本 arXiv:2204.1",
     "year": "2022",
     "citations": "9",
@@ -1938,7 +1938,7 @@
   {
     "title_zh": "面向低资源口语理解的元辅助学习",
     "title_en": "Meta Auxiliary Learning for Low-resource Spoken Language Understanding.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv 预印本 arXiv:2206.1",
     "source_en": "arXiv 预印本 arXiv:2206.1",
     "year": "2022",
     "citations": "3",
@@ -1949,7 +1949,7 @@
   {
     "title_zh": "Distill-AER：基于知识蒸馏的口语对话细粒度地址实体识别",
     "title_en": "Distill-AER: Fine-Grained Address Entity Recognition from Spoken Dialogue via Knowledge Distillation.",
-    "source_zh": "CCF国际自然语言处理与中文计算会议，2022",
+    "source_zh": "Natural Language Processing and Chinese Computing",
     "source_en": "Natural Language Processing and Chinese Computing",
     "year": "2022",
     "citations": "4",
@@ -1960,7 +1960,7 @@
   {
     "title_zh": "通过离散潜变量模型的 JSA 学习推进半监督任务型对话系统",
     "title_en": "Advancing Semi-Supervised Task Oriented Dialog Systems by JSA Learning of Discrete Latent Variable Models.",
-    "source_zh": "对话与话语特别兴趣小组第23届年会论文集",
+    "source_zh": "Proceedings of the 23rd Annual Meeting of the Special Interest Group on Discourse and Dialogue",
     "source_en": "Proceedings of the 23rd Annual Meeting of the Special Interest Group on Discourse and Dialogue",
     "year": "2022",
     "citations": "8",
@@ -1971,7 +1971,7 @@
   {
     "title_zh": "基于预训练语言模型骨干构建马尔可夫生成架构以实现高效任务型对话系统",
     "title_en": "Building Markovian Generative Architectures Over Pretrained LM Backbones for Efficient Task-Oriented Dialog Systems.",
-    "source_zh": "2022 年 IEEE 口语技术研讨会 (SLT)，2023 年",
+    "source_zh": "2022 IEEE Spoken Language Technology Workshop (SLT)",
     "source_en": "2022 IEEE Spoken Language Technology Workshop (SLT)",
     "year": "2022",
     "citations": "10",
@@ -1982,7 +1982,7 @@
   {
     "title_zh": "重访面向高效任务型对话系统的马尔可夫生成架构",
     "title_en": "Revisiting Markovian Generative Architectures for Efficient Task-Oriented Dialog Systems.",
-    "source_zh": "IEEE SLT 2022",
+    "source_zh": "IEEE Spoken Language Technology Workshop (SLT)",
     "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
     "year": "2022",
     "citations": "0",
@@ -2004,7 +2004,7 @@
   {
     "title_zh": "面向真实任务的信息抽取与人机对话：基于 MobileCS 数据集的基线研究",
     "title_en": "Information Extraction and Human-Robot Dialogue towards Real-life Tasks: A Baseline Study with the MobileCS Dataset.",
-    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), 75–84, 2022",
+    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), pp. 75–84, 2022",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), pp. 75–84, 2022",
     "year": "2022",
     "citations": "8",
@@ -2015,7 +2015,7 @@
   {
     "title_zh": "基于简化生成架构的联合强化用户模拟器与任务型对话系统",
     "title_en": "Jointly Reinforced User Simulator and Task-oriented Dialog System with Simplified Generative Architecture.",
-    "source_zh": "arXiv",
+    "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2022",
     "citations": "0",
@@ -2026,7 +2026,7 @@
   {
     "title_zh": "面向强化多领域对话系统的基于 GPT 架构与目标状态跟踪的生成式用户模拟器",
     "title_en": "A Generative User Simulator with GPT-based Architecture and Goal State Tracking for Reinforced Multi-Domain Dialog Systems.",
-    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), 85–97, 2022",
+    "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), pp. 85–97, 2022",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), pp. 85–97, 2022",
     "year": "2022",
     "citations": "11",
@@ -2037,7 +2037,7 @@
   {
     "title_zh": "反事实至关重要：面向对话状态追踪的内在探针方法",
     "title_en": "Counterfactual Matters: Intrinsic Probing For Dialogue State Tracking",
-    "source_zh": "第一届神经对话系统评估与评测研讨会",
+    "source_zh": "The First Workshop on Evaluations and Assessments of Neural Conversation Systems",
     "source_en": "The First Workshop on Evaluations and Assessments of Neural Conversation Systems",
     "year": "2021",
     "citations": "7",
@@ -2048,7 +2048,7 @@
   {
     "title_zh": "面向多步时空网络数据预测的自适应时空Inception图卷积网络",
     "title_en": "Adaptive Spatial-Temporal Inception Graph Convolutional Networks for Multi-step Spatial-Temporal Network Data Forecasting",
-    "source_zh": "国际学习表征会议",
+    "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2021",
     "citations": "1",
@@ -2059,7 +2059,7 @@
   {
     "title_zh": "基于细粒度可解释矩阵的摘要生成模型",
     "title_en": "Abstractive Summarization Based on Fine-Grained Interpretable Matrix",
-    "source_zh": "北京大学学报（自然科学版），2021",
+    "source_zh": "Journal Acta Scientiarum Naturalium Universitatis Pekinensis",
     "source_en": "Journal Acta Scientiarum Naturalium Universitatis Pekinensis",
     "year": "2021",
     "citations": "0",
@@ -2070,7 +2070,7 @@
   {
     "title_zh": "学习检测合同不一致性",
     "title_en": "Learning to Check Contract Inconsistencies.",
-    "source_zh": "2021年AAAI人工智能大会论文集",
+    "source_zh": "The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)",
     "source_en": "The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)",
     "year": "2021",
     "citations": "12",
@@ -2081,7 +2081,7 @@
   {
     "title_zh": "面向交通预测的自适应多感受野时空图卷积网络",
     "title_en": "Adaptive Multi-receptive Field Spatial-Temporal Graph Convolutional Network for Traffic Forecasting.",
-    "source_zh": "2021 IEEE Global Communications Conference (GLOBECOM), 2021",
+    "source_zh": "2021 IEEE Global Communications Conference (GLOBECOM)",
     "source_en": "2021 IEEE Global Communications Conference (GLOBECOM)",
     "year": "2021",
     "citations": "33",
@@ -2092,7 +2092,7 @@
   {
     "title_zh": "面向开放本体槽填充的弹性 CRF",
     "title_en": "Elastic CRFs for Open-ontology Slot Filling.",
-    "source_zh": "Applied Sciences, 2021",
+    "source_zh": "Applied Sciences",
     "source_en": "Applied Sciences",
     "year": "2021",
     "citations": "5",
@@ -2103,7 +2103,7 @@
   {
     "title_zh": "一种结构增强的图卷积网络用于情感分析",
     "title_en": "A structure-enhanced graph convolutional network for sentiment analysis",
-    "source_zh": "自然语言处理实证方法会议",
+    "source_zh": "Conference on Empirical Methods in Natural Language Processing(EMNLP)",
     "source_en": "Conference on Empirical Methods in Natural Language Processing(EMNLP)",
     "year": "2020",
     "citations": "19",
@@ -2114,7 +2114,7 @@
   {
     "title_zh": "中英混合语音中语码转换类型与特征研究",
     "title_en": "A study of types and characteristics of code-switching in mandarin-english speech",
-    "source_zh": "第一届多语言社区语码转换语音技术研讨会",
+    "source_zh": "WSTCSMC",
     "source_en": "WSTCSMC",
     "year": "2020",
     "citations": "1",
@@ -2125,7 +2125,7 @@
   {
     "title_zh": "面向对话系统的元强化多领域状态生成器",
     "title_en": "Meta-Reinforced Multi-Domain State Generator for Dialogue Systems.",
-    "source_zh": "2020年第58届协会年会论文集",
+    "source_zh": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
     "source_en": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
     "year": "2020",
     "citations": "25",
@@ -2136,7 +2136,7 @@
   {
     "title_zh": "面向低资源半监督对话生成的元学习方法",
     "title_en": "Towards Low-Resource Semi-Supervised Dialogue Generation with Meta-Learning.",
-    "source_zh": "计算语言学协会的研究成果：EMNLP 2020，2020",
+    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP 2020",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP 2020",
     "year": "2020",
     "citations": "6",
@@ -2147,7 +2147,7 @@
   {
     "title_zh": "基于加权图卷积网络的情感分析",
     "title_en": "Sentiment Analysis with Weighted Graph Convolutional Networks.",
-    "source_zh": "EMNLP (Findings), 2020",
+    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP 2020",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP 2020",
     "year": "2020",
     "citations": "17",
@@ -2169,7 +2169,7 @@
   {
     "title_zh": "机器学习在中国移动业务运营中的客户分群应用",
     "title_en": "Customer Segment Application of Machine Learning in Business Operation of China Mobile.",
-    "source_zh": "2020 年 IEEE 第 22 届高性能计算与通信国际会议；IEEE 第 18 届智慧城市国际会议；IEEE 第 6 届数据科学与系统国际会议 (HPCC/SmartCity/DSS)",
+    "source_zh": "2020 IEEE 22nd International Conference on High Performance Computing and Communications; IEEE 18th International Conference on Smart City; IEEE 6th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
     "source_en": "2020 IEEE 22nd International Conference on High Performance Computing and Communications; IEEE 18th International Conference on Smart City; IEEE 6th International Conference on Data Science and Systems (HPCC/SmartCity/DSS)",
     "year": "2020",
     "citations": "1",
@@ -2180,7 +2180,7 @@
   {
     "title_zh": "基于词语定义与语义注入的词嵌入改进学习",
     "title_en": "Improved Learning of Word Embeddings with Word Definitions and Semantic Injection.",
-    "source_zh": "Proc. Interspeech 2020, 2020",
+    "source_zh": "Proc. Interspeech",
     "source_en": "Proc. Interspeech",
     "year": "2020",
     "citations": "2",
@@ -2191,7 +2191,7 @@
   {
     "title_zh": "移动网络投诉热点问题的智能预测",
     "title_en": "Smart Prediction of the Complaint Hotspot Problem in Mobile Network.",
-    "source_zh": "2019 年网络与人工智能及机器学习研讨会论文集，2019",
+    "source_zh": "Proceedings of the 2019 Workshop on Network Meets AI & ML - NetAI′19",
     "source_en": "Proceedings of the 2019 Workshop on Network Meets AI & ML - NetAI′19",
     "year": "2020",
     "citations": "4",
@@ -2202,7 +2202,7 @@
   {
     "title_zh": "智能对话系统架构及算法",
     "title_en": "Architecture and Algorithms of Intelligent Dialogue System",
-    "source_zh": "北京邮电大学学报",
+    "source_zh": "JOURNAL OF BEIJING UNIVERSITY OF POSTS AND TELECOMMUNICATIONS",
     "source_en": "JOURNAL OF BEIJING UNIVERSITY OF POSTS AND TELECOMMUNICATIONS",
     "year": "2019",
     "citations": "6",
@@ -2213,7 +2213,7 @@
   {
     "title_zh": "用于序列标注的神经 CRF 转导器",
     "title_en": "Neural CRF Transducers for Sequence Labeling.",
-    "source_zh": "2019 年 IEEE 国际声学会议 (ICASSP 2019)",
+    "source_zh": "ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2019 - 2019 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2019",
     "citations": "10",
@@ -2224,7 +2224,7 @@
   {
     "title_zh": "基于 BERT 与生成对抗网络的语码转换句子生成",
     "title_en": "Code-Switching Sentence Generation by Bert and Generative Adversarial Networks.",
-    "source_zh": "Proc. Interspeech 2019, 2019",
+    "source_zh": "Proc. Interspeech",
     "source_en": "Proc. Interspeech",
     "year": "2019",
     "citations": "42",
@@ -2235,7 +2235,7 @@
   {
     "title_zh": "一种基于 BERT 的词语关系抽取新微调架构",
     "title_en": "A New Fine-Tuning Architecture Based on Bert for Word Relation Extraction.",
-    "source_zh": "CCF国际自然语言处理与中文计算会议，2019",
+    "source_zh": "Natural Language Processing and Chinese Computing",
     "source_en": "Natural Language Processing and Chinese Computing",
     "year": "2019",
     "citations": "3",
@@ -2257,7 +2257,7 @@
   {
     "title_zh": "呼叫中心用户满意度自动分析中的信息融合",
     "title_en": "Information fusion in automatic user satisfaction analysis in call center",
-    "source_zh": "IEEE智能人机系统与控制论国际会议",
+    "source_zh": "IEEE IHMSC",
     "source_en": "IEEE IHMSC",
     "year": "2016",
     "citations": "14",
@@ -2268,7 +2268,7 @@
   {
     "title_zh": "客户语音传感器：面向呼叫中心对话的综合性观点挖掘系统",
     "title_en": "Customer Voice Sensor: A Comprehensive Opinion Mining System for Call Center Conversation",
-    "source_zh": "IEEE云计算与大数据分析国际会议",
+    "source_zh": "IEEE ICCCBDA",
     "source_en": "IEEE ICCCBDA",
     "year": "2016",
     "citations": "17",
@@ -2279,7 +2279,7 @@
   {
     "title_zh": "基于深度学习的不满意客户来电检测",
     "title_en": "Unsatisfied customer call detection with deep learning.",
-    "source_zh": "2016年第十届汉语口语处理国际研讨会（ISCSLP）",
+    "source_zh": "2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)",
     "source_en": "2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)",
     "year": "2016",
     "citations": "14",
@@ -2290,7 +2290,7 @@
   {
     "title_zh": "语音与语言处理技术趋势",
     "title_en": "Trends in speech and language processing",
-    "source_zh": "会议IEEE Signal Processing Magazine",
+    "source_zh": "IEEE Signal Processing Magazine",
     "source_en": "IEEE Signal Processing Magazine",
     "year": "2012",
     "citations": "17",
@@ -2312,7 +2312,7 @@
   {
     "title_zh": "语音与语言处理的发展研究趋势",
     "title_en": "Trends in Speech and Language Processing [In the Spotlight].",
-    "source_zh": "IEEE信号处理杂志（第29卷，第1期，2012年1月）",
+    "source_zh": "IEEE Signal Processing Magazine",
     "source_en": "IEEE Signal Processing Magazine",
     "year": "2012",
     "citations": "5",
@@ -2323,7 +2323,7 @@
   {
     "title_zh": "移动搜索中的语音与多模态交互",
     "title_en": "Speech and Multimodal Interaction in Mobile Search.",
-    "source_zh": "第20届万维网国际会议论文集，2011年",
+    "source_zh": "Proceedings of the 20th international conference companion on World wide web",
     "source_en": "Proceedings of the 20th international conference companion on World wide web",
     "year": "2011",
     "citations": "19",
@@ -2334,7 +2334,7 @@
   {
     "title_zh": "面向移动语音搜索的位置感知查询解析",
     "title_en": "Location-aware query parsing for mobile voice search.",
-    "source_zh": "2011年IEEE国际声学、语音与信号处理会议（ICASSP）",
+    "source_zh": "2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2011",
     "citations": "2",
@@ -2345,7 +2345,7 @@
   {
     "title_zh": "基于改进 K-壳分解的 Twitter 用户影响力度量",
     "title_en": "Measuring User Influence on Twitter Using Modified K-Shell Decomposition.",
-    "source_zh": "Proceedings of the international AAAI conference on web and social media, 2011",
+    "source_zh": "Proceedings of the International AAAI Conference on Web and Social Media",
     "source_en": "Proceedings of the International AAAI Conference on Web and Social Media",
     "year": "2011",
     "citations": "123",
@@ -2356,7 +2356,7 @@
   {
     "title_zh": "一种用于社交电视相关推文识别的自举方法",
     "title_en": "A Bootstrapping Approach to Identifying Relevant Tweets for Social TV.",
-    "source_zh": "2011年国际AAAI网络与社交媒体会议论文集",
+    "source_zh": "Fifth International AAAI Conference on Weblogs and Social Media",
     "source_en": "Fifth International AAAI Conference on Weblogs and Social Media",
     "year": "2011",
     "citations": "16",
@@ -2367,7 +2367,7 @@
   {
     "title_zh": "面向社交电视的微博消息过滤",
     "title_en": "Filtering microblogging messages for social TV.",
-    "source_zh": "第20届万维网国际会议论文集",
+    "source_zh": "Proceedings of the 20th international conference companion on World wide web",
     "source_en": "Proceedings of the 20th international conference companion on World wide web",
     "year": "2011",
     "citations": "17",
@@ -2378,7 +2378,7 @@
   {
     "title_zh": "VoiSTV：支持语音的社交电视",
     "title_en": "VoiSTV: voice-enabled social TV.",
-    "source_zh": "第20届万维网国际会议论文集",
+    "source_zh": "Proceedings of the 20th international conference companion on World wide web",
     "source_en": "Proceedings of the 20th international conference companion on World wide web",
     "year": "2011",
     "citations": "8",
@@ -2389,7 +2389,7 @@
   {
     "title_zh": "基于有偏与噪声数据的 Twitter 鲁棒情感检测",
     "title_en": "Robust Sentiment Detection on Twitter from Biased and Noisy Data.",
-    "source_zh": "Coling 2010: Posters, 2010",
+    "source_zh": "Coling",
     "source_en": "Coling",
     "year": "2010",
     "citations": "1430",
@@ -2400,7 +2400,7 @@
   {
     "title_zh": "语音搜索中构建自然语言理解模块的通用框架",
     "title_en": "A general framework for building natural language understanding modules in voice search.",
-    "source_zh": "2010 年 IEEE 国际声学、语音和信号处理会议",
+    "source_zh": "IEEE International Conference on Acoustics, Speech and Signal Processing",
     "source_en": "IEEE International Conference on Acoustics, Speech and Signal Processing",
     "year": "2010",
     "citations": "12",
@@ -2411,7 +2411,7 @@
   {
     "title_zh": "倾听用户之声：社交媒体中移动网络用户体验的追踪",
     "title_en": "Listen to me if you can: tracking user experience of mobile network on social media.",
-    "source_zh": "第十届ACM SIGCOMM互联网测量会议论文集，2010",
+    "source_zh": "Proceedings of the 10th ACM SIGCOMM conference on Internet measurement",
     "source_en": "Proceedings of the 10th ACM SIGCOMM conference on Internet measurement",
     "year": "2010",
     "citations": "53",
@@ -2422,7 +2422,7 @@
   {
     "title_zh": "基于概率模型的 Twitter 消息情感分析",
     "title_en": "Probabilistic model-based sentiment analysis of twitter messages.",
-    "source_zh": "2010 年 IEEE 口语技术研讨会，2010 年",
+    "source_zh": "IEEE Spoken Language Technology Workshop",
     "source_en": "IEEE Spoken Language Technology Workshop",
     "year": "2010",
     "citations": "121",
@@ -2433,7 +2433,7 @@
   {
     "title_zh": "移动语音搜索中的查询解析",
     "title_en": "Query parsing in mobile voice search.",
-    "source_zh": "第十九届万维网国际会议论文集，2010",
+    "source_zh": "Proceedings of the 19th international conference on World wide web",
     "source_en": "Proceedings of the 19th international conference on World wide web",
     "year": "2010",
     "citations": "2",
@@ -2444,7 +2444,7 @@
   {
     "title_zh": "词混淆网络对语音搜索的影响",
     "title_en": "Effects of Word Confusion Networks on Voice Search.",
-    "source_zh": "欧洲文化研究协会第十二届会议 aclanthology.org",
+    "source_zh": "Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009)",
     "source_en": "Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009)",
     "year": "2009",
     "citations": "17",
@@ -2455,7 +2455,7 @@
   {
     "title_zh": "面向支持语音的移动本地搜索的查询解析",
     "title_en": "Query parsing for voice-enabled mobile local search.",
-    "source_zh": "2009 年 IEEE 国际声学、语音和信号处理会议",
+    "source_zh": "IEEE International Conference on Acoustics, Speech and Signal Processing",
     "source_en": "IEEE International Conference on Acoustics, Speech and Signal Processing",
     "year": "2009",
     "citations": "6",
@@ -2477,7 +2477,7 @@
   {
     "title_zh": "基于网络的语音与语言处理",
     "title_en": "Speech and Language Processing over the Web",
-    "source_zh": "2008｜IEEE Signal Processing Magazine",
+    "source_zh": "IEEE Signal Processing Magazine",
     "source_en": "IEEE Signal Processing Magazine",
     "year": "2008",
     "citations": "19",
@@ -2488,7 +2488,7 @@
   {
     "title_zh": "网络环境下的语音与语言处理",
     "title_en": "Speech and language processing over the web.",
-    "source_zh": "IEEE Signal Processing Magazine, 2008",
+    "source_zh": "IEEE Signal Processing Magazine",
     "source_en": "IEEE Signal Processing Magazine",
     "year": "2008",
     "citations": "19",
@@ -2554,7 +2554,7 @@
   {
     "title_zh": "WebTalk中问答系统的评估研究",
     "title_en": "Question-answering in webtalk: an evaluation study.",
-    "source_zh": "INTERSPEECH 2004",
+    "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2004",
     "citations": "1",
@@ -2587,7 +2587,7 @@
   {
     "title_zh": "基于Internet CEST-CAS2.0的语音翻译",
     "title_en": "Speech translation on Internet CEST-CAS2. 0",
-    "source_zh": "ISIMP 2001",
+    "source_zh": "ISIMP",
     "source_en": "ISIMP",
     "year": "2001",
     "citations": "7",
@@ -2598,7 +2598,7 @@
   {
     "title_zh": "一种用于中文大词汇量连续语音识别的基于框架的MCE训练新策略",
     "title_en": "A new framed-based MCE training strategy for Mandarin LVCSR",
-    "source_zh": "IEEE国际会议 WCC 2000 - ICSP 2000",
+    "source_zh": "International Conference on Signal Processing(ICSP)",
     "source_en": "International Conference on Signal Processing(ICSP)",
     "year": "2000",
     "citations": "0",
