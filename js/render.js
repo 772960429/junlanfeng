@@ -16,9 +16,19 @@
         return el;
     }
 
+    // 兼容解析日期字符串：数据格式为 "2026-08-26  19:15:25"（空格分隔，非标准 ISO），
+    // 移动端 WebKit（Safari/微信浏览器）的 new Date() 会返回 Invalid Date，
+    // 这里用正则手动提取年月日时分秒，兼容双空格、T 分隔、斜杠等格式。
+    function parseDate(dateStr) {
+        if (!dateStr) return null;
+        const m = String(dateStr).match(/(\d{4})[-/](\d{1,2})[-/](\d{1,2})(?:[\sT]+(\d{1,2}):(\d{1,2})(?::(\d{1,2}))?)?/);
+        if (!m) return null;
+        return new Date(+m[1], +m[2] - 1, +m[3], +(m[4] || 0), +(m[5] || 0), +(m[6] || 0));
+    }
+
     function formatDate(dateStr, lang) {
-        const d = new Date(dateStr);
-        if (isNaN(d)) return dateStr;
+        const d = parseDate(dateStr);
+        if (!d || isNaN(d)) return dateStr;
         const year = d.getFullYear();
         const month = d.getMonth() + 1;
         const day = d.getDate();
@@ -114,7 +124,10 @@
         }
 
         const sorted = data.slice().sort(function(a, b) {
-            return new Date(b.update_time) - new Date(a.update_time);
+            // 使用兼容解析（移动端 WebKit 无法解析空格分隔的日期字符串）；解析失败的排到最后
+            const tb = parseDate(b.update_time);
+            const ta = parseDate(a.update_time);
+            return (tb ? tb.getTime() : 0) - (ta ? ta.getTime() : 0);
         });
 
         // 最多显示 20 条
