@@ -2,21 +2,12 @@
 <html class="no-js" lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Junlan Feng – Publications</title>
-    <meta name="description" content="Publications of Junlan Feng, IEEE Fellow, Chief Scientist of China Mobile Group.">
-    <meta name="keywords" content="Junlan Feng, publications, AI, China Mobile">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Junlan Feng – Publications">
-    <meta property="og:description" content="Selected publications of Junlan Feng.">
-    <meta property="og:url" content="publications.html">
-    <meta property="og:site_name" content="Junlan Feng">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
+    <title>Junlan Feng – BibTeX</title>
+    <meta name="description" content="BibTeX entry of a publication by Junlan Feng.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|PT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/main.min.css">
-    <link rel="stylesheet" href="assets/academicons.css" />
+    <link rel="stylesheet" href="assets/academicons.css">
     <link rel="stylesheet" href="assets/lang-switch.css">
     <meta http-equiv="cleartype" content="on">
     <script src="assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
@@ -26,22 +17,22 @@
         <a href="index.html" class="logo site-name">
             <img src="images/logo.png" alt="China Mobile Group Logo" style="max-width: 166px; max-height: 39px;">
         </a>
-    </div> 
+    </div>
     <div class="navigation-wrapper">
          <div class="site-name lang-switch">
             <div>
                <a data-i18n="site.name">Junlan Feng – Chief Scientist, China Mobile Group</a>
-            </div> 
+            </div>
             <div>
                <button class="lang-btn" data-lang="en">EN</button>
                <button class="lang-btn" data-lang="zh">CN</button>
-            </div> 
+            </div>
          </div>
         <div class="top-navigation">
             <nav role="navigation" id="site-nav" class="nav">
                 <ul clas="nav-list">
                     <li class="nav-item"><a href="index.html" data-i18n="nav.about">About</a></li>
-                    <li class="nav-item"><a href="publications.html" data-i18n="nav.publications" class="active">Publications</a></li>
+                    <li class="nav-item"><a href="publications.html" data-i18n="nav.publications">Publications</a></li>
                     <li class="nav-item"><a href="patents.html" data-i18n="nav.patents">Patents</a></li>
                     <li class="nav-item"><a href="experience.html" data-i18n="nav.experience">Experience</a></li>
                     <li class="nav-item"><a href="awards.html" data-i18n="nav.awards">Awards</a></li>
@@ -54,7 +45,7 @@
          <div class="article-author-side">
             <img src="images/photo.png" class="bio-photo" alt="Junlan Feng" style="min-width:190px">
             <h3 style="min-width:240px;margin-top: 30px;" data-i18n="sidebar.name">Junlan Feng</h3>
-            
+
             <i style="min-width:260px" data-i18n="sidebar.title">IEEE Fellow | Chief Scientist</i>
             <br>
             <i style="min-width:240px" data-i18n="sidebar.company">China Mobile Group</i>
@@ -69,39 +60,44 @@
 
         <article>
             <div class="article-wrap">
-                <p>
-                    <span data-i18n="publications.note">For a complete list, please browse my</span>
-                    <a href="https://scholar.google.com/citations?user=rBjPtmQAAAAJ" target="_blank" data-i18n="publications.note.link" class="link">Google Scholar.</a>
-                </p>
-                <h1 data-i18n="publications.title">Selected Publications</h1>
-                <ul class="biblist">
-                    <!-- 由 js/pub-render.js 动态填充 -->
-                </ul>
+                <pre id="bibtex-content" style="white-space: pre-wrap; word-break: break-word; font-family: 'Courier New', Courier, monospace;"></pre>
             </div>
         </article>
     </div>
-
-    <!-- <div class="footer-wrap">
-        <footer>
-            <span>&copy; 2026 Junlan Feng. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/">Minimal Mistakes</a> theme.</span>
-        </footer>
-    </div> -->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="assets/js/scripts.min.js"></script>
     <script src="js/i18n.js"></script>
-    <script src="js/pub-render.js"></script>
     <script>
-        var _gaq = _gaq || [];
-        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
-        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
-        _gaq.push(['_setAccount', 'UA-XXXXXXXX-X']);
-        _gaq.push(['_trackPageview']);
         (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            function showBibtex() {
+                var pre = document.getElementById('bibtex-content');
+                if (!pre) return;
+                var content = '';
+                // 优先从 URL hash 读取（点击 [BibTeX] 时通过 hash 传递内容）
+                var hash = window.location.hash.replace(/^#/, '');
+                if (hash) {
+                    try {
+                        content = decodeURIComponent(hash);
+                    } catch (e) {
+                        content = hash;
+                    }
+                }
+                // 兜底：从 sessionStorage 读取
+                if (!content) {
+                    try {
+                        content = sessionStorage.getItem('bibtex_content') || '';
+                    } catch (e) {}
+                }
+                pre.textContent = content || 'BibTeX not available.';
+            }
+
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', showBibtex);
+            } else {
+                showBibtex();
+            }
         })();
     </script>
 </body>
