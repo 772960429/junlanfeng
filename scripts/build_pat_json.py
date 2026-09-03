@@ -25,10 +25,11 @@ HTML_PATH = os.path.join(PROJECT_ROOT, 'patents.html')
 # 列名关键词映射
 COLUMN_MAP = {
     'type': ['类型（会议/期刊/专著/专利等）', '类型'],
-    'title_zh': ['英文题目', '英文标题', '题（英文）'],
+    'title_zh': ['中文题目', '中文标题', '题（中文）'],
     'title_en': ['英文题目', '英文标题', '题（英文）'],
     'source_zh': ['英文发表来源', '英文来源'],
     'source_en': ['英文发表来源', '英文来源'],
+    'year': ['时间（年份）', '时间', '年份'],
     'citations': ['引用次数', '被引'],
     'pdf': ['建议网址'],
 }
@@ -44,6 +45,17 @@ def find_column(headers, keywords):
             if kw in h_str:
                 return h_str
     return None
+
+
+def extract_year(val):
+    """从年份单元格提取4位年份。
+    兼容: 2020(数字) / 2020.0(Excel数字) / '2020年' / '2020-05' / datetime字符串 等。
+    解析失败返回 0（排序时落到最后）。
+    """
+    if val is None:
+        return 0
+    m = re.search(r'(19|20)\d{2}', str(val))
+    return int(m.group(0)) if m else 0
 
 
 def main():
@@ -116,6 +128,7 @@ def main():
             'title_en': get_val('title_en'),
             'source_zh': get_val('source_zh'),
             'source_en': get_val('source_en'),
+            'year': get_val('year'),
             'citations': get_val('citations'),
             'pdf': get_val('pdf'),
         })
@@ -132,6 +145,21 @@ def main():
         print(f"  [{count}次] {reason}")
     print(f"{'='*50}")
 
+    # 按年份倒序排列（JSON 文件和注入 HTML 共用此列表，两边都是倒序）
+    # Python sort 是稳定排序：年份相同的记录保持 Excel 原始顺序；年份缺失(0)排最后
+    patents.sort(key=lambda x: extract_year(x.get('year')), reverse=True)
+
+    # 验证排序键是否真正解析出年份（防止全部回退为 0）
+    parsed_years = [extract_year(p['year']) for p in patents]
+    valid_years = [y for y in parsed_years if y]
+    print(f"📅 年份倒序: 最新 {max(valid_years) if valid_years else '?'} ~ 最早 {min(valid_years) if valid_years else '?'}"
+          f"，成功解析 {len(valid_years)}/{len(patents)} 条")
+    if len(valid_years) < len(patents):
+        print(f"⚠️ {len(patents) - len(valid_years)} 条未解析到年份（已排到列表末尾），前3条:")
+        for p in patents[-3:]:
+            print(f"   year={repr(p['year'])}, title_zh={p['title_zh'][:40]}")
+    print(f"   排序后前3条年份: {[extract_year(p['year']) for p in patents[:3]]}")
+
     # 输出 JSON
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(patents, f, ensure_ascii=False, indent=2)
@@ -145,6 +173,7 @@ def main():
         print(f"  title_en: {p['title_en'][:50]}")
         print(f"  source_zh: {p['source_zh']}")
         print(f"  source_en: {p['source_en']}")
+        print(f"  year: {p['year']}")
         print(f"  citations: {p['citations']}")
         print(f"  pdf: {p['pdf'][:50] if p['pdf'] else '(空)'}...")
 
