@@ -60,6 +60,16 @@ def extract_year(val):
     return int(m.group(0)) if m else 0
 
 
+def validate_url(val):
+    """校验是否为有效 URL（http/https 开头），无效则返回空字符串。"""
+    if not val:
+        return ''
+    s = str(val).strip()
+    if re.match(r'^https?://', s, re.IGNORECASE):
+        return s
+    return ''
+
+
 def main():
     if not os.path.exists(XLSX_PATH):
         print(f"错误: 找不到 {XLSX_PATH}")
@@ -136,7 +146,7 @@ def main():
             'citations': get_val('citations'),
             'impact_factor': get_val('impact_factor'),
             'bibtex': get_val('bibtex'),
-            'pdf': get_val('pdf'),
+            'pdf': validate_url(get_val('pdf')),
         })
 
     wb.close()
