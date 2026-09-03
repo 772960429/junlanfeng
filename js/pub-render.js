@@ -71,6 +71,10 @@
         for (let i = 0; i < data.length; i++) {
             const item = data[i];
             var title = (lang === 'zh') ? item.title_zh : (item.title_en || item.title_zh);
+            // 英文模式：去掉题目末尾多余的英文点号
+            if (lang !== 'zh' && title) {
+                title = title.replace(/\.+$/, '');
+            }
             var detail = buildDetail(item, lang);
 
             var li = document.createElement('li');
@@ -120,8 +124,8 @@
                 }
             }
 
-            // PDF 链接（空值隐藏）
-            if (item.pdf) {
+            // PDF 链接（空值或非 URL 隐藏）
+            if (item.pdf && /^https?:\/\//i.test(item.pdf)) {
                 var pdfLink = document.createElement('a');
                 pdfLink.href = item.pdf;
                 pdfLink.target = '_blank';
