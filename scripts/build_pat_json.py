@@ -1,0 +1,200 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+scripts/build_pat_json.py - 从 pub.xlsx 提取专利数据，输出 patents.json
+并将数据内联注入到 patents.html（支持 file:// 协议直接打开）
+"""
+
+import json
+import os
+import re
+import sys
+
+try:
+    import openpyxl
+except ImportError:
+    print("请先安装 openpyxl: pip install openpyxl")
+    sys.exit(1)
+
+# 项目根目录
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+XLSX_PATH = os.path.join(PROJECT_ROOT, 'data', 'pub.xlsx')
+OUTPUT_PATH = os.path.join(PROJECT_ROOT, 'data', 'patents.json')
+HTML_PATH = os.path.join(PROJECT_ROOT, 'patents.html')
+
+# 列名关键词映射
+COLUMN_MAP = {
+    'type': ['类型（会议/期刊/专著/专利等）', '类型'],
+    'title_zh': ['英文题目', '英文标题', '题（英文）'],
+    'title_en': ['英文题目', '英文标题', '题（英文）'],
+    'source_zh': ['英文发表来源', '英文来源'],
+    'source_en': ['英文发表来源', '英文来源'],
+    'citations': ['引用次数', '被引'],
+    'pdf': ['建议网址'],
+}
+
+
+def find_column(headers, keywords):
+    """根据关键词模糊匹配列名"""
+    for h in headers:
+        if h is None:
+            continue
+        h_str = str(h).strip()
+        for kw in keywords:
+            if kw in h_str:
+                return h_str
+    return None
+
+
+def main():
+    if not os.path.exists(XLSX_PATH):
+        print(f"错误: 找不到 {XLSX_PATH}")
+        sys.exit(1)
+
+    wb = openpyxl.load_workbook(XLSX_PATH, read_only=True)
+    ws = wb.active
+
+    # 读取表头
+    headers = [cell.value for cell in next(ws.iter_rows(min_row=1, max_row=1))]
+    print(f"表头共 {len(headers)} 列:")
+    for i, h in enumerate(headers):
+        print(f"  Col {i}: {h}")
+
+    # 匹配列名
+    col_indices = {}
+    for key, keywords in COLUMN_MAP.items():
+        col_name = find_column(headers, keywords)
+        if col_name:
+            col_indices[key] = headers.index(col_name)
+            print(f"  匹配 {key} -> 列 '{col_name}' (index {col_indices[key]})")
+        else:
+            print(f"  ⚠️ 未找到 {key} 列")
+            col_indices[key] = None
+
+    type_col = col_indices.get('type')
+    if type_col is None:
+        print("❌ 未找到类型列，无法筛选专利")
+        sys.exit(1)
+
+    # 提取专利数据
+    patents = []
+    total_rows = 0
+    matched = 0
+    skipped_reasons = {}
+
+    for row_idx, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
+        total_rows += 1
+        type_val = row[type_col] if type_col < len(row) else None
+
+        if type_val is None:
+            reason = 'type为None'
+            skipped_reasons[reason] = skipped_reasons.get(reason, 0) + 1
+            continue
+
+        type_str = str(type_val).strip()
+
+        if type_str != '专利':
+            if '专利' in type_str:
+                reason = f'含"专利"但不完全匹配: repr={repr(type_val)}'
+                print(f"  [行{row_idx}] ⚠️ 含专利但不匹配: repr={repr(type_val)}, 长度={len(type_str)}, hex={type_str.encode('utf-8').hex()}")
+            else:
+                reason = f'type={type_str}'
+            skipped_reasons[reason] = skipped_reasons.get(reason, 0) + 1
+            continue
+
+        matched += 1
+
+        def get_val(key):
+            idx = col_indices.get(key)
+            if idx is None or idx >= len(row):
+                return ''
+            val = row[idx]
+            return '' if val is None else str(val).strip()
+
+        patents.append({
+            'title_zh': get_val('title_zh'),
+            'title_en': get_val('title_en'),
+            'source_zh': get_val('source_zh'),
+            'source_en': get_val('source_en'),
+            'citations': get_val('citations'),
+            'pdf': get_val('pdf'),
+        })
+
+    wb.close()
+
+    # 统计汇总
+    print(f"\n{'='*50}")
+    print(f"总数据行: {total_rows}")
+    print(f"匹配专利: {matched}")
+    print(f"跳过: {total_rows - matched}")
+    print(f"\n跳过原因统计:")
+    for reason, count in sorted(skipped_reasons.items(), key=lambda x: -x[1]):
+        print(f"  [{count}次] {reason}")
+    print(f"{'='*50}")
+
+    # 输出 JSON
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        json.dump(patents, f, ensure_ascii=False, indent=2)
+
+    print(f"\n✅ 导出 {len(patents)} 条专利 -> {OUTPUT_PATH}")
+
+    # 打印前3条预览
+    for i, p in enumerate(patents[:3]):
+        print(f"\n--- 预览 {i+1} ---")
+        print(f"  title_zh: {p['title_zh'][:50]}")
+        print(f"  title_en: {p['title_en'][:50]}")
+        print(f"  source_zh: {p['source_zh']}")
+        print(f"  source_en: {p['source_en']}")
+        print(f"  citations: {p['citations']}")
+        print(f"  pdf: {p['pdf'][:50] if p['pdf'] else '(空)'}...")
+
+    # 将数据内联注入到 patents.html
+    inject_into_html(patents)
+
+
+def inject_into_html(patents):
+    """将专利数据内联注入到 patents.html，支持 file:// 协议直接打开"""
+    if not os.path.exists(HTML_PATH):
+        print(f"⚠️ patents.html 不存在，跳过注入")
+        return
+
+    with open(HTML_PATH, 'r', encoding='utf-8') as f:
+        html = f.read()
+
+    # 生成内联 JS
+    json_str = json.dumps(patents, ensure_ascii=False, separators=(',', ':'))
+    inline_js = f'var patentsData = {json_str};'
+    inline_script = f'<script>\n{inline_js}\n</script>\n    '
+
+    # 删除已有的 patentsData 定义
+    patterns = [
+        r'<script>\s*var\s+patentsData\s*=\s*[^;]+;\s*</script>',
+        r'<script>\s*const\s+patentsData\s*=\s*[^;]+;\s*</script>',
+        r'<script>\s*let\s+patentsData\s*=\s*[^;]+;\s*</script>',
+        r'var\s+patentsData\s*=\s*[^;]+;',
+        r'const\s+patentsData\s*=\s*[^;]+;',
+        r'let\s+patentsData\s*=\s*[^;]+;',
+    ]
+    for pattern in patterns:
+        html = re.sub(pattern, '', html, flags=re.DOTALL)
+
+    # 清理多余空行
+    html = re.sub(r'\n\s*\n\s*\n', '\n\n', html)
+
+    # 在 pat-render.js 之前插入
+    script_tag = '<script src="js/pat-render.js">'
+    if script_tag in html:
+        html = html.replace(script_tag, inline_script + script_tag)
+        print(f"✅ 内联数据已注入到 patents.html")
+    else:
+        print(f"⚠️ 未找到 pat-render.js 引用，未注入内联数据")
+
+    with open(HTML_PATH, 'w', encoding='utf-8') as f:
+        f.write(html)
+
+    size_kb = os.path.getsize(HTML_PATH) / 1024
+    print(f"📄 patents.html 大小: {size_kb:.1f} KB")
+
+
+if __name__ == '__main__':
+    main()
