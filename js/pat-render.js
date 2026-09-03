@@ -9,21 +9,104 @@
     var CACHE_KEY = 'pat_data_cache';
     var CACHE_DURATION = 60 * 60 * 1000; // 1小时
 
+    // 判断值是否为数字
+    function isNumeric(val) {
+        if (val === null || val === undefined || val === '') return false;
+        var n = parseFloat(val);
+        return !isNaN(n) && isFinite(n);
+    }
+
     // 构建详情文本
     function buildDetail(item, lang) {
         var source = (lang === 'zh') ? item.source_zh : item.source_en;
-        var citations = item.citations || '0';
+        var citations = item.citations;
+
+        // 被引用次数为空或 0 时不显示
+        var hasCitations = isNumeric(citations) && parseFloat(citations) !== 0;
 
         if (lang === 'zh') {
-            return source + '；被引用次数：' + citations;
+            var detail = source;
+            if (hasCitations) {
+                detail += '；被引用次数：' + citations;
+            }
+            return detail;
         } else {
-            return source + ', ' + citations + ' Citations.';
+            var detail = source;
+            if (hasCitations) {
+                detail += ', ' + citations + ' Citations';
+            }
+            return detail;
         }
+    }
+
+    // 提取年份（兼容 2020 / '2020.0' / '2020年' / 日期字符串等）
+    function extractYearNum(val) {
+        if (!val) return 0;
+        var m = String(val).match(/(?:19|20)\d{2}/);
+        return m ? parseInt(m[0], 10) : 0;
+    }
+
+    // 专利号前缀分组：US 最前，EP/其他国家/组织次之，CN 最后；无空前缀兜底归入 CN 组
+    function patentGroupRank(item) {
+        var src = String(item.source_en || item.source_zh || '').toUpperCase();
+        var m = src.match(/^([A-Z]+)/);
+        var prefix = m ? m[1] : 'CN';
+        if (prefix === 'US') return 0;
+        if (prefix === 'CN') return 2;
+        return 1; // EP / WO / 其他
+    }
+
+    // 提取专利号中的数字部分（US11194883B2 → 11194883）
+    function patentNum(item) {
+        var src = String(item.source_en || item.source_zh || '').toUpperCase();
+        var m = src.match(/(\d+)/);
+        return m ? parseInt(m[1], 10) : 0;
+    }
+
+    // 提取专利号末尾种类码（US11194883B2 → B2，CN122156733A → A）
+    function patentKind(item) {
+        var src = String(item.source_en || item.source_zh || '').toUpperCase();
+        var m = src.match(/([A-Z]+\d*)$/);
+        return m ? m[1] : '';
+    }
+
+    // 排序：1) 国别分组 US → EP/其他 → CN；2) 组内年份倒序；3) 年份相同按专利号数值降序；
+    // 4) 号相同按种类码（B2 优先于 A1）；5) 最后按标题排序（中文拼音/英文字母，忽略大小写标点）
+    function sortItems(data, lang) {
+        var locale = (lang === 'zh') ? 'zh-Hans-CN' : 'en';
+        return data.slice().sort(function(a, b) {
+            // 1. 国别分组
+            var ga = patentGroupRank(a);
+            var gb = patentGroupRank(b);
+            if (ga !== gb) return ga - gb;
+
+            // 2. 年份倒序
+            var ya = extractYearNum(a.year);
+            var yb = extractYearNum(b.year);
+            if (ya !== yb) return yb - ya;
+
+            // 3. 专利号数值降序（号大在前）
+            var na = patentNum(a);
+            var nb = patentNum(b);
+            if (na !== nb) return nb - na;
+
+            // 4. 种类码降序（B2 在前，A1 在后）
+            var ka = patentKind(a);
+            var kb = patentKind(b);
+            if (ka !== kb) return kb.localeCompare(ka);
+
+            // 5. 兜底：标题升序
+            var ta = (lang === 'zh') ? (a.title_zh || a.title_en || '') : (a.title_en || a.title_zh || '');
+            var tb = (lang === 'zh') ? (b.title_zh || b.title_en || '') : (b.title_en || b.title_zh || '');
+            return ta.localeCompare(tb, locale, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
+        });
     }
 
     // 渲染专利列表
     function renderPatents(data, lang, container) {
         if (!Array.isArray(data) || data.length === 0) return;
+
+        data = sortItems(data, lang);
 
         var fragment = document.createDocumentFragment();
 

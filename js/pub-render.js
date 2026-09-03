@@ -20,31 +20,53 @@
     function buildDetail(item, lang) {
         var source = (lang === 'zh') ? item.source_zh : item.source_en;
         var year = item.year;
-        var citations = item.citations;
+        // 被引用次数始终显示（包括 0），空值兜底为 0
+        var citations = (item.citations === undefined || item.citations === null || item.citations === '') ? '0' : item.citations;
         var impactFactor = item.impact_factor;
 
         if (lang === 'zh') {
             var detail = source + '，' + year + '；被引用次数：' + citations;
             if (isNumeric(impactFactor)) {
-                detail += '；影响因子：' + impactFactor + '。';
-            } else {
-                detail += '。';
+                detail += '；影响因子：' + impactFactor;
             }
+            detail += '。';
             return detail;
         } else {
             var detail = source + ', ' + year + '; ' + citations + ' citations';
             if (isNumeric(impactFactor)) {
-                detail += ', Impact Factor: ' + impactFactor + '.';
-            } else {
-                detail += '.';
+                detail += '; Impact Factor: ' + impactFactor;
             }
+            detail += '.';
             return detail;
         }
+    }
+
+    // 提取年份（兼容 2020 / '2020.0' / '2020年' / 日期字符串等）
+    function extractYearNum(val) {
+        if (!val) return 0;
+        var m = String(val).match(/(?:19|20)\d{2}/);
+        return m ? parseInt(m[0], 10) : 0;
+    }
+
+    // 排序：年份倒序；年份相同按标题升序
+    // 中文模式按中文标题拼音排序，英文模式按英文标题字母排序，忽略大小写/标点
+    function sortItems(data, lang) {
+        var locale = (lang === 'zh') ? 'zh-Hans-CN' : 'en';
+        return data.slice().sort(function(a, b) {
+            var ya = extractYearNum(a.year);
+            var yb = extractYearNum(b.year);
+            if (ya !== yb) return yb - ya; // 年份倒序
+            var ta = (lang === 'zh') ? (a.title_zh || a.title_en || '') : (a.title_en || a.title_zh || '');
+            var tb = (lang === 'zh') ? (b.title_zh || b.title_en || '') : (b.title_en || b.title_zh || '');
+            return ta.localeCompare(tb, locale, { sensitivity: 'base', numeric: true, ignorePunctuation: true });
+        });
     }
 
     // 渲染论文列表
     function renderPapers(data, lang, container) {
         if (!Array.isArray(data) || data.length === 0) return;
+
+        data = sortItems(data, lang);
 
         var fragment = document.createDocumentFragment();
 
