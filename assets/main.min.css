@@ -3936,7 +3936,7 @@ body {
     #main article {
         display:inline;
         float: left;
-        width: 41%
+        width: 45%
     }
 }
 
@@ -3965,7 +3965,7 @@ body {
     #index {
         display:inline;
         float: left;
-        width: 41%
+        width: 45%
     }
 }
 
@@ -4464,7 +4464,7 @@ body {
     .footer-wrap footer {
         display:inline;
         float: left;
-        width: 41%;
+        width: 45%;
         margin-right: 29.166666666666668%;
         margin-left: 33.333333333333336%
     }
@@ -4493,7 +4493,7 @@ body {
     .related-articles {
         display:inline;
         float: left;
-        width: 41%;
+        width: 45%;
         margin-right: 29.166666666666668%;
         margin-left: 33.333333333333336%
     }

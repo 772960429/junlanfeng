@@ -272,3 +272,16 @@ div[data-i18n] {
     text-decoration:none;
     color:inherit;
 }
+
+/* .nav-list {
+    display: flex;
+}
+.nav-item {
+    flex: 1;
+} */
+.pub {
+    font-weight: bold;
+ }
+.pat {
+    font-weight: bold;
+ }
