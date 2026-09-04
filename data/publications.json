@@ -2472,7 +2472,7 @@
     "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{Feng2008WebTrackMA,\n  title={WebTrack: Mining and Tracking Content and Structure of Websites},\n  author={Junlan Feng and Valerie Torres and Daniel Sheleheda and Cynthia Cama},\n  booktitle={International Conference on Data Mining},\n  year={2008},\n  url={https://api.semanticscholar.org/CorpusID:1162456}\n}",
-    "pdf": ""
+    "pdf": "https://www.semanticscholar.org/paper/WebTrack%3A-Mining-and-Tracking-Content-and-Structure-Feng-Torres/d5098aca41033aa055f29ba137bff2f62a72736e"
   },
   {
     "title_zh": "WebTalk：通过挖掘网站自动构建口语对话系统",
@@ -2549,7 +2549,7 @@
     "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{feng2003b,\n  author    = {Junlan Feng and Srinivas Bangalore and Mazin G. Rahim},\n  title     = {WebTalk: Towards Automatically Building Dialog Services by Exploiting the Content \\& Structure of Websites},\n  booktitle = {WWW (Posters)},\n  year      = {2003},\n}",
-    "pdf": ""
+    "pdf": "https://www.archives.iw3c2.org/www2003/cdrom/papers/poster/p325/p325-junlan.html"
   },
   {
     "title_zh": "基于Internet CEST-CAS2.0的语音翻译",
@@ -2604,10 +2604,10 @@
     "citations": "7",
     "impact_factor": "不适用",
     "bibtex": "@article{du1999,\n  author    = {Limin Du and Junlan Feng and Yi Song and Jinchen Sun},\n  title     = {A Chinese-English speech translation prototype system: CEST-CAS1.0},\n  journal   = {ICSPAT},\n  year      = {1999},\n}",
-    "pdf": ""
+    "pdf": "https://xplorestaging.ieee.org/document/925364/references#references"
   },
   {
-    "title_zh": "汉语自发语音识别综述",
+    "title_zh": "自然口语语音识别研究概况",
     "title_en": "Review on Chinese spontaneous speech recognition",
     "source_zh": "Electronic science & technology review",
     "source_en": "Electronic science & technology review",
@@ -2615,6 +2615,6 @@
     "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "@article{junlan1999,\n  author    = {F Junlan and D Limin},\n  title     = {Review on Chinese spontaneous speech recognition},\n  journal   = {Electronic science \\& technology review},\n  year      = {1999},\n}",
-    "pdf": ""
+    "pdf": "https://wap.cnki.net/touch/web/Journal/Article/DZKJ199909000.html"
   }
 ]
