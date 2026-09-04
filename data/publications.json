@@ -55,8 +55,8 @@
     "pdf": "https://arxiv.org/pdf/2602.03352.pdf"
   },
   {
-    "title_zh": "训练音频模型推理：面向源与层级的统一知识蒸馏框架",
-    "title_en": "Teaching Audio Models to Reason: A Unified Framework for Source-and Layer-Wise Distillation",
+    "title_zh": "教会音频模型进行推理：统一的源级与层级知识蒸馏框架",
+    "title_en": "Teaching Audio Models to Reason: A Unified Framework for Source- and Layer-Wise Distillation",
     "source_zh": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "source_en": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2026",
@@ -99,7 +99,7 @@
     "pdf": "https://arxiv.org/pdf/2601.17671.pdf"
   },
   {
-    "title_zh": "De-Codec：在编解码器中解耦语音和背景声以便为下游音频任务进行明确的特征选择",
+    "title_zh": "De-De-Codec：在编解码器中解耦语音与背景声，以支持下游音频任务的显式特征选择",
     "title_en": "De-Codec: Decoupling Speech and Background-Sound in Codec to Allow Explicit Feature Selections for Downstream Audio Tasks",
     "source_zh": "Journal of Shanghai Jiaotong University (Science)",
     "source_en": "Journal of Shanghai Jiaotong University (Science)",
@@ -209,7 +209,7 @@
     "pdf": "https://arxiv.org/pdf/2602.05940v1"
   },
   {
-    "title_zh": "超越统一范式：面向大语言模型零样本图学习的自适应子图去噪方法",
+    "title_zh": "超越单一范式：面向大语言模型零样本图学习的自适应子图去噪",
     "title_en": "Beyond One-Size-Fits-All: Adaptive Subgraph Denoising for Zero-Shot Graph Learning with Large Language Models.",
     "source_zh": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "source_en": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
@@ -253,7 +253,7 @@
     "pdf": "https://arxiv.org/pdf/2604.14683"
   },
   {
-    "title_zh": "SeaEvo：基于策略空间进化的算法发现推进",
+    "title_zh": "SeaEvo：通过策略空间进化推进算法发现",
     "title_en": "SeaEvo: Advancing Algorithm Discovery with Strategy Space Evolution.",
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
@@ -308,7 +308,7 @@
     "pdf": "https://arxiv.org/pdf/2605.24414.pdf"
   },
   {
-    "title_zh": "ChildEval：大语言模型与儿童人格",
+    "title_zh": "ChildEval：当大语言模型遇见儿童的个性特征",
     "title_en": "ChildEval: When large language models meet children's personalities.",
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
@@ -317,6 +317,28 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{luo2026c, title={ChildEval:WHEN LARGE LANGUAGE MODELS MEET CHILDREN’S PERSONALITIES}, url={http://dx.doi.org/10.18653/v1/2026.findings-acl.1070}, DOI={10.18653/v1/2026.findings-acl.1070}, booktitle={Findings of the Association for Computational Linguistics: ACL 2026}, publisher={Association for Computational Linguistics}, author={Luo, Yanyan and Han, Xue and Zhao, Chunxu and Bai, Ruiqiao and Zhang, Yaxing and Hu, Qian and Mei, Lijun and Feng, Junlan}, year={2026}, pages={21282–21304} }",
     "pdf": "https://arxiv.org/pdf/2605.27805.pdf"
+  },
+  {
+    "title_zh": "TReB：评估大语言模型表格推理能力的综合基准",
+    "title_en": "TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models.",
+    "source_zh": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "source_en": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
+    "year": "2026",
+    "citations": "2",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{li2025b, title={TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models}, url={http://dx.doi.org/10.1145/3805712.3808617}, DOI={10.1145/3805712.3808617}, booktitle={Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval}, publisher={ACM}, author={Li, Ce and Liu, Xiaofan and Song, Zhiyan and Chi, Ce and Shi, Boshen and Zhao, Chen and Chang, Guanguang and Wang, Zhendong and Yang, Kexin and Wang, Xing and Deng, Chao and Feng, Junlan}, year={2026}, month=July, pages={3267–3275} }",
+    "pdf": "https://arxiv.org/pdf/2506.18421.pdf"
+  },
+  {
+    "title_zh": "DisCo-Speech：基于解耦语音编解码器的可控零样本语音生成",
+    "title_en": "DisCo_Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec.",
+    "source_zh": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "source_en": "Annual Meeting of the Association for Computational Linguistics (ACL)",
+    "year": "2026",
+    "citations": "1",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{li2025c, title={DisCo_Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec}, url={http://dx.doi.org/10.18653/v1/2026.acl-long.863}, DOI={10.18653/v1/2026.acl-long.863}, booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, publisher={Association for Computational Linguistics}, author={Li, Tao and Ge, Wenshuo and Wang, Zhichao and Cui, Zihao and Ma, Yong and Gao, Yingying and Deng, Chao and Zhang, Shilei and Feng, Junlan}, year={2026}, pages={18917–18931} }",
+    "pdf": "https://arxiv.org/pdf/2512.13251.pdf"
   },
   {
     "title_zh": "SeerGuard：基于世界模型预测的移动GUI智能体安全框架",
@@ -550,7 +572,7 @@
     "pdf": "https://doi.org/10.1109/TPDS.2025.3579121"
   },
   {
-    "title_zh": "MoE-LPR：基于语言先验路由混合专家的大语言模型多语言扩展",
+    "title_zh": "MoE-LPR：通过带语言先验路由的混合专家实现大语言模型多语言扩展",
     "title_en": "MoE-LPR: Multilingual Extension of Large Language Models Through Mixture-of-Experts with Language Priors Routing.",
     "source_zh": "AAAI",
     "source_en": "AAAI",
@@ -583,7 +605,7 @@
     "pdf": "https://aclanthology.org/2025.findings-acl.1105.pdf"
   },
   {
-    "title_zh": "探索与扩展语码转换用于多语言语言模型预训练",
+    "title_zh": "多语言语言模型预训练中的语码转换：研究与规模化",
     "title_en": "Investigating and Scaling up Code-Switching for Multilingual Language Model Pre-Training.",
     "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
@@ -640,8 +662,8 @@
   {
     "title_zh": "InjectTST：向独立通道注入全局信息以进行长时间序列预测",
     "title_en": "InjectTST: Injecting Global Information into Independent Channels for Long Time Series Forecasting.",
-    "source_zh": "Findings of the Association for Computational Linguistics: EMNLP",
-    "source_en": "Findings of the Association for Computational Linguistics: EMNLP",
+    "source_zh": "ICASSP 2025",
+    "source_en": "ICASSP 2025",
     "year": "2025",
     "citations": "1",
     "impact_factor": "不适用",
@@ -737,7 +759,7 @@
     "pdf": "https://doi.org/10.1109/IWQoS65803.2025.11506401"
   },
   {
-    "title_zh": "大语言模型是跨语言无知识推理器",
+    "title_zh": "大语言模型是跨语言知识无关推理器",
     "title_en": "Large Language Models Are Cross-Lingual Knowledge-Free Reasoners.",
     "source_zh": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
@@ -757,17 +779,6 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{Yang_2025b, title = {Palette of Language Models: A Solver for Controlled Text Generation}, url={http://dx.doi.org/10.18653/v1/2025.naacl-long.497}, DOI={10.18653/v1/2025.naacl-long.497}, booktitle = {Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)}, publisher = {Association for Computational Linguistics}, author = {Yang, Zhe and Huang, Yi and Chen, Yaqin and XiaotingWu, XiaotingWu and Feng, Junlan and Deng, Chao}, year = {2025}, pages = {9868–9881} }",
     "pdf": "https://aclanthology.org/2025.naacl-long.497.pdf"
-  },
-  {
-    "title_zh": "SafeDialBench：面向多轮对话中多样越狱攻击的大语言模型细粒度安全基准",
-    "title_en": "SafeDialBench: A Fine-Grained Safety Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks.",
-    "source_zh": "International Conference on Learning Representations (ICLR)",
-    "source_en": "International Conference on Learning Representations (ICLR)",
-    "year": "2025",
-    "citations": "23",
-    "impact_factor": "不适用",
-    "bibtex": "@misc{cao2025,\n  author    = {Hongye Cao and Yanming Wang and Sijia Jing and Ziyue Peng and Zhixin Bai and Zhe Cao and Meng Fang and Fan Feng and Boyan Wang and Jiaheng Liu and Tianpei Yang and Jing Huo and Yang Gao and Fanyu Meng and Xi Yang and Chao Deng and Junlan Feng},\n  title     = {SafeDialBench: A Fine-Grained Safety Benchmark for Large Language Models in Multi-Turn Dialogues with Diverse Jailbreak Attacks},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2502.11090}\n}",
-    "pdf": "https://arxiv.org/pdf/2502.11090.pdf"
   },
   {
     "title_zh": "长上下文语言建模综合综述",
@@ -792,17 +803,6 @@
     "pdf": "https://arxiv.org/pdf/2505.19656.pdf"
   },
   {
-    "title_zh": "TReB：评估大语言模型表格推理能力的综合基准",
-    "title_en": "TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models.",
-    "source_zh": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
-    "source_en": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
-    "year": "2025",
-    "citations": "2",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{li2025b, title={TReB: A Comprehensive Benchmark for Evaluating Table Reasoning Capabilities of Large Language Models}, url={http://dx.doi.org/10.1145/3805712.3808617}, DOI={10.1145/3805712.3808617}, booktitle={Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval}, publisher={ACM}, author={Li, Ce and Liu, Xiaofan and Song, Zhiyan and Chi, Ce and Shi, Boshen and Zhao, Chen and Chang, Guanguang and Wang, Zhendong and Yang, Kexin and Wang, Xing and Deng, Chao and Feng, Junlan}, year={2026}, month=July, pages={3267–3275} }",
-    "pdf": "https://arxiv.org/pdf/2506.18421.pdf"
-  },
-  {
     "title_zh": "知识增强微调在RAG与基于智能体的对话系统中均至关重要",
     "title_en": "Knowledge Augmented Finetuning Matters in both RAG and Agent Based Dialog Systems.",
     "source_zh": "NCMMSC 2025 / Springer CCIS",
@@ -825,7 +825,7 @@
     "pdf": "https://arxiv.org/pdf/2507.19748.pdf"
   },
   {
-    "title_zh": "迈向通用化路由：面向自适应高效推理的模型与智能体编排",
+    "title_zh": "迈向泛化路由：面向自适应高效推理的模型与智能体编排",
     "title_en": "Towards Generalized Routing: Model and Agent Orchestration for Adaptive and Efficient Inference.",
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
@@ -871,10 +871,10 @@
   {
     "title_zh": "基于大语言模型驱动代码进化的认知Alpha挖掘",
     "title_en": "Cognitive Alpha Mining via LLM-Driven Code-Based Evolution.",
-    "source_zh": "arXiv preprint",
-    "source_en": "arXiv preprint",
+    "source_zh": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "source_en": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
-    "citations": "2",
+    "citations": "8",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{liu2025c, title={Cognitive Alpha Mining via LLM-Driven Code-Based Evolution}, url={http://dx.doi.org/10.18653/v1/2026.acl-long.538}, DOI={10.18653/v1/2026.acl-long.538}, booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, publisher={Association for Computational Linguistics}, author={Liu, Fengyuan and Huang, Yi and Luo, Sichun and Wang, Yuqi and Yang, Yazheng and Li, Xinye and Hu, Zefa and Feng, Junlan and Liu, Qi}, year={2026}, pages={11715–11749} }",
     "pdf": "https://arxiv.org/pdf/2511.18850.pdf"
@@ -889,17 +889,6 @@
     "impact_factor": "不适用",
     "bibtex": "@misc{chi2025,\n  author    = {Ce Chi and Xing Wang and Zhendong Wang and Xiaofan Liu and Ce Li and Zhiyan Song and Chen Zhao and Kexin Yang and Boshen Shi and Jingjing Yang and Chao Deng and Junlan Feng},\n  title     = {JT-DA: Enhancing Data Analysis with Tool-Integrated Table Reasoning Large Language Models},\n  howpublished= {arXiv preprint},\n  year      = {2025},\n  url       = {https://arxiv.org/abs/2512.06859}\n}",
     "pdf": "https://arxiv.org/pdf/2512.06859.pdf"
-  },
-  {
-    "title_zh": "DisCo-Speech：基于解耦语音编解码器的可控零样本语音生成",
-    "title_en": "DisCo-Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec.",
-    "source_zh": "Annual Meeting of the Association for Computational Linguistics (ACL)",
-    "source_en": "Annual Meeting of the Association for Computational Linguistics (ACL)",
-    "year": "2025",
-    "citations": "1",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{li2025c, title={DisCo_Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec}, url={http://dx.doi.org/10.18653/v1/2026.acl-long.863}, DOI={10.18653/v1/2026.acl-long.863}, booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, publisher={Association for Computational Linguistics}, author={Li, Tao and Ge, Wenshuo and Wang, Zhichao and Cui, Zihao and Ma, Yong and Gao, Yingying and Deng, Chao and Zhang, Shilei and Feng, Junlan}, year={2026}, pages={18917–18931} }",
-    "pdf": "https://arxiv.org/pdf/2512.13251.pdf"
   },
   {
     "title_zh": "ClarifyMT-Bench：面向对话式大语言模型多轮澄清的基准测试与改进",
@@ -1045,7 +1034,7 @@
     "pdf": "https://dl.acm.org/doi/epdf/10.1145/3677019"
   },
   {
-    "title_zh": "EMERGE：基于检索增强生成的多模态电子健康记录预测建模增强方法",
+    "title_zh": "EMERGE：利用检索增强生成提升多模态电子健康记录预测建模",
     "title_en": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation.",
     "source_zh": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
     "source_en": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
@@ -1056,7 +1045,7 @@
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679582"
   },
   {
-    "title_zh": "大语言模型作为低资源关系识别的度量评判器",
+    "title_zh": "大语言模型作为低资源关系识别的度量评价器",
     "title_en": "LLM as a metric critic for low resource relation identification.",
     "source_zh": "Findings of the Association for Computational Linguistics: EMNLP",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP",
@@ -1065,17 +1054,6 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{Yang_2024, title = {LLM as a metric critic for low resource relation identification}, url={http://dx.doi.org/10.18653/v1/2024.findings-emnlp.828}, DOI={10.18653/v1/2024.findings-emnlp.828}, booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2024}, publisher = {Association for Computational Linguistics}, author = {Yang, Zhe and Huang, Yi and Chen, Yaqin and Wu, Xiaoting and Feng, Junlan and Deng, Chao}, year = {2024}, pages = {14168–14178} }",
     "pdf": "https://aclanthology.org/2024.findings-emnlp.828.pdf"
-  },
-  {
-    "title_zh": "以少博多：大语言模型是优秀的自发多语言学习者",
-    "title_en": "Getting More from Less: Large Language Models are Good Spontaneous Multilingual Learners.",
-    "source_zh": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    "source_en": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    "year": "2024",
-    "citations": "15",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Zhang_2024, title = {Getting More from Less: Large Language Models are Good Spontaneous Multilingual Learners}, url={http://dx.doi.org/10.18653/v1/2024.emnlp-main.457}, DOI={10.18653/v1/2024.emnlp-main.457}, booktitle = {Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing}, publisher = {Association for Computational Linguistics}, author = {Zhang, Shimao and Gao, Changjiang and Zhu, Wenhao and Chen, Jiajun and Huang, Xin and Han, Xue and Feng, Junlan and Deng, Chao and Huang, Shujian}, year = {2024}, pages = {8037–8051} }",
-    "pdf": "https://aclanthology.org/2024.emnlp-main.457.pdf"
   },
   {
     "title_zh": "基于特征混合的主动学习用于多标签文本分类",
@@ -1089,7 +1067,7 @@
     "pdf": "https://doi.org/10.1109/ICASSP48485.2024.10448407"
   },
   {
-    "title_zh": "结合神经架构搜索的对话生成生成对抗框架",
+    "title_zh": "结合神经架构搜索的对话生成对抗框架",
     "title_en": "A Generative Adversarial Framework for Dialogue Generation with Neural Architecture Search.",
     "source_zh": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
@@ -1133,7 +1111,7 @@
     "pdf": "https://doi.org/10.1109/ICC51166.2024.10622308"
   },
   {
-    "title_zh": "一种用于估计大范围集合差基数的紧凑精确概要结构",
+    "title_zh": "一种用于估计大范围集合差基数的紧凑且精确的数据摘要",
     "title_en": "A Compact and Accurate Sketch for Estimating a Large Range of Set Difference Cardinalities.",
     "source_zh": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
     "source_en": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
@@ -1177,7 +1155,7 @@
     "pdf": "https://www.isca-archive.org/interspeech_2024/gao24_interspeech.pdf"
   },
   {
-    "title_zh": "探索基于能量模型用于方言识别中的分布外检测",
+    "title_zh": "探索能量模型在方言识别分布外检测中的应用",
     "title_en": "Exploring Energy-Based Models for Out-of-Distribution Detection in Dialect Identification.",
     "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
@@ -1281,21 +1259,10 @@
     "source_zh": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "source_en": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "year": "2024",
-    "citations": "0",
+    "citations": "18",
     "impact_factor": "不适用",
     "bibtex": "@misc{zhang2024,\n  author    = {Shimao Zhang and Changjiang Gao and Wenhao Zhu and Jiajun Chen and Xin Huang and Xue Han and Junlan Feng and Chao Deng and Shujian Huang},\n  title     = {Large Language Models are Good Spontaneous Multilingual Learners: Is the Multilingual Annotated Data Necessary?},\n  howpublished= {arXiv preprint},\n  year      = {2024},\n  url       = {https://arxiv.org/abs/2405.13816}\n}",
     "pdf": "https://arxiv.org/pdf/2405.13816.pdf"
-  },
-  {
-    "title_zh": "EMERGE：集成检索增强生成以改进多模态电子健康记录预测建模",
-    "title_en": "EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation",
-    "source_zh": "Modeling CIKM 2024",
-    "source_en": "Modeling CIKM 2024",
-    "year": "2024",
-    "citations": "44",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{10.1145/3627673.3679582,\n  author    = {Yinghao Zhu and Changyu Ren and Zixiang Wang and Xiaochen Zheng and Shiyun Xie and Junlan Feng and Xi Zhu and Zhoujun Li and Liantao Ma and Chengwei Pan},\n  title     = {EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation},\n  booktitle = {Proceedings of the 33rd ACM International Conference on Information and Knowledge Management (CIKM '24)},\n  pages     = {3549--3559},\n  year      = {2024},\n  month     = oct,\n  doi       = {10.1145/3627673.3679582},\n  url       = {https://doi.org/10.1145/3627673.3679582}\n}",
-    "pdf": "https://arxiv.org/pdf/2406.00036.pdf"
   },
   {
     "title_zh": "PolySpeech：探索统一多任务语音模型以媲美单任务模型",
@@ -1343,7 +1310,7 @@
   },
   {
     "title_zh": "CSDnet：面向蜂窝网络中切换参数调整效应估计的因果推断辅助方法",
-    "title_en": "CSDnet: Causal inference aided handover parameter adjusting effect estimation in cellular networks",
+    "title_en": "CSDnet:Causal Inference Aided Handover Parameter Adjusting Effect Estimation in Cellular Networks.",
     "source_zh": "IEEE International Conference on Communications (ICC)",
     "source_en": "IEEE International Conference on Communications (ICC)",
     "year": "2023",
@@ -1463,7 +1430,7 @@
     "pdf": "https://doi.org/10.1109/TSMC.2023.3297771"
   },
   {
-    "title_zh": "基于记录用户反馈的多动作对话策略学习",
+    "title_zh": "基于已记录用户反馈的多动作对话策略学习",
     "title_en": "Multi-Action Dialog Policy Learning from Logged User Feedback.",
     "source_zh": "AAAI",
     "source_en": "AAAI",
@@ -1628,17 +1595,6 @@
     "pdf": "https://doi.org/10.1109/ICASSP49357.2023.10095087"
   },
   {
-    "title_zh": "CSDnet：因果推断辅助的蜂窝网络切换参数调整效果估计",
-    "title_en": "CSDnet:Causal Inference Aided Handover Parameter Adjusting Effect Estimation in Cellular Networks.",
-    "source_zh": "ICC 2023 - IEEE International Conference on Communications",
-    "source_en": "ICC 2023 - IEEE International Conference on Communications",
-    "year": "2023",
-    "citations": "4",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Hua_2023, title = {CSDnet:Causal Inference Aided Handover Parameter Adjusting Effect Estimation in Cellular Networks}, url={http://dx.doi.org/10.1109/ICC45041.2023.10279707}, DOI={10.1109/icc45041.2023.10279707}, booktitle = {ICC 2023 - IEEE International Conference on Communications}, publisher = {IEEE}, author = {Hua, Xiaolei and Li, Qi and Zhang, Zhao and Fan, Xinwen and Zhu, Lin and Yu, Renkai and Zhou, Yongqing and Zhang, Yuemeng and Feng, Junlan and Deng, Chao and Yuan, Xiangyang}, year = {2023}, month=May, pages = {5304–5309} }",
-    "pdf": "https://doi.org/10.1109/ICC45041.2023.10279707"
-  },
-  {
     "title_zh": "面向蜂窝流量预测的自适应混合时空图神经网络",
     "title_en": "Adaptive Hybrid Spatial-Temporal Graph Neural Network for Cellular Traffic Prediction.",
     "source_zh": "ICC 2023 - IEEE International Conference on Communications",
@@ -1652,8 +1608,8 @@
   {
     "title_zh": "面向高效视觉识别的动态感知器",
     "title_en": "Dynamic Perceiver for Efficient Visual Recognition.",
-    "source_zh": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Proceedings",
-    "source_en": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Proceedings",
+    "source_zh": "ICCV 2023",
+    "source_en": "ICCV 2023",
     "year": "2023",
     "citations": "59",
     "impact_factor": "不适用",
@@ -1727,7 +1683,7 @@
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3604915.3608799"
   },
   {
-    "title_zh": "面向电视推荐的多用户耦合行为辨识学习",
+    "title_zh": "学习区分电视推荐中的多用户耦合行为",
     "title_en": "Learning to Distinguish Multi-User Coupling Behaviors for TV Recommendation.",
     "source_zh": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
     "source_en": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
@@ -1760,7 +1716,7 @@
     "pdf": "https://arxiv.org/pdf/2306.06895.pdf"
   },
   {
-    "title_zh": "基于CTC触发的时空丢弃孪生网络语音识别方法",
+    "title_zh": "采用时空随机失活的 CTC 触发孪生网络语音识别方法",
     "title_en": "A CTC triggered siamese network with spatial-temporal dropout for speech recognition",
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
@@ -1771,7 +1727,7 @@
     "pdf": "https://arxiv.org/pdf/2206.08031.pdf"
   },
   {
-    "title_zh": "Cmcc：面向对话系统的综合性大规模人人对话数据集",
+    "title_zh": "CMCC：面向对话系统的综合性大规模人际对话数据集",
     "title_en": "Cmcc: a comprehensive and large-scale human-human dataset for dialogue systems",
     "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD)",
@@ -2035,7 +1991,7 @@
     "pdf": "https://openreview.net/references/pdf?id=XHM2gCjTg"
   },
   {
-    "title_zh": "基于细粒度可解释矩阵的摘要生成模型",
+    "title_zh": "基于细粒度可解释矩阵的抽象式摘要生成",
     "title_en": "Abstractive Summarization Based on Fine-Grained Interpretable Matrix",
     "source_zh": "Journal Acta Scientiarum Naturalium Universitatis Pekinensis",
     "source_en": "Journal Acta Scientiarum Naturalium Universitatis Pekinensis",
@@ -2156,17 +2112,6 @@
     "pdf": "https://www.isca-archive.org/interspeech_2020/zhang20ia_interspeech.pdf"
   },
   {
-    "title_zh": "移动网络投诉热点问题的智能预测",
-    "title_en": "Smart Prediction of the Complaint Hotspot Problem in Mobile Network.",
-    "source_zh": "Proceedings of the 2019 Workshop on Network Meets AI & ML - NetAI′19",
-    "source_en": "Proceedings of the 2019 Workshop on Network Meets AI & ML - NetAI′19",
-    "year": "2020",
-    "citations": "4",
-    "impact_factor": "不适用",
-    "bibtex": "@inproceedings{Zhu_2019, series = {NetAI′19}, title = {Smart Prediction of the Complaint Hotspot Problem in Mobile Network}, url={http://dx.doi.org/10.1145/3341216.3342209}, DOI={10.1145/3341216.3342209}, booktitle = {Proceedings of the 2019 Workshop on Network Meets AI \\& ML  - NetAI′19}, publisher = {ACM Press}, author = {Zhu, Lin and Zhao, Juan and Wang, Yiting and Feng, Juanlan and Deng, Chao and Li, Hui}, year = {2019}, pages = {22–28}, collection = {NetAI′19} }",
-    "pdf": "https://doi.org/10.1145/3341216.3342209"
-  },
-  {
     "title_zh": "智能对话系统架构及算法",
     "title_en": "Architecture and Algorithms of Intelligent Dialogue System",
     "source_zh": "JOURNAL OF BEIJING UNIVERSITY OF POSTS AND TELECOMMUNICATIONS",
@@ -2176,6 +2121,17 @@
     "impact_factor": "1.758",
     "bibtex": "@article{yi2019,\n  author    = {HUANG Yi and FENG Jun-lan and HU Min and WU Xiao-ting and DU Xiao-yu},\n  title     = {Architecture and Algorithms of Intelligent Dialogue System},\n  journal   = {北京邮电大学学报},\n  year      = {2019},\n  url       = {https://html.rhhz.net/buptjournal/html/20190602.htm}\n}",
     "pdf": "https://html.rhhz.net/buptjournal/html/20190602.htm"
+  },
+  {
+    "title_zh": "移动网络投诉热点问题的智能预测",
+    "title_en": "Smart Prediction of the Complaint Hotspot Problem in Mobile Network.",
+    "source_zh": "Proceedings of the 2019 Workshop on Network Meets AI & ML - NetAI′19",
+    "source_en": "Proceedings of the 2019 Workshop on Network Meets AI & ML - NetAI′19",
+    "year": "2019",
+    "citations": "4",
+    "impact_factor": "不适用",
+    "bibtex": "@inproceedings{Zhu_2019, series = {NetAI′19}, title = {Smart Prediction of the Complaint Hotspot Problem in Mobile Network}, url={http://dx.doi.org/10.1145/3341216.3342209}, DOI={10.1145/3341216.3342209}, booktitle = {Proceedings of the 2019 Workshop on Network Meets AI \\& ML  - NetAI′19}, publisher = {ACM Press}, author = {Zhu, Lin and Zhao, Juan and Wang, Yiting and Feng, Juanlan and Deng, Chao and Li, Hui}, year = {2019}, pages = {22–28}, collection = {NetAI′19} }",
+    "pdf": "https://doi.org/10.1145/3341216.3342209"
   },
   {
     "title_zh": "用于序列标注的神经 CRF 转导器",
@@ -2233,7 +2189,7 @@
     "pdf": "https://ieeexplore.ieee.org/iel7/7781860/7782467/07783644.pdf"
   },
   {
-    "title_zh": "客户语音传感器：面向呼叫中心对话的综合性观点挖掘系统",
+    "title_zh": "客户之声传感器：面向呼叫中心对话的综合观点挖掘系统",
     "title_en": "Customer Voice Sensor: A Comprehensive Opinion Mining System for Call Center Conversation",
     "source_zh": "IEEE ICCCBDA",
     "source_en": "IEEE ICCCBDA",
@@ -2256,7 +2212,7 @@
   },
   {
     "title_zh": "语音与语言处理技术趋势",
-    "title_en": "Trends in speech and language processing",
+    "title_en": "Trends in Speech and Language Processing [In the Spotlight]",
     "source_zh": "IEEE Signal Processing Magazine",
     "source_en": "IEEE Signal Processing Magazine",
     "year": "2012",
@@ -2266,7 +2222,7 @@
     "pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6105446"
   },
   {
-    "title_zh": "基于推文的语音增强社交电视语言建模方法",
+    "title_zh": "基于推文的语音使能社交电视语言建模",
     "title_en": "Language Modeling for Voice-Enabled Social TV Using Tweets.",
     "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
@@ -2275,17 +2231,6 @@
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{feng2012b,\n  author    = {Junlan Feng and Bernard Renger},\n  title     = {Language Modeling for Voice-Enabled Social TV Using Tweets},\n  booktitle = {INTERSPEECH},\n  year      = {2012},\n  url       = {https://www.isca-archive.org/interspeech_2012/feng12b_interspeech.pdf}\n}",
     "pdf": "https://www.isca-archive.org/interspeech_2012/feng12b_interspeech.pdf"
-  },
-  {
-    "title_zh": "语音与语言处理的发展研究趋势",
-    "title_en": "Trends in Speech and Language Processing [In the Spotlight].",
-    "source_zh": "IEEE Signal Processing Magazine",
-    "source_en": "IEEE Signal Processing Magazine",
-    "year": "2012",
-    "citations": "5",
-    "impact_factor": "9.6",
-    "bibtex": "@article{Freng_2012, title = {Trends in Speech and Language Processing [In the Spotlight]}, volume = {29}, ISSN = {1053-5888}, url={http://dx.doi.org/10.1109/MSP.2011.943131}, DOI={10.1109/msp.2011.943131}, number = {1}, journal = {IEEE Signal Processing Magazine}, publisher = {Institute of Electrical and Electronics Engineers (IEEE)}, author = {Freng, Junlan and Ramabhadran, Bhuvana and Hansen, John and Williams, Jason}, year = {2012}, month=Jan, pages = {177–179} }",
-    "pdf": "https://doi.org/10.1109/MSP.2011.943131"
   },
   {
     "title_zh": "移动搜索中的语音与多模态交互",
@@ -2442,7 +2387,7 @@
     "pdf": "https://www.isca-archive.org/interspeech_2009/feng09_interspeech.pdf"
   },
   {
-    "title_zh": "基于网络的语音与语言处理",
+    "title_zh": "基于Web的语音与语言处理",
     "title_en": "Speech and Language Processing over the Web",
     "source_zh": "IEEE Signal Processing Magazine",
     "source_en": "IEEE Signal Processing Magazine",
@@ -2451,17 +2396,6 @@
     "impact_factor": "10.3",
     "bibtex": "@inproceedings{gilbert2008,\n  author    = {Mazin Gilbert and Junlan Feng},\n  title     = {Speech and Language Processing over the Web},\n  booktitle = {2008｜IEEE Signal Processing Magazine},\n  year      = {2008},\n  url       = {https://www.researchgate.net/publication/3322050_Speech_and_language_processing_over_the_web}\n}",
     "pdf": "https://www.researchgate.net/publication/3322050_Speech_and_language_processing_over_the_web"
-  },
-  {
-    "title_zh": "网络环境下的语音与语言处理",
-    "title_en": "Speech and language processing over the web.",
-    "source_zh": "IEEE Signal Processing Magazine",
-    "source_en": "IEEE Signal Processing Magazine",
-    "year": "2008",
-    "citations": "19",
-    "impact_factor": "9.6",
-    "bibtex": "@article{gilbert2008b,\n  author    = {Mazin Gilbert and Junlan Feng},\n  title     = {Speech and language processing over the web},\n  journal   = {IEEE Signal Processing Magazine},\n  year      = {2008},\n  url       = {https://ieeexplore.ieee.org/abstract/document/4490198}\n}",
-    "pdf": "https://ieeexplore.ieee.org/abstract/document/4490198"
   },
   {
     "title_zh": "WebTrack：网站内容与结构的挖掘与追踪",
@@ -2476,7 +2410,7 @@
   },
   {
     "title_zh": "WebTalk：通过挖掘网站自动构建口语对话系统",
-    "title_en": "Webtalk: Towards Automatically Building Spoken Dialog Systems Through Miningwebsites.",
+    "title_en": "Webtalk: Towards Automatically Building Spoken Dialog Systems Through Mining Websites",
     "source_zh": "IEEE",
     "source_en": "IEEE",
     "year": "2006",
@@ -2615,6 +2549,6 @@
     "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "@article{junlan1999,\n  author    = {F Junlan and D Limin},\n  title     = {Review on Chinese spontaneous speech recognition},\n  journal   = {Electronic science \\& technology review},\n  year      = {1999},\n}",
-    "pdf": "https://wap.cnki.net/touch/web/Journal/Article/DZKJ199909000.html"
+    "pdf": "https://www.cnki.com.cn/Article/CJFDTOTAL-DZKJ199909000.htm"
   }
 ]
