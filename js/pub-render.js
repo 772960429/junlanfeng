@@ -96,27 +96,32 @@
 
             p.appendChild(document.createElement('br'));
 
-            // BibTeX 链接（空值隐藏）：新标签页以纯文本形式显示 BibTeX 内容
+            // BibTeX 链接：URL 直接跳转，否则用 Blob 内联显示
             if (item.bibtex) {
                 var bibtexLink = document.createElement('a');
-                bibtexLink.href = 'bibtex.html#' + encodeURIComponent(item.bibtex);
                 bibtexLink.target = '_blank';
                 bibtexLink.rel = 'noopener noreferrer';
                 bibtexLink.className = 'link';
                 bibtexLink.textContent = '[BibTeX]';
-                bibtexLink.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    try {
-                        // 以 text/plain 打开，浏览器原生渲染（与 .bib 文件显示一致）
-                        var blob = new Blob([item.bibtex], { type: 'text/plain;charset=utf-8' });
-                        var url = URL.createObjectURL(blob);
-                        window.open(url, '_blank', 'noopener');
-                        setTimeout(function() { URL.revokeObjectURL(url); }, 60000);
-                    } catch (err) {
-                        // 兜底：跳转 bibtex.html 显示
-                        window.open(this.href, '_blank', 'noopener');
-                    }
-                });
+
+                if (/^https?:\/\//i.test(item.bibtex)) {
+                    // bibtex 是 URL，直接跳转
+                    bibtexLink.href = item.bibtex;
+                } else {
+                    // bibtex 是文本内容，用 Blob 内联显示
+                    bibtexLink.href = 'bibtex.html#' + encodeURIComponent(item.bibtex);
+                    bibtexLink.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        try {
+                            var blob = new Blob([item.bibtex], { type: 'text/plain;charset=utf-8' });
+                            var url = URL.createObjectURL(blob);
+                            window.open(url, '_blank', 'noopener');
+                            setTimeout(function() { URL.revokeObjectURL(url); }, 60000);
+                        } catch (err) {
+                            window.open(this.href, '_blank', 'noopener');
+                        }
+                    });
+                }
                 p.appendChild(bibtexLink);
 
                 if (item.pdf) {
