@@ -484,8 +484,8 @@
     "pdf": "https://openreview.net/pdf?id=wmi6satsIu"
   },
   {
-    "title_zh": "ASO-LoRA：面向大语言模型持续学习的基于归因分数的软正交低秩适配方法",
-    "title_en": "ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning",
+    "title_zh": "ASO-LoRA：面向大语言模型持续学习的知识共享软正交低秩适配",
+    "title_en": "Soft Orthogonal Low-Rank Adaptation for Knowledge Sharing in Large Language Model Continual Learning",
     "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2025",
@@ -1915,7 +1915,7 @@
   },
   {
     "title_zh": "半监督与强化任务型对话系统挑战赛",
-    "title_en": "A Challenge on Semi-Supervised and Rein-forced Task-Oriented Dialog Systems",
+    "title_en": "A Challenge on Semi-Supervised and Reinforced Task-Oriented Dialog Systems",
     "source_zh": "EMNLP 2022 SereTOD Workshop Challenge",
     "source_en": "EMNLP 2022 SereTOD Workshop Challenge",
     "year": "2022",
@@ -1987,7 +1987,7 @@
     "year": "2021",
     "citations": "0",
     "impact_factor": "1.828",
-    "bibtex": "https://api.crossref.org/works/10.13209%2Fj.0479-8023.2020.082/transform/application/x-bibtex",
+    "bibtex": "@article{WANG Haonan_23,\nauthor = {WANG Haonan, GAO Yang, FENG Junlan, HU Min, WANG Huixin, BAI Yu},\ntitle = {Abstractive Summarization Based on Fine-Grained Interpretable Matrix},\npublisher = {Acta Scientiarum Naturalium Universitatis Pekinensis},\nyear = {2021},\njournal = {Acta Scientiarum Naturalium Universitatis Pekinensis},\nvolume = {57},\nnumber = {1},\neid = {23},\npages = {23-30},\nkeywords = {abstractive summarization; interpretable extraction; centrality; mask matrix; controllable},\ndoi = https://xbna.pku.edu.cn/EN/10.13209/j.0479-8023.2020.082\n}",
     "pdf": "https://doc-08-bk-apps-viewer.googleusercontent.com/viewer/secure/pdf/3nb9bdfcv3e2h2k1cmql0ee9cvc5lole/u9b9klmfuicdojredtd4vp0rmbga33a1/1788420900000/lantern/*/ACFrOgCTlH_cpZEGWg8HB83B00xMpjhPoHMVCKoLhjwvLZiqUdEj6CRNr-87w7tEOt3y03RvLSmEyFGD-k9E9LaIa4x0fSEINBcHc444niRrvOINJfPDUkjPl6U0wmtED9c7rjn7tclvJbvNfntn?print=false"
   },
   {
@@ -2163,7 +2163,7 @@
     "year": "2018",
     "citations": "1",
     "impact_factor": "不适用",
-    "bibtex": "https://api.crossref.org/works/10.15918%2Fj.jbit1004-0579.201827.0108/transform/application/x-bibtex",
+    "bibtex": "@Article{20180107,\ntitle = {Automatic Satisfaction Analysis in Call Centers Considering Global Features of Emotion and Duration},\njournal = {JOURNAL OF BEIJING INSTITUTE OF TECHNOLOGY},\nvolume = {27},\nnumber = {1},\npages = {58-64},\nyear = {2018},\nissn = {1004-0579},\ndoi = {10.15918/j.jbit1004-0579.201827.0108}, \nurl = {https://journal.bit.edu.cn/jbit/en/article/doi/10.15918/j.jbit1004-0579.201827.0108},\nauthor = {Jing Liu and Chaomin Wang and Yingnan Zhang and Pengyu Cong and Liqiang Xu and Zhijie Ren and Jin Hu and Xiang Xie and Junlan Feng and Jingming Kuang}\n}",
     "pdf": "https://journal.bit.edu.cn/jbit/article/doi/10.15918/j.jbit1004-0579.201827.0108"
   },
   {
@@ -2196,7 +2196,7 @@
     "year": "2016",
     "citations": "14",
     "impact_factor": "不适用",
-    "bibtex": "https://api.crossref.org/works/10.1007%2F978-3-030-32236-6_29/transform/application/x-bibtex",
+    "bibtex": "https://dblp.org/rec/conf/iscslp/CongWRWWF16.html?view=bibtex",
     "pdf": "https://doi.org/10.1109/ISCSLP.2016.7918385"
   },
   {
@@ -2240,7 +2240,7 @@
     "year": "2011",
     "citations": "2",
     "impact_factor": "不适用",
-    "bibtex": "https://api.crossref.org/works/10.1007%2F978-3-030-32236-6_29/transform/application/x-bibtex",
+    "bibtex": "https://dblp.org/rec/conf/icassp/Feng11.html?view=bibtex",
     "pdf": "https://doi.org/10.1109/ICASSP.2011.5947661"
   },
   {
@@ -2251,7 +2251,7 @@
     "year": "2011",
     "citations": "123",
     "impact_factor": "不适用",
-    "bibtex": "https://api.crossref.org/works/10.1007%2F978-3-030-32236-6_29/transform/application/x-bibtex",
+    "bibtex": "https://dblp.org/rec/conf/icwsm/BrownF11.html?view=bibtex",
     "pdf": "https://doi.org/10.1609/icwsm.v5i3.14210"
   },
   {
