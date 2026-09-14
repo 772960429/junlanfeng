@@ -90,6 +90,24 @@ class Crawler:
         while len(self._trans_cache) > size:
             self._trans_cache.popitem(last=False)
 
+    @staticmethod
+    def _remove_recommendation(text: str) -> str:
+        """
+        去除“推荐阅读”及之后的内容。
+        匹配常见关键词：推荐阅读、猜你喜欢、相关推荐等。
+        """
+        if not text:
+            return ""
+        # 按行分割，更容易定位
+        lines = text.split('\n')
+        result_lines = []
+        for line in lines:
+            # 如果当前行包含这些关键词，则停止添加
+            if re.search(r'(推荐阅读|猜你喜欢|相关推荐|更多推荐|往期精选)', line):
+                break
+            result_lines.append(line)
+        return '\n'.join(result_lines).strip()
+
     def _generate_title_with_ai(self, title):
         api_key = getattr(config, 'DEEPSEEK_API_KEY', None)
         print(f"Using DeepSeek API to generate English title for: {api_key}")
@@ -156,6 +174,8 @@ class Crawler:
             content = item.get("contentText", "")
             date_modified = item.get("publishTime", "")
             url = item.get("links", "")
+            # ✅ 去除推荐阅读部分
+            content = self._remove_recommendation(content)
 
             articles.append({
                 "title": title,
@@ -234,13 +254,15 @@ def trigger_update_feed_all():
 if __name__ == "__main__":
     import sys
    #  limit = int(sys.argv[1]) if len(sys.argv) > 1 else 50
-    crawler = Crawler()
-   #  results = crawler.crawl(17)
-    title_en = crawler.generate_english_title("WAIC 2026丨中国移动承办企业人工智能高质量发展论坛")
-    print(title_en)
-   #  print(f"共找到 {len(results)} 篇冯俊兰相关文章：")
-   #  for idx, art in enumerate(results, 1):
-   #      print(f"\n===== {idx}. {art['title']} =====")
-   #      print(f"英文标题：{art.get('title_en', '')}")
-   #      print(f"时间：{art.get('update_time', '')}")
-   #      print(f"链接：{art['url']}")
+    feed_url = getattr(config, 'FEED_URL',
+                          f'http://120.53.251.205:10082/getFeedArticleAllList?key=zlzchat&pageNum=1&pageSize=5&orderByColumn=publish_time&isAsc=desc')
+    crawler = Crawler(feed_url=feed_url)
+    results = crawler.crawl()
+    # title_en = crawler.generate_english_title("WAIC 2026丨中国移动承办企业人工智能高质量发展论坛")
+    # print(title_en)
+    print(f"共找到 {len(results)} 篇冯俊兰相关文章：")
+    for idx, art in enumerate(results, 1):
+        print(f"\n===== {idx}. {art['title']} =====")
+        # print(f"英文标题：{art.get('title_en', '')}")
+        print(f"时间：{art.get('update_time', '')}")
+        print(f"链接：{art['url']}")
