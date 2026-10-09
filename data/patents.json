@@ -2327,7 +2327,7 @@
     "source_zh": "US10496654B2",
     "source_en": "US10496654B2",
     "year": "2019",
-    "citations": "208",
+    "citations": "405",
     "pdf": "https://patents.google.com/patent/US10496654B2/en"
   },
   {
@@ -2345,7 +2345,7 @@
     "source_zh": "US10032118B2",
     "source_en": "US10032118B2",
     "year": "2018",
-    "citations": "34",
+    "citations": "38",
     "pdf": "https://patents.google.com/patent/US10032118B2/en"
   },
   {
@@ -2354,7 +2354,7 @@
     "source_zh": "US10042877B2",
     "source_en": "US10042877B2",
     "year": "2018",
-    "citations": "45",
+    "citations": "80",
     "pdf": "https://patents.google.com/patent/US10042877B2/en"
   },
   {
@@ -2435,7 +2435,7 @@
     "source_zh": "US9652449B2",
     "source_en": "US9652449B2",
     "year": "2017",
-    "citations": "22",
+    "citations": "34",
     "pdf": "https://patents.google.com/patent/US9652449B2/en"
   },
   {
@@ -2507,7 +2507,7 @@
     "source_zh": "US8949132B2",
     "source_en": "US8949132B2",
     "year": "2015",
-    "citations": "81",
+    "citations": "45",
     "pdf": "https://patents.google.com/patent/US8949132B2/en"
   },
   {
@@ -2516,7 +2516,7 @@
     "source_zh": "US9240177B2",
     "source_en": "US9240177B2",
     "year": "2015",
-    "citations": "47",
+    "citations": "55",
     "pdf": "https://patents.google.com/patent/US9240177B2/en"
   },
   {
@@ -2574,6 +2574,15 @@
     "pdf": "http://epub.cnipa.gov.cn/patent/CN106156239A"
   },
   {
+    "title_zh": "用于提升网站安全性的方法和系统",
+    "title_en": "Method and system for improving website security",
+    "source_zh": "US9172712B2",
+    "source_en": "US9172712B2",
+    "year": "2015",
+    "citations": "32",
+    "pdf": "https://patentimages.storage.googleapis.com/2e/8b/07/2d847a5501e079/US9172712.pdf"
+  },
+  {
     "title_zh": "自动构建对话系统的方法和设备",
     "title_en": "Method and apparatus for automatically building conversational systems",
     "source_zh": "US8718242B2",
@@ -2624,7 +2633,7 @@
     "source_zh": "US8543565B2",
     "source_en": "US8543565B2",
     "year": "2013",
-    "citations": "74",
+    "citations": "86",
     "pdf": "https://patents.google.com/patent/US8543565B2/en"
   },
   {
@@ -2651,8 +2660,26 @@
     "source_zh": "US8566102B1",
     "source_en": "US8566102B1",
     "year": "2013",
-    "citations": "32",
+    "citations": "54",
     "pdf": "https://patents.google.com/patent/US8566102B1/en"
+  },
+  {
+    "title_zh": "用于编制和查询问答数据库的方法和装置",
+    "title_en": "Method and apparatus for compiling and querying a QA database",
+    "source_zh": "US8412514B1",
+    "source_en": "US8412514B1",
+    "year": "2013",
+    "citations": "23",
+    "pdf": "https://patentimages.storage.googleapis.com/0d/25/fa/1d9e79fa5defe2/US8412514.pdf"
+  },
+  {
+    "title_zh": "基于网络中检索到的数据自动生成标题并回答标题相关问题的方法和装置",
+    "title_en": "Method and apparatus for automatically generating headlines based on data retrieved from a network and for answering questions related to a headline",
+    "source_zh": "USOO8429148B1",
+    "source_en": "USOO8429148B1",
+    "year": "2013",
+    "citations": "5",
+    "pdf": "https://patentimages.storage.googleapis.com/6c/81/b8/58366b2e46c00e/US8429148.pdf"
   },
   {
     "title_zh": "在语音搜索中使用韵律的系统和方法",
@@ -2660,7 +2687,7 @@
     "source_zh": "US20120072217A1",
     "source_en": "US20120072217A1",
     "year": "2012",
-    "citations": "23",
+    "citations": "24",
     "pdf": "https://patents.google.com/patent/US20120072217A1/en"
   },
   {
@@ -2687,7 +2714,25 @@
     "source_zh": "US20070005585A1",
     "source_en": "US20070005585A1",
     "year": "2011",
-    "citations": "23",
+    "citations": "167",
     "pdf": "https://patents.google.com/patent/US20070005585A1/en"
+  },
+  {
+    "title_zh": "用于挖掘和追踪商业文档的系统和方法",
+    "title_en": "System and method for mining and tracking business documents",
+    "source_zh": "US20100042623A1",
+    "source_en": "US20100042623A1",
+    "year": "2010",
+    "citations": "41",
+    "pdf": "https://patentimages.storage.googleapis.com/4d/80/e6/525bb23c59f0ca/US20100042623A1.pdf"
+  },
+  {
+    "title_zh": "电子邮件建议回复的生成系统和方法。",
+    "title_en": "System and method for generating suggested responses to an email",
+    "source_zh": "US20090282114A1",
+    "source_en": "US20090282114A1",
+    "year": "2009",
+    "citations": "66",
+    "pdf": "https://patentimages.storage.googleapis.com/1f/ee/13/33baef79913d74/US20090282114A1.pdf"
   }
 ]
