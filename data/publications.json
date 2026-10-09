@@ -5,7 +5,7 @@
     "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{yang2026,\n  author    = {ZHE YANG and Yi Huang and Si Chen and Xiaoting Wu and Jingyu Yao and Junlan Feng},\n  title     = {PAMDP: Interact to Persona Alignment via a Partially Observable Markov Decision Process},\n  booktitle = {ICLR},\n  year      = {2026},\n  url       = {https://openreview.net/forum?id=tNWZVoVPzZ}\n}",
     "pdf": "https://openreview.net/pdf?id=tNWZVoVPzZ"
@@ -16,7 +16,7 @@
     "source_zh": "ICLR",
     "source_en": "ICLR",
     "year": "2026",
-    "citations": "2",
+    "citations": "14",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/journals/corr/abs-2502-11090.html?view=bibtex",
     "pdf": "https://openreview.net/pdf?id=KFjtRqVnKH"
@@ -49,7 +49,7 @@
     "source_zh": "Findings of the Association for Computational Linguistics (ACL)",
     "source_en": "Findings of the Association for Computational Linguistics (ACL)",
     "year": "2026",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://aclanthology.org/2026.findings-acl.851.bib",
     "pdf": "https://arxiv.org/pdf/2602.03352.pdf"
@@ -60,7 +60,7 @@
     "source_zh": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "source_en": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP)",
     "year": "2026",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ficassp55912.2026.11461346/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2509.18579"
@@ -71,7 +71,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
-    "citations": "0",
+    "citations": "6",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2606.02060",
     "pdf": "https://arxiv.org/pdf/2606.02060.pdf"
@@ -126,7 +126,7 @@
     "source_zh": "Knowledge-Based Systems",
     "source_en": "Knowledge-Based Systems",
     "year": "2026",
-    "citations": "1",
+    "citations": "22",
     "impact_factor": "7.6",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.115200/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.knosys.2025.115200"
@@ -137,7 +137,7 @@
     "source_zh": "Reliability Engineering & System Safety",
     "source_en": "Reliability Engineering & System Safety",
     "year": "2026",
-    "citations": "2",
+    "citations": "9",
     "impact_factor": "11",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.ress.2025.111872/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.ress.2025.111872"
@@ -159,7 +159,7 @@
     "source_zh": "AAAI Conference on Artificial Intelligence 2026",
     "source_en": "AAAI Conference on Artificial Intelligence 2026",
     "year": "2026",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/aaai/ZhuZJSZLLLLDF26.html?view=bibtex",
     "pdf": "https://arxiv.org/pdf/2511.07998"
@@ -170,7 +170,7 @@
     "source_zh": "Annual Meeting of the Association for Computational Linguistics (ACL) 2026",
     "source_en": "Annual Meeting of the Association for Computational Linguistics (ACL) 2026",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.2122/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2601.04805.pdf"
@@ -181,7 +181,7 @@
     "source_zh": "Submitted to ACL ARR 2026",
     "source_en": "Submitted to ACL ARR 2026",
     "year": "2026",
-    "citations": "1",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2601.06126",
     "pdf": "https://arxiv.org/pdf/2601.06126.pdf"
@@ -192,7 +192,7 @@
     "source_zh": "IJCAI-ECAI 2026",
     "source_en": "IJCAI-ECAI 2026",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2601.18094",
     "pdf": "https://arxiv.org/pdf/2601.18094.pdf"
@@ -203,7 +203,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
-    "citations": "1",
+    "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/journals/corr/abs-2602-05940.html?view=bibtex",
     "pdf": "https://arxiv.org/pdf/2602.05940v1"
@@ -214,7 +214,7 @@
     "source_zh": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "source_en": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3770855.3818174/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2603.02938.pdf"
@@ -225,7 +225,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2603.07886",
     "pdf": "https://arxiv.org/pdf/2603.07886.pdf"
@@ -236,7 +236,7 @@
     "source_zh": "CVPR",
     "source_en": "CVPR",
     "year": "2026",
-    "citations": "0",
+    "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/journals/corr/abs-2603-22687.html?view=bibtex",
     "pdf": "https://openaccess.thecvf.com/content/CVPR2026/papers/Sun_GeoTikzBridge_Advancing_Multimodal_Code_Generation_for_Geometric_Perception_and_Reasoning_CVPR_2026_paper.pdf"
@@ -247,7 +247,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2604.14683",
     "pdf": "https://arxiv.org/pdf/2604.14683"
@@ -258,7 +258,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
-    "citations": "0",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2604.24372",
     "pdf": "https://arxiv.org/pdf/2604.24372.pdf"
@@ -269,7 +269,7 @@
     "source_zh": "International Conference on Machine Learning (ICML) 2026",
     "source_en": "International Conference on Machine Learning (ICML) 2026",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2605.02545",
     "pdf": "https://arxiv.org/pdf/2605.02545.pdf"
@@ -313,7 +313,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2026",
-    "citations": "0",
+    "citations": "1",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.findings-acl.1070/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2605.27805.pdf"
@@ -324,7 +324,7 @@
     "source_zh": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
     "source_en": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)",
     "year": "2026",
-    "citations": "2",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3805712.3808617/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2506.18421.pdf"
@@ -335,7 +335,7 @@
     "source_zh": "Annual Meeting of the Association for Computational Linguistics (ACL)",
     "source_en": "Annual Meeting of the Association for Computational Linguistics (ACL)",
     "year": "2026",
-    "citations": "1",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.863/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2512.13251.pdf"
@@ -346,7 +346,7 @@
     "source_zh": "arXiv",
     "source_en": "arXiv",
     "year": "2026",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2607.15550",
     "pdf": "https://arxiv.org/pdf/2607.15550"
@@ -368,7 +368,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "10",
+    "citations": "8",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2508.02178",
     "pdf": "https://arxiv.org/pdf/2508.02178"
@@ -379,7 +379,7 @@
     "source_zh": "Applied Sciences (MDPI)",
     "source_en": "Applied Sciences (MDPI)",
     "year": "2025",
-    "citations": "2",
+    "citations": "3",
     "impact_factor": "2.7",
     "bibtex": "https://api.crossref.org/works/10.3390/app15179466/transform/application/x-bibtex",
     "pdf": "https://www.mdpi.com/2076-3417/15/17/9466"
@@ -390,7 +390,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2507.18053",
     "pdf": "https://arxiv.org/pdf/2507.18053"
@@ -412,7 +412,7 @@
     "source_zh": "IEEE Transactions on Transportation Electrification",
     "source_en": "IEEE Transactions on Transportation Electrification",
     "year": "2025",
-    "citations": "1",
+    "citations": "3",
     "impact_factor": "8.3",
     "bibtex": "https://api.crossref.org/works/10.1109%2FTTE.2025.3639605/transform/application/x-bibtex",
     "pdf": "https://ieeexplore.ieee.org/iel8/6687316/11456638/11275919.pdf"
@@ -445,7 +445,7 @@
     "source_zh": "Tsinghua Science and Technology",
     "source_en": "Tsinghua Science and Technology",
     "year": "2025",
-    "citations": "3",
+    "citations": "5",
     "impact_factor": "5.4",
     "bibtex": "https://api.crossref.org/works/10.26599%2FTST.2025.9010043/transform/application/x-bibtex",
     "pdf": "https://www.sciopen.com/local/article_pdf/10.26599/TST.2025.9010043.pdf"
@@ -522,7 +522,7 @@
     "source_zh": "Neural Networks",
     "source_en": "Neural Networks",
     "year": "2025",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "6.3",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.neunet.2025.107922/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.neunet.2025.107922"
@@ -533,7 +533,7 @@
     "source_zh": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "source_en": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "year": "2025",
-    "citations": "21",
+    "citations": "25",
     "impact_factor": "20.8",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ftpami.2024.3514654/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2412.11228.pdf"
@@ -544,7 +544,7 @@
     "source_zh": "IEEE Transactions on Mobile Computing",
     "source_en": "IEEE Transactions on Mobile Computing",
     "year": "2025",
-    "citations": "5",
+    "citations": "8",
     "impact_factor": "9.2",
     "bibtex": "https://api.crossref.org/works/10.1109%2FTMC.2025.3532992/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/TMC.2025.3532992"
@@ -555,7 +555,7 @@
     "source_zh": "IEEE Transactions on Parallel and Distributed Systems",
     "source_en": "IEEE Transactions on Parallel and Distributed Systems",
     "year": "2025",
-    "citations": "2",
+    "citations": "3",
     "impact_factor": "6",
     "bibtex": "https://api.crossref.org/works/10.1109%2FTPDS.2025.3579121/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/TPDS.2025.3579121"
@@ -566,7 +566,7 @@
     "source_zh": "AAAI",
     "source_en": "AAAI",
     "year": "2025",
-    "citations": "23",
+    "citations": "30",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/aaai/ZhouWHHHFDL025.html?view=bibtex",
     "pdf": "https://ar5iv.labs.arxiv.org/html/2408.11396"
@@ -577,7 +577,7 @@
     "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2025",
-    "citations": "4",
+    "citations": "9",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.findings-acl.317/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2025.findings-acl.317.pdf"
@@ -599,7 +599,7 @@
     "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2025",
-    "citations": "15",
+    "citations": "20",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.findings-acl.575/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2025.findings-acl.575.pdf"
@@ -610,7 +610,7 @@
     "source_zh": "International Conference on Computational Linguistics (COLING)",
     "source_en": "International Conference on Computational Linguistics (COLING)",
     "year": "2025",
-    "citations": "15",
+    "citations": "17",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2504.05801",
     "pdf": "https://arxiv.org/pdf/2504.05801.pdf"
@@ -621,7 +621,7 @@
     "source_zh": "DASFAA",
     "source_en": "DASFAA",
     "year": "2025",
-    "citations": "4",
+    "citations": "6",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2501.15791",
     "pdf": "https://arxiv.org/pdf/2501.15791.pdf"
@@ -632,7 +632,7 @@
     "source_zh": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "source_en": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
     "year": "2025",
-    "citations": "4",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.emnlp-main.1161/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2025.emnlp-main.1161.pdf"
@@ -643,7 +643,7 @@
     "source_zh": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
     "source_en": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
     "year": "2025",
-    "citations": "2",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.findings-emnlp.686/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2025.findings-emnlp.686.pdf"
@@ -687,7 +687,7 @@
     "source_zh": "International Conference on Learning Representations (ICLR)",
     "source_en": "International Conference on Learning Representations (ICLR)",
     "year": "2025",
-    "citations": "13",
+    "citations": "14",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/iclr/HanWFGHD25.html?view=bibtex",
     "pdf": "https://openreview.net/pdf?id=F5PlYMC5ik"
@@ -698,7 +698,7 @@
     "source_zh": "International Joint Conference on Neural Networks (IJCNN)",
     "source_en": "International Joint Conference on Neural Networks (IJCNN)",
     "year": "2025",
-    "citations": "0",
+    "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FIJCNN64981.2025.11228192/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/IJCNN64981.2025.11228192"
@@ -720,7 +720,7 @@
     "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2025",
-    "citations": "1",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/interspeech/HuHZLSGDZF25.html?view=bibtex",
     "pdf": "https://www.isca-archive.org/interspeech_2025/hu25j_interspeech.pdf"
@@ -731,7 +731,7 @@
     "source_zh": "2025 IEEE 36th International Symposium on Software Reliability Engineering Workshops (ISSREW)",
     "source_en": "2025 IEEE 36th International Symposium on Software Reliability Engineering Workshops (ISSREW)",
     "year": "2025",
-    "citations": "0",
+    "citations": "14",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FISSREW67781.2025.00042/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/ISSREW67781.2025.00042"
@@ -753,7 +753,7 @@
     "source_zh": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "year": "2025",
-    "citations": "19",
+    "citations": "29",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.naacl-long.72/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2025.naacl-long.72.pdf"
@@ -764,7 +764,7 @@
     "source_zh": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
     "year": "2025",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.naacl-long.497/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2025.naacl-long.497.pdf"
@@ -775,7 +775,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "117",
+    "citations": "145",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2503.17407",
     "pdf": "https://arxiv.org/pdf/2503.17407.pdf"
@@ -808,7 +808,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "3",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2507.19748",
     "pdf": "https://arxiv.org/pdf/2507.19748.pdf"
@@ -819,7 +819,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "5",
+    "citations": "12",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2509.07571",
     "pdf": "https://arxiv.org/pdf/2509.07571.pdf"
@@ -863,7 +863,7 @@
     "source_zh": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
-    "citations": "8",
+    "citations": "12",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.538/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2511.18850.pdf"
@@ -885,7 +885,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "5",
+    "citations": "15",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2512.21120",
     "pdf": "https://arxiv.org/pdf/2512.21120.pdf"
@@ -896,7 +896,7 @@
     "source_zh": "Intelligent Computing",
     "source_en": "Intelligent Computing",
     "year": "2024",
-    "citations": "52",
+    "citations": "67",
     "impact_factor": "3.7",
     "bibtex": "https://api.crossref.org/works/10.34133/icomputing.0054/transform/application/x-bibtex",
     "pdf": "https://spj.science.org/doi/pdf/10.34133/icomputing.0054"
@@ -907,7 +907,7 @@
     "source_zh": "Energy",
     "source_en": "Energy",
     "year": "2024",
-    "citations": "30",
+    "citations": "40",
     "impact_factor": "9.0",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.energy.2024.131856/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.energy.2024.131856"
@@ -918,7 +918,7 @@
     "source_zh": "IEEE Transactions on Transportation Electrification",
     "source_en": "IEEE Transactions on Transportation Electrification",
     "year": "2024",
-    "citations": "35",
+    "citations": "39",
     "impact_factor": "6.0",
     "bibtex": "https://api.crossref.org/works/10.1109%2FTTE.2024.3391938/transform/application/x-bibtex",
     "pdf": "https://ieeexplore.ieee.org/document/10506610"
@@ -929,7 +929,7 @@
     "source_zh": "Applied Sciences (MDPI)",
     "source_en": "Applied Sciences (MDPI)",
     "year": "2024",
-    "citations": "5",
+    "citations": "9",
     "impact_factor": "2.5",
     "bibtex": "https://api.crossref.org/works/10.3390/app14073106/transform/application/x-bibtex",
     "pdf": "https://www.mdpi.com/2076-3417/14/7/3106"
@@ -995,7 +995,7 @@
     "source_zh": "IEEE Transactions on Image Processing",
     "source_en": "IEEE Transactions on Image Processing",
     "year": "2024",
-    "citations": "76",
+    "citations": "82",
     "impact_factor": "13.7",
     "bibtex": "https://dblp.org/rec/journals/tip/PuHWFDH24.html?view=bibtex",
     "pdf": "https://arxiv.org/pdf/2309.00399.pdf"
@@ -1006,7 +1006,7 @@
     "source_zh": "ACM Transactions on Intelligent Systems and Technology",
     "source_en": "ACM Transactions on Intelligent Systems and Technology",
     "year": "2024",
-    "citations": "13",
+    "citations": "15",
     "impact_factor": "6.6",
     "bibtex": "https://dblp.org/rec/journals/tist/GongLWLWWDFJL24.html?view=bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3690650"
@@ -1028,7 +1028,7 @@
     "source_zh": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
     "source_en": "Proceedings of the 33rd ACM International Conference on Information and Knowledge Management",
     "year": "2024",
-    "citations": "44",
+    "citations": "62",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/cikm/ZhuRWZXFZ0MP24.html?view=bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3627673.3679582"
@@ -1094,7 +1094,7 @@
     "source_zh": "ICC 2024 - IEEE International Conference on Communications",
     "source_en": "ICC 2024 - IEEE International Conference on Communications",
     "year": "2024",
-    "citations": "1",
+    "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/icc/ShaZLZZHYFLFZ24.html?view=bibtex",
     "pdf": "https://doi.org/10.1109/ICC51166.2024.10622308"
@@ -1105,7 +1105,7 @@
     "source_zh": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
     "source_en": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
     "year": "2024",
-    "citations": "7",
+    "citations": "8",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/icde/0004WLZFWG24.html?view=bibtex",
     "pdf": "https://doi.org/10.1109/ICDE60146.2024.00110"
@@ -1127,7 +1127,7 @@
     "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
-    "citations": "6",
+    "citations": "8",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/interspeech/0004ZGZLF24.html?view=bibtex",
     "pdf": "https://www.isca-archive.org/interspeech_2024/sun24b_interspeech.pdf"
@@ -1149,7 +1149,7 @@
     "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
-    "citations": "1",
+    "citations": "2",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/journals/corr/abs-2406-18067.html?view=bibtex",
     "pdf": "https://www.isca-archive.org/interspeech_2024/hao24b_interspeech.pdf"
@@ -1160,7 +1160,7 @@
     "source_zh": "INTERSPEECH",
     "source_en": "INTERSPEECH",
     "year": "2024",
-    "citations": "3",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/interspeech/HaoHGZF24a.html?view=bibtex",
     "pdf": "https://www.isca-archive.org/interspeech_2024/hao24_interspeech.pdf"
@@ -1193,21 +1193,10 @@
     "source_zh": "Natural Language Processing and Chinese Computing",
     "source_en": "Natural Language Processing and Chinese Computing",
     "year": "2024",
-    "citations": "5",
+    "citations": "6",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1007%2F978-981-97-9434-8_28/transform/application/x-bibtex",
     "pdf": "https://link.springer.com/chapter/10.1007/978-981-97-9434-8_28"
-  },
-  {
-    "title_zh": "基于结构协调的多智能体强化学习",
-    "title_en": "Multiagent Reinforcement Learning Based on Structural Coordination.",
-    "source_zh": "Parallel and Distributed Computing, Applications and Technologies",
-    "source_en": "Parallel and Distributed Computing, Applications and Technologies",
-    "year": "2024",
-    "citations": "3",
-    "impact_factor": "不适用",
-    "bibtex": "https://api.crossref.org/works/10.1007%2F978-981-96-4207-6_31/transform/application/x-bibtex",
-    "pdf": "https://link.springer.com/chapter/10.1007/978-981-96-4207-6_31"
   },
   {
     "title_zh": "第二届 Futuredial 挑战赛：基于检索增强生成的对话系统（Futuredial-RAG）",
@@ -1215,7 +1204,7 @@
     "source_zh": "IEEE Spoken Language Technology Workshop (SLT)",
     "source_en": "IEEE Spoken Language Technology Workshop (SLT)",
     "year": "2024",
-    "citations": "5",
+    "citations": "6",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Fslt61566.2024.10832299/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2405.13084.pdf"
@@ -1248,7 +1237,7 @@
     "source_zh": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "source_en": "Conference on Empirical Methods in Natural Language Processing (EMNLP) 2024",
     "year": "2024",
-    "citations": "18",
+    "citations": "17",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2405.13816",
     "pdf": "https://arxiv.org/pdf/2405.13816.pdf"
@@ -1270,7 +1259,7 @@
     "source_zh": "Applied Sciences (MDPI)",
     "source_en": "Applied Sciences (MDPI)",
     "year": "2023",
-    "citations": "18",
+    "citations": "19",
     "impact_factor": "2.7",
     "bibtex": "https://api.crossref.org/works/10.3390/app13031775/transform/application/x-bibtex",
     "pdf": "https://www.mdpi.com/2076-3417/13/3/1775"
@@ -1303,7 +1292,7 @@
     "source_zh": "IEEE International Conference on Communications (ICC)",
     "source_en": "IEEE International Conference on Communications (ICC)",
     "year": "2023",
-    "citations": "4",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FICC45041.2023.10279707/transform/application/x-bibtex",
     "pdf": "https://ieeexplore.ieee.org/iel7/10278505/10278554/10279707.pdf"
@@ -1325,7 +1314,7 @@
     "source_zh": "Data Intelligence",
     "source_en": "Data Intelligence",
     "year": "2023",
-    "citations": "74",
+    "citations": "86",
     "impact_factor": "1.9",
     "bibtex": "https://api.crossref.org/works/10.1162%2Fdint_a_00197/transform/application/x-bibtex",
     "pdf": "https://direct.mit.edu/dint/article-pdf/5/2/303/2089823/dint_a_00197.pdf"
@@ -1336,7 +1325,7 @@
     "source_zh": "Neurocomputing",
     "source_en": "Neurocomputing",
     "year": "2023",
-    "citations": "65",
+    "citations": "72",
     "impact_factor": "6.5",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.neucom.2022.09.136/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.neucom.2022.09.136"
@@ -1347,7 +1336,7 @@
     "source_zh": "Journal of Communications and Information Networks",
     "source_en": "Journal of Communications and Information Networks",
     "year": "2023",
-    "citations": "84",
+    "citations": "89",
     "impact_factor": "4.7",
     "bibtex": "https://api.crossref.org/works/10.23919%2FJCIN.2023.10272352/transform/application/x-bibtex",
     "pdf": "https://drive.google.com/file/d/1nWAmsozbFzXViZ6DovVeVEli2BupaJMb/view"
@@ -1369,7 +1358,7 @@
     "source_zh": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "source_en": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "year": "2023",
-    "citations": "27",
+    "citations": "26",
     "impact_factor": "5.1",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ftaslp.2023.3240661/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2109.04314"
@@ -1380,7 +1369,7 @@
     "source_zh": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "source_en": "IEEE/ACM Transactions on Audio, Speech, and Language Processing",
     "year": "2023",
-    "citations": "20",
+    "citations": "21",
     "impact_factor": "5.1",
     "bibtex": "https://api.crossref.org/works/10.1109%2FTASLP.2023.3284522/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/TASLP.2023.3284522"
@@ -1391,7 +1380,7 @@
     "source_zh": "IEEE Transactions on Communications",
     "source_en": "IEEE Transactions on Communications",
     "year": "2023",
-    "citations": "61",
+    "citations": "76",
     "impact_factor": "8.3",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ftcomm.2023.3244239/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2204.14133.pdf"
@@ -1402,7 +1391,7 @@
     "source_zh": "IEEE Transactions on Parallel and Distributed Systems",
     "source_en": "IEEE Transactions on Parallel and Distributed Systems",
     "year": "2023",
-    "citations": "51",
+    "citations": "59",
     "impact_factor": "6",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ftpds.2023.3240527/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2301.11099.pdf"
@@ -1435,7 +1424,7 @@
     "source_zh": "Findings of the Association for Computational Linguistics: ACL",
     "source_en": "Findings of the Association for Computational Linguistics: ACL",
     "year": "2023",
-    "citations": "13",
+    "citations": "17",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2023.findings-acl.575/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2023.findings-acl.575.pdf"
@@ -1479,7 +1468,7 @@
     "source_zh": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
     "source_en": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
     "year": "2023",
-    "citations": "5",
+    "citations": "6",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3583780.3615488/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3583780.3615488"
@@ -1490,7 +1479,7 @@
     "source_zh": "Database Systems for Advanced Applications",
     "source_en": "Database Systems for Advanced Applications",
     "year": "2023",
-    "citations": "23",
+    "citations": "25",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1007%2F978-3-031-30672-3_45/transform/application/x-bibtex",
     "pdf": "https://link.springer.com/chapter/10.1007/978-3-031-30672-3_45"
@@ -1523,7 +1512,7 @@
     "source_zh": "Findings of the Association for Computational Linguistics: EMNLP 2023",
     "source_en": "Findings of the Association for Computational Linguistics: EMNLP 2023",
     "year": "2023",
-    "citations": "6",
+    "citations": "7",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2023.findings-emnlp.521/transform/application/x-bibtex",
     "pdf": "https://aclanthology.org/2023.findings-emnlp.521.pdf"
@@ -1534,7 +1523,7 @@
     "source_zh": "Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems",
     "source_en": "Proceedings of the 31st ACM International Conference on Advances in Geographic Information Systems",
     "year": "2023",
-    "citations": "46",
+    "citations": "51",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3589132.3625569/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3589132.3625569"
@@ -1556,7 +1545,7 @@
     "source_zh": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2023",
-    "citations": "6",
+    "citations": "7",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ficassp49357.2023.10096142/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2303.05143.pdf"
@@ -1589,7 +1578,7 @@
     "source_zh": "ICC 2023 - IEEE International Conference on Communications",
     "source_en": "ICC 2023 - IEEE International Conference on Communications",
     "year": "2023",
-    "citations": "40",
+    "citations": "54",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ficc45041.2023.10279355/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2303.00498.pdf"
@@ -1600,7 +1589,7 @@
     "source_zh": "ICCV 2023",
     "source_en": "ICCV 2023",
     "year": "2023",
-    "citations": "59",
+    "citations": "64",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ficcv51070.2023.00551/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2306.11248.pdf"
@@ -1611,7 +1600,7 @@
     "source_zh": "IEEE International Conference on Data Mining (ICDM)",
     "source_en": "IEEE International Conference on Data Mining (ICDM)",
     "year": "2023",
-    "citations": "21",
+    "citations": "22",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ficdm58522.2023.00082/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2311.10501.pdf"
@@ -1655,7 +1644,7 @@
     "source_zh": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "source_en": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
     "year": "2023",
-    "citations": "46",
+    "citations": "52",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3580305.3599853/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3580305.3599853"
@@ -1666,7 +1655,7 @@
     "source_zh": "Proceedings of the 17th ACM Conference on Recommender Systems",
     "source_en": "Proceedings of the 17th ACM Conference on Recommender Systems",
     "year": "2023",
-    "citations": "16",
+    "citations": "19",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3604915.3608799/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3604915.3608799"
@@ -1677,7 +1666,7 @@
     "source_zh": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
     "source_en": "Proceedings of the Sixteenth ACM International Conference on Web Search and Data Mining",
     "year": "2023",
-    "citations": "15",
+    "citations": "17",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3539597.3570374/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3539597.3570374"
@@ -1699,7 +1688,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2023",
-    "citations": "15",
+    "citations": "16",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2306.06895",
     "pdf": "https://arxiv.org/pdf/2306.06895.pdf"
@@ -1710,7 +1699,7 @@
     "source_zh": "arXiv preprint",
     "source_en": "arXiv preprint",
     "year": "2022",
-    "citations": "4",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2206.08031",
     "pdf": "https://arxiv.org/pdf/2206.08031.pdf"
@@ -1765,7 +1754,7 @@
     "source_zh": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "source_en": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "year": "2022",
-    "citations": "53",
+    "citations": "61",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3511808.3557464/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3511808.3557464"
@@ -1776,7 +1765,7 @@
     "source_zh": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "source_en": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
     "year": "2022",
-    "citations": "55",
+    "citations": "60",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F3511808.3557364/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/3511808.3557364"
@@ -1798,7 +1787,7 @@
     "source_zh": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "source_en": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "year": "2022",
-    "citations": "10",
+    "citations": "14",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2209.06030",
     "pdf": "https://arxiv.org/pdf/2209.06030.pdf"
@@ -1809,7 +1798,7 @@
     "source_zh": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference",
     "source_en": "GLOBECOM 2022 - 2022 IEEE Global Communications Conference",
     "year": "2022",
-    "citations": "2",
+    "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FGLOBECOM48099.2022.10000836/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/GLOBECOM48099.2022.10000836"
@@ -1831,7 +1820,7 @@
     "source_zh": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "source_en": "ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
     "year": "2022",
-    "citations": "33",
+    "citations": "35",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FICASSP43922.2022.9747521/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1109/ICASSP43922.2022.9747521"
@@ -1886,7 +1875,7 @@
     "source_zh": "arXiv:2206.1",
     "source_en": "arXiv:2206.1",
     "year": "2022",
-    "citations": "3",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/interspeech/GaoFDZ22.html?view=bibtex",
     "pdf": "https://www.isca-archive.org/interspeech_2022/gao22_interspeech.pdf"
@@ -1952,7 +1941,7 @@
     "source_zh": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), pp. 85–97, 2022",
     "source_en": "Proceedings of the Towards Semi-Supervised and Reinforced Task-Oriented Dialog Systems (SereTOD), pp. 85–97, 2022",
     "year": "2022",
-    "citations": "11",
+    "citations": "12",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2022.seretod-1.10/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2210.08692.pdf"
@@ -1996,7 +1985,7 @@
     "source_zh": "The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)",
     "source_en": "The Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI-21)",
     "year": "2021",
-    "citations": "12",
+    "citations": "13",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/aaai/ZhangZWXYLHF21.html?view=bibtex",
     "pdf": "https://doc-04-bk-apps-viewer.googleusercontent.com/viewer/secure/pdf/3nb9bdfcv3e2h2k1cmql0ee9cvc5lole/b0p3r0ml99h11ui84tfc8di29gmbs8ss/1788428700000/lantern/*/ACFrOgAbc77xS6zlglSmrJybrNYzsqETFJK5_f0GoSnvkch0qdOzkcHlMv1RZneq2nUn2raBXKfsBSsWAIdnhuzmSAOr3aJ2W6w6QlDYxcVfAPdsTy4n_i_rvS4VJ5UoVfEdc5mrOYR8FUBzC6OK?print=false"
@@ -2007,7 +1996,7 @@
     "source_zh": "2021 IEEE Global Communications Conference (GLOBECOM)",
     "source_en": "2021 IEEE Global Communications Conference (GLOBECOM)",
     "year": "2021",
-    "citations": "33",
+    "citations": "38",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2Fglobecom46510.2021.9685054/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2111.00724"
@@ -2018,7 +2007,7 @@
     "source_zh": "Applied Sciences",
     "source_en": "Applied Sciences",
     "year": "2021",
-    "citations": "5",
+    "citations": "6",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/journals/corr/abs-1811-01331.html?view=bibtex",
     "pdf": "https://doc-0o-bk-apps-viewer.googleusercontent.com/viewer/secure/pdf/3nb9bdfcv3e2h2k1cmql0ee9cvc5lole/g94ofaajpr9atan4nqdtkodc4oa67rqd/1788419775000/lantern/*/ACFrOgD9Wr411VnWTnKZNzAr-FatC5fGjMtSgiUDkyRr25p-FzHhUtlU-0udB7ibmVy2Z4eyGZw98B-PE4wCoszKFVXiJ7-fGIpwWWL-B9YljSNkq0r5AlfV7c88Aw46gA99gIi5aBi19gCRISrI?print=false"
@@ -2029,7 +2018,7 @@
     "source_zh": "Conference on Empirical Methods in Natural Language Processing(EMNLP)",
     "source_en": "Conference on Empirical Methods in Natural Language Processing(EMNLP)",
     "year": "2020",
-    "citations": "19",
+    "citations": "20",
     "impact_factor": "不适用",
     "bibtex": "https://aclanthology.org/2020.findings-emnlp.52.bib",
     "pdf": "https://aclanthology.org/2020.findings-emnlp.52.pdf"
@@ -2139,7 +2128,7 @@
     "source_zh": "Proc. Interspeech",
     "source_en": "Proc. Interspeech",
     "year": "2019",
-    "citations": "42",
+    "citations": "44",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/interspeech/GaoFLHPM19.html?view=bibtex",
     "pdf": "https://www.isca-archive.org/interspeech_2019/gao19d_interspeech.pdf"
@@ -2172,7 +2161,7 @@
     "source_zh": "IEEE IHMSC",
     "source_en": "IEEE IHMSC",
     "year": "2016",
-    "citations": "14",
+    "citations": "15",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FIHMSC.2016.49/transform/application/x-bibtex",
     "pdf": "https://ieeexplore.ieee.org/iel7/7781860/7782467/07783644.pdf"
@@ -2194,7 +2183,7 @@
     "source_zh": "2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)",
     "source_en": "2016 10th International Symposium on Chinese Spoken Language Processing (ISCSLP)",
     "year": "2016",
-    "citations": "14",
+    "citations": "15",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/iscslp/CongWRWWF16.html?view=bibtex",
     "pdf": "https://doi.org/10.1109/ISCSLP.2016.7918385"
@@ -2249,7 +2238,7 @@
     "source_zh": "Proceedings of the International AAAI Conference on Web and Social Media",
     "source_en": "Proceedings of the International AAAI Conference on Web and Social Media",
     "year": "2011",
-    "citations": "123",
+    "citations": "119",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/icwsm/BrownF11.html?view=bibtex",
     "pdf": "https://doi.org/10.1609/icwsm.v5i3.14210"
@@ -2282,7 +2271,7 @@
     "source_zh": "Proceedings of the 20th international conference companion on World wide web",
     "source_en": "Proceedings of the 20th international conference companion on World wide web",
     "year": "2011",
-    "citations": "8",
+    "citations": "9",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F1963192.1963302/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/1963192.1963302"
@@ -2293,7 +2282,7 @@
     "source_zh": "Coling",
     "source_en": "Coling",
     "year": "2010",
-    "citations": "1430",
+    "citations": "1414",
     "impact_factor": "不适用",
     "bibtex": "https://aclanthology.org/C10-2005.bib",
     "pdf": "https://aclanthology.org/C10-2005.pdf"
@@ -2315,7 +2304,7 @@
     "source_zh": "Proceedings of the 10th ACM SIGCOMM conference on Internet measurement",
     "source_en": "Proceedings of the 10th ACM SIGCOMM conference on Internet measurement",
     "year": "2010",
-    "citations": "53",
+    "citations": "55",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1145%2F1879141.1879178/transform/application/x-bibtex",
     "pdf": "https://dl.acm.org/doi/pdf/10.1145/1879141.1879178"
@@ -2326,7 +2315,7 @@
     "source_zh": "IEEE Spoken Language Technology Workshop",
     "source_en": "IEEE Spoken Language Technology Workshop",
     "year": "2010",
-    "citations": "121",
+    "citations": "117",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.1109%2FSLT.2010.5700826/transform/application/x-bibtex",
     "pdf": "https://ieeexplore.ieee.org/abstract/document/5700826"
@@ -2436,7 +2425,7 @@
     "source_zh": "IEEE",
     "source_en": "IEEE",
     "year": "2005",
-    "citations": "29",
+    "citations": "30",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/icdar/FengHG05.html?view=bibtex",
     "pdf": "https://ieeexplore.ieee.org/abstract/document/1575705"
@@ -2458,7 +2447,7 @@
     "source_zh": "IEEE ASRU",
     "source_en": "IEEE ASRU",
     "year": "2003",
-    "citations": "33",
+    "citations": "34",
     "impact_factor": "不适用",
     "bibtex": "@inproceedings{feng2003,\n  author    = {Junlan Feng and S. Bangalore and M. Rahim},\n  title     = {Webtalk: Mining websites for automatically building dialog systems},\n  booktitle = {IEEE ASRU},\n  year      = {2003},\n  url       = {https://www.researchgate.net/profile/Mazin-Gilbert/publication/4084613_WebTalk_mining_Websites_for_automatically_building_dialog_systems/links/0046353433519cb753000000/WebTalk-mining-Websites-for-automatically-building-dialog-systems.pdf}\n}",
     "pdf": "https://www.researchgate.net/profile/Mazin-Gilbert/publication/4084613_WebTalk_mining_Websites_for_automatically_building_dialog_systems/links/0046353433519cb753000000/WebTalk-mining-Websites-for-automatically-building-dialog-systems.pdf"
@@ -2469,7 +2458,7 @@
     "source_zh": "WWW (Posters)",
     "source_en": "WWW (Posters)",
     "year": "2003",
-    "citations": "3",
+    "citations": "4",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/www/FengBR03.html?view=bibtex",
     "pdf": "https://www.archives.iw3c2.org/www2003/cdrom/papers/poster/p325/p325-junlan.html"
