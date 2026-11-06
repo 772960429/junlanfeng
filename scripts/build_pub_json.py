@@ -27,7 +27,8 @@ COLUMN_MAP = {
     'type': ['类型（会议/期刊/专著/专利等）', '类型'],
     'title_zh': ['中文题目', '中文标题', '题（中文）'],
     'title_en': ['英文题目', '英文标题', '题（英文）'],
-    'source_zh': ['英文发表来源', '英文来源'],
+    # 修复：source_zh 原来误写为英文列，导致中文模式显示英文来源
+    'source_zh': ['中文发表来源', '中文来源'],
     'source_en': ['英文发表来源', '英文来源'],
     'year': ['时间（年份）', '时间', '年份'],
     'citations': ['引用次数', '被引'],
@@ -50,10 +51,7 @@ def find_column(headers, keywords):
 
 
 def extract_year(val):
-    """从年份单元格提取4位年份。
-    兼容: 2020(数字) / 2020.0(Excel数字) / '2020年' / '2020-05' / datetime字符串 等。
-    解析失败返回 0（排序时落到最后）。
-    """
+    """从年份单元格提取4位年份。"""
     if val is None:
         return 0
     m = re.search(r'(19|20)\d{2}', str(val))
@@ -78,13 +76,11 @@ def main():
     wb = openpyxl.load_workbook(XLSX_PATH, read_only=True)
     ws = wb.active
 
-    # 读取表头
     headers = [cell.value for cell in next(ws.iter_rows(min_row=1, max_row=1))]
     print(f"表头共 {len(headers)} 列:")
     for i, h in enumerate(headers):
         print(f"  Col {i}: {h}")
 
-    # 匹配列名
     col_indices = {}
     for key, keywords in COLUMN_MAP.items():
         col_name = find_column(headers, keywords)
@@ -92,19 +88,18 @@ def main():
             col_indices[key] = headers.index(col_name)
             print(f"  匹配 {key} -> 列 '{col_name}' (index {col_indices[key]})")
         else:
-            print(f"  ⚠️ 未找到 {key} 列")
+            print(f"  未找到 {key} 列")
             col_indices[key] = None
 
     type_col = col_indices.get('type')
     if type_col is None:
-        print("❌ 未找到类型列，无法筛选论文")
+        print("未找到类型列，无法筛选论文")
         sys.exit(1)
 
-    # 提取论文数据
     papers = []
     total_rows = 0
     matched = 0
-    skipped_reasons = {}  # 统计跳过原因
+    skipped_reasons = {}
 
     for row_idx, row in enumerate(ws.iter_rows(min_row=2, values_only=True), start=2):
         total_rows += 1
@@ -119,10 +114,9 @@ def main():
         type_str = str(type_val).strip()
 
         if type_str != '论文':
-            # 检查是否包含"论文"但有多余字符
             if '论文' in type_str:
                 reason = f'含"论文"但不完全匹配: repr={repr(type_val)}'
-                print(f"  [行{row_idx}] ⚠️ 含论文但不匹配: repr={repr(type_val)}, 长度={len(type_str)}, hex={type_str.encode('utf-8').hex()}")
+                print(f"  [行{row_idx}] 含论文但不匹配: repr={repr(type_val)}, 长度={len(type_str)}, hex={type_str.encode('utf-8').hex()}")
             else:
                 reason = f'type={type_str}'
             skipped_reasons[reason] = skipped_reasons.get(reason, 0) + 1
@@ -151,7 +145,6 @@ def main():
 
     wb.close()
 
-    # 统计汇总
     print(f"\n{'='*50}")
     print(f"总数据行: {total_rows}")
     print(f"匹配论文: {matched}")
@@ -161,28 +154,23 @@ def main():
         print(f"  [{count}次] {reason}")
     print(f"{'='*50}")
 
-    # 按年份倒序排列（JSON 文件和注入 HTML 共用此列表，两边都是倒序）
-    # Python sort 是稳定排序：年份相同的记录保持 Excel 原始顺序；年份缺失(0)排最后
     papers.sort(key=lambda x: extract_year(x.get('year')), reverse=True)
 
-    # 验证排序键是否真正解析出年份（防止全部回退为 0）
     parsed_years = [extract_year(p['year']) for p in papers]
     valid_years = [y for y in parsed_years if y]
-    print(f"📅 年份倒序: 最新 {max(valid_years) if valid_years else '?'} ~ 最早 {min(valid_years) if valid_years else '?'}"
+    print(f"年份倒序: 最新 {max(valid_years) if valid_years else '?'} ~ 最早 {min(valid_years) if valid_years else '?'}"
           f"，成功解析 {len(valid_years)}/{len(papers)} 条")
     if len(valid_years) < len(papers):
-        print(f"⚠️ {len(papers) - len(valid_years)} 条未解析到年份（已排到列表末尾），前3条:")
+        print(f"{len(papers) - len(valid_years)} 条未解析到年份（已排到列表末尾），前3条:")
         for p in papers[-3:]:
             print(f"   year={repr(p['year'])}, title_zh={p['title_zh'][:40]}")
     print(f"   排序后前3条年份: {[extract_year(p['year']) for p in papers[:3]]}")
 
-    # 输出 JSON
     with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
         json.dump(papers, f, ensure_ascii=False, indent=2)
 
-    print(f"\n✅ 导出 {len(papers)} 篇论文 -> {OUTPUT_PATH}")
+    print(f"\n导出 {len(papers)} 篇论文 -> {OUTPUT_PATH}")
 
-    # 打印前3条预览
     for i, p in enumerate(papers[:3]):
         print(f"\n--- 预览 {i+1} ---")
         print(f"  title_zh: {p['title_zh'][:50]}")
@@ -195,52 +183,63 @@ def main():
         print(f"  bibtex: {p['bibtex'][:50] if p['bibtex'] else '(空)'}...")
         print(f"  pdf: {p['pdf'][:50] if p['pdf'] else '(空)'}...")
 
-    # 将数据内联注入到 publications.html
     inject_into_html(papers)
 
 
 def inject_into_html(papers):
     """将论文数据内联注入到 publications.html，支持 file:// 协议直接打开"""
     if not os.path.exists(HTML_PATH):
-        print(f"⚠️ publications.html 不存在，跳过注入")
+        print(f"publications.html 不存在，跳过注入")
         return
 
     with open(HTML_PATH, 'r', encoding='utf-8') as f:
         html = f.read()
 
-    # 生成内联 JS
     json_str = json.dumps(papers, ensure_ascii=False, separators=(',', ':'))
     inline_js = f'var publicationsData = {json_str};'
     inline_script = f'<script>\n{inline_js}\n</script>\n    '
 
-    # 删除已有的 publicationsData 定义
+    # 修复：原来用 [^;]+ 会在 JSON 里出现分号时截断，残留碎片导致页面白屏
+    # 改成 \[.*?\]\s*; 匹配到 JSON 数组结尾的 ];，并用 (?:var|const|let) 合并三种声明
     patterns = [
-        r'<script>\s*var\s+publicationsData\s*=\s*[^;]+;\s*</script>',
-        r'<script>\s*const\s+publicationsData\s*=\s*[^;]+;\s*</script>',
-        r'<script>\s*let\s+publicationsData\s*=\s*[^;]+;\s*</script>',
-        r'var\s+publicationsData\s*=\s*[^;]+;',
-        r'const\s+publicationsData\s*=\s*[^;]+;',
-        r'let\s+publicationsData\s*=\s*[^;]+;',
+        r'<script>\s*(?:var|const|let)\s+publicationsData\s*=\s*\[.*?\]\s*;\s*</script>\s*',
+        r'(?:var|const|let)\s+publicationsData\s*=\s*\[.*?\]\s*;',
     ]
     for pattern in patterns:
         html = re.sub(pattern, '', html, flags=re.DOTALL)
 
-    # 清理多余空行
     html = re.sub(r'\n\s*\n\s*\n', '\n\n', html)
 
-    # 在 pub-render.js 之前插入
     script_tag = '<script src="js/pub-render.js">'
     if script_tag in html:
         html = html.replace(script_tag, inline_script + script_tag)
-        print(f"✅ 内联数据已注入到 publications.html")
+        print(f"内联数据已注入到 publications.html")
     else:
-        print(f"⚠️ 未找到 pub-render.js 引用，未注入内联数据")
+        print(f"未找到 pub-render.js 引用，未注入内联数据")
+        return
+
+    # 新增自检：写回前验证 publicationsData 唯一且是合法 JSON，防止坏数据落盘
+    m = re.search(r'(?:var|const|let)\s+publicationsData\s*=\s*(\[.*?\])\s*;', html, re.DOTALL)
+    if not m:
+        print("自检失败：未找到 publicationsData 定义，跳过写入")
+        return
+    try:
+        parsed = json.loads(m.group(1))
+    except json.JSONDecodeError as e:
+        print(f"自检失败：注入后不是合法 JSON ({e})，跳过写入")
+        return
+    if not isinstance(parsed, list) or len(parsed) != len(papers):
+        print(f"自检失败：注入后条数 {len(parsed) if isinstance(parsed, list) else '非数组'} != 预期 {len(papers)}，跳过写入")
+        return
+    if html.count('publicationsData = ') != 1:
+        print(f"自检失败：检测到 {html.count('publicationsData = ')} 处定义，跳过写入")
+        return
 
     with open(HTML_PATH, 'w', encoding='utf-8') as f:
         f.write(html)
 
     size_kb = os.path.getsize(HTML_PATH) / 1024
-    print(f"📄 publications.html 大小: {size_kb:.1f} KB")
+    print(f"publications.html 大小: {size_kb:.1f} KB")
 
 
 if __name__ == '__main__':
