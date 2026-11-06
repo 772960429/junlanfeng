@@ -147,7 +147,13 @@ def push_to_github():
         # 即使提交失败（比如没有变化），也继续尝试推送，因为可能有之前未推送的提交
         logger.warning("提交失败或没有变更需要提交，继续尝试推送...")
 
-    # 5. 推送
+    # ================= 新增这一步 =================
+    # 5. 推送前先拉取远程最新代码并变基（防止冲突）
+    logger.info("拉取远程最新代码 (git pull --rebase)...")
+    run_git_command(["pull", "origin", GIT_BRANCH, "--rebase"], PROJECT_ROOT)
+    # ==============================================
+
+    # 6. 推送
     logger.info(f"推送到 {GITHUB_REPO_URL} ({GIT_BRANCH})...")
     if run_git_command(["push", "origin", GIT_BRANCH], PROJECT_ROOT):
         logger.info("推送成功！")
