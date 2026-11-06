@@ -126,7 +126,7 @@
     "source_zh": "Knowl. Based Syst.",
     "source_en": "Knowledge-Based Systems",
     "year": "2026",
-    "citations": "26",
+    "citations": "29",
     "impact_factor": "7.6",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.knosys.2025.115200/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.knosys.2025.115200"
@@ -346,7 +346,7 @@
     "source_zh": "arXiv（即将发表在）",
     "source_en": "arXiv",
     "year": "2026",
-    "citations": "3",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2607.15550",
     "pdf": "https://arxiv.org/pdf/2607.15550"
@@ -368,7 +368,7 @@
     "source_zh": "CoRR (arXiv preprint), arXiv:2607.03935",
     "source_en": "CoRR (arXiv preprint), arXiv:2607.03935",
     "year": "2026",
-    "citations": "8",
+    "citations": "9",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2607.03935",
     "pdf": "https://arxiv.org/pdf/2607.03935"
@@ -379,7 +379,7 @@
     "source_zh": "Findings of the Association for Computational Linguistics: ACL 2026",
     "source_en": "Findings of the Association for Computational Linguistics: ACL 2026",
     "year": "2026",
-    "citations": "4",
+    "citations": "5",
     "impact_factor": "不适用",
     "bibtex": "https://aclanthology.org/2026.findings-acl.138.bib",
     "pdf": "https://aclanthology.org/2026.findings-acl.138.pdf"
@@ -456,7 +456,7 @@
     "source_zh": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "source_en": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2026",
-    "citations": "2",
+    "citations": "3",
     "impact_factor": "不适用",
     "bibtex": "https://aclanthology.org/2026.acl-long.1989.bib",
     "pdf": "https://aclanthology.org/2026.acl-long.1989.pdf"
@@ -731,7 +731,7 @@
     "source_zh": "IEEE Trans. Pattern Anal. Mach. Intell.",
     "source_en": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
     "year": "2025",
-    "citations": "26",
+    "citations": "27",
     "impact_factor": "20.8",
     "bibtex": "https://api.crossref.org/works/10.1109%2Ftpami.2024.3514654/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2412.11228.pdf"
@@ -973,7 +973,7 @@
     "source_zh": "arXiv",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "153",
+    "citations": "154",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2503.17407",
     "pdf": "https://arxiv.org/pdf/2503.17407.pdf"
@@ -1061,7 +1061,7 @@
     "source_zh": "ACL 2026",
     "source_en": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
     "year": "2025",
-    "citations": "17",
+    "citations": "18",
     "impact_factor": "不适用",
     "bibtex": "https://api.crossref.org/works/10.18653%2Fv1%2F2026.acl-long.538/transform/application/x-bibtex",
     "pdf": "https://arxiv.org/pdf/2511.18850.pdf"
@@ -1083,7 +1083,7 @@
     "source_zh": "arXiv",
     "source_en": "arXiv preprint",
     "year": "2025",
-    "citations": "17",
+    "citations": "18",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2512.21120",
     "pdf": "https://arxiv.org/pdf/2512.21120.pdf"
@@ -1138,7 +1138,7 @@
     "source_zh": "Energy (Elsevier) 2024",
     "source_en": "Energy",
     "year": "2024",
-    "citations": "42",
+    "citations": "43",
     "impact_factor": "9.0",
     "bibtex": "https://api.crossref.org/works/10.1016%2Fj.energy.2024.131856/transform/application/x-bibtex",
     "pdf": "https://doi.org/10.1016/j.energy.2024.131856"
@@ -1336,7 +1336,7 @@
     "source_zh": "ICDE",
     "source_en": "2024 IEEE 40th International Conference on Data Engineering (ICDE)",
     "year": "2024",
-    "citations": "9",
+    "citations": "10",
     "impact_factor": "不适用",
     "bibtex": "https://dblp.org/rec/conf/icde/0004WLZFWG24.html?view=bibtex",
     "pdf": "https://doi.org/10.1109/ICDE60146.2024.00110"
@@ -2040,7 +2040,7 @@
     "source_zh": "第29届国际计算语言学会议论文集",
     "source_en": "Proceedings of the 29th International Conference on Computational Linguistics (COLING)",
     "year": "2022",
-    "citations": "15",
+    "citations": "16",
     "impact_factor": "不适用",
     "bibtex": "https://arxiv.org/bibtex/2209.06030",
     "pdf": "https://arxiv.org/pdf/2209.06030.pdf"

@@ -13,7 +13,7 @@
   },
   {
     "title": "Influence of ship emissions on urban air quality: A comprehensive study using highly time-resolved online measurements and numerical simulation in Shanghai",
-    "citations": 172
+    "citations": 174
   },
   {
     "title": "Automated call router for business directory using the world wide web",
@@ -21,7 +21,7 @@
   },
   {
     "title": "A comprehensive survey on long context language modeling",
-    "citations": 153
+    "citations": 154
   },
   {
     "title": "The influence of spatiality on shipping emissions, air quality and potential human exposure in the Yangtze River Delta/Shanghai, China",
@@ -149,7 +149,7 @@
   },
   {
     "title": "Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method",
-    "citations": 42
+    "citations": 43
   },
   {
     "title": "Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries",
@@ -216,6 +216,10 @@
     "citations": 30
   },
   {
+    "title": "Pythia-RAG: Retrieval-augmented generation over a unified multimodal knowledge graph for enhanced QA",
+    "citations": 29
+  },
+  {
     "title": "Emerge: Integrating rag for improved multimodal ehr predictive modeling",
     "citations": 29
   },
@@ -224,16 +228,12 @@
     "citations": 29
   },
   {
-    "title": "Variational latent-state GPT for semi-supervised task-oriented dialog systems",
+    "title": "Uni-adafocus: Spatial-temporal dynamic computation for video recognition",
     "citations": 27
   },
   {
-    "title": "Pythia-RAG: Retrieval-augmented generation over a unified multimodal knowledge graph for enhanced QA",
-    "citations": 26
-  },
-  {
-    "title": "Uni-adafocus: Spatial-temporal dynamic computation for video recognition",
-    "citations": 26
+    "title": "Variational latent-state GPT for semi-supervised task-oriented dialog systems",
+    "citations": 27
   },
   {
     "title": "Automated call router for business directory using the World Wide Web",
@@ -312,6 +312,14 @@
     "citations": 19
   },
   {
+    "title": "Cognitive alpha mining via llm-driven code-based evolution",
+    "citations": 18
+  },
+  {
+    "title": "Clarifymt-bench: Benchmarking and improving multi-turn clarification for conversational large language models",
+    "citations": 18
+  },
+  {
     "title": "From superficial to deep: Integrating external knowledge for follow-up question generation using knowledge graph and LLM",
     "citations": 18
   },
@@ -320,15 +328,7 @@
     "citations": 18
   },
   {
-    "title": "Cognitive alpha mining via llm-driven code-based evolution",
-    "citations": 17
-  },
-  {
     "title": "SafeDialBench: A fine-grained safety evaluation benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks",
-    "citations": 17
-  },
-  {
-    "title": "Clarifymt-bench: Benchmarking and improving multi-turn clarification for conversational large language models",
     "citations": 17
   },
   {
@@ -364,6 +364,10 @@
     "citations": 17
   },
   {
+    "title": "Generalized intent discovery: Learning from open world dialogue system",
+    "citations": 16
+  },
+  {
     "title": "Sentiment Analysis with Weighted Graph Convolutional Networks.",
     "citations": 16
   },
@@ -377,10 +381,6 @@
   },
   {
     "title": "Kgda: A knowledge graph driven decomposition approach for cellular traffic prediction",
-    "citations": 15
-  },
-  {
-    "title": "Generalized intent discovery: Learning from open world dialogue system",
     "citations": 15
   },
   {
@@ -448,6 +448,10 @@
     "citations": 10
   },
   {
+    "title": "A compact and accurate sketch for estimating a large range of set difference cardinalities",
+    "citations": 10
+  },
+  {
     "title": "Deep learning based traffic prediction in mobile network-a survey",
     "citations": 10
   },
@@ -472,15 +476,15 @@
     "citations": 10
   },
   {
+    "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+    "citations": 9
+  },
+  {
     "title": "Reconsidering overthinking: Penalizing internal and external redundancy in cot reasoning",
     "citations": 9
   },
   {
     "title": "Self-attention-based graph-of-thought for math problem solving",
-    "citations": 9
-  },
-  {
-    "title": "A compact and accurate sketch for estimating a large range of set difference cardinalities",
     "citations": 9
   },
   {
@@ -498,10 +502,6 @@
   {
     "title": "VoiSTV: voice-enabled social TV",
     "citations": 9
-  },
-  {
-    "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
-    "citations": 8
   },
   {
     "title": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories",
@@ -640,6 +640,14 @@
     "citations": 5
   },
   {
+    "title": "Seerguard: A safety framework for mobile gui agents via world model prediction",
+    "citations": 5
+  },
+  {
+    "title": "ALPHAQT-BENCH: Diagnosing the Gap between Financial Code Generation and Quantitative Reasoning in LLMs",
+    "citations": 5
+  },
+  {
     "title": "NL2Dashboard: A Lightweight and Controllable Framework for Generating Dashboards with LLMs",
     "citations": 5
   },
@@ -693,10 +701,6 @@
   },
   {
     "title": "Treb: A comprehensive benchmark for evaluating table reasoning capabilities of large language models",
-    "citations": 4
-  },
-  {
-    "title": "ALPHAQT-BENCH: Diagnosing the Gap between Financial Code Generation and Quantitative Reasoning in LLMs",
     "citations": 4
   },
   {
@@ -768,11 +772,11 @@
     "citations": 4
   },
   {
-    "title": "Seerguard: A safety framework for mobile gui agents via world model prediction",
+    "title": "Beyond Static Profiles: Capturing the Fluidity of User Preferences in Diverse Scenarios",
     "citations": 3
   },
   {
-    "title": "Beyond Static Profiles: Capturing the Fluidity of User Preferences in Diverse Scenarios",
+    "title": "Thinking Alignment of Scenario-Oriented User Simulation",
     "citations": 3
   },
   {
@@ -813,10 +817,6 @@
   },
   {
     "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
-    "citations": 2
-  },
-  {
-    "title": "Thinking Alignment of Scenario-Oriented User Simulation",
     "citations": 2
   },
   {
@@ -1100,7 +1100,7 @@
     "citations": 0
   },
   {
-    "title": "HGP: An on-device personalized agent memory via hybrid graph storage",
+    "title": "RGCC: Retriever-Guided Context Compression for Efficient Vision–Language Alignment in Knowledge-Based VQA",
     "citations": 0
   },
   {
@@ -1108,11 +1108,15 @@
     "citations": 0
   },
   {
-    "title": "COT-TTS: Audio Context-Aware Text-to-Speech with Chain-of-Thought Reasoning",
+    "title": "HGP: An on-device personalized agent memory via hybrid graph storage",
     "citations": 0
   },
   {
     "title": "Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning",
+    "citations": 0
+  },
+  {
+    "title": "COT-TTS: Audio Context-Aware Text-to-Speech with Chain-of-Thought Reasoning",
     "citations": 0
   },
   {
