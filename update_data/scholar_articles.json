@@ -1,0 +1,1366 @@
+[
+  {
+    "title": "Robust sentiment detection on twitter from biased and noisy data",
+    "citations": 1423
+  },
+  {
+    "title": "Systems and methods for social media data mining",
+    "citations": 407
+  },
+  {
+    "title": "Spatial and seasonal dynamics of ship emissions over the Yangtze River Delta and East China Sea and their potential environmental influence",
+    "citations": 289
+  },
+  {
+    "title": "Influence of ship emissions on urban air quality: A comprehensive study using highly time-resolved online measurements and numerical simulation in Shanghai",
+    "citations": 172
+  },
+  {
+    "title": "Automated call router for business directory using the world wide web",
+    "citations": 167
+  },
+  {
+    "title": "A comprehensive survey on long context language modeling",
+    "citations": 153
+  },
+  {
+    "title": "The influence of spatiality on shipping emissions, air quality and potential human exposure in the Yangtze River Delta/Shanghai, China",
+    "citations": 127
+  },
+  {
+    "title": "Relevance recognition for a human machine dialog system contextual question answering based on a normalization of the length of the user input",
+    "citations": 120
+  },
+  {
+    "title": "Measuring user influence on twitter using modified k-shell decomposition",
+    "citations": 119
+  },
+  {
+    "title": "Probabilistic model-based sentiment analysis of twitter messages",
+    "citations": 117
+  },
+  {
+    "title": "Deep learning for medication recommendation: a systematic survey",
+    "citations": 96
+  },
+  {
+    "title": "Network meets chatgpt: Intent autonomous management, control and operation",
+    "citations": 91
+  },
+  {
+    "title": "System and method using a discriminative learning approach for question answering",
+    "citations": 86
+  },
+  {
+    "title": "Fine-grained recognition with learnable semantic data augmentation",
+    "citations": 83
+  },
+  {
+    "title": "Method of detecting potential phishing by analyzing universal resource locators",
+    "citations": 81
+  },
+  {
+    "title": "Personal customer care agent",
+    "citations": 80
+  },
+  {
+    "title": "Network topology optimization via deep reinforcement learning",
+    "citations": 78
+  },
+  {
+    "title": "A probabilistic end-to-end task-oriented dialog model with latent belief states towards semi-supervised learning",
+    "citations": 78
+  },
+  {
+    "title": "A survey of transformer-based multimodal pre-trained modals",
+    "citations": 73
+  },
+  {
+    "title": "A survey on deep learning for cellular traffic prediction",
+    "citations": 71
+  },
+  {
+    "title": "System and method for generating suggested responses to an email",
+    "citations": 67
+  },
+  {
+    "title": "Emerge: Enhancing multimodal electronic health records predictive modeling with retrieval-augmented generation",
+    "citations": 66
+  },
+  {
+    "title": "Dynamic perceiver for efficient visual recognition",
+    "citations": 64
+  },
+  {
+    "title": "Target interest distillation for multi-interest recommendation",
+    "citations": 63
+  },
+  {
+    "title": "Port-related emissions, environmental impacts and their implication on green traffic policy in Shanghai",
+    "citations": 62
+  },
+  {
+    "title": "Federated learning over coupled graphs",
+    "citations": 61
+  },
+  {
+    "title": "Interactive contrastive learning for self-supervised entity alignment",
+    "citations": 61
+  },
+  {
+    "title": "Adaptive hybrid spatial-temporal graph neural network for cellular traffic prediction",
+    "citations": 56
+  },
+  {
+    "title": "System and method for generating customized text-to-speech voices",
+    "citations": 55
+  },
+  {
+    "title": "System and method of automating a spoken dialogue service",
+    "citations": 55
+  },
+  {
+    "title": "Listen to me if you can: tracking user experience of mobile network on social media",
+    "citations": 55
+  },
+  {
+    "title": "Mast cells are essential intermediaries in regulating IL-33/ST2 signaling for an immune network favorable to mucosal healing in experimentally inflamed colons",
+    "citations": 54
+  },
+  {
+    "title": "Large-scale urban cellular traffic generation via knowledge-enhanced GANs with multi-periodic patterns",
+    "citations": 52
+  },
+  {
+    "title": "Empowering spatial knowledge graph for mobile traffic prediction",
+    "citations": 51
+  },
+  {
+    "title": "Method and apparatus for automatically building conversational systems",
+    "citations": 47
+  },
+  {
+    "title": "System and method of providing a spoken dialog interface to a website",
+    "citations": 45
+  },
+  {
+    "title": "Code-switching sentence generation by bert and generative adversarial networks",
+    "citations": 44
+  },
+  {
+    "title": "Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries: A mixed prompt learning method",
+    "citations": 42
+  },
+  {
+    "title": "Hybrid prompt-driven large language model for robust state-of-charge estimation of multitype Li-ion batteries",
+    "citations": 42
+  },
+  {
+    "title": "System and method for mining and tracking business documents",
+    "citations": 41
+  },
+  {
+    "title": "Method and apparatus for managing advertisements using social media data",
+    "citations": 40
+  },
+  {
+    "title": "Adaptive multi-receptive field spatial-temporal graph convolutional network for traffic forecasting",
+    "citations": 38
+  },
+  {
+    "title": "Method and apparatus for associating micro-blogs with media programs",
+    "citations": 38
+  },
+  {
+    "title": "Hgcn: Harmonic gated compensation network for speech enhancement",
+    "citations": 36
+  },
+  {
+    "title": "An update on miRNAs as biological and clinical determinants in colorectal cancer: a bench-to-bedside approach",
+    "citations": 35
+  },
+  {
+    "title": "Method and apparatus for detecting a sentiment of short messages",
+    "citations": 34
+  },
+  {
+    "title": "Webtalk: Mining websites for automatically building dialog systems",
+    "citations": 34
+  },
+  {
+    "title": "Safedialbench: A fine-grained safety benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks",
+    "citations": 33
+  },
+  {
+    "title": "Dry particulate nitrate deposition in China",
+    "citations": 33
+  },
+  {
+    "title": "Large language models are cross-lingual knowledge-free reasoners",
+    "citations": 32
+  },
+  {
+    "title": "Depth map denoising network and lightweight fusion network for enhanced 3d face recognition",
+    "citations": 32
+  },
+  {
+    "title": "Method and system for improving website security",
+    "citations": 32
+  },
+  {
+    "title": "MoE-LPR: Multilingual extension of large language models through mixture-of-experts with language priors routing",
+    "citations": 31
+  },
+  {
+    "title": "A learning approach to discovering web page semantic structures",
+    "citations": 30
+  },
+  {
+    "title": "Emerge: Integrating rag for improved multimodal ehr predictive modeling",
+    "citations": 29
+  },
+  {
+    "title": "A data driven approach to relevancy recognition for contextual question answering",
+    "citations": 29
+  },
+  {
+    "title": "Variational latent-state GPT for semi-supervised task-oriented dialog systems",
+    "citations": 27
+  },
+  {
+    "title": "Pythia-RAG: Retrieval-augmented generation over a unified multimodal knowledge graph for enhanced QA",
+    "citations": 26
+  },
+  {
+    "title": "Uni-adafocus: Spatial-temporal dynamic computation for video recognition",
+    "citations": 26
+  },
+  {
+    "title": "Automated call router for business directory using the World Wide Web",
+    "citations": 26
+  },
+  {
+    "title": "BiQCap: A biquaternion and capsule network-based embedding model for temporal knowledge graph completion",
+    "citations": 25
+  },
+  {
+    "title": "Meta-reinforced multi-domain state generator for dialogue systems",
+    "citations": 25
+  },
+  {
+    "title": "System and method for using prosody for voice-enabled search",
+    "citations": 24
+  },
+  {
+    "title": "Method and apparatus for compiling and querying a QA database",
+    "citations": 23
+  },
+  {
+    "title": "System and method of identifying web page semantic structures",
+    "citations": 23
+  },
+  {
+    "title": "Collaborative word-based pre-trained item representation for transferable recommendation",
+    "citations": 22
+  },
+  {
+    "title": "Harmonic attention for monaural speech enhancement",
+    "citations": 22
+  },
+  {
+    "title": "Role of natural language understanding in voice local search",
+    "citations": 22
+  },
+  {
+    "title": "Investigating and scaling up code-switching for multilingual language model pre-training",
+    "citations": 21
+  },
+  {
+    "title": "Advanced sodium-ion pseudocapacitor performance of oxygen-implanted hard carbon derived from carbon spheres",
+    "citations": 21
+  },
+  {
+    "title": "A multi-attention approach using BERT and stacked bidirectional LSTM for improved dialogue state tracking",
+    "citations": 20
+  },
+  {
+    "title": "PSSAT: A perturbed semantic structure awareness transferring method for perturbation-robust slot filling",
+    "citations": 20
+  },
+  {
+    "title": "A structure-enhanced graph convolutional network for sentiment analysis",
+    "citations": 20
+  },
+  {
+    "title": "System and method for enhancing voice-enabled search based on automated demographic identification",
+    "citations": 20
+  },
+  {
+    "title": "Two-sided calibration for quality-aware responsible recommendation",
+    "citations": 19
+  },
+  {
+    "title": "Harmonic gated compensation network plus for icassp 2022 dns challenge",
+    "citations": 19
+  },
+  {
+    "title": "Speech and multimodal interaction in mobile search",
+    "citations": 19
+  },
+  {
+    "title": "Speech and language processing over the web",
+    "citations": 19
+  },
+  {
+    "title": "From superficial to deep: Integrating external knowledge for follow-up question generation using knowledge graph and LLM",
+    "citations": 18
+  },
+  {
+    "title": "Learning to distinguish multi-user coupling behaviors for TV recommendation",
+    "citations": 18
+  },
+  {
+    "title": "Cognitive alpha mining via llm-driven code-based evolution",
+    "citations": 17
+  },
+  {
+    "title": "SafeDialBench: A fine-grained safety evaluation benchmark for large language models in multi-turn dialogues with diverse jailbreak attacks",
+    "citations": 17
+  },
+  {
+    "title": "Clarifymt-bench: Benchmarking and improving multi-turn clarification for conversational large language models",
+    "citations": 17
+  },
+  {
+    "title": "Getting more from less: Large language models are good spontaneous multilingual learners",
+    "citations": 17
+  },
+  {
+    "title": "Learning to leverage high-order medical knowledge graph for joint entity and relation extraction",
+    "citations": 17
+  },
+  {
+    "title": "MPPN: multi-resolution periodic pattern network for long-term time series forecasting",
+    "citations": 17
+  },
+  {
+    "title": "Customer voice sensor: A comprehensive opinion mining system for call center conversation",
+    "citations": 17
+  },
+  {
+    "title": "Trends in speech and language processing",
+    "citations": 17
+  },
+  {
+    "title": "System and method of automatically building dialog services by exploiting the content and structure of websites",
+    "citations": 17
+  },
+  {
+    "title": "Filtering microblogging messages for social tv",
+    "citations": 17
+  },
+  {
+    "title": "Effects of word confusion networks on voice search",
+    "citations": 17
+  },
+  {
+    "title": "Sentiment Analysis with Weighted Graph Convolutional Networks.",
+    "citations": 16
+  },
+  {
+    "title": "A bootstrapping approach to identifying relevant tweets for social tv",
+    "citations": 16
+  },
+  {
+    "title": "Towards generalized routing: Model and agent orchestration for adaptive and efficient inference",
+    "citations": 15
+  },
+  {
+    "title": "Kgda: A knowledge graph driven decomposition approach for cellular traffic prediction",
+    "citations": 15
+  },
+  {
+    "title": "Generalized intent discovery: Learning from open world dialogue system",
+    "citations": 15
+  },
+  {
+    "title": "Knowledge graph completion based on GCN of multi‐information fusion and high‐dimensional structure analysis weight",
+    "citations": 15
+  },
+  {
+    "title": "Unsatisfied customer call detection with deep learning",
+    "citations": 15
+  },
+  {
+    "title": "Information fusion in automatic user satisfaction analysis in call center",
+    "citations": 15
+  },
+  {
+    "title": "A comprehensive survey on long context language modeling, 2025",
+    "citations": 15
+  },
+  {
+    "title": "Loire: Lifelong learning on incremental data via pre-trained language model growth efficiently",
+    "citations": 14
+  },
+  {
+    "title": "Network traffic overload prediction with temporal graph attention convolutional networks",
+    "citations": 14
+  },
+  {
+    "title": "Accurate and scalable graph neural networks for billion-scale graphs",
+    "citations": 14
+  },
+  {
+    "title": "VE-KWS: Visual modality enhanced end-to-end keyword spotting",
+    "citations": 13
+  },
+  {
+    "title": "Learning to check contract inconsistencies",
+    "citations": 13
+  },
+  {
+    "title": "The development of methods for primary mast cells in vitro and ex vivo: An historical review",
+    "citations": 13
+  },
+  {
+    "title": "MESON MIXING AND THE MASS OF THE ISODOUBLET OF 2 1S0 NONET",
+    "citations": 13
+  },
+  {
+    "title": "Screening of 166 pesticide residues in tea based on ultra high performance liquid chromatography-quadrupole/electrostatic field orbitrap high resolution mass spectrometry",
+    "citations": 12
+  },
+  {
+    "title": "A generative user simulator with GPT-based architecture and goal state tracking for reinforced multi-domain dialog systems",
+    "citations": 12
+  },
+  {
+    "title": "A general framework for building natural language understanding modules in voice search",
+    "citations": 12
+  },
+  {
+    "title": "Proceedings of the 23rd international conference on computational linguistics: Posters",
+    "citations": 11
+  },
+  {
+    "title": "Joint state-of-charge and state-of-health estimation of lithium-ion batteries across varying operational stages on differing timescales with large language model: A multi-task …",
+    "citations": 10
+  },
+  {
+    "title": "Deep learning based traffic prediction in mobile network-a survey",
+    "citations": 10
+  },
+  {
+    "title": "Building markovian generative architectures over pretrained lm backbones for efficient task-oriented dialog systems",
+    "citations": 10
+  },
+  {
+    "title": "A challenge on semi-supervised and reinforced task-oriented dialog systems",
+    "citations": 10
+  },
+  {
+    "title": "Neural CRF transducers for sequence labeling",
+    "citations": 10
+  },
+  {
+    "title": "Method and apparatus for responding to an inquiry",
+    "citations": 10
+  },
+  {
+    "title": "Webtalk: Towards Automatically Building Spoken Dialog Systems Through Miningwebsites",
+    "citations": 10
+  },
+  {
+    "title": "Reconsidering overthinking: Penalizing internal and external redundancy in cot reasoning",
+    "citations": 9
+  },
+  {
+    "title": "Self-attention-based graph-of-thought for math problem solving",
+    "citations": 9
+  },
+  {
+    "title": "A compact and accurate sketch for estimating a large range of set difference cardinalities",
+    "citations": 9
+  },
+  {
+    "title": "CTGGAN: controllable text generation with generative adversarial network",
+    "citations": 9
+  },
+  {
+    "title": "Hierarchical In2O3/rGO nanostructures with uniformly distributed In2O3 nanoparticles: microwave-assisted synthesis and improved NO-sensing performance",
+    "citations": 9
+  },
+  {
+    "title": "\" Think Before You Speak\": Improving Multi-Action Dialog Policy by Planning Single-Action Dialogs",
+    "citations": 9
+  },
+  {
+    "title": "VoiSTV: voice-enabled social TV",
+    "citations": 9
+  },
+  {
+    "title": "Harness-Aware Self-Evolving: Co-Evolving Model Weights, Harness, and Task Solutions",
+    "citations": 8
+  },
+  {
+    "title": "Where Do Deep-Research Agents Go Wrong? Span-Level Error Localization in Agent Trajectories",
+    "citations": 8
+  },
+  {
+    "title": "Predicting mobile app usage with context-aware dynamic hypergraphs",
+    "citations": 8
+  },
+  {
+    "title": "Mobility prediction via rule-enhanced knowledge graph",
+    "citations": 8
+  },
+  {
+    "title": "MFSN: multi-perspective fusion search network for pre-training knowledge in speech emotion recognition",
+    "citations": 8
+  },
+  {
+    "title": "Knowledge-retrieval task-oriented dialog systems with semi-supervision",
+    "citations": 8
+  },
+  {
+    "title": "Information Extraction and Human-Robot Dialogue towards Real-life Tasks A Baseline Study with the MobileCS Dataset",
+    "citations": 8
+  },
+  {
+    "title": "An embedding model for knowledge graph completion based on graph sub-hop convolutional network",
+    "citations": 8
+  },
+  {
+    "title": "Advancing semi-supervised task oriented dialog systems by JSA learning of discrete latent variable models",
+    "citations": 8
+  },
+  {
+    "title": "Curriculum-based self-training makes better few-shot learners for data-to-text generation",
+    "citations": 8
+  },
+  {
+    "title": "Website security",
+    "citations": 8
+  },
+  {
+    "title": "SeaEvo: Advancing Algorithm Discovery with Strategy Space Evolution",
+    "citations": 7
+  },
+  {
+    "title": "Harnessing diverse perspectives: A multi-agent framework for enhanced error detection in knowledge graphs",
+    "citations": 7
+  },
+  {
+    "title": "Beyond layout embedding: layout attention with gaussian biases for structured document understanding",
+    "citations": 7
+  },
+  {
+    "title": "Semi-supervised speech enhancement based on speech purity",
+    "citations": 7
+  },
+  {
+    "title": "Escl: Equivariant self-contrastive learning for sentence representations",
+    "citations": 7
+  },
+  {
+    "title": "Counterfactual matters: Intrinsic probing for dialogue state tracking",
+    "citations": 7
+  },
+  {
+    "title": "Towards the understanding of 11P1 meson mass spectrum",
+    "citations": 7
+  },
+  {
+    "title": "Speech translation on Internet CEST-CAS2. 0",
+    "citations": 7
+  },
+  {
+    "title": "A Chinese-English speech translation prototype system: CEST-CAS1. 0",
+    "citations": 7
+  },
+  {
+    "title": "DisCo_Speech: Controllable Zero-Shot Speech Generation with A Disentangled Speech Codec",
+    "citations": 6
+  },
+  {
+    "title": "ISCSLP 2026 CoT-TTS Challenge: Chain-of-Thought Reasoning for Context-Aware Text-to-Speech",
+    "citations": 6
+  },
+  {
+    "title": "Understanding LLMs’ cross-lingual context retrieval: How good it is and where it comes from",
+    "citations": 6
+  },
+  {
+    "title": "Multiagent reinforcement learning based on structural coordination",
+    "citations": 6
+  },
+  {
+    "title": "The 2nd futuredial challenge: Dialog systems with retrieval augmented generation (futuredial-rag)",
+    "citations": 6
+  },
+  {
+    "title": "Improving self-consistency for open-domain question answering via automatic prompt engineering and ensemble learning",
+    "citations": 6
+  },
+  {
+    "title": "Multi-gate mixture-of-contrastive-experts with graph-based gating mechanism for tv recommendation",
+    "citations": 6
+  },
+  {
+    "title": "Cost-effective bidirectional controlled quantum teleportation scheme by using nine-qubit entangled state",
+    "citations": 6
+  },
+  {
+    "title": "Elastic crfs for open-ontology slot filling",
+    "citations": 6
+  },
+  {
+    "title": "Towards low-resource semi-supervised dialogue generation with meta-learning",
+    "citations": 6
+  },
+  {
+    "title": "Architecture and Algorithms of Intelligent Dialogue System",
+    "citations": 6
+  },
+  {
+    "title": "Method and apparatus for building sales tools by mining data from websites",
+    "citations": 6
+  },
+  {
+    "title": "Query parsing for voice-enabled mobile local search",
+    "citations": 6
+  },
+  {
+    "title": "Webtalk: Mining websites for interactively answering questions",
+    "citations": 6
+  },
+  {
+    "title": "Relay, Don't Route: Adaptive Population Handoff for Cost-Efficient LLM-Driven Evolution",
+    "citations": 5
+  },
+  {
+    "title": "NL2Dashboard: A Lightweight and Controllable Framework for Generating Dashboards with LLMs",
+    "citations": 5
+  },
+  {
+    "title": "Jt-math: A multi-stage framework for advanced mathematical reasoning in large language models",
+    "citations": 5
+  },
+  {
+    "title": "Privacy-Preserving Speaker Verification via End-to-End Secure Representation Learning",
+    "citations": 5
+  },
+  {
+    "title": "Electrospun ZnO nanotubes decorated with zinc ferrite nanoparticles as sensing material for hydrogen sulfide detection",
+    "citations": 5
+  },
+  {
+    "title": "Feature mixing-based active learning for multi-label text classification",
+    "citations": 5
+  },
+  {
+    "title": "Csdnet: causal inference aided handover parameter adjusting effect estimation in cellular networks",
+    "citations": 5
+  },
+  {
+    "title": "GenAD: General unsupervised anomaly detection using multivariate time series for large‐scale wireless base stations",
+    "citations": 5
+  },
+  {
+    "title": "A CTC triggered siamese network with spatial-temporal dropout for speech recognition",
+    "citations": 5
+  },
+  {
+    "title": "User profile and its location in a clustered profile landscape",
+    "citations": 5
+  },
+  {
+    "title": "Method and apparatus for automatically generating headlines based on data retrieved from a network and for answering questions related to a headline",
+    "citations": 5
+  },
+  {
+    "title": "System and method of automatically generating building dialog services by exploiting the content and structure of websites",
+    "citations": 5
+  },
+  {
+    "title": "The mass of the isodoublet of the 21S0 meson nonet revisited",
+    "citations": 5
+  },
+  {
+    "title": "World tokens: Enhancing embodied policies with training-time world modeling",
+    "citations": 4
+  },
+  {
+    "title": "Treb: A comprehensive benchmark for evaluating table reasoning capabilities of large language models",
+    "citations": 4
+  },
+  {
+    "title": "ALPHAQT-BENCH: Diagnosing the Gap between Financial Code Generation and Quantitative Reasoning in LLMs",
+    "citations": 4
+  },
+  {
+    "title": "GeoTikzBridge: Advancing Multimodal Code Generation for Geometric Perception and Reasoning",
+    "citations": 4
+  },
+  {
+    "title": "Self-Improving Multilingual Long Reasoning via Translation-Reasoning Integrated Training",
+    "citations": 4
+  },
+  {
+    "title": "State-of-Health, State-of-Charge, and State-of-Energy Co-Estimation of Li-Ion Batteries with Pre-trained Language Model Empowered by Multi-State Explicit-Implicit Prompt Learning",
+    "citations": 4
+  },
+  {
+    "title": "Big Loop and Atomization: A Holistic Review on the Expansion Capabilities of Large Language Models",
+    "citations": 4
+  },
+  {
+    "title": "MultiPL-MoE: Multi-Programming-Lingual Extension of Large Language Models through Hybrid Mixture-of-Experts.",
+    "citations": 4
+  },
+  {
+    "title": "StNet: spatial-temporal transformers are effective for multivariate time series forecasting",
+    "citations": 4
+  },
+  {
+    "title": "On calibration of speech classification models: Insights from energy-based model investigations",
+    "citations": 4
+  },
+  {
+    "title": "Robust self-supervised learning with contrast samples for natural language understanding",
+    "citations": 4
+  },
+  {
+    "title": "Injecttst: a transformer method of injecting global information into independent channels for long time series forecasting",
+    "citations": 4
+  },
+  {
+    "title": "Prompt pool based class-incremental continual learning for dialog state tracking",
+    "citations": 4
+  },
+  {
+    "title": "Holistic transmission performance prediction of balise system with gate-steered residual interweave networks",
+    "citations": 4
+  },
+  {
+    "title": "Cmcc: a comprehensive and large-scale human-human dataset for dialogue systems",
+    "citations": 4
+  },
+  {
+    "title": "Effects of meteorological factors and air pollutants on the incidence of pulmonary tuberculosis in Yulin from 2017 to 2021",
+    "citations": 4
+  },
+  {
+    "title": "Distill-AER: Fine-Grained Address Entity Recognition from Spoken Dialogue via Knowledge Distillation",
+    "citations": 4
+  },
+  {
+    "title": "Meta auxiliary learning for low-resource spoken language understanding",
+    "citations": 4
+  },
+  {
+    "title": "Development and validation of a novel miRNA classifier as a prognostic signature for stage II/III colorectal cancer",
+    "citations": 4
+  },
+  {
+    "title": "WebTalk: Towards Automatically Building Dialog Services by Exploiting the Content & Structure of Websites.",
+    "citations": 4
+  },
+  {
+    "title": "Seerguard: A safety framework for mobile gui agents via world model prediction",
+    "citations": 3
+  },
+  {
+    "title": "Beyond Static Profiles: Capturing the Fluidity of User Preferences in Diverse Scenarios",
+    "citations": 3
+  },
+  {
+    "title": "Teaching audio models to reason: A unified framework for source-and layer-wise distillation",
+    "citations": 3
+  },
+  {
+    "title": "Building accurate and interpretable online classifiers on edge devices",
+    "citations": 3
+  },
+  {
+    "title": "Polyspeech: Exploring unified multitask speech models for competitiveness with single-task models",
+    "citations": 3
+  },
+  {
+    "title": "World model aided parameter adjustment decision and evaluation system for radio access network",
+    "citations": 3
+  },
+  {
+    "title": "A multi-scale ensemble learning model for cellular traffic prediction",
+    "citations": 3
+  },
+  {
+    "title": "A new fine-tuning architecture based on BERT for word relation extraction",
+    "citations": 3
+  },
+  {
+    "title": "Short-term in vitro culture of purity and highly functional rat bone marrow-derived mast cells: Yu et al.",
+    "citations": 3
+  },
+  {
+    "title": "Language modeling for voice-enabled social TV using tweets",
+    "citations": 3
+  },
+  {
+    "title": "Robust Sentiment Detection on Twitter from Biased and Noisy Data 2010, COLING",
+    "citations": 3
+  },
+  {
+    "title": "EdgeMem: LLM-Free Agent Memory Construction and Retrieval via Evidence-Preserving Multi-Anchor Hypergraph",
+    "citations": 2
+  },
+  {
+    "title": "Thinking Alignment of Scenario-Oriented User Simulation",
+    "citations": 2
+  },
+  {
+    "title": "PEGRL: Improving Machine Translation by Post-Editing Guided Reinforcement Learning",
+    "citations": 2
+  },
+  {
+    "title": "EvoEmbedding: Evolvable Representations for Long-Context Retrieval and Agentic Memory",
+    "citations": 2
+  },
+  {
+    "title": "DR-Eval: Towards Realistic and Reproducible Deep Research Evaluation",
+    "citations": 2
+  },
+  {
+    "title": "Self-correction distillation for structured data question answering",
+    "citations": 2
+  },
+  {
+    "title": "Onevoice: One model, triple scenarios-towards unified zero-shot voice conversion",
+    "citations": 2
+  },
+  {
+    "title": "Health Prognostics of Rail Balise Communications With Large Language Model via Closed-Loop Perception–Adaptation–Feedback Reasoning",
+    "citations": 2
+  },
+  {
+    "title": "Decodec: Rethinking audio codecs as universal disentangled representation learners",
+    "citations": 2
+  },
+  {
+    "title": "JCCMTM: Joint channel-independent and channel-dependent strategy for masked multivariate time-series modeling",
+    "citations": 2
+  },
+  {
+    "title": "Resource consumption red-teaming for large vision-language models",
+    "citations": 2
+  },
+  {
+    "title": "RECALLED: An Unbounded Resource Consumption Attack on Large Vision-Language Models",
+    "citations": 2
+  },
+  {
+    "title": "Energy-based model guided self-supervised learning for speaker verification",
+    "citations": 2
+  },
+  {
+    "title": "Palette of Language Models: A Solver for Controlled Text Generation",
+    "citations": 2
+  },
+  {
+    "title": "Ticktack: Long span temporal alignment of large language models leveraging sexagenary cycle time expression",
+    "citations": 2
+  },
+  {
+    "title": "Holistic artificial intelligence",
+    "citations": 2
+  },
+  {
+    "title": "Exploring Energy-Based Models for Out-of-Distribution Detection in Dialect Identification",
+    "citations": 2
+  },
+  {
+    "title": "Temporal knowledge graph embedding using householder transformations",
+    "citations": 2
+  },
+  {
+    "title": "A double-layer attentive graph convolution networks based on transfer learning for dynamic graph classification",
+    "citations": 2
+  },
+  {
+    "title": "Plugin speech enhancement: A universal speech enhancement framework inspired by dynamic neural network",
+    "citations": 2
+  },
+  {
+    "title": "New progress in the metallogenic chronology of the Chishan REE deposit in Weishan County, Shandong Province",
+    "citations": 2
+  },
+  {
+    "title": "Multi-action dialog policy learning from logged user feedback",
+    "citations": 2
+  },
+  {
+    "title": "Multi-branch spatial-temporal decoupling neural network for traffic forecasting",
+    "citations": 2
+  },
+  {
+    "title": "Healing unsafe dialogue responses with weak supervision signals",
+    "citations": 2
+  },
+  {
+    "title": "State-Aware Adversarial Training for Utterance-Level Dialogue Generation",
+    "citations": 2
+  },
+  {
+    "title": "Improved learning of word embeddings with word definitions and semantic injection",
+    "citations": 2
+  },
+  {
+    "title": "Impacts of Shipping on Air Pollutant Emissions, Air Quality, and Health in the Yangtze River Delta and Shanghai, China",
+    "citations": 2
+  },
+  {
+    "title": "Method and apparatus for detecting and extracting information from dynamically generated web pages",
+    "citations": 2
+  },
+  {
+    "title": "Location-aware query parsing for mobile voice search",
+    "citations": 2
+  },
+  {
+    "title": "Query parsing in mobile voice search",
+    "citations": 2
+  },
+  {
+    "title": "AT&T Labs Research",
+    "citations": 2
+  },
+  {
+    "title": "Robust sentiment detection on twitter from biased and noisy data. Coling 2010—23rd International Conference on Computational Linguistics",
+    "citations": 2
+  },
+  {
+    "title": "DilekHakkani-Tur, and Junlan Feng",
+    "citations": 2
+  },
+  {
+    "title": "Review on Chinese spontaneous speech recognition",
+    "citations": 2
+  },
+  {
+    "title": "A*-Thought-V2: Efficient Latent Reasoning via Geometric Dynamics of LLM",
+    "citations": 1
+  },
+  {
+    "title": "Automated Trajectory Evaluation for Mobile Agents via Step-Level Consequence Reasoning and Aggregation",
+    "citations": 1
+  },
+  {
+    "title": "Beyond one-size-fits-all: Adaptive subgraph denoising for zero-shot graph learning with large language models",
+    "citations": 1
+  },
+  {
+    "title": "Light-Omni: Reflex over Reasoning in Agentic Video Understanding with Long-Term Memory",
+    "citations": 1
+  },
+  {
+    "title": "Thinking-Based Non-Thinking: Solving the Reward Hacking Problem in Training Hybrid Reasoning Models via Reinforcement Learning",
+    "citations": 1
+  },
+  {
+    "title": "ChildEval: WHEN LARGE LANGUAGE MODELS MEET CHILDREN’S PERSONALITIES",
+    "citations": 1
+  },
+  {
+    "title": "Strategy-Aware Optimization Modeling with Reasoning LLMs",
+    "citations": 1
+  },
+  {
+    "title": "B-grpo: Unsupervised speech emotion recognition based on batched-group relative policy optimization",
+    "citations": 1
+  },
+  {
+    "title": "PAMDP: Interact to Persona Alignment via a Partially Observable Markov Decision Process",
+    "citations": 1
+  },
+  {
+    "title": "A Survey of Joint Online-Offline Fine-tuning for Large Language Models",
+    "citations": 1
+  },
+  {
+    "title": "Causal Modeling-Based Multivariate KPIs Prediction for Parameter Adjustment in Cellular Networks",
+    "citations": 1
+  },
+  {
+    "title": "Entriever: energy-based retriever for knowledge-grounded dialog systems",
+    "citations": 1
+  },
+  {
+    "title": "Efficient extreme large-scale speaker verification: Dynamic active sub fully-connected layers for faster training and memory optimization",
+    "citations": 1
+  },
+  {
+    "title": "InjectTST: Injecting Global Information into Independent Channels for Long Time Series Forecasting",
+    "citations": 1
+  },
+  {
+    "title": "Learning temporal cues for fine-grained action recognition",
+    "citations": 1
+  },
+  {
+    "title": "Enhancing Task-Oriented Dialogue Modeling through Coreference-Enhanced Contrastive Pre-Training",
+    "citations": 1
+  },
+  {
+    "title": "Predicting Parameter Change's Effect on Cellular Network Time Series",
+    "citations": 1
+  },
+  {
+    "title": "Holistic Artificial Intelligence",
+    "citations": 1
+  },
+  {
+    "title": "CEC: A Noisy Label Detection Method for Speaker Recognition",
+    "citations": 1
+  },
+  {
+    "title": "GenDistiller: Distilling Pre-trained Language Models based on an Autoregressive Generative Model",
+    "citations": 1
+  },
+  {
+    "title": "Log-FGAER: Logic-guided fine-grained address entity recognition from multi-turn spoken dialogue",
+    "citations": 1
+  },
+  {
+    "title": "Noise-robust Pitch Detection Based on Super-Resolution Harmonics",
+    "citations": 1
+  },
+  {
+    "title": "Cascaded Multi-task Adaptive Learning Based on Neural Architecture Search",
+    "citations": 1
+  },
+  {
+    "title": "Spatial-Temporal Residual Multi-Graph Convolution Network for Traffic Forecasting",
+    "citations": 1
+  },
+  {
+    "title": "Intent does matter! propagating high-order relations for exploring interest preferences",
+    "citations": 1
+  },
+  {
+    "title": "A novel Pseudo-label based domain adaptation method on tabular data",
+    "citations": 1
+  },
+  {
+    "title": "Multiple Confidence Gates For Joint Training Of SE And ASR",
+    "citations": 1
+  },
+  {
+    "title": "Proceedings of the towards semi-supervised and reinforced task-oriented dialog systems (seretod)",
+    "citations": 1
+  },
+  {
+    "title": "Adaptive Spatial-Temporal Inception Graph Convolutional Networks for Multi-step Spatial-Temporal Network Data Forecasting",
+    "citations": 1
+  },
+  {
+    "title": "Customer segment application of machine learning in business operation of china mobile",
+    "citations": 1
+  },
+  {
+    "title": "A study of types and characteristics of code-switching in mandarin-english speech",
+    "citations": 1
+  },
+  {
+    "title": "Enhancing Social TV through Social Media Mining",
+    "citations": 1
+  },
+  {
+    "title": "Automatic Satisfaction Analysis in Call Centers Considering Global Features of Emotion and Duration",
+    "citations": 1
+  },
+  {
+    "title": "WebTrack: Mining and Tracking Content and Structure of Websites.",
+    "citations": 1
+  },
+  {
+    "title": "Question-answering in webtalk: an evaluation study",
+    "citations": 1
+  },
+  {
+    "title": "Multiroute Speed Adaptability Prediction of Rail Balise System With Large Language Model: Considering Few-and Zero-Shot Scenarios",
+    "citations": 0
+  },
+  {
+    "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
+    "citations": 0
+  },
+  {
+    "title": "Video-MemComp: Taylor-Guided Sensitivity-Aware Memory Management for Streaming Video Understanding",
+    "citations": 0
+  },
+  {
+    "title": "HGP: An on-device personalized agent memory via hybrid graph storage",
+    "citations": 0
+  },
+  {
+    "title": "FlipTS: Failure-to-Success Mathematical Self-Refinement via Trajectory-Aware Sampling in End-to-End Online RL",
+    "citations": 0
+  },
+  {
+    "title": "COT-TTS: Audio Context-Aware Text-to-Speech with Chain-of-Thought Reasoning",
+    "citations": 0
+  },
+  {
+    "title": "Active Adaptation, Not Static Defense: Temporal Dynamics of Preventative Steering in Adversarial Fine-Tuning",
+    "citations": 0
+  },
+  {
+    "title": "TrustDABench: Benchmarking Reliability and Robustness of LLMs for Structured Data Analysis",
+    "citations": 0
+  },
+  {
+    "title": "EnterpriseRAG: Benchmarking LLM Instruction Adherence and Robustness under Non-Ideal Enterprise Retrieval",
+    "citations": 0
+  },
+  {
+    "title": "Service implementation method and device, and storage medium",
+    "citations": 0
+  },
+  {
+    "title": "A Learnable Skill Combination Strategy for Multi-task Learning in Natural Language Understanding",
+    "citations": 0
+  },
+  {
+    "title": "Soft Orthogonal Low-Rank Adaptation for Knowledge Sharing in Large Language Model Continual Learning",
+    "citations": 0
+  },
+  {
+    "title": "D2PCM: A Multi-Turn Dialogue Dataset with Personalized Contextual Memory",
+    "citations": 0
+  },
+  {
+    "title": "Personalization Meets Safety: Mechanisms, Risks, and Mitigations in Personalized LLMs",
+    "citations": 0
+  },
+  {
+    "title": "JT-SAFE-V2: Safety-by-Design Foundation Model with World-Context Data",
+    "citations": 0
+  },
+  {
+    "title": "REC-RL: Referring expression counting via Gaussian and range-based reward optimization",
+    "citations": 0
+  },
+  {
+    "title": "Tuning-free Instruction-based Video Editing Via Structural Noise Initialization and Guidance",
+    "citations": 0
+  },
+  {
+    "title": "HarmoniFuse: A Component-Selective and Prompt-Adaptive Framework for Multi-Task Speech Language Modeling",
+    "citations": 0
+  },
+  {
+    "title": "Cine-shot Director: Native Cinema-Grade Multi-Shot Video Generation Framework",
+    "citations": 0
+  },
+  {
+    "title": "Align to the Pivot: Dual Alignment with Self-Feedback for Multilingual Math Reasoning",
+    "citations": 0
+  },
+  {
+    "title": "De-Codec: Decoupling Speech and Background-Sound in Codec to Allow Explicit Feature Selections for Downstream Audio Tasks",
+    "citations": 0
+  },
+  {
+    "title": "ReDDiT: Rehashing Noise for Discrete Visual Generation",
+    "citations": 0
+  },
+  {
+    "title": "CCR-Bench: A Comprehensive Benchmark for Evaluating LLMs on Complex Constraints, Control Flows, and Real-World Cases",
+    "citations": 0
+  },
+  {
+    "title": "JT-DA: Enhancing Data Analysis with Tool-Integrated Table Reasoning Large Language Models",
+    "citations": 0
+  },
+  {
+    "title": "Pulmonary cryptococcosis coexisting with lung cancer: a Chinese multicenter retrospective study",
+    "citations": 0
+  },
+  {
+    "title": "Predicting the Impact of Parameter Adjustments on Cellular Networks",
+    "citations": 0
+  },
+  {
+    "title": "JT-Safe: Intrinsically Enhancing the Safety and Trustworthiness of LLMs",
+    "citations": 0
+  },
+  {
+    "title": "Knowledge Augmented Finetuning Matters in Both RAG and Agent Based Dialog Systems",
+    "citations": 0
+  },
+  {
+    "title": "Holism To Atomism: Enhancing The Vision-Language Alignment For Cross-Modal Few-Shot Learning",
+    "citations": 0
+  },
+  {
+    "title": "A Knowledge-enhanced Hierarchical Graph Transfer Learning Framework for Large-scale Mobile Traffic Prediction",
+    "citations": 0
+  },
+  {
+    "title": "Knowledge Augmented Finetuning Matters in both RAG and Agent Based Dialog Systems",
+    "citations": 0
+  },
+  {
+    "title": "Dialog strategy obtaining method and apparatus and related device",
+    "citations": 0
+  },
+  {
+    "title": "Multiagent Reinforcement Learning Based",
+    "citations": 0
+  },
+  {
+    "title": "Temporal Alignment of LLMs through Cycle Encoding for Long-Range Time Representations",
+    "citations": 0
+  },
+  {
+    "title": "Modeling Multi-Turn Spoken Language Understanding with Dynamic Graph Convolutional Networks",
+    "citations": 0
+  },
+  {
+    "title": "Plan, Generate and Optimize: Extending Large Language Models for Dialogue Systems Via Prompt-Based Collaborativec Method",
+    "citations": 0
+  },
+  {
+    "title": "LLM as a metric critic for low resource relation identification",
+    "citations": 0
+  },
+  {
+    "title": "ASRLM: ASR-Robust Language Model Pre-training via Generative and Discriminative Learning",
+    "citations": 0
+  },
+  {
+    "title": "A Generative Adversarial Framework for Dialogue Generation with Neural Architecture Search",
+    "citations": 0
+  },
+  {
+    "title": "GenDistiller: Distilling Pre-trained Language Models based on Generative Models",
+    "citations": 0
+  },
+  {
+    "title": "Predictability of Cellular Network Traffic Based on Conditional Entropy",
+    "citations": 0
+  },
+  {
+    "title": "M-Tokenpose: Learning Multiscale Keypoint Tokens for Human Pose Estimation",
+    "citations": 0
+  },
+  {
+    "title": "Jointly Reinforced User Simulator and Task-oriented Dialog System with Simplified Generative Architecture",
+    "citations": 0
+  },
+  {
+    "title": "Alert driven interactive interface to a website mining system",
+    "citations": 0
+  },
+  {
+    "title": "基于细粒度可解释矩阵的摘要生成模型",
+    "citations": 0
+  },
+  {
+    "title": "Abstractive Summarization Based on Fine-Grained Interpretable Matrix",
+    "citations": 0
+  },
+  {
+    "title": "The screening value of cranial MR enhancement scan for tuberculous meningitis in patients with acute hematogenous disseminated pulmonary tuberculosis",
+    "citations": 0
+  },
+  {
+    "title": "System and Method for Using Prosody for Voice-Enabled Search",
+    "citations": 0
+  },
+  {
+    "title": "System And Method For Enhancing Voice-Enabled Search Based On Automated Demographic Identification",
+    "citations": 0
+  },
+  {
+    "title": "Alert Driven Interactive Interface to a Website Mining System",
+    "citations": 0
+  },
+  {
+    "title": "Question answering with discriminative learning algorithms",
+    "citations": 0
+  },
+  {
+    "title": "A new framed-based MCE training strategy for Mandarin LVCSR",
+    "citations": 0
+  },
+  {
+    "title": "Data collection and processing in a Chinese spontaneous speech corpus IIS_CSS",
+    "citations": 0
+  },
+  {
+    "title": "Structure-Grounded Semantic Calibration with LLMs for Temporal Knowledge Graph Reasoning",
+    "citations": 0
+  },
+  {
+    "title": "Latent-Informed Energy-Based Models with collaborative generator training",
+    "citations": 0
+  },
+  {
+    "title": "Latent-Guided Cooperative Energy-Based Models",
+    "citations": 0
+  },
+  {
+    "title": "Understanding LLMs' Cross-Lingual Context Retrieval: How Good It Is And Where It Comes From",
+    "citations": 0
+  },
+  {
+    "title": "Speech and Multimodal Interaction in Mobile Search",
+    "citations": 0
+  },
+  {
+    "title": "WEBTALK: MINING WEBSITES FOR AUTOMATICALLY BUILDING DIALOG SYSTEMS",
+    "citations": 0
+  },
+  {
+    "title": "ASO-LoRA: Attribution Scores-based Soft Orthogonality Low-Rank Adaptation for Large Language Model Continual Learning",
+    "citations": 0
+  },
+  {
+    "title": "What is an Optimal Growth Schedule for Large Language Models? A Theoretical Study",
+    "citations": 0
+  },
+  {
+    "title": "TRACE: Coarse-to-Fine Automated Evaluation of Mobile Agents with Safety Considerations in Realistic Environments",
+    "citations": 0
+  },
+  {
+    "title": "Model Growth Schedule learning via Optimal Path (SLOP) for Efficient LLM Pre-Training",
+    "citations": 0
+  },
+  {
+    "title": "Recast Your Input via a Mapping Function for Alignment",
+    "citations": 0
+  },
+  {
+    "title": "A Progressive Learning Strategy for Medical Natural Language Understanding",
+    "citations": 0
+  },
+  {
+    "title": "Go4RL: Improving the Pre-training Data Mixture of Large Language Models for Enhancing Reinforcement Learning",
+    "citations": 0
+  },
+  {
+    "title": "DGPO: Mitigating Likelihood Displacement with Bidirectional KL Divergence Gap",
+    "citations": 0
+  },
+  {
+    "title": "A Data Driven Approach to Relevancy Recognition for Contextual Question Answering",
+    "citations": 0
+  },
+  {
+    "title": "Speech and Language Processing Over the World Wide Web",
+    "citations": 0
+  }
+]
