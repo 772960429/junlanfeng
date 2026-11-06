@@ -5,16 +5,20 @@ import os
 import logging
 from datetime import datetime
 from pathlib import Path
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
 
 # ============ 配置区 ============
 # 项目根目录（请根据你的实际情况修改）
-PROJECT_ROOT = Path(r"D:\工作资料\专家个人主页\junlanfeng-main\junlanfeng-main")
+PROJECT_ROOT = Path(r"D:\工作资料\专家个人主页\github_repo\junlanfeng")
 
 # 三个待执行的 Python 脚本
 SCRIPTS_TO_RUN = [
     "update_excel.py",
     "scripts/build_pat_json.py",
-    "scripts/build_pub_json.py",
+    "scripts/build_pub_json.py"
 ]
 
 # 需要上传到 GitHub 的文件（相对于 PROJECT_ROOT）
@@ -62,7 +66,8 @@ def run_script(script_path: str, step_name: str) -> bool:
             cwd=PROJECT_ROOT,  # 设置工作目录，确保脚本内的相对路径正确
             capture_output=True,
             text=True,
-            encoding="utf-8",
+            encoding="gbk",        # 改用 gbk 解码
+            errors="replace",      # 遇到无法解码的字符直接替换掉，绝不崩溃
             timeout=600  # 设置超时，防止卡死
         )
         # 将子脚本的输出也记录到日志

@@ -32,6 +32,14 @@ from datetime import datetime
 
 import openpyxl
 from serpapi import GoogleSearch
+import sys
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+import os
+# 强制Python使用你指定的代理
+os.environ['HTTP_PROXY'] = 'http://127.0.0.1:10808'
+os.environ['HTTPS_PROXY'] = 'http://127.0.0.1:10808'
 
 # ============ 配置区 ============
 # —— SerpApi 配置 ——
@@ -39,7 +47,7 @@ API_KEY       = "693ac7dcc267c85def4e3ca70f3d0e02f960e57c9c3a571db8330814f37e7b1
 AUTHOR_ID     = "rBjPtmQAAAAJ"
 NUM_PER_PAGE  = 100        # SerpApi 单次最大 100
 MAX_REQUESTS  = 5          # 防止无限循环 / 浪费额度
-REQUEST_DELAY = 1.0        # 每次请求间延时（秒）
+REQUEST_DELAY = 3.0        # 每次请求间延时（秒）
 
 # —— 时间戳 ——
 RUN_DATE = datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -48,7 +56,7 @@ RUN_DATE = datetime.now().strftime("%Y%m%d_%H%M%S")
 UPDATE_DATA_DIR = Path("update_data")          # 所有产出集中放这里
 DATA_DIR        = Path("data")                 # 下游固定读取目录
 
-SRC_XLSX      = Path("合并发表物清单-0624-2-仅新增法律状态(3).xlsx")
+SRC_XLSX      = DATA_DIR / "pub.xlsx"
 SCHOLAR_JSON  = UPDATE_DATA_DIR / "scholar_articles.json"
 DST_XLSX      = UPDATE_DATA_DIR / f"合并发表物清单-0624-2-仅新增法律状态(3)_更新引用_{RUN_DATE}.xlsx"
 REPORT_CSV    = UPDATE_DATA_DIR / f"引用匹配核查报告_{RUN_DATE}.csv"
@@ -109,7 +117,7 @@ def should_update(old_val, new_val) -> bool:
 def fetch_scholar_articles(api_key: str, author_id: str,
                            num_per_page: int = 100,
                            max_requests: int = 5,
-                           delay: float = 1.0):
+                           delay: float = 2.0):  # 把延时稍微调大一点，比如 2 秒
     """调用 SerpApi 抓取作者论文列表，返回 [{title, citations}, ...]。"""
     all_articles = []
     seen_titles = set()
@@ -125,11 +133,33 @@ def fetch_scholar_articles(api_key: str, author_id: str,
             "num":       num_per_page,
             "start":     start,
         }
-        search = GoogleSearch(params)
-        results = search.get_dict()
+
+        # --- 新增：重试机制 ---
+        max_retries = 3
+        retries = 0
+        results = None
+        
+        while retries < max_retries:
+            try:
+                search = GoogleSearch(params)
+                results = search.get_dict()
+                break  # 如果成功拿到数据，跳出重试循环
+            except Exception as e:
+                retries += 1
+                print(f"[警告] 请求 start={start} 发生网络错误: {e}")
+                if retries < max_retries:
+                    print(f"[重试] 等待 5 秒后进行第 {retries}/{max_retries} 次重试...")
+                    time.sleep(5)
+                else:
+                    print(f"[错误] start={start} 连续失败 {max_retries} 次，放弃该页。")
+        
+        # 如果重试全失败了，直接结束抓取
+        if results is None:
+            break
+        # ----------------------
 
         if "error" in results:
-            print(f"[抓取] start={start} 请求失败: {results['error']}")
+            print(f"[抓取] start={start} 接口返回错误: {results['error']}")
             break
 
         articles = results.get("articles", [])
@@ -160,10 +190,12 @@ def fetch_scholar_articles(api_key: str, author_id: str,
             break
 
         start += num_per_page
+        
+        # 如果你在配置区把 REQUEST_DELAY 设置成了 1.0，这里会等 1 秒
+        # 建议去配置区把 REQUEST_DELAY 改成 3.0，给代理软件一点喘息时间
         time.sleep(delay)
 
     return all_articles
-
 
 # ---------- 第二阶段：索引与匹配 ----------
 def load_scholar_index(json_path: Path):
