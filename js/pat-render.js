@@ -18,7 +18,7 @@
 
     // 构建详情文本
     function buildDetail(item, lang) {
-        var source = (lang === 'zh') ? item.source_zh : item.source_en;
+        var source = (lang === 'zh') ? (item.source_zh || item.source_en) : (item.source_en || item.source_zh);
         var citations = item.citations;
 
         // 被引用次数为空或 0 时不显示
