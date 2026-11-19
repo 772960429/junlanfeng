@@ -48,9 +48,40 @@
         return m ? parseInt(m[0], 10) : 0;
     }
 
-    // 排序：年份倒序；年份相同按英文标题字母排序（中英文模式一致，忽略大小写/标点）
+    var PRIORITY_TITLES = [
+        'Robust Sentiment Detection on Twitter from Biased and Noisy Data',
+        'Measuring User Influence on Twitter Using Modified K-Shell Decomposition',
+        'Network Meets ChatGPT: Intent Autonomous Management, Control and Operation',
+        'Deep Learning for Medication Recommendation: A Systematic Survey',
+        'A survey of transformer-based multimodal pre-trained',
+        'Network Topology Optimization via Deep Reinforcement Learning',
+        'A Probabilistic End-To-End Task-Oriented Dialog Model with Latent Belief States towards Semi-Supervised Learning',
+        'Federated Learning over Coupled Graphs',
+        'Exploring large language model for generic and robust state-of-charge estimation of Li-ion batteries'
+    ];
+
+    function normalizeTitle(title) {
+        return String(title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+    }
+
+    function getPriorityIndex(item) {
+        var title = normalizeTitle(item.title_en || item.title_zh);
+        for (var i = 0; i < PRIORITY_TITLES.length; i++) {
+            if (title.indexOf(normalizeTitle(PRIORITY_TITLES[i])) === 0) return i;
+        }
+        return -1;
+    }
+
+    // 指定论文优先；其余按年份倒序、英文标题排序（中英文模式一致）
     function sortItems(data) {
         return data.slice().sort(function(a, b) {
+            var priorityA = getPriorityIndex(a);
+            var priorityB = getPriorityIndex(b);
+            if (priorityA !== priorityB) {
+                if (priorityA === -1) return 1;
+                if (priorityB === -1) return -1;
+                return priorityA - priorityB;
+            }
             var ya = extractYearNum(a.year);
             var yb = extractYearNum(b.year);
             if (ya !== yb) return yb - ya; // 年份倒序

@@ -70,11 +70,44 @@
         return m ? m[1] : '';
     }
 
-    // 排序：1) 国别分组 US → EP/其他 → CN；2) 组内年份倒序；3) 年份相同按专利号数值降序；
-    // 4) 号相同按种类码（B2 优先于 A1）；5) 最后按标题排序（中文拼音/英文字母，忽略大小写标点）
+    var PRIORITY_PATENT_NUMBERS = [
+        'CN116431771B',
+        'CN116910205B',
+        'CN116339964B',
+        'CN116263704B',
+        'US10496654B29',
+        'US9521165B2',
+        'US8949132B2',
+        'US8639517B2',
+        'US8718242B2',
+        'US8543565B2'
+    ];
+
+    function patentNumberKey(value) {
+        var m = String(value || '').trim().toUpperCase().match(/^([A-Z]+\d+)/);
+        return m ? m[1] : '';
+    }
+
+    function getPriorityIndex(item) {
+        var key = patentNumberKey(item.source_en || item.source_zh);
+        for (var i = 0; i < PRIORITY_PATENT_NUMBERS.length; i++) {
+            if (key && key === patentNumberKey(PRIORITY_PATENT_NUMBERS[i])) return i;
+        }
+        return -1;
+    }
+
+    // 指定专利优先；其余按国别分组、年份、专利号和标题排序
     function sortItems(data, lang) {
         var locale = (lang === 'zh') ? 'zh-Hans-CN' : 'en';
         return data.slice().sort(function(a, b) {
+            var priorityA = getPriorityIndex(a);
+            var priorityB = getPriorityIndex(b);
+            if (priorityA !== priorityB) {
+                if (priorityA === -1) return 1;
+                if (priorityB === -1) return -1;
+                return priorityA - priorityB;
+            }
+
             // 1. 国别分组
             var ga = patentGroupRank(a);
             var gb = patentGroupRank(b);
