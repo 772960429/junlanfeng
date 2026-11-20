@@ -144,15 +144,21 @@ const translations = {
         'awards.title': 'Selected Honors and Awards',
         'awd.title1': 'Honorary Titles',
         'awd.title2': 'Research Achievement Awards',
-        'awd.1': 'IEEE Fellow (2022)',
-        'awd.2': 'National Outstanding Scientists — Strategic Scientist (2023)',
-        'awd.3': 'Jiutian Large Model selected into the Top 10 National Key Foundation Technologies of Central Enterprises, First Principal Contributor',
-        'awd.4': 'Jiutian AI Team awarded the "Model Central Enterprise" honorary Title (2024; team leader; no more than 10 nationwide each year)',
-        'awd.5': 'Science and Technology Award for Key Technologies and Large-Scale Application of Autonomous Networks — As First Principal Contributor, First Class Prize, Science and Technology Award of China Institute of Communications',
-        'awd.6': 'Jiutian AI Platform for the Communications Industry and Its Application — As First Principal Contributor, Second Prize, Science and Technology Award of China Institute of Communications',
-        'awd.7': 'Distinguished Keynote Speech — IEEE, IEEE Computer Society, and IEEE Communication Society Technical Committee on Big Data (2019)',
-        'awd.8': 'AT&T CTO Award (2009; 8 recipients across AT&T)',
-        'awd.9': 'Multiple China Mobile Group Top Technical Awards: For work on Jiutian AI Platform, Jiutian Intelligent Recommendation Platform, Network intelligence, and Intelligent speech technologies',
+        'awdPerson.1': 'IEEE Fellow (2022)',
+        'awdPerson.2': 'National Outstanding Scientists — Strategic Scientist (2023)',
+        'awdPerson.3': 'Jiutian AI Team awarded the "Model Central Enterprise" honorary Title (2024; team leader; no more than 10 nationwide each year)',
+        'awdPerson.4': 'Distinguished Keynote Speech — IEEE, IEEE Computer Society, and IEEE Communication Society Technical Committee on Big Data (2019)',
+        'awdPerson.5': 'AT&T CTO Award (2009; 8 recipients across AT&T)',
+        'awdPerson.6': 'The Network Intelligence System Project Team was awarded the honorary title of “Outstanding Contribution Team” under the SASAC Central Enterprise Key Breakthrough Project (2022)',
+        'awdPerson.7': '“Outstanding Innovative Talent Award” from the Central Enterprises Federation of Returned Overseas Chinese and the United Front Work Department of the CPC Committee of SASAC (2017)',
+        'awdPerson.8': 'Highlight Paper Award at the National Conference on Man-Machine Speech Communication (NCMMSC), CCF/CIPS (2025)',
+        'awd.1': 'Jiutian Large Model selected into the Top 10 National Key Foundation Technologies of Central Enterprises, First Principal Contributor',
+        'awd.2': 'Science and Technology Award for Key Technologies and Large-Scale Application of Autonomous Networks — As First Principal Contributor, First Class Prize, Science and Technology Award of China Institute of Communications',
+        'awd.3': 'Jiutian AI Platform for the Communications Industry and Its Application — As First Principal Contributor, Second Prize, Science and Technology Award of China Institute of Communications',
+        'awd.4': 'Multiple China Mobile Group Top Technical Awards: For work on Jiutian AI Platform, Jiutian Intelligent Recommendation Platform, Network intelligence, and Intelligent speech technologies',
+        'awd.5': 'Second Prize of Science and Technology Progress Award, Chinese Institute of Command and Control (CICC)',
+        'awd.6': 'Second Prize of Science and Technology Progress Award, Chinese Institute of Electronics (CIE)',
+        'awd.7': 'The "Jiutian" Artificial Intelligence Platform was selected for the SASAC Central Enterprises Science and Technology Innovation Achievement Recommendation Catalogue (2020)'
     },
     zh: {
         // 导航
@@ -298,17 +304,26 @@ const translations = {
         
         // 奖项
         'awards.title': '荣誉与奖项',
-        'awd.title1': '荣誉称号',
+        'awdPerson.title1': '荣誉称号',
         'awd.title2': '成果奖项',
-        'awd.1': 'IEEE Fellow (2022)',
-        'awd.2': '中央企业优秀科技领军人才 （2023）',
-        'awd.3': '“九天”大模型入选2024年度央企十大国之重器（2024，第一完成人）',
-        'awd.4': '“九天”人工智能团队荣获国资委“央企楷模”荣誉称号（2024，团队带头人，每年全国不超过10个）',
-        'awd.5': '自智网络关键技术及规模应用荣获中国通信学会科学技术奖一等奖（2023，第一完成人）',
-        'awd.6': '面向通信行业的九天人工智能平台及应用荣获中国通信学会科学技术奖二等奖（2020，第一完成人）',
-        'awd.7': 'IEEE计算机学会和IEEE通信学会大数据技术委员会杰出主题演讲（2019）',
-        'awd.8': 'AT&T首席技术官（CTO）大奖（2009，全AT&T共8人获奖）',
-        'awd.9': '人工智能平台、推荐平台、网络智能化、智能语音技术等多项成果荣获中国移动集团技术一等奖',
+        'awdPerson.1': 'IEEE Fellow (2022)',
+        'awdPerson.2': '中央企业优秀科技领军人才 （2023）',
+        'awdPerson.3': '“九天”人工智能团队荣获国资委“央企楷模”荣誉称号（2024，团队带头人，每年全国不超过10个）',
+        'awdPerson.4': 'IEEE计算机学会和IEEE通信学会大数据技术委员会杰出主题演讲（2019）',
+        'awdPerson.5': 'AT&T首席技术官（CTO）大奖（2009，全AT&T共8人获奖）',
+        'awdPerson.6':  '网络智能化系统项目团队荣获国务院国资委央企攻坚工程“突出贡献团队”荣誉称号（2022）',
+        'awdPerson.7': '中央企业归国华侨联合会、国务院国资委党委统战部“优秀创新人才奖”（2017）',
+        'awdPerson.8': '中国计算机学会/中国中文信息学会全国人机语音通讯学术会议亮点论文奖（2025）',
+
+
+        'awd.1': '“九天”大模型入选2024年度央企十大国之重器（2024，第一完成人）',
+        'awd.2': '自智网络关键技术及规模应用荣获中国通信学会科学技术奖一等奖（2023，第一完成人）',
+        'awd.3': '面向通信行业的九天人工智能平台及应用荣获中国通信学会科学技术奖二等奖（2020，第一完成人）',
+        'awd.4': '人工智能平台、推荐平台、网络智能化、智能语音技术等多项成果荣获中国移动集团技术一等奖',
+        'awd.5': '面向行业应用的大模型安全增强与智能推理关键技术及应用荣获中国指挥与控制学会科技进步奖二等奖',
+        'awd.6': '面向标注稀缺专业场景的人机语音对话关键技术及应用荣获中国电子学会科技进步奖二等奖',
+        'awd.7': '“九天”人工智能平台入选国资委中央企业科技创新成果推荐目录（2020）'
+
     }
 };
 // ============================================================
